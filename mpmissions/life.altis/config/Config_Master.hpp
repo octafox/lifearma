@@ -7,22 +7,22 @@
 class Life_Settings {
 /* Logging and Security Settings*/
     /* Security Settings */
-    spyGlass_toggle = true; //Spyglass On/Off Toggle --> True = On & False = Off
+    spyGlass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
 
     /* Data Logging Settings */
     battlEye_friendlyLogging = false; //False [default] - Read the logs from the server.rpt. True - Read the logs from the publicVariable.log. NOTE: Due to how diag_log works it will log to both files either way and the setting is merely for beautification purposes.
     player_advancedLog = false; //False [default] - No advanced logging. True - Logs house purchase and sale, vehicle purchase, sale, and chop shopping, police arrests, and gang creations. Search for: advanced_log
-    player_moneyLog = false; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
-    player_deathLog = false; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
+    player_moneyLog = true; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
+    player_deathLog = true; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
 
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
-    save_civilian_weapons = false; //Allow civilians to save weapons on them?
+    save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
-    save_civilian_position_restart = false; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
+    save_civilian_position_restart = true; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
     /* !!!TO SAVE POSITION BETWEEN RESTARTS save_civilian_position MUST BE TRUE!!! */
     save_civilian_positionStrict = false; //Strip the player if possible combat-log?  WARNING: Server crashes and lack of reliable syncing can trigger this.
 
@@ -39,19 +39,19 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 6; //Minimum cops required online to rob the Federal Reserve
 
     /*Death settings*/
     drop_weapons_onDeath = false; //Set true to enable weapon dropping on death. False (default) will delete player weapons on death, allowing them to be revived with them instead
 
     /* Basic System Configurations */
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
-    enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
+    enable_fatigue = false; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 30; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+    respawn_timer = 5; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
 
     /* Channel 7 News Station Configurations */
-    news_broadcast_cost = 150000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cost = 1500000; //Cost for a player to send a news station broadcast.
     news_broadcast_cooldown = 20; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
     news_broadcast_header_length = 60; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
 
@@ -65,7 +65,7 @@ class Life_Settings {
     /* Escape Menu Configuration */
     escapeMenu_timer = 10; //Time required to pass before you can click the abort button in the escape menu.
     escapeMenu_displayExtras = true; //Display the players UID & serverName specified below in the escape menu.
-    escapeMenu_displayText = "Thanks for playing!"; //Text displayed in the escape menu. Make it short.. around 20 characters.
+    escapeMenu_displayText = "Sei uscito di prigione"; //Text displayed in the escape menu. Make it short.. around 20 characters.
 
     /* Fuel System Configurations */
     pump_service = false; //Allow users to use pump service on the map. Default = false
@@ -74,13 +74,13 @@ class Life_Settings {
     fuelCan_refuel = 250; //Cost to refuel an empty fuel canister at the fuel station pumps. (Be wary of your buy/sell prices on fuel cans to prevent exploits...)
 
     /* Gang System Configurations */
-    gang_price = 75000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 10000; //The base cost for purchasing additional slots in a gang
+    gang_price = 150000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 25000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
     gang_area[] = {"gang_area_1","gang_area_2","gang_area_3"}; //Variable of gang zone markers  
 
     /* Housing System Configurations */
-    house_limit = 5; //Maximum number of houses a player can own.
+    house_limit = 1; //Maximum number of houses a player can own.
     houseGarage_buyPrice = 1000000;
     houseGarage_sellPrice = 350000;
 
@@ -91,7 +91,7 @@ class Life_Settings {
     /* Item-related Restrictions */
     restrict_medic_weapons = true; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
     restrict_clothingPickup = true; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
-    restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
+    restrict_weaponPickup = true; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "U_B_CombatUniform_mcam_tshirt", "U_B_CombatUniform_mcam_worn", "U_B_survival_uniform" };
     restricted_weapons[] = { "hgun_P07_snds_F", "arifle_MX_F", "arifle_MXC_F" };
 
@@ -110,13 +110,13 @@ class Life_Settings {
     hospital_heal_fee = 100; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 7000; //Amount of cash in bank for new cops
-    bank_civ = 3000; //Amount of cash in bank for new civillians
-    bank_med = 6500; //Amount of cash in bank for new medics
+    bank_cop = 10000; //Amount of cash in bank for new cops
+    bank_civ = 10000; //Amount of cash in bank for new civillians
+    bank_med = 10000; //Amount of cash in bank for new medics
 
     paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_civ = 500; //Payment for civillians
+    paycheck_med = 500; //Payment for medics
 
     paycheck_period = 5; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
