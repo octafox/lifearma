@@ -15,8 +15,8 @@ SET time_zone = "+00:00";
 -- Creates database `altislife` unless it already exists and uses `altislife`
 -- Default Schema
 --
-CREATE DATABASE IF NOT EXISTS `altislife` DEFAULT CHARACTER SET utf8mb4;
-USE `altislife`;
+CREATE DATABASE IF NOT EXISTS `armalife` DEFAULT CHARACTER SET utf8mb4;
+USE `armalife`;
 
 --
 -- Drop procedures to ensure no conflicts
@@ -239,8 +239,8 @@ CREATE TABLE IF NOT EXISTS `wanted` (
 -- Reloads the privileges from the grant tables in the MySQL system database.
 --
 
-CREATE USER IF NOT EXISTS `arma3`@`localhost` IDENTIFIED BY 'changeme';
-GRANT SELECT, UPDATE, INSERT, EXECUTE ON `altislife`.* TO 'arma3'@'localhost';
+CREATE USER IF NOT EXISTS `lifeadmin`@`localhost` IDENTIFIED BY 'changeme';
+GRANT SELECT, UPDATE, INSERT, EXECUTE ON `armalife`.* TO 'lifeadmin'@'localhost';
 FLUSH PRIVILEGES;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
