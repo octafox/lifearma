@@ -25,15 +25,15 @@ _textSpoiler = _display displayCtrl 1101;
 _text2 = _display displayCtrl 1102;
 
 _message = "";
-_message = _message + "<t align='center' size='8' shadow='0'>AsYetUntitled</t><br /><br />";
-_message = _message + "AsYetUntitled, formerly Altis Life RPG and ARMARPGLIFE is a roleplay framework for ArmA III originally made by TAW_Tonic.<br /><br />";
-_message = _message + "Useful links for server owners:<br /><br />";
-_message = _message + "<a color='#00DFFF'>•</a> Github: <a href='https://github.com/AsYetUntitled/Framework' color='#56BDD6'> https://github.com/AsYetUntitled/Framework</a><br />";
-_message = _message + "<a color='#00DFFF'>•</a> Wiki: <a href='https://github.com/AsYetUntitled/Framework/wiki' color='#56BDD6'> https://github.com/AsYetUntitled/Framework/wiki</a><br />";
-_message = _message + "<a color='#00DFFF'>•</a> Releases (Stable Builds): <a href='https://github.com/AsYetUntitled/Framework/releases' color='#56BDD6'> https://github.com/AsYetUntitled/Framework/releases</a><br />";
-_message = _message + "<a color='#00DFFF'>•</a> Discord: <a href='https://discord.gg/ajGUDSH' color='#56BDD6'> https://discord.gg/ajGUDSH</a><br /><br />";
-_message = _message + "Thanks for joining and enjoy your stay, <a color='#B000FF'>YourServerName</a> Staff Team.<br />";
-_message = _message + "You can edit the text displayed in this box by modifying Altis_Life.Altis/core/fn_welcomeNotification.sqf";
+_message = _message + "<t align='center' size='6' shadow='0'>Arma Life</t><br /><br />";
+_message = _message + "Life italia mira a garantire un’esperienza genuina e divertente sull’ormai datato Arma. il server vanta di 3 principali <br />"
+_message = _message + "fazioni: la polizia, i CTRG e i Ribelli. La polizia garantisce il controllo sulla popolazione civile nei limiti <br />"
+_message = _message + "della legge, mentre i CTRG mirano a debellare le particelle piu’ pericolose di criminalità sull’isola. <br />"
+_message = _message + "I ribelli aspirano a prendere il controllo dell’isola, in modo da istituire un governo di stampo anarchico <br />"
+_message = _message + "e una nazione egualitaria. Starà al civile scegliere da che parte stare."
+_message = _message + "<a color='#00DFFF'>•</a> Sito web: <a href='https://github.com/AsYetUntitled/Framework' color='#56BDD6'> https://github.com/AsYetUntitled/Framework</a><br />";
+_message = _message + "<a color='#00DFFF'>•</a> Teamspeak: <a href='https://github.com/AsYetUntitled/Framework/wiki' color='#56BDD6'> https://github.com/AsYetUntitled/Framework/wiki</a><br />";
+_message = _message + "Benvenuto, <a color='#B000FF'>Octafox</a> Staff Team.<br />";
 
 //Fill only the first text
 _text1 ctrlSetStructuredText (parseText _message);
