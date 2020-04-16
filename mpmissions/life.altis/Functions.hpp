@@ -35,6 +35,11 @@ class Life_Client_Core {
         class welcomeNotification {};
     };
 
+    class Lifearma {
+        file = "core\life";
+        class ussTeleport {};
+    };
+
     class Actions {
         file = "core\actions";
         class arrestAction {};
