@@ -1006,7 +1006,7 @@ class Clothing {
             { "V_PlateCarrier1_wdl", "", 120, "" }
         };
         backpacks[] = {
-            { "NONE", $STR_C_Remove_backpacks, 0, "" }
+            { "NONE", $STR_C_Remove_backpacks, 0, "" },
             { "B_AssaultPack_eaf_F""V_Rangemaster_belt", "", 120, "" },
             { "B_AssaultPack_khk", "", 120, "" },
             { "B_AssaultPack_dgtl", "", 120, "" },
