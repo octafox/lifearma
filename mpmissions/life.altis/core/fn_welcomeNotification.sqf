@@ -26,11 +26,11 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='6' shadow='0'>Arma Life</t><br /><br />";
-_message = _message + "Life italia mira a garantire un’esperienza genuina e divertente sull’ormai datato Arma. il server vanta di 3 principali <br />"
-_message = _message + "fazioni: la polizia, i CTRG e i Ribelli. La polizia garantisce il controllo sulla popolazione civile nei limiti <br />"
-_message = _message + "della legge, mentre i CTRG mirano a debellare le particelle piu’ pericolose di criminalità sull’isola. <br />"
-_message = _message + "I ribelli aspirano a prendere il controllo dell’isola, in modo da istituire un governo di stampo anarchico <br />"
-_message = _message + "e una nazione egualitaria. Starà al civile scegliere da che parte stare."
+_message = _message + "Life italia mira a garantire un’esperienza genuina e divertente sull’ormai datato Arma. il server vanta di 3 principali <br />";
+_message = _message + "fazioni: la polizia, i CTRG e i Ribelli. La polizia garantisce il controllo sulla popolazione civile nei limiti <br />";
+_message = _message + "della legge, mentre i CTRG mirano a debellare le particelle piu’ pericolose di criminalità sull’isola. <br />";
+_message = _message + "I ribelli aspirano a prendere il controllo dell’isola, in modo da istituire un governo di stampo anarchico <br />";
+_message = _message + "e una nazione egualitaria. Starà al civile scegliere da che parte stare.";
 _message = _message + "<a color='#00DFFF'>•</a> Sito web: <a href='https://github.com/AsYetUntitled/Framework' color='#56BDD6'> https://github.com/AsYetUntitled/Framework</a><br />";
 _message = _message + "<a color='#00DFFF'>•</a> Teamspeak: <a href='https://github.com/AsYetUntitled/Framework/wiki' color='#56BDD6'> https://github.com/AsYetUntitled/Framework/wiki</a><br />";
 _message = _message + "Benvenuto, <a color='#B000FF'>Octafox</a> Staff Team.<br />";
