@@ -813,7 +813,7 @@ class Clothing {
             { "U_C_CBRN_Suit_01_Blue_F", "", 120, "" }
         };
         headgear[] = {
-            { "NONE", $STR_C_Remove_headgear, 0, "" }
+            { "NONE", $STR_C_Remove_headgear, 0, "" },
             { "H_Booniehat_khk", "", 120, "" },
             { "H_Booniehat_oli", "", 120, "" },
             { "H_Booniehat_mcamo", "", 120, "" },
