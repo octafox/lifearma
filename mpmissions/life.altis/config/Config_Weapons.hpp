@@ -158,23 +158,20 @@ class WeaponShops {
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
             { "arifle_SDAR_F", $STR_W_items_TaserRifle, 20000, 10000, "" },
-            { "hgun_P07_F", "", 7500, 3750, "" },
-            { "hgun_P07_khk_F", "", 7500, 3750, "" }, //Apex DLC
-            { "hgun_Pistol_heavy_01_F", "", 9500, 4750, "call life_coplevel >= 1" },
-            { "SMG_02_ACO_F", "", 30000, 15000, "call life_coplevel >= 2" },
-            { "arifle_MX_F", "", 35000, 17500, "call life_coplevel >= 2" },
-            { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
-            { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
+            { "B_Static_Designator_01_weapon_F", "", 7500, 3750, "" },
+            { "B_W_Static_Designator_01_weapon_F", "", 7500, 3750, "" }, //Apex DLC
+            { "B_Static_Designator_01_weapon_F", "", 9500, 4750, "call life_coplevel >= 1" },
+            { "B_W_Static_Designator_01_weapon_F", "", 30000, 15000, "call life_coplevel >= 2" },
+            { "O_Static_Designator_02_weapon_F", "", 35000, 17500, "call life_coplevel >= 2" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
-            { "20Rnd_556x45_UW_mag", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "11Rnd_45ACP_Mag", "", 130, 65, "call life_coplevel >= 1" },
-            { "30Rnd_65x39_caseless_mag", "", 130, 65, "call life_coplevel >= 2" },
-            { "30Rnd_9x21_Mag", "", 250, 125, "call life_coplevel >= 2" },
-            { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
-            { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+            { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 130, 65, "call life_coplevel >= 1" },
+            { "16Rnd_9x21_Mag", "", 130, 65, "call life_coplevel >= 2" },
+            { "50Rnd_570x28_SMG_03", "", 250, 125, "call life_coplevel >= 2" },
+            { "2Rnd_12Gauge_Pellets", "", 200, 100, "call life_coplevel >= 3" },
+            { "2Rnd_12Gauge_Slug", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
