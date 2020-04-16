@@ -594,28 +594,28 @@
     </Package>
     <Package name="Garage_Strings">
         <Key ID="STR_Garage_AlreadyOwned">
-            <Original></Original>
+            <Original>This garage has already been bought!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_NotOwner">
-            <Original></Original>
+            <Original>You are not the owner of this house!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_HouseBuyMSG">
-            <Original></Original>
+            <Original>This garage is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_Hideout">
-            <Original></Original>
+            <Original>This building is a Gang Hideout!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_SellGarageMSG">
-            <Original></Original>
+            <Original>Are you sure you want to sell your garage? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_GarageSell">
-            <Original></Original>
+            <Original>Sell Garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_GaragePurchase">
-            <Original></Original>
+            <Original>Sell Garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_NotOwned">
-            <Original></Original>
+            <Original>You do not own a garage here!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_Title">
             <Original>Garage Veicoli</Original>
@@ -756,7 +756,7 @@
             <Original>Rivela oggetti più vicini</Original>
         </Key>
         <Key ID="STR_SM_BCSW">
-            <Original></Original>
+            <Original>Broadcast Switch</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_SM_SCOFF">
             <Original>Chat fazione OFF</Original>
@@ -1288,37 +1288,37 @@
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">
-            <Original></Original>
+            <Original>News Station Broadcast</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_DialogTitle">
-            <Original></Original>
+            <Original>Channel 7 News Station</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_MsgHeader">
-            <Original></Original>
+            <Original>Message Heading:</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_MsgContent">
-            <Original></Original>
+            <Original>Message Content:</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_Broadcast">
-            <Original></Original>
+            <Original>Broadcast Message</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_StructuredText">
-            <Original></Original>
+            <Original>Broadcast Cost: %1&lt;br /&gt;Next Broadcast Available: %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_HeaderLength">
-            <Original></Original>
+            <Original>The header cannot be over %1 characters</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_UnsupportedCharacter">
-            <Original></Original>
+            <Original>You've entered an unsupported character!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_Now">
-            <Original></Original>
+            <Original>Now</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_NotEnough">
-            <Original></Original>
+            <Original>You need $%1 to send a broadcast!</Original> <Original>Now</Original>
         </Key>
         <Key ID="STR_News_BroadcastedBy">
-            <Original></Original>
+            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Broadcasted by: %2</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Jail_Strings">
@@ -2279,7 +2279,7 @@
             <Original>Interruttore modalità side-channel, disattivare questa funzione se non si vuole parlare con i giocatori da parte vostra.</Original>
         </Key>
         <Key ID="STR_GUI_BroadcastSwitch">
-            <Original></Original>
+            <Original>Switch player's broadcast mode, turn this off if you don't want to see any broadcast from other players.</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_GUI_PlayTags">
             <Original>Controlla la visualizzazione delle tags sopra la testa dei giocatori</Original>
@@ -2329,10 +2329,10 @@
             <Original>Sfonda Porta</Original>
         </Key>
         <Key ID="STR_pInAct_GarageExt">
-            <Original></Original>
+            <Original>Garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_GarageExtNOTF">
-            <Original></Original>
+            <Original>You can buy a garage at this house for $%1. You must first purchase the house!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_SearchHouse">
             <Original>Cerca Casa</Original>
@@ -2344,7 +2344,7 @@
             <Original>Compra Casa</Original>
         </Key>
         <Key ID="STR_pInAct_BuyGarage">
-            <Original></Original>
+            <Original>Buy House Garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_SellGarage">
             <Original>Vendi Garage</Original>
@@ -2382,7 +2382,7 @@
             <Original>Raddrizza veicolo</Original>
         </Key>
         <Key ID="STR_vInAct_GetInVehicle">
-            <Original></Original>
+            <Original>Get In Vehicle</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_vInAct_PushBoat">
             <Original>Spingi Barca</Original>
@@ -3305,128 +3305,128 @@
             <Original>Admin centro di spedizione</Original>
         </Key>
         <Key ID="STR_AdminMessage_Title">
-            <Original></Original>
+            <Original>Admin Message</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Tanoa Strings">
         <Key ID="STR_Civ_Plane">
-            <Original></Original>
+            <Original>Civ Plane</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Tan">
-            <Original></Original>
+            <Original>Police HQ</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Store">
-            <Original></Original>
+            <Original>Police Store</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Car">
-            <Original></Original>
+            <Original>Police Car</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Heli">
-            <Original></Original>
+            <Original>Police Heli</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Boat">
-            <Original></Original>
+            <Original>Police Boat</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Rebel_Car">
-            <Original></Original>
+            <Original>Rebel Car</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Rebel_Heli">
-            <Original></Original>
+            <Original>Rebel Heli</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Tanoa">
-            <Original></Original>
+            <Original>Police HQ</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Data_Logging">
         <Key ID="STR_DL_AL_Arrested_BEF">
-            <Original></Original>
+            <Original>arrested %1</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_Arrested">
-            <Original></Original>
+            <Original>%1 - %2 arrested %3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp_BEF">
-            <Original></Original>
+            <Original>picked up %1 %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp">
-            <Original></Original>
+            <Original>%1 - %2 picked up %3 %4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney_BEF">
-            <Original></Original>
+            <Original>picked up $%1 from the ground. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney">
-            <Original></Original>
+            <Original>%1 - %2 picked up $%3 from the ground. Bank Balance: $%4  On Hand Balance $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed_BEF">
-            <Original></Original>
+            <Original>robbed $%1 from %2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed">
-            <Original></Original>
+            <Original>%1 - %2 robbed $%3 from %4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_createdGang_BEF">
-            <Original></Original>
+            <Original>created a gang named: %1 for $%2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_createdGang">
-            <Original></Original>
+            <Original>%1 - %2 created a gang named: %3 for $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtHouse_BEF">
-            <Original></Original>
+            <Original>bought a house for $%1. Bank Balance: $%2  On Hand Cash: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtHouse">
-            <Original></Original>
+            <Original>%1 - %2 bought a house for $%3. Bank Balance: $%4  On Hand Cash: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldHouse_BEF">
-            <Original></Original>
+            <Original>sold a house for $%1. Bank Balance: $%2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldHouse">
-            <Original></Original>
+            <Original>%1 - %2 sold a house for $%3. Bank Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle_BEF">
-            <Original></Original>
+            <Original>chopped vehicle %1 for $%2  On Hand Cash(pre-chop): $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
-            <Original></Original>
+            <Original>%1 - %2 chopped vehicle %3 for $%4  On Hand Cash(pre-chop): $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle_BEF">
-            <Original></Original>
+            <Original>bought vehicle %1 for $%2. On Hand Cash: $%3  Bank Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle">
-            <Original></Original>
+            <Original>%1 - %2 bought vehicle %3 for $%4. On Hand Cash: $%5  Bank Balance $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
-            <Original></Original>
+            <Original>sold vehicle %1 for $%2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
-            <Original></Original>
+            <Original>%1 - %2 sold vehicle %3 for $%4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang_BEF">
-            <Original></Original>
+            <Original>withdrew $%1 from their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang">
-            <Original></Original>
+            <Original>%1 - %2 withdrew $%3 from their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang_BEF">
-            <Original></Original>
+            <Original>deposited $%1 into their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang">
-            <Original></Original>
+            <Original>%1 - %2 deposited $%3 into their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank_BEF">
-            <Original></Original>
+            <Original>withdrew $%1 from their bank. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
-            <Original></Original>
+            <Original>%1 - %2 withdrew $%3 from their bank. Bank Balance: $%4  On Hand Balance: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank_BEF">
-            <Original></Original>
+            <Original>transferred $%1 to %2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank">
-            <Original></Original>
+            <Original>%1 - %2 transferred $%3 to %4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
-            <Original></Original>
+            <Original>deposited $%1 into their bank. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank">
-            <Original></Original>
+            <Original>%1 - %2 deposited $%3 into their bank. Bank Balance: $%4  On Hand Balance: $%5</Original> <!-- Tradurre -->
         </Key>
     </Package>
 </Project>
