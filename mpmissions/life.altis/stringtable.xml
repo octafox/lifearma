@@ -594,28 +594,28 @@
     </Package>
     <Package name="Garage_Strings">
         <Key ID="STR_Garage_AlreadyOwned">
-            <Original>This garage has already been bought!</Original> <!-- Tradurre -->
+            <Original>Questo garage è già stato acquistato!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_NotOwner">
-            <Original>You are not the owner of this house!</Original> <!-- Tradurre -->
+            <Original>Non sei il proprietario di questa casa!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_HouseBuyMSG">
-            <Original>This garage is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original> <!-- Tradurre -->
+            <Original>Questo è disponibile a &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_Hideout">
-            <Original>This building is a Gang Hideout!</Original> <!-- Tradurre -->
+            <Original>Questo edificio è un covo gang!</Origina> <!-- Tradurre --> 
         </Key>
         <Key ID="STR_House_SellGarageMSG">
-            <Original>Are you sure you want to sell your garage? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original> <!-- Tradurre -->
+            <Original>Sei sicuro di voler vendere il tuo garage? Verrà venduto a: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_GarageSell">
-            <Original>Sell Garage</Original> <!-- Tradurre -->
+            <Original>Vendi il garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_House_GaragePurchase">
-            <Original>Sell Garage</Original> <!-- Tradurre -->
+            <Original>Acquista il garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_NotOwned">
-            <Original>You do not own a garage here!</Original> <!-- Tradurre -->
+            <Original>Non possiedi il garage qui!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Garage_Title">
             <Original>Garage Veicoli</Original>
@@ -756,7 +756,7 @@
             <Original>Rivela oggetti più vicini</Original>
         </Key>
         <Key ID="STR_SM_BCSW">
-            <Original>Broadcast Switch</Original> <!-- Tradurre -->
+            <Original>Cambio di trasmissione</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_SM_SCOFF">
             <Original>Chat fazione OFF</Original>
@@ -1288,37 +1288,37 @@
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">
-            <Original>News Station Broadcast</Original> <!-- Tradurre -->
+            <Original>Trasmetti una notizia</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_DialogTitle">
-            <Original>Channel 7 News Station</Original> <!-- Tradurre -->
+            <Original>Trasmissione: Canale 7</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_MsgHeader">
-            <Original>Message Heading:</Original> <!-- Tradurre -->
+            <Original>Titolo:</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_MsgContent">
-            <Original>Message Content:</Original> <!-- Tradurre -->
+            <Original>Messaggio:</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_Broadcast">
-            <Original>Broadcast Message</Original> <!-- Tradurre -->
+            <Original>Trasmetti</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_StructuredText">
-            <Original>Broadcast Cost: %1&lt;br /&gt;Next Broadcast Available: %2</Original> <!-- Tradurre -->
+            <Original>Costo della trasmissione: %1&lt;br /&gt;Prossima trasmissione disponibile tra: %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_HeaderLength">
-            <Original>The header cannot be over %1 characters</Original> <!-- Tradurre -->
+            <Original>Il titolo può contenere massimo %1 caratteri</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_UnsupportedCharacter">
-            <Original>You've entered an unsupported character!</Original> <!-- Tradurre -->
+            <Original>Hai usato un carattere non supportato!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_Now">
-            <Original>Now</Original> <!-- Tradurre -->
+            <Original>Adesso</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_NotEnough">
-            <Original>You need $%1 to send a broadcast!</Original> <Original>Now</Original>
+            <Original>Ti servono $%1 per trasmettere!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_News_BroadcastedBy">
-            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Broadcasted by: %2</Original> <!-- Tradurre -->
+            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Trasmesso da: %2</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Jail_Strings">
@@ -2279,7 +2279,7 @@
             <Original>Interruttore modalità side-channel, disattivare questa funzione se non si vuole parlare con i giocatori da parte vostra.</Original>
         </Key>
         <Key ID="STR_GUI_BroadcastSwitch">
-            <Original>Switch player's broadcast mode, turn this off if you don't want to see any broadcast from other players.</Original> <!-- Tradurre -->
+            <Original>Cambia la modalità di trasmissione dei giocatori, spegnilo se non vuoi vedere le trasmissioni.</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_GUI_PlayTags">
             <Original>Controlla la visualizzazione delle tags sopra la testa dei giocatori</Original>
