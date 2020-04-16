@@ -2332,7 +2332,7 @@
             <Original>Garage</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_GarageExtNOTF">
-            <Original>You can buy a garage at this house for $%1. You must first purchase the house!</Original> <!-- Tradurre -->
+            <Original>Puoi comprare questo garage a $%1. Devi prima possedere la casa!</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_SearchHouse">
             <Original>Cerca Casa</Original>
@@ -2344,7 +2344,7 @@
             <Original>Compra Casa</Original>
         </Key>
         <Key ID="STR_pInAct_BuyGarage">
-            <Original>Buy House Garage</Original> <!-- Tradurre -->
+            <Original>Compra il Garage della casa</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_pInAct_SellGarage">
             <Original>Vendi Garage</Original>
@@ -2382,7 +2382,7 @@
             <Original>Raddrizza veicolo</Original>
         </Key>
         <Key ID="STR_vInAct_GetInVehicle">
-            <Original>Get In Vehicle</Original> <!-- Tradurre -->
+            <Original>Entra nel veicolo</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_vInAct_PushBoat">
             <Original>Spingi Barca</Original>
@@ -3305,128 +3305,128 @@
             <Original>Admin centro di spedizione</Original>
         </Key>
         <Key ID="STR_AdminMessage_Title">
-            <Original>Admin Message</Original> <!-- Tradurre -->
+            <Original>Admin: Messaggio</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Tanoa Strings">
         <Key ID="STR_Civ_Plane">
-            <Original>Civ Plane</Original> <!-- Tradurre -->
+            <Original>Aereo Civile</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Tan">
-            <Original>Police HQ</Original> <!-- Tradurre -->
+            <Original>Questura</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Store">
-            <Original>Police Store</Original> <!-- Tradurre -->
+            <Original>Negozio Polizia</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Car">
-            <Original>Police Car</Original> <!-- Tradurre -->
+            <Original>Macchine Polizia</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Heli">
-            <Original>Police Heli</Original> <!-- Tradurre -->
+            <Original>Elicotteri Polizia</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Boat">
-            <Original>Police Boat</Original> <!-- Tradurre -->
+            <Original>Barche Polizia</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Rebel_Car">
-            <Original>Rebel Car</Original> <!-- Tradurre -->
+            <Original>Macchine Ribelli</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Rebel_Heli">
-            <Original>Rebel Heli</Original> <!-- Tradurre -->
+            <Original>Elicotteri Ribelli</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_Police_Tanoa">
-            <Original>Police HQ</Original> <!-- Tradurre -->
+            <Original>Questura</Original> <!-- Tradurre -->
         </Key>
     </Package>
     <Package name="Data_Logging">
         <Key ID="STR_DL_AL_Arrested_BEF">
-            <Original>arrested %1</Original> <!-- Tradurre -->
+            <Original>arrestato %1</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_Arrested">
-            <Original>%1 - %2 arrested %3</Original> <!-- Tradurre -->
+            <Original>%1 - %2 arrestato %3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp_BEF">
-            <Original>picked up %1 %2</Original> <!-- Tradurre -->
+            <Original>raccolto %1 %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp">
-            <Original>%1 - %2 picked up %3 %4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 raccolto %3 %4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney_BEF">
-            <Original>picked up $%1 from the ground. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
+            <Original>Raccolto $%1 da terra. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney">
-            <Original>%1 - %2 picked up $%3 from the ground. Bank Balance: $%4  On Hand Balance $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 raccolto $%3 da terra. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed_BEF">
-            <Original>robbed $%1 from %2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
+            <Original>Hai rubato $%1 da %2. Saldo Banca: $%3 Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed">
-            <Original>%1 - %2 robbed $%3 from %4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai rubato $%3 da %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_createdGang_BEF">
-            <Original>created a gang named: %1 for $%2</Original> <!-- Tradurre -->
+            <Original>Hai creato la gang: %1 per $%2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_createdGang">
-            <Original>%1 - %2 created a gang named: %3 for $%4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai creato la gang: %3 per $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtHouse_BEF">
-            <Original>bought a house for $%1. Bank Balance: $%2  On Hand Cash: $%3</Original> <!-- Tradurre -->
+            <Original>Hai comprato una casa a $%1.  Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtHouse">
-            <Original>%1 - %2 bought a house for $%3. Bank Balance: $%4  On Hand Cash: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai comprato una casa a $%3. Saldo Banca: $%4 Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldHouse_BEF">
-            <Original>sold a house for $%1. Bank Balance: $%2</Original> <!-- Tradurre -->
+            <Original>Hai venduto una casa a $%1. Saldo Banca: $%2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldHouse">
-            <Original>%1 - %2 sold a house for $%3. Bank Balance: $%4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai venduto una casa a $%3. Saldo Banca: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle_BEF">
-            <Original>chopped vehicle %1 for $%2  On Hand Cash(pre-chop): $%3</Original> <!-- Tradurre -->
+            <Original>veicolo ricettato %1 for $%2  Contanti(prima di ricettare): $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
-            <Original>%1 - %2 chopped vehicle %3 for $%4  On Hand Cash(pre-chop): $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 veicolo ricettato %3 per $%4  Contanti(prima di ricettare): $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle_BEF">
-            <Original>bought vehicle %1 for $%2. On Hand Cash: $%3  Bank Balance: $%4</Original> <!-- Tradurre -->
+            <Original>veicolo comprato %1 per $%2. Contanti: $%3  Saldo Banca: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle">
-            <Original>%1 - %2 bought vehicle %3 for $%4. On Hand Cash: $%5  Bank Balance $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
-            <Original>sold vehicle %1 for $%2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
+            <Original>veicolo venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
-            <Original>%1 - %2 sold vehicle %3 for $%4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang_BEF">
-            <Original>withdrew $%1 from their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
+            <Original>prelevati $%1 dal conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang">
-            <Original>%1 - %2 withdrew $%3 from their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 prelevati $%3 dal conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang_BEF">
-            <Original>deposited $%1 into their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
+            <Original>depositati $%1 nel conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang">
-            <Original>%1 - %2 deposited $%3 into their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 depositati $%3 nel conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank_BEF">
-            <Original>withdrew $%1 from their bank. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
+            <Original>prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
-            <Original>%1 - %2 withdrew $%3 from their bank. Bank Balance: $%4  On Hand Balance: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank_BEF">
-            <Original>transferred $%1 to %2. Bank Balance: $%3  On Hand Balance: $%4</Original> <!-- Tradurre -->
+            <Original>tasferiti $%1 a %2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank">
-            <Original>%1 - %2 transferred $%3 to %4. Bank Balance: $%5  On Hand Balance: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 tasferiti $%3 a %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
-            <Original>deposited $%1 into their bank. Bank Balance: $%2  On Hand Balance: $%3</Original> <!-- Tradurre -->
+            <Original>depositati $%1 in Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank">
-            <Original>%1 - %2 deposited $%3 into their bank. Bank Balance: $%4  On Hand Balance: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
     </Package>
 </Project>
