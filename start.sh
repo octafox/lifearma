@@ -1,1 +1,1 @@
-./arma3server -port=2302 "-config=config.cfg" "-cfg=basic.cfg"-name=default -filePatching -autoInit "-serverMod=@life_server;@extdb3"
+./arma3server -port=2302 "-config=config.cfg" "-cfg=basic.cfg" -name=default -filePatching -autoInit "-serverMod=@life_server;@extdb3"
