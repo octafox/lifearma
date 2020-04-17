@@ -16,6 +16,8 @@ class CfgRemoteExec {
         mode = 1;
         jip = 0;
 
+        F(life_fnc_ussTeleport,CLIENT)
+
         /* Client only functions */
         F(life_fnc_AAN,CLIENT)
         F(life_fnc_addVehicle2Chain,CLIENT)
