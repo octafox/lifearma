@@ -109,26 +109,6 @@ class Life_atm_management {
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])",0.5};
         };
 
-        class GangWithdraw : TransferButton {
-            idc = 2705;
-            text = "$STR_ATM_WithdrawGang";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[false] call life_fnc_useGangBank";
-            x = 0.365;
-            y = 0.7;
-            w = 0.275;
-        };
-
-        class GangDeposit : TransferButton {
-            idc = 2706;
-            text = "$STR_ATM_DepositGang";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[true] call life_fnc_useGangBank";
-            x = 0.365;
-            y = 0.752;
-            w = 0.275;
-        };
-
         class CloseButtonKey: Life_RscButtonMenu
         {
             onButtonClick = "closeDialog 0;";
