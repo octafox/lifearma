@@ -1617,7 +1617,7 @@
             <Original>Il vostro sound è stato impostato in modalità normale!</Original>
         </Key>
         <Key ID="STR_MISC_soundfade">
-            <Original>Il vostro sound è stato impostato in modalità a svanire!</Original>
+            <Original>Il volume è stato abbassato.</Original>
         </Key>
         <Key ID="STR_MISC_overviewText">
             <Original>Una modalità di gioco RPG sviluppato da Tonic.</Original>
