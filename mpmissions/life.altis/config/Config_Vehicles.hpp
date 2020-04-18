@@ -184,7 +184,7 @@ class LifeCfgVehicles {
 
     // Apex DLC
     class C_Boat_Transport_02_F {
-        vItemSpace = 100;
+        vItemSpace = 45;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 22000;
         textures[] = {
@@ -199,7 +199,7 @@ class LifeCfgVehicles {
 
     // Apex DLC
     class C_Offroad_02_unarmed_F {
-        vItemSpace = 65;
+        vItemSpace = 64;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 12500;
         textures[] = {
@@ -226,7 +226,7 @@ class LifeCfgVehicles {
 
     // Apex DLC
     class C_Plane_Civil_01_F {
-        vItemSpace = 75;
+        vItemSpace = 32;
         conditions = "license_civ_pilot || {!(playerSide isEqualTo civilian)}";
         price = 150000;
         textures[] = {
@@ -405,14 +405,14 @@ class LifeCfgVehicles {
     };
 
     class O_Truck_03_transport_F {
-        vItemSpace = 285;
+        vItemSpace = 250;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 200000;
         textures[] = { };
     };
 
     class O_Truck_03_device_F {
-        vItemSpace = 350;
+        vItemSpace = 200;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 450000;
         textures[] = { };
@@ -454,7 +454,7 @@ class LifeCfgVehicles {
     };
 
     class C_Boat_Civil_01_F {
-        vItemSpace = 85;
+        vItemSpace = 45;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 10000;
         textures[] = { };
@@ -468,7 +468,7 @@ class LifeCfgVehicles {
     };
 
     class B_Truck_01_box_F {
-        vItemSpace = 450;
+        vItemSpace = 300;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 350000;
         textures[] = { };
@@ -575,7 +575,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_Quadbike_01_F {
-        vItemSpace = 25;
+        vItemSpace = 32;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2500;
         textures[] = {
@@ -610,7 +610,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Truck_02_covered_F {
-        vItemSpace = 250;
+        vItemSpace = 150;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 100000;
         textures[] = {
@@ -625,7 +625,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Truck_02_transport_F {
-        vItemSpace = 200;
+        vItemSpace = 270;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 75000;
         textures[] = {
@@ -640,7 +640,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class O_Truck_03_covered_F {
-        vItemSpace = 300;
+        vItemSpace = 250;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
         textures[] = {};
@@ -679,7 +679,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_SUV_01_F {
-        vItemSpace = 50;
+        vItemSpace = 55;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 30000;
         textures[] = {
@@ -699,7 +699,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Van_01_transport_F {
-        vItemSpace = 100;
+        vItemSpace = 85;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 45000;
         textures[] = {
@@ -713,7 +713,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Van_01_box_F {
-        vItemSpace = 150;
+        vItemSpace = 100;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 60000;
         textures[] = {
@@ -739,7 +739,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
      class B_Heli_Light_01_stripped_F {
-        vItemSpace = 90;
+        vItemSpace = 40;
         conditions = "";
         price = 275000;
         textures[] = {
@@ -750,7 +750,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 40;
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
         price = 245000;
         textures[] = {
@@ -803,12 +803,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
-        vItemSpace = 75;
+        vItemSpace = 40;
         price = 245000;
     };
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
+        vItemSpace = 85;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 750000;
         textures[] = {
@@ -838,7 +838,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Van_01_fuel_F {
-        vItemSpace = 20;
+        vItemSpace = 80;
         vFuelSpace = 19500;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 120000;
@@ -855,7 +855,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Truck_02_fuel_F {
-        vItemSpace = 40;
+        vItemSpace = 150;
         vFuelSpace = 42000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 200000;
@@ -868,7 +868,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_Truck_01_fuel_F {
-        vItemSpace = 50;
+        vItemSpace = 250;
         vFuelSpace = 50000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
