@@ -40,6 +40,11 @@ class Life_Client_Core {
         class ussTeleport {};
     };
 
+    class xefunc {
+        file = "core\xescripts";
+        class xe_hud {};
+    };
+
     class Actions {
         file = "core\actions";
         class arrestAction {};

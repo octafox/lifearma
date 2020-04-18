@@ -7,6 +7,7 @@
     Initializes the medic..
 */
 waitUntil {!(isNull (findDisplay 46))};
+[] call life_fnc_xe_hud;
 
 if ((FETCH_CONST(life_medicLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 0)) exitWith {
     ["Notwhitelisted",false,true] call BIS_fnc_endMission;

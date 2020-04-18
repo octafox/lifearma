@@ -7,6 +7,7 @@
     Cop Initialization file.
 */
 waitUntil {!(isNull (findDisplay 46))};
+[] call life_fnc_xe_hud;
 
 if (life_blacklisted) exitWith {
     ["Blacklisted",false,true] call BIS_fnc_endMission;
