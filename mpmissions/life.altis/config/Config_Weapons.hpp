@@ -26,12 +26,12 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_gun";
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 3250, "" },
-            { "hgun_Pistol_01_F", "", 7000, 3500, "" }, //Apex DLC
-            { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
-            { "hgun_ACPC2_F", "", 11500, 5750, "" },
-            { "SMG_05_F", "", 18000, 9000, "" }, //Apex DLC
-            { "hgun_PDW2000_F", "", 20000, 10000, "" }
+            { "hgun_Rook40_F", "", 25000, 7000, "" },
+            { "hgun_Pistol_01_F", "", 30000, 8000, "" }, //Apex DLC
+            { "hgun_Pistol_heavy_02_F", "", 30000, 8000, "" },
+            { "hgun_ACPC2_F", "", 35000, 5750, "" },
+            { "SMG_05_F", "", 60000, 15000, "" }, //Apex DLC
+            { "hgun_PDW2000_F", "", 65000, 17000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
@@ -42,7 +42,7 @@ class WeaponShops {
             { "10Rnd_9x21_Mag", "", 250, 125, "" } //Apex DLC
         };
         accs[] = {
-            { "acc_flashlight_pistol", "", 1000, 500, "" },//Pistol Flashlight
+          
             { "optic_ACO_grn_smg", "", 2500, 1250, "" }
         };
     };
@@ -52,16 +52,16 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
-            { "arifle_TRG20_F", "", 25000, 12500, "" },
-            { "arifle_Katiba_F", "", 30000, 15000, "" },
-            { "srifle_DMR_01_F", "", 50000, 25000, "" },
-            { "arifle_SDAR_F", "", 20000, 10000, "" },
-            { "arifle_AK12_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
-            { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
+            { "arifle_TRG20_F", "", 50000, 12500, "" },
+            { "arifle_Katiba_F", "", 80000, 15000, "" },
+            { "srifle_DMR_01_F", "", 200000, 25000, "" },
+            { "arifle_SDAR_F", "", 15000, 10000, "" },
+            { "arifle_AK12_F", "", 170000, 11000, "" }, //Apex DLC
+            { "arifle_AKS_F", "", 60000, 11000, "" }, //Apex DLC
+            { "arifle_AKM_F", "", 700000, 11000, "" }, //Apex DLC
+            { "arifle_ARX_blk_F", "", 90000, 11000, "" }, //Apex DLC
+            { "arifle_SPAR_01_blk_F", "", 70000, 16500, "" }, //Apex DLC
+            { "arifle_CTAR_blk_F", "", 70000, 15000, "" } //Apex DLC
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300, 150, "" },
@@ -73,10 +73,10 @@ class WeaponShops {
             { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
         };
         accs[] = {
-            { "optic_ACO_grn", "", 3500, 1750, "" },
-            { "optic_Holosight", "", 3600, 1800, "" },
-            { "optic_Hamr", "", 7500, 3750, "" },
-            { "acc_flashlight", "", 1000, 500, "" }
+            { "optic_ACO_grn", "", 350, 175, "" },
+            { "optic_Holosight", "", 360, 180, "" },
+            { "optic_Hamr", "", 750, 375, "" },
+            
         };
     };
 
@@ -85,10 +85,10 @@ class WeaponShops {
         side = "civ";
         conditions = "";
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 750, "" },
-            { "hgun_Pistol_heavy_02_F", "", 2500, 1250, "" },
-            { "hgun_ACPC2_F", "", 4500, 2250, "" },
-            { "hgun_PDW2000_F", "", 9500, 4750, "" }
+            { "hgun_Rook40_F", "", 15000, 750, "" },
+            { "hgun_Pistol_heavy_02_F", "", 20000, 1250, "" },
+            { "hgun_ACPC2_F", "", 25000, 2250, "" },
+            { "hgun_PDW2000_F", "", 45000, 4750, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
@@ -153,8 +153,8 @@ class WeaponShops {
         items[] = {
             { "Binocular", "", 150, 75, "" },
             { "ItemGPS", "", 100, 50, "" },
-            { "FirstAidKit", "", 150, 75, "" },
-            { "NVGoggles", "", 2000, 1000, "" },
+            { "FirstAidKit", "", 100, 75, "" },
+            { "NVGoggles", "", 1000, 1000, "" },
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
             { "hgun_PDW2000_F", "", 2000, 1000, "" },
@@ -171,21 +171,21 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 2000, 1000, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 2000, 1000, "" },
-            { "16Rnd_9x21_Mag", "", 2000, 1000, "" },
-            { "50Rnd_570x28_SMG_03", "", 2000, 1000, "" },
-            { "2Rnd_12Gauge_Pellets", "", 2000, 1000, "" },
-            { "2Rnd_12Gauge_Slug", "", 2000, 1000, "" }
+            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 100, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 200, 100, "" },
+            { "16Rnd_9x21_Mag", "", 200, 100, "" },
+            { "50Rnd_570x28_SMG_03", "", 200, 100, "" },
+            { "2Rnd_12Gauge_Pellets", "", 200, 100, "" },
+            { "2Rnd_12Gauge_Slug", "", 200, 100, "" }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
-            { "optic_MRD", "", 2750, 1375, "call life_coplevel >= 1" },
+            { "optic_MRD", "", 275, 137, "call life_coplevel >= 1" },
             { "acc_flashlight_pistol", "", 250, 125, "call life_coplevel >= 1" },//Pistol Flashlight
             { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
-            { "optic_Holosight", "", 1200, 600, "call life_coplevel >= 2" },
-            { "optic_Arco", "", 2500, 1250, "call life_coplevel >= 2" },
-            { "muzzle_snds_H", "", 2750, 1375, "call life_coplevel >= 2" }
+            { "optic_Holosight", "", 120, 60, "call life_coplevel >= 2" },
+            { "optic_Arco", "", 250, 125, "call life_coplevel >= 2" },
+            { "muzzle_snds_H", "", 275, 137, "call life_coplevel >= 2" }
         };
     };
 
@@ -199,7 +199,7 @@ class WeaponShops {
             { "Binocular", "", 150, 75, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
-            { "NVGoggles", "", 2000, 1000, "" },
+            { "NVGoggles", "", 1000, 1000, "" },
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
             { "hgun_PDW2000_F", "", 2000, 1000, "" },
@@ -232,71 +232,71 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 2000, 1000, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 2000, 1000, "" },
-            { "16Rnd_9x21_Mag", "", 2000, 1000, "" },
-            { "50Rnd_570x28_SMG_03", "", 2000, 1000, "" },
-            { "2Rnd_12Gauge_Pellets", "", 2000, 1000, "" },
-            { "2Rnd_12Gauge_Slug", "", 2000, 1000, "" },
-            { "100Rnd_65x39_caseless_mag", "", 2000, 1000, "" },
-            { "100Rnd_65x39_caseless_black_mag", "", 2000, 1000, "" },
-            { "150Rnd_556x45_Drum_Mag_F", "", 2000, 1000, "" },
-            { "7Rnd_408_Mag", "", 2000, 1000, "" },
-            { "9Rnd_45ACP_Mag", "", 2000, 1000, "" },
-            { "11Rnd_45ACP_Mag", "", 2000, 1000, "" },
-            { "6Rnd_45ACP_Cylinder", "", 2000, 1000, "" },
-            { "10Rnd_9x21_Mag", "", 2000, 1000, "" }
+            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 100, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 200, 100, "" },
+            { "16Rnd_9x21_Mag", "", 200, 100, "" },
+            { "50Rnd_570x28_SMG_03", "", 200, 100, "" },
+            { "2Rnd_12Gauge_Pellets", "", 200, 100, "" },
+            { "2Rnd_12Gauge_Slug", "", 200, 100, "" },
+            { "100Rnd_65x39_caseless_mag", "", 200, 100, "" },
+            { "100Rnd_65x39_caseless_black_mag", "", 200, 100, "" },
+            { "150Rnd_556x45_Drum_Mag_F", "", 200, 100, "" },
+            { "7Rnd_408_Mag", "", 200, 100, "" },
+            { "9Rnd_45ACP_Mag", "", 200, 100, "" },
+            { "11Rnd_45ACP_Mag", "", 200, 100, "" },
+            { "6Rnd_45ACP_Cylinder", "", 200, 100, "" },
+            { "10Rnd_9x21_Mag", "", 200, 100, "" }
         };
         accs[] = {
-            { "optic_Arco", "", 2000, 1000, "" },
-            { "optic_Hamr", "", 2000, 1000, "" },
-            { "optic_Aco", "", 2000, 1000, "" },
-            { "optic_ACO_grn", "", 2000, 1000, "" },
-            { "optic_Aco_smg", "", 2000, 1000, "" },
-            { "optic_ACO_grn_smg", "", 2000, 1000, "" },
-            { "optic_Holosight", "", 2000, 1000, "" },
-            { "optic_Holosight_smg", "", 2000, 1000, "" },
-            { "optic_SOS", "", 2000, 1000, "" },
-            { "optic_MRCO", "", 2000, 1000, "" },
-            { "optic_DMS", "", 2000, 1000, "" },
-            { "optic_LRPS", "", 2000, 1000, "" },
-            { "optic_AMS", "", 2000, 1000, "" },
-            { "optic_AMS_khk", "", 2000, 1000, "" },
-            { "optic_AMS_snd", "", 2000, 1000, "" },
-            { "optic_KHS_blk", "", 2000, 1000, "" },
-            { "optic_KHS_old", "", 2000, 1000, "" },
-            { "optic_Arco_blk_F", "", 2000, 1000, "" },
-            { "optic_Arco_ghex_F", "", 2000, 1000, "" },
-            { "optic_DMS_ghex_F", "", 2000, 1000, "" },
-            { "optic_Hamr_khk_F", "", 2000, 1000, "" },
-            { "optic_ERCO_blk_F", "", 2000, 1000, "" },
-            { "optic_ERCO_khk_F", "", 2000, 1000, "" },
-            { "optic_ERCO_snd_F", "", 2000, 1000, "" },
-            { "optic_Holosight_blk_F", "", 2000, 1000, "" },
-            { "optic_Holosight_khk_F", "", 2000, 1000, "" },
-            { "optic_Holosight_smg_blk_F", "", 2000, 1000, "" },
-            { "optic_Holosight_smg_khk_F", "", 2000, 1000, "" },
-            { "optic_Holosight_lush_F", "", 2000, 1000, "" },
-            { "optic_Holosight_arid_F", "", 2000, 1000, "" },
-            { "optic_Arco_lush_F", "", 2000, 1000, "" },
-            { "optic_Arco_arid_F", "", 2000, 1000, "" },
-            { "optic_DMS_weathered_F", "", 2000, 1000, "" },
-            { "optic_DMS_weathered_Kir_F", "", 2000, 1000, "" },
-            { "muzzle_snds_L", "", 2000, 1000, "" },
-            { "muzzle_snds_M", "", 2000, 1000, "" },
-            { "muzzle_snds_65_TI_blk_F", "", 2000, 1000, "" },
-            { "muzzle_snds_acp", "", 2000, 1000, "" },
-            { "acc_flashlight", "", 2000, 1000, "" },
-            { "acc_flashlight_smg_01", "", 2000, 1000, "" },
-            { "acc_flashlight_pistol", "", 2000, 1000, "" },
-            { "acc_pointer_IR", "", 2000, 1000, "" },
-            { "bipod_01_F_snd", "", 2000, 1000, "" },
-            { "bipod_01_F_blk", "", 2000, 1000, "" },
-            { "bipod_01_F_mtp", "", 2000, 1000, "" },
-            { "bipod_01_F_khk", "", 2000, 1000, "" },
-            { "ChemicalDetector_01_olive_F", "", 2000, 1000, "" },
-            { "ChemicalDetector_01_black_F", "", 2000, 1000, "" },
-            { "ChemicalDetector_01_tan_F", "", 2000, 1000, "" }
+            { "optic_Arco", "", 200, 100, "" },
+            { "optic_Hamr", "", 200, 100, "" },
+            { "optic_Aco", "", 200, 100, "" },
+            { "optic_ACO_grn", "", 200, 100, "" },
+            { "optic_Aco_smg", "", 200, 100, "" },
+            { "optic_ACO_grn_smg", "", 200, 100, "" },
+            { "optic_Holosight", "", 200, 100, "" },
+            { "optic_Holosight_smg", "", 200, 100, "" },
+            { "optic_SOS", "", 200, 100, "" },
+            { "optic_MRCO", "", 200, 100, "" },
+            { "optic_DMS", "", 200, 100, "" },
+            { "optic_LRPS", "", 200, 100, "" },
+            { "optic_AMS", "", 200, 100, "" },
+            { "optic_AMS_khk", "", 200, 100, "" },
+            { "optic_AMS_snd", "", 200, 100, "" },
+            { "optic_KHS_blk", "", 200, 100, "" },
+            { "optic_KHS_old", "", 200, 100, "" },
+            { "optic_Arco_blk_F", "", 200, 100, "" },
+            { "optic_Arco_ghex_F", "", 200, 100, "" },
+            { "optic_DMS_ghex_F", "", 200, 100, "" },
+            { "optic_Hamr_khk_F", "", 200, 100, "" },
+            { "optic_ERCO_blk_F", "", 200, 100, "" },
+            { "optic_ERCO_khk_F", "", 200, 100, "" },
+            { "optic_ERCO_snd_F", "", 200, 100, "" },
+            { "optic_Holosight_blk_F", "", 200, 100, "" },
+            { "optic_Holosight_khk_F", "", 200, 100, "" },
+            { "optic_Holosight_smg_blk_F", "", 200, 100, "" },
+            { "optic_Holosight_smg_khk_F", "", 200, 100, "" },
+            { "optic_Holosight_lush_F", "", 200, 100, "" },
+            { "optic_Holosight_arid_F", "", 200, 100, "" },
+            { "optic_Arco_lush_F", "", 200, 100, "" },
+            { "optic_Arco_arid_F", "", 200, 100, "" },
+            { "optic_DMS_weathered_F", "", 200, 100, "" },
+            { "optic_DMS_weathered_Kir_F", "", 200, 100, "" },
+            { "muzzle_snds_L", "", 200, 100, "" },
+            { "muzzle_snds_M", "", 200, 100, "" },
+            { "muzzle_snds_65_TI_blk_F", "", 200, 100, "" },
+            { "muzzle_snds_acp", "", 200, 100, "" },
+            { "acc_flashlight", "", 200, 100, "" },
+            { "acc_flashlight_smg_01", "", 200, 100, "" },
+            { "acc_flashlight_pistol", "", 200, 100, "" },
+            { "acc_pointer_IR", "", 200, 100, "" },
+            { "bipod_01_F_snd", "", 200, 100, "" },
+            { "bipod_01_F_blk", "", 200, 100, "" },
+            { "bipod_01_F_mtp", "", 200, 100, "" },
+            { "bipod_01_F_khk", "", 200, 100, "" },
+            { "ChemicalDetector_01_olive_F", "", 200, 100, "" },
+            { "ChemicalDetector_01_black_F", "", 200, 100, "" },
+            { "ChemicalDetector_01_tan_F", "", 200, 100, "" }
         };
     };
 
