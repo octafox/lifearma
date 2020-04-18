@@ -157,21 +157,26 @@ class WeaponShops {
             { "NVGoggles", "", 2000, 1000, "" },
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
-            { "arifle_SDAR_F", $STR_W_items_TaserRifle, 20000, 10000, "" },
-            { "B_Static_Designator_01_weapon_F", "", 7500, 3750, "" },
-            { "B_W_Static_Designator_01_weapon_F", "", 7500, 3750, "" }, //Apex DLC
-            { "B_Static_Designator_01_weapon_F", "", 9500, 4750, "call life_coplevel >= 1" },
-            { "B_W_Static_Designator_01_weapon_F", "", 30000, 15000, "call life_coplevel >= 2" },
-            { "O_Static_Designator_02_weapon_F", "", 35000, 17500, "call life_coplevel >= 2" }
+            { "hgun_PDW2000_F", "", 2000, 1000, "" },
+            { "SMG_01_F", "", 2000, 1000, "" },
+            { "SMG_02_F", "", 2000, 1000, "" },
+            { "SMG_05_F", "", 2000, 1000, "" },
+            { "arifle_SDAR_F", "", 2000, 1000, "" },
+            { "SMG_03C_TR_black", "", 2000, 1000, "" },
+            { "SMG_03_black", "", 2000, 1000, "" },
+            { "SMG_03C_black", "", 2000, 1000, "" },
+            { "sgun_HunterShotgun_01_F", "", 2000, 1000, "" },
+            { "sgun_HunterShotgun_01_sawedoff_F", "", 2000, 1000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 130, 65, "call life_coplevel >= 1" },
-            { "16Rnd_9x21_Mag", "", 130, 65, "call life_coplevel >= 2" },
-            { "50Rnd_570x28_SMG_03", "", 250, 125, "call life_coplevel >= 2" },
-            { "2Rnd_12Gauge_Pellets", "", 200, 100, "call life_coplevel >= 3" },
-            { "2Rnd_12Gauge_Slug", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+            { "30Rnd_45ACP_Mag_SMG_01", "", 2000, 1000, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 2000, 1000, "" },
+            { "16Rnd_9x21_Mag", "", 2000, 1000, "" },
+            { "50Rnd_570x28_SMG_03", "", 2000, 1000, "" },
+            { "2Rnd_12Gauge_Pellets", "", 2000, 1000, "" },
+            { "2Rnd_12Gauge_Slug", "", 2000, 1000, "" }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
