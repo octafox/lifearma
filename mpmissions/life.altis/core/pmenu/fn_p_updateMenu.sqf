@@ -16,11 +16,9 @@ if (FETCH_CONST(life_adminlevel) < 1) then {
 _side = switch (playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
 
 _inv = CONTROL(2001,2005);
-_lic = CONTROL(2001,2014);
 _near = CONTROL(2001,2022);
 _near_i = CONTROL(2001,2023);
 _mstatus = CONTROL(2001,2015);
-_struct = "";
 lbClear _inv;
 lbClear _near;
 lbClear _near_i;
@@ -51,20 +49,23 @@ ctrlSetText[2009,format ["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
     };
 } forEach ("true" configClasses (missionConfigFile >> "VirtualItems"));
 
-{
-    _displayName = getText(_x >> "displayName");
 
-    if (LICENSE_VALUE(configName _x,_side)) then {
-        _struct = _struct + format ["%1<br/>",localize _displayName];
-    };
-} forEach (format ["getText(_x >> 'side') isEqualTo '%1'",_side] configClasses (missionConfigFile >> "Licenses"));
+// _lic = CONTROL(2001,2014);
+// _struct = "";
+// {
+//     _displayName = getText(_x >> "displayName");
 
-if (_struct isEqualTo "") then {
-    _struct = "No Licenses";
-};
+//     if (LICENSE_VALUE(configName _x,_side)) then {
+//         _struct = _struct + format ["%1<br/>",localize _displayName];
+//     };
+// } forEach (format ["getText(_x >> 'side') isEqualTo '%1'",_side] configClasses (missionConfigFile >> "Licenses"));
 
-_lic ctrlSetStructuredText parseText format ["
-<t size='0.8px'>
-%1
-</t>
-",_struct];
+// if (_struct isEqualTo "") then {
+//     _struct = "No Licenses";
+// };
+
+// _lic ctrlSetStructuredText parseText format ["
+// <t size='0.8px'>
+// %1
+// </t>
+// ",_struct];

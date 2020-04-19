@@ -7,8 +7,45 @@
 #define GUI_GRID_CENTER_X        (safezoneX + (safezoneW - GUI_GRID_CENTER_WAbs)/2)
 #define GUI_GRID_CENTER_Y        (safezoneY + (safezoneH - GUI_GRID_CENTER_HAbs)/2)
 
-class Life_Checkbox
-{
+class xeRscIconButton {
+    deletable = 0;
+    fade = 0;
+    access = 0;
+    idc = -1;
+    font = "TahomaB";
+    sizeEx = 0;
+    lineSpacing = 0;
+    text = "";
+    fixedWidth = 0;
+    shadow = 0;
+    x = 0;
+    y = 0;
+    w = 0.2;
+    h = 0.15;
+
+    tooltip = "Lista Ricercati"
+    tooltipColorBox[] = {1,1,1,0};
+    tooltipColorText[] = { 1, 1, 1, 1 };
+    tooltipColorShade[] = { 0, 0, 0, 0.65 };
+
+    color[] = {1,1,1,1};
+    colorActive[] = {1,1,1,1};
+    colorDisabled[] = {1,1,1,1};
+    colorBackground[] = { 0, 0, 0, 0 };
+    colorText[] = { 1, 1, 1, 1 };
+
+    type = 11;
+    style = 48;
+
+    soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1};
+    soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1};
+    soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick",0.09,1};
+    soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1};
+
+    action = "hint 'ciao'";
+};
+
+class Life_Checkbox {
     access = 0; // Control access (0 - ReadAndWrite, 1 - ReadAndCreate, 2 - ReadOnly, 3 - ReadOnlyVerified)
     idc = -1; // Control identification (without it, the control won't be displayed)
     type = 77; // Type
@@ -60,8 +97,7 @@ class Life_Checkbox
 
 };
 
-class Life_RscScrollBar
-{
+class Life_RscScrollBar {
     color[] = {1,1,1,0.6};
     colorActive[] = {1,1,1,1};
     colorDisabled[] = {1,1,1,0.3};
@@ -113,8 +149,7 @@ class Life_RscControlsGroupNoScrollbars : Life_RscControlsGroup {
     };
 };
 
-class Life_RscHud
-{
+class Life_RscHud {
     idc = -1;
     type = 0;
     style = 0x00;
@@ -126,8 +161,7 @@ class Life_RscHud
     text = "";
 };
 
-class Life_RscListNBox
-{
+class Life_RscListNBox {
     style = 16;
     type = 102;
     shadow = 0;
@@ -227,14 +261,12 @@ class life_RscPicture {
     tooltipColorShade[] = {0,0,0,0.65};
 };
 
-class Life_RscTextMulti: Life_RscText
-{
+class Life_RscTextMulti: Life_RscText {
     linespacing = 1;
     style = 0 + 16 + 0x200;
 };
 
-class Life_RscPictureKeepAspect : Life_RscPicture
-{
+class Life_RscPictureKeepAspect : Life_RscPicture {
     style = 0x30 + 0x800;
 };
 
@@ -259,7 +291,7 @@ class Life_RscStructuredText {
 };
 
 class Life_RscActiveText {
-idc = -1;
+    idc = -1;
     type = 11;
     style = 0;
     x = 0;
@@ -281,8 +313,7 @@ idc = -1;
     tooltipColorShade[] = {0,0,0,0.65};
 };
 
-class Life_RscButton
-{
+class Life_RscButton {
     style = 2;
     x = 0;
     y = 0;
@@ -532,8 +563,7 @@ class Life_RscCheckbox {
     checked_strings[] = {CHECKED};
 };
 
-class Life_RscProgress
-{
+class Life_RscProgress {
     type = 8;
     style = 0;
     x = 0.344;
@@ -547,8 +577,7 @@ class Life_RscProgress
     colorBar[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 };
 
-class Life_RscListBox
-{
+class Life_RscListBox {
     style = 16;
     idc = -1;
     type = 5;
@@ -612,8 +641,7 @@ class Life_RscSlider {
     colorActive[] = {1, 1, 1, 1};
 };
 
-class life_RscXSliderH
-{
+class life_RscXSliderH {
     style = 1024;
     type = 43;
     shadow = 2;
@@ -735,8 +763,7 @@ class Life_RscHitZones {
     ySpace = 0;
 };
 
-class Life_RscMapControl
-{
+class Life_RscMapControl {
     access = 0;
     type = 101;
     idc = 51;
