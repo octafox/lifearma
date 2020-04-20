@@ -41,7 +41,7 @@ class CfgSpawnPoints {
             };
 
             class RebelS {
-                displayName = $STR_SP_Reb_S;
+                displayName = "Ribelli";
                 spawnMarker = "Rebelop_1";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
@@ -74,7 +74,14 @@ class CfgSpawnPoints {
                 displayName = $STR_MAR_Police_Air_HQ;
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+                conditions = "";
+            };
+
+            class ctrg {
+                displayName = "CTRG";
+                spawnMarker = "ctrg_spawn_1";
+                icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
+                conditions = "call life_coplevel >= 5";
             };
         };
 

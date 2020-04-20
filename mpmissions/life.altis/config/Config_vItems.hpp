@@ -127,6 +127,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
+
+    class ctrg {
+        name = "Mercato";
+        side = "cop";
+        conditions = "call life_coplevel >= 5";
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+    };
 };
 
 /*

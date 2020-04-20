@@ -194,7 +194,7 @@ class WeaponShops {
     class ctrg_basic {
         name = "ctrg";
         side = "cop";
-        conditions = "";
+        conditions = "call life_coplevel >= 5";
         items[] = {
             { "Binocular", "", 150, 75, "" },
             { "ItemGPS", "", 100, 50, "" },

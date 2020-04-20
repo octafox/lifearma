@@ -533,7 +533,7 @@ class Clothing {
 
     class ctrg {
         title = "CTRG";
-        conditions = "";
+        conditions = "call life_coplevel >= 5";
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },

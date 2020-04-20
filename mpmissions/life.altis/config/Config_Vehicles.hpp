@@ -136,6 +136,27 @@ class CarShops {
         };
     };
 
+    class ctrg_car {
+        side = "cop";
+        conditions = "call life_coplevel >= 5";
+        vehicles[] = {
+            { "C_Offroad_01_F", "" },
+            { "C_SUV_01_F", "" },
+            { "C_Hatchback_01_sport_F", "" },
+            { "B_MRAP_01_F", "" },
+            { "B_MRAP_01_hmg_F", "" }
+        };
+    };
+
+    class ctrg_air {
+        side = "cop";
+        conditions = "call life_coplevel >= 5";
+        vehicles[] = {
+            { "B_Heli_Light_01_F", "" },
+            { "B_Heli_Transport_01_F", "" }
+        };
+    };
+
     class cop_ship {
         side = "cop";
         conditions = "";
