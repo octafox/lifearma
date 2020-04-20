@@ -218,7 +218,7 @@ class playerSettings {
             tooltip = "keys";
             onButtonClick = "createDialog ""Life_key_management"";";
             // #(argb,8,8,3)color(0,0,0,0.8)
-            ["0.441219 * safezoneW + safezoneX","0.374572 * safezoneH + safezoneY","0.0195937 * safezoneW","0.030807 * safezoneH"]
+            // ["0.441219 * safezoneW + safezoneX","0.374572 * safezoneH + safezoneY","0.0195937 * safezoneW","0.030807 * safezoneH"]
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;
