@@ -176,7 +176,7 @@ class playerSettings {
         };
 
         // buttons
-        class btnSettings: xeRscIconButton {
+        class buttonSettings: xeRscIconButton {
             idc = -1;
             text = "icons\xeicons\settings.paa";
             tooltip = "settings";
@@ -188,7 +188,7 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnGang: xeRscIconButton {
+        class buttonGang: xeRscIconButton {
             idc = 2011;
             text = "icons\xeicons\gang.paa";
             tooltip = "gang";
@@ -200,7 +200,7 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnWantedList: xeRscIconButton {
+        class buttonWantedList: xeRscIconButton {
             idc = 2012;
             text = "icons\xeicons\licenses.paa";
             tooltip = "licenses";
@@ -212,13 +212,11 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnKeys: xeRscIconButton {
+        class buttonKeys: xeRscIconButton {
             idc = 2013;
             text = "icons\xeicons\keys.paa";
             tooltip = "keys";
             onButtonClick = "createDialog ""Life_key_management"";";
-            // #(argb,8,8,3)color(0,0,0,0.8)
-            // ["0.441219 * safezoneW + safezoneX","0.374572 * safezoneH + safezoneY","0.0195937 * safezoneW","0.030807 * safezoneH"]
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;
@@ -226,7 +224,7 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnCell: xeRscIconButton {
+        class buttonCell: xeRscIconButton {
             idc = 2014;
             text = "icons\xeicons\phone.paa";
             tooltip = "phone";
@@ -238,7 +236,7 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnAdminMenu: xeRscIconButton {
+        class buttonAdminMenu: xeRscIconButton {
             idc = 2021;
             text = "icons\xeicons\admin.paa";
             tooltip = "admin";
@@ -250,7 +248,7 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnSyncData: xeRscIconButton {
+        class buttonSyncData: xeRscIconButton {
             idc = -1;
             //shortcuts[] = {0x00050000 + 2};
             text = "icons\xeicons\sync.paa";
@@ -263,10 +261,20 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
-        class btnLicenses: xeRscIconButton {
+        class buttonLicenses: xeRscIconButton {
             idc = -1;
             text = "icons\xeicons\licenses.paa"; //--- ToDo: Localize;
             tooltip = "licenses";
+            x = 0.441219 * safezoneW + safezoneX;
+            y = 0.374572 * safezoneH + safezoneY;
+            w = 0.0195937 * safezoneW;
+            h = 0.030807 * safezoneH;
+            colorText[] = {1,1,1,1};
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackgroundLicenses: Life_RscPicture {
+            idc = -1;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;
