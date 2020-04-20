@@ -15,6 +15,9 @@ switch (playerSide) do {
                 player setObjectTextureGlobal [0, "textures\civilian_uniform_1.jpg"];
             };
         };
+        if (uniform player isEqualTo "U_C_Driver_2") then {
+            player setObjectTextureGlobal [0, "textures\prigioniero.jpg"];
+        };
     };
 
     case west: {

@@ -14,26 +14,26 @@ class Loadouts {
     // COP
     class WEST {
         uniform[] = {
-            {"U_BG_Guerrilla_6_1", "call life_copLevel >= 0"}
+            {"U_I_CombatUniform", "call life_copLevel > 0"}
         };
         headgear[] = {
-            {"H_Cap_blk", "call life_copLevel >= 0"}
+            {"H_Cap_blk", "call life_copLevel > 0"}
         };
         vest[] = {
-            {"V_Rangemaster_belt", "call life_copLevel >= 0"}
+            {"V_Rangemaster_belt", "call life_copLevel > 0"}
         };
         backpack[] = {};
         weapon[] = {
-            {"hgun_P07_snds_F", "call life_copLevel >= 0"}
+            {"hgun_P07_snds_F", "call life_copLevel > 0"}
         };
         mags[] = {
-            {"16Rnd_9x21_Mag", 6, "call life_copLevel >= 0"}
+            {"16Rnd_9x21_Mag", 6, "call life_copLevel > 0"}
         };
         items[] = {};
         linkedItems[] = {
-            {"ItemMap", "call life_copLevel >= 0"},
-            {"ItemCompass", "call life_copLevel >= 0"},
-            {"ItemWatch", "call life_copLevel >= 0"}
+            {"ItemMap", "call life_copLevel > 0"},
+            {"ItemCompass", "call life_copLevel > 0"},
+            {"ItemWatch", "call life_copLevel > 0"}
         };
     };
 
@@ -41,15 +41,13 @@ class Loadouts {
     class CIV {
         uniform[] = {
             {"U_C_Poloshirt_blue", "!life_is_arrested"},
-            {"U_C_Poloshirt_burgundy", "!life_is_arrested"},
-            {"U_C_Poloshirt_stripped", "!life_is_arrested"},
-            {"U_C_Poloshirt_tricolour", "!life_is_arrested"},
-            {"U_C_Poloshirt_salmon", "!life_is_arrested"},
-            {"U_C_Poloshirt_redwhite", "!life_is_arrested"},
-            {"U_C_Commoner1_1", "!life_is_arrested"}
+            {"U_BG_Guerilla3_1", "license_civ_rebel"},
+            {"U_C_Driver_2", "life_is_arrested"}
         };
         headgear[] = {};
-        vest[] = {};
+        vest[] = {
+            {"V_BandollierB_khk", "license_civ_rebel"},
+        };
         backpack[] = {};
         weapon[] = {};
         mags[] = {};
