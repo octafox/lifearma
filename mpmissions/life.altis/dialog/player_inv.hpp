@@ -54,11 +54,10 @@ class playerSettings {
         };
         class moneyBackground: Life_RscText {
             idc = -1;
-
             x = 0.335 * safezoneW + safezoneX;
             y = 0.392176 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
-            h = 0.22005 * safezoneH;
+            h = 0.22 * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
         class moneyInfo: Life_RscStructuredText {
@@ -113,9 +112,9 @@ class playerSettings {
         class inventoryBackground: Life_RscText {
             idc = -1;
             x = 0.530937 * safezoneW + safezoneX;
-            y = 0.389975 * safezoneH + safezoneY;
+            y = 0.392176 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
-            h = 0.253057 * safezoneH;
+            h = 0.250856‬ * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
         class inventoryList: Life_RscListBox {
