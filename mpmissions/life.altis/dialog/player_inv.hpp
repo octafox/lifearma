@@ -110,7 +110,7 @@ class playerSettings {
         };
         class inventoryBackground: Life_RscText {
             idc = -1;
-            y= 0.530937 * safezoneW + safezoneX
+            x = 0.530937 * safezoneW + safezoneX
             y = 0.389975 * safezoneH + safezoneY
             w = 0.0979687 * safezoneW
             h = 0.209047 * safezone
@@ -118,7 +118,7 @@ class playerSettings {
         };
         class inventoryList: Life_RscListBox {
             idc = item_list;
-            y= 0.531968 * safezoneW + safezoneX
+            x = 0.531968 * safezoneW + safezoneX
             y = 0.389975 * safezoneH + safezoneY
             w = 0.0969374 * safezoneW
             h = 0.110025 * safezone
@@ -127,7 +127,7 @@ class playerSettings {
         class inventoryEdit: Life_RscEdit {
             idc = item_edit;
             text = "1"; //--- ToDo: Localize;
-            y= 0.531968 * safezoneW + safezoneX
+            x = 0.531968 * safezoneW + safezoneX
             y = 0.5022 * safezoneH + safezoneY
             w = 0.0969374 * safezoneW
             h = 0.022005 * safezone
@@ -135,7 +135,7 @@ class playerSettings {
         };
         class inventoryNearPlayers: Life_RscCombo {
             idc = 2023;
-            y= 0.531968 * safezoneW + safezoneX
+            x = 0.531968 * safezoneW + safezoneX
             y = 0.526406 * safezoneH + safezoneY
             w = 0.0969374 * safezoneW
             h = 0.022005 * safezone
@@ -144,7 +144,7 @@ class playerSettings {
         class inventoryUse: Life_RscButtonMenu {
             text = "$STR_Global_Use";
             onButtonClick = "[] call life_fnc_useItem;";
-            y= 0.531968 * safezoneW + safezoneX
+            x = 0.531968 * safezoneW + safezoneX
             y = 0.550611 * safezoneH + safezoneY
             w = 0.0474375 * safezoneW
             h = 0.022005 * safezone
@@ -155,7 +155,7 @@ class playerSettings {
             idc = 2002;
             text = "$STR_Global_Give";
             onButtonClick = "[] call life_fnc_giveItem;";
-            y= 0.580438 * safezoneW + safezoneX
+            x = 0.580438 * safezoneW + safezoneX
             y = 0.550612 * safezoneH + safezoneY
             w = 0.0474375 * safezoneW
             h = 0.022005 * safezone
@@ -166,7 +166,7 @@ class playerSettings {
             idc = -1;
             onButtonClick = "[] call life_fnc_removeItem;";
             text = "$STR_Global_Remove";
-            y= 0.530937 * safezoneW + safezoneX
+            x = 0.530937 * safezoneW + safezoneX
             y = 0.574817 * safezoneH + safezoneY
             w = 0.0979687 * safezoneW
             h = 0.022005 * safezone
