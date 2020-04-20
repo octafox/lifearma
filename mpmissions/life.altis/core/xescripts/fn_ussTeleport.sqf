@@ -3,7 +3,7 @@ risucchio_1 addAction["Torna all`USS", {
 		cutText ["","BLACK OUT",2];
 		titleFadeOut 1;
 		sleep 2;
-		player setPos [15636.9,15377,66.9514];
+		player setPos [15642.1,15364.9,67.6437];
 		sleep 2;
 		cutText ["","BLACK IN",5];
 	};
