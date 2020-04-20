@@ -55,27 +55,27 @@ class playerSettings {
         class moneyBackground: Life_RscText {
             idc = -1;
             x = 0.335 * safezoneW + safezoneX;
-            y = 0.392176 * safezoneH + safezoneY;
+            y = 0.389975 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
-            h = 0.22 * safezoneH;
+            h = 0.187042 * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
         class moneyInfo: Life_RscStructuredText {
             idc = 2015;
             sizeEx = 0.020;
             text = "";
-            x = 0.340156 * safezoneW + safezoneX;
-            y = 0.400978 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
+            x = 0.335 * safezoneW + safezoneX;
+            y = 0.392176 * safezoneH + safezoneY;
+            w = 0.0979687 * safezoneW;
             h = 0.110025 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class moneyEdit: Life_RscEdit {
             idc = 2018;
             text = "1"; //--- ToDo: Localize;
-            x = 0.340156 * safezoneW + safezoneX;
-            y = 0.522005 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
+            x = 0.335 * safezoneW + safezoneX;
+            y = 0.504401 * safezoneH + safezoneY;
+            w = 0.0979687 * safezoneW;
             h = 0.022005 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
@@ -84,7 +84,7 @@ class playerSettings {
             text = "$STR_Global_Give";
             onButtonClick = "[] call life_fnc_giveMoney";
             x = 0.335 * safezoneW + safezoneX;
-            y = 0.58802 * safezoneH + safezoneY;
+            y = 0.552812 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
             h = 0.022005 * safezoneH;
             colorText[] = {1,1,1,1};
@@ -92,9 +92,9 @@ class playerSettings {
         };
         class moneyNearPlayers: Life_RscCombo {
             idc = 2022;
-            x = 0.340156 * safezoneW + safezoneX;
-            y = 0.555012 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
+            x = 0.335 * safezoneW + safezoneX;
+            y = 0.528606 * safezoneH + safezoneY;
+            w = 0.0979687 * safezoneW;
             h = 0.022005 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
@@ -111,55 +111,55 @@ class playerSettings {
         };
         class inventoryBackground: Life_RscText {
             idc = -1;
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.392176 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.250856‬ * safezoneH;
+            y= 0.530937 * safezoneW + safezoneX
+            y = 0.389975 * safezoneH + safezoneY
+            w = 0.0979687 * safezoneW
+            h = 0.209047 * safezone
             colorBackground[] = {0,0,0,0.7};
         };
         class inventoryList: Life_RscListBox {
             idc = item_list;
-            x = 0.536094 * safezoneW + safezoneX;
-            y = 0.400978 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
-            h = 0.110025 * safezoneH;
+            y= 0.531968 * safezoneW + safezoneX
+            y = 0.389975 * safezoneH + safezoneY
+            w = 0.0969374 * safezoneW
+            h = 0.110025 * safezone
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryEdit: Life_RscEdit {
             idc = item_edit;
             text = "1"; //--- ToDo: Localize;
-            x = 0.536094 * safezoneW + safezoneX;
-            y = 0.522005 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
-            h = 0.022005 * safezoneH;
+            y= 0.531968 * safezoneW + safezoneX
+            y = 0.5022 * safezoneH + safezoneY
+            w = 0.0969374 * safezoneW
+            h = 0.022005 * safezone
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryNearPlayers: Life_RscCombo {
             idc = 2023;
-            x = 0.536094 * safezoneW + safezoneX;
-            y = 0.555012 * safezoneH + safezoneY;
-            w = 0.0876563 * safezoneW;
-            h = 0.022005 * safezoneH;
+            y= 0.531968 * safezoneW + safezoneX
+            y = 0.526406 * safezoneH + safezoneY
+            w = 0.0969374 * safezoneW
+            h = 0.022005 * safezone
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryUse: Life_RscButtonMenu {
             text = "$STR_Global_Use";
             onButtonClick = "[] call life_fnc_useItem;";
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.58802 * safezoneH + safezoneY;
-            w = 0.0464063 * safezoneW;
-            h = 0.022005 * safezoneH;
+            y= 0.531968 * safezoneW + safezoneX
+            y = 0.550611 * safezoneH + safezoneY
+            w = 0.0474375 * safezoneW
+            h = 0.022005 * safezone
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
-        class inventoryDrop: Life_RscButtonMenu {
+        class inventoryGive: Life_RscButtonMenu {
             idc = 2002;
             text = "$STR_Global_Give";
             onButtonClick = "[] call life_fnc_giveItem;";
-            x = 0.5825 * safezoneW + safezoneX;
-            y = 0.58802 * safezoneH + safezoneY;
-            w = 0.0464063 * safezoneW;
-            h = 0.022005 * safezoneH;
+            y= 0.580438 * safezoneW + safezoneX
+            y = 0.550612 * safezoneH + safezoneY
+            w = 0.0474375 * safezoneW
+            h = 0.022005 * safezone
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
@@ -167,10 +167,10 @@ class playerSettings {
             idc = -1;
             onButtonClick = "[] call life_fnc_removeItem;";
             text = "$STR_Global_Remove";
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.621027 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.022005 * safezoneH;
+            y= 0.530937 * safezoneW + safezoneX
+            y = 0.574817 * safezoneH + safezoneY
+            w = 0.0979687 * safezoneW
+            h = 0.022005 * safezone
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
@@ -217,6 +217,8 @@ class playerSettings {
             text = "icons\xeicons\keys.paa";
             tooltip = "keys";
             onButtonClick = "createDialog ""Life_key_management"";";
+            // #(argb,8,8,3)color(0,0,0,0.8)
+            ["0.441219 * safezoneW + safezoneX","0.374572 * safezoneH + safezoneY","0.0195937 * safezoneW","0.030807 * safezoneH"]
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;
