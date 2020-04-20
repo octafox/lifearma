@@ -12,6 +12,11 @@ class playerSettings {
             idc = carry_weight;
             style = 1;
             text = "";
+            x = 0.335 * safezoneW + safezoneX;
+            y = 0.334963 * safezoneH + safezoneY;
+            w = 0.273281 * safezoneW;
+            h = 0.022005 * safezoneH;
+            colorText[] = {0.95,0.95,0.95,1};
         };
         class menuTitle: Life_RscTitle {
             idc = -1;
