@@ -99,77 +99,79 @@ class playerSettings {
         };
 
         // inventory
+
         class inventoryTitle: Life_RscText {
             idc = -1;
-            text = "$STR_PM_cItems";
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.36797 * safezoneH + safezoneY;
+            text = "$STR_PM_cItems"; //--- ToDo: Localize;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.367948 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
             h = 0.022005 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryBackground: Life_RscText {
             idc = -1;
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.389958 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.220084 * safezone;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.389957 * safezoneH + safezoneY;
+            w = 0.0979397 * safezoneW;
+            h = 0.231091 * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
         class inventoryList: Life_RscListBox {
             idc = item_list;
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.392159 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.110042 * safezone;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.392158 * safezoneH + safezoneY;
+            w = 0.0979397 * safezoneW;
+            h = 0.132052 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryEdit: Life_RscEdit {
             idc = item_edit;
             text = "1"; //--- ToDo: Localize;
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.515406 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.0220084 * safezone;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.52641 * safezoneH + safezoneY;
+            w = 0.0979397 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryNearPlayers: Life_RscCombo {
             idc = 2023;
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.541817 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.0220084 * safezone;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.55062 * safezoneH + safezoneY;
+            w = 0.0979397 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryUse: Life_RscButtonMenu {
-            text = "$STR_Global_Use";
             onButtonClick = "[] call life_fnc_useItem;";
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.566025 * safezoneH + safezoneY;
-            w = 0.0474375 * safezoneW;
-            h = 0.0220084 * safezone;
+            idc = 1014;
+            text = "$STR_Global_Use"; //--- ToDo: Localize;
+            x = 0.581445 * safezoneW + safezoneX;
+            y = 0.574829 * safezoneH + safezoneY;
+            w = 0.0474234 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryGive: Life_RscButtonMenu {
             idc = 2002;
-            text = "$STR_Global_Give";
             onButtonClick = "[] call life_fnc_giveItem;";
-            x = 0.580437 * safezoneW + safezoneX;
-            y = 0.566025 * safezoneH + safezoneY;
-            w = 0.0474375 * safezoneW;
-            h = 0.0220084 * safezone;
+            text = "$STR_Global_Give"; //--- ToDo: Localize;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.574829 * safezoneH + safezoneY;
+            w = 0.0484544 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryRemove: Life_RscButtonMenu {
-            idc = -1;
             onButtonClick = "[] call life_fnc_removeItem;";
-            text = "$STR_Global_Remove";
-            x = 0.530937 * safezoneW + safezoneX;
-            y = 0.592436 * safezoneH + safezoneY;
-            w = 0.0979687 * safezoneW;
-            h = 0.0220084 * safezone;
+            idc = -1;
+            text = "$STR_Global_Remove"; //--- ToDo: Localize;
+            x = 0.530928 * safezoneW + safezoneX;
+            y = 0.596838 * safezoneH + safezoneY;
+            w = 0.0979397 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
