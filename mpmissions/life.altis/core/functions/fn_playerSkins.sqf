@@ -16,7 +16,7 @@ switch (playerSide) do {
             };
         };
         if (uniform player isEqualTo "U_C_Driver_2") then {
-            player setObjectTextureGlobal [0, "textures\prigioniero.jpg"];
+            player setObjectTextureGlobal [0, "textures\prisoner.jpg"];
         };
     };
 
