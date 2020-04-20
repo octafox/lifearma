@@ -8,7 +8,7 @@ class playerSettings {
     class controlsBackground {};
 
     class controls {
-        class PlayersName: Title {
+        class PlayersName: Life_RscTitle {
             idc = carry_weight;
             style = 1;
             text = "";
