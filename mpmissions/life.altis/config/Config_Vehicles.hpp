@@ -149,6 +149,10 @@ class CarShops {
     };
 };
 
+class B_Bergen_mcamo_F {
+    maximumload = 300;
+}
+
 class LifeCfgVehicles {
     /*
     *    Vehicle Configs (Contains textures and other stuff)
@@ -174,6 +178,9 @@ class LifeCfgVehicles {
     *    etc etc etc
     *
     */
+
+
+
 
     class Default {
         vItemSpace = -1;
@@ -532,15 +539,15 @@ class LifeCfgVehicles {
         price = 15000;
         textures[] = {};
     };
-/*
-To edit another information in this classes you can use this exemple.
-class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{
-    vItemSpace = 40;
-    price = ;
-};
+    /*
+    To edit another information in this classes you can use this exemple.
+    class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{
+        vItemSpace = 40;
+        price = ;
+    };
 
-will modify the virtual space and the price of the vehicle, but other information such as license and textures will pick up the vehicle declare at : Vehicle {};
-*/
+    will modify the virtual space and the price of the vehicle, but other information such as license and textures will pick up the vehicle declare at : Vehicle {};
+    */
     class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{}; // Get all information of C_Kart_01_Blu_F
     class C_Kart_01_Red_F : C_Kart_01_Blu_F{};
     class C_Kart_01_Vrana_F : C_Kart_01_Blu_F{};
