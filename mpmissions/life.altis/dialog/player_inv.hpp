@@ -1,5 +1,4 @@
 #include "player_sys.sqf"
-#include ""
 
 class playerSettings {
     idd = playersys_DIALOG;
