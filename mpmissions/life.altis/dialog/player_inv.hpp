@@ -8,35 +8,30 @@ class playerSettings {
     class controlsBackground {};
 
     class controls {
-        class PlayersName: Life_RscTitle {
-            idc = carry_weight;
-            style = 1;
-            text = "";
-            x = 0.335 * safezoneW + safezoneX;
-            y = 0.334963 * safezoneH + safezoneY;
-            w = 0.273281 * safezoneW;
-            h = 0.022005 * safezoneH;
-            colorText[] = {0.95,0.95,0.95,1};
-        };
         class menuTitle: Life_RscTitle {
             idc = -1;
-            text = "$STR_PM_Title";
-            x = 0.335 * safezoneW + safezoneX;
-            y = 0.334963 * safezoneH + safezoneY;
-            w = 0.273281 * safezoneW;
+
+            text = "Menu Giocatore"; //--- ToDo: Localize;
+            x = 0.335049 * safezoneW + safezoneX;
+            y = 0.343739 * safezoneH + safezoneY;
+            w = 0.28256 * safezoneW;
             h = 0.022005 * safezoneH;
             colorText[] = {0.95,0.95,0.95,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
-        class ButtonClose: Life_RscButtonMenu {
-            idc = -1;
-            //shortcuts[] = {0x00050000 + 2};
-            text = "x"; //--- ToDo:
+        class PlayersName: menuTitle {
+            idc = 2009;
+            style = 1;
+            colorText[] = {0.95,0.95,0.95,1};
+        };
+        class ButtonClose: xeRscIconButton {
             onButtonClick = "closeDialog 0;";
-            x = 0.613437 * safezoneW + safezoneX;
-            y = 0.334963 * safezoneH + safezoneY;
-            w = 0.0154688 * safezoneW;
-            h = 0.022005 * safezoneH;
+            idc = 1002;
+            text = "icons\xeicons\x.paa"; //--- ToDo: Localize;
+            x = 0.618559 * safezoneW + safezoneX;
+            y = 0.343738 * safezoneH + safezoneY;
+            w = 0.0103094 * safezoneW;
+            h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
@@ -99,7 +94,6 @@ class playerSettings {
         };
 
         // inventory
-
         class inventoryTitle: Life_RscText {
             idc = -1;
             text = "$STR_PM_cItems"; //--- ToDo: Localize;

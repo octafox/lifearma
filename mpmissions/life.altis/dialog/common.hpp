@@ -630,6 +630,8 @@ class Life_RscEdit {
     soundExpand[] = {"",0.1,1};
     colorText[] = {0.95, 0.95, 0.95, 1};
     colorDisabled[] = {1, 1, 1, 0.25};
+    colorShadow[] = {0,0,0,0};
+    colorBorder[] = {0,0,0,0};
     autocomplete = false;
     colorSelection[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 1};
     canModify = 1;
