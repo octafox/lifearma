@@ -77,7 +77,7 @@ class Life_key_management {
         class GiveKey: Life_RscButtonMenu {
             idc = 2703;
             text = "$STR_Keys_GiveKey";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+           colorBackground[] = {0.1,0.1,0.1,1};
             onButtonClick = "[] call life_fnc_keyGive";
             x = 0.32;
             y = 0.69;

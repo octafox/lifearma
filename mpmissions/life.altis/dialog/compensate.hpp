@@ -59,7 +59,7 @@ class Life_Admin_Compensate {
         class AdminCompensVer: Life_RscButtonMenu {
             idc = -1;
             text = "$STR_Admin_Compensate";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+           colorBackground[] = {0.1,0.1,0.1,1};
             onButtonClick = "[] spawn life_fnc_adminCompensate;";
             x = 0.27;
             y = 0.40;

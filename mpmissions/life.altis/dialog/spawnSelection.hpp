@@ -69,7 +69,7 @@ class life_spawn_selection {
 
         class spawnButton: Life_RscButtonMenu {
             idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+           colorBackground[] = {0.1,0.1,0.1,1};
             text = "$STR_Spawn_Spawn";
             onButtonClick = "[] call life_fnc_spawnConfirm";
             x = 0.11;
