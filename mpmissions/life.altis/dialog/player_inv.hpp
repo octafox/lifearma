@@ -180,6 +180,7 @@ class playerSettings {
         class btnSettings: xeRscIconButton {
             idc = -1;
             text = "icons\xeicons\settings.paa";
+            tooltip = "settings";
             onButtonClick = "[] call life_fnc_settingsMenu;";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -191,6 +192,7 @@ class playerSettings {
         class btnGang: xeRscIconButton {
             idc = 2011;
             text = "icons\xeicons\gang.paa";
+            tooltip = "gang";
             onButtonClick = "if (isNil ""life_action_gangInUse"") then {if (isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -202,6 +204,7 @@ class playerSettings {
         class btnWantedList: xeRscIconButton {
             idc = 2012;
             text = "icons\xeicons\licenses.paa";
+            tooltip = "licenses";
             onButtonClick = "[] call life_fnc_wantedMenu";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
@@ -213,6 +216,7 @@ class playerSettings {
         class btnKeys: xeRscIconButton {
             idc = 2013;
             text = "icons\xeicons\keys.paa";
+            tooltip = "keys";
             onButtonClick = "createDialog ""Life_key_management"";";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -224,6 +228,7 @@ class playerSettings {
         class btnCell: xeRscIconButton {
             idc = 2014;
             text = "icons\xeicons\phone.paa";
+            tooltip = "phone";
             onButtonClick = "createDialog ""Life_cell_phone"";";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -235,6 +240,7 @@ class playerSettings {
         class btnAdminMenu: xeRscIconButton {
             idc = 2021;
             text = "icons\xeicons\admin.paa";
+            tooltip = "admin";
             onButtonClick = "closeDialog 0; createDialog ""life_admin_menu"";";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
@@ -247,6 +253,7 @@ class playerSettings {
             idc = -1;
             //shortcuts[] = {0x00050000 + 2};
             text = "icons\xeicons\sync.paa";
+            tooltip = "sync";
             onButtonClick = "[] call SOCK_fnc_syncData;";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -258,6 +265,7 @@ class playerSettings {
         class btnLicenses: xeRscIconButton {
             idc = -1;
             text = "icons\xeicons\licenses.paa"; //--- ToDo: Localize;
+            tooltip = "licenses";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;

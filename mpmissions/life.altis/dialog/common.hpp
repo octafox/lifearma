@@ -23,7 +23,7 @@ class xeRscIconButton {
     w = 0.2;
     h = 0.15;
 
-    tooltip = "Lista Ricercati"
+    tooltip = "Lista Ricercati";
     tooltipColorBox[] = {1,1,1,0};
     tooltipColorText[] = { 1, 1, 1, 1 };
     tooltipColorShade[] = { 0, 0, 0, 0.65 };
