@@ -184,7 +184,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundKeys: xeRscIconButton {
+        class buttonBackgroundKeys: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
@@ -193,7 +193,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundGang: xeRscIconButton {
+        class buttonBackgroundGang: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
@@ -202,7 +202,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundCell: xeRscIconButton {
+        class buttonBackgroundCell: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
@@ -211,7 +211,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundSyncData: xeRscIconButton {
+        class buttonBackgroundSyncData: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
@@ -220,7 +220,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundSettings: xeRscIconButton {
+        class buttonBackgroundSettings: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
@@ -229,7 +229,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundAdminMenu: xeRscIconButton {
+        class buttonBackgroundAdminMenu: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
@@ -238,7 +238,7 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundWantedList: xeRscIconButton {
+        class buttonBackgroundWantedList: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
