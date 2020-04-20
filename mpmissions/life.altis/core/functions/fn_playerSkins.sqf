@@ -21,7 +21,7 @@ switch (playerSide) do {
     };
 
     case west: {
-        if (uniform player isEqualTo "U_BG_Guerrilla_6_1") then {
+        if (uniform player isEqualTo "U_I_CombatUniform") then {
             _skinName = "textures\cop_uniform.jpg";
             player setObjectTextureGlobal [0, _skinName];
         };
