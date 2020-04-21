@@ -292,13 +292,7 @@ class Clothing {
             { "B_Bergen_dgtl_F", "", 36000, "" },
             { "B_Bergen_hex_F", "", 36000, "" },
             { "B_Bergen_tna_F", "", 36000, "" },
-            { "B_Parachute", "", 120, "" },
-            { "B_Respawn_TentDome_F", "", 120, "" },
-            { "B_Respawn_TentA_F", "", 120, "" },
-            { "B_Respawn_Sleeping_bag_F", "", 120, "" },
-            { "B_Respawn_Sleeping_bag_blue_F", "", 120, "" },
-            { "B_Respawn_Sleeping_bag_brown_F", "", 120, "" },
-            { "B_Patrol_Respawn_bag_F", "", 120, "" }
+            { "B_Parachute", "", 120, "" }
         };
     };
 

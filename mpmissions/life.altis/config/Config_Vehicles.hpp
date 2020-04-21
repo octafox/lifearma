@@ -170,10 +170,6 @@ class CarShops {
     };
 };
 
-class B_Bergen_mcamo_F {
-    maximumload = 300;
-}
-
 class LifeCfgVehicles {
     /*
     *    Vehicle Configs (Contains textures and other stuff)
