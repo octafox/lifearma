@@ -5,7 +5,9 @@ class xe_licenseGui {
     enableSimulation = 1;
     onLoad = "[] spawn life_fnc_xe_licenseGui;";
 
-    class controlsBackground {
+    class controlsBackground {};
+
+    class controls {
         class licenseBackground: Life_RscText {
             x = 0.41237 * safezoneW + safezoneX;
             y = 0.356944 * safezoneH + safezoneY;
@@ -13,10 +15,7 @@ class xe_licenseGui {
             h = 0.231091 * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
-    };
-
-    class controls {
-        class licenseTitle: Life_RscTitle {
+        class licenseTitle: Life_RscText {
             text = "Licenze";
             x = 0.41237 * safezoneW + safezoneX;
             y = 0.334935 * safezoneH + safezoneY;

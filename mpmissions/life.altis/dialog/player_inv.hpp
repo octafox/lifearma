@@ -26,11 +26,11 @@ class playerSettings {
             colorBackground[] = {0,0,0,0};
         };
         class ButtonBackgroundClose: Life_RscPicture {
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.618559 * safezoneW + safezoneX;
             y = 0.343738 * safezoneH + safezoneY;
             w = 0.0103094 * safezoneW;
             h = 0.0220087 * safezoneH;
-            colorBackground[] = {0,0,0,0.8};
         };
         class ButtonClose: xeRscIconButton {
             onButtonClick = "closeDialog 0;";
@@ -121,7 +121,7 @@ class playerSettings {
         };
         class inventoryList: Life_RscListBox {
             idc = item_list;
-            sizeEx = 0.05;
+            sizeEx = 0.04;
             x = 0.530928 * safezoneW + safezoneX;
             y = 0.392158 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
