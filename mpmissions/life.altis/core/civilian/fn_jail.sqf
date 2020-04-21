@@ -17,6 +17,8 @@ if !(_unit isEqualTo player) exitWith {}; //Dafuq?
 if (life_is_arrested) exitWith {}; //Dafuq i'm already arrested
 _illegalItems = LIFE_SETTINGS(getArray,"jail_seize_vItems");
 
+private _pUniform = M_CONFIG(getArray,"Loadouts",str(playerSide),"uniform");
+
 player setVariable ["restrained",false,true];
 player setVariable ["Escorting",false,true];
 player setVariable ["transporting",false,true];
@@ -45,6 +47,8 @@ if (player distance (getMarkerPos "jail_marker") > 40) then {
 } forEach _illegalItems;
 
 life_is_arrested = true;
+
+player forceAddUniform (_pUniform select 0);
 
 if (LIFE_SETTINGS(getNumber,"jail_seize_inventory") isEqualTo 1) then {
     [] spawn life_fnc_seizeClient;
