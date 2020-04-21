@@ -51,8 +51,8 @@ class Life_Settings {
     respawn_timer = 5; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
 
     /* Channel 7 News Station Configurations */
-    news_broadcast_cost = 1500000; //Cost for a player to send a news station broadcast.
-    news_broadcast_cooldown = 20; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
+    news_broadcast_cost = 50000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cooldown = 30; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
     news_broadcast_header_length = 60; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
 
     /* Clothing System Configurations */
@@ -100,7 +100,7 @@ class Life_Settings {
     jail_seize_inventory = false; //Set to true to run the cop seize script on inmates. False will remove only weapons and magazines otherwise. (Basically used in case cops forget to seize items). [See Lines 127-131 below]
     sendtoJail_locations[] = { "police_hq_1", "police_hq_2", "cop_spawn_3", "cop_spawn_5", "Correctional_Facility" }; //Enter the variableName from the mission.sqm here to allow cops to send a person to jail at these locations.
     jail_forceWalk = true;
-    jail_timeMultiplier = 15; //Put in minutes how long you want your victim in jail.
+    jail_timeMultiplier = 10; //Put in minutes how long you want your victim in jail.
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
@@ -110,9 +110,9 @@ class Life_Settings {
     hospital_heal_fee = 100; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 10000; //Amount of cash in bank for new cops
-    bank_civ = 10000; //Amount of cash in bank for new civillians
-    bank_med = 10000; //Amount of cash in bank for new medics
+    bank_cop = 25000; //Amount of cash in bank for new cops
+    bank_civ = 25000; //Amount of cash in bank for new civillians
+    bank_med = 25000; //Amount of cash in bank for new medics
 
     paycheck_cop = 500; //Payment for cops
     paycheck_civ = 500; //Payment for civillians

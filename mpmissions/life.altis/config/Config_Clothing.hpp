@@ -229,15 +229,15 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_LegStrapBag_black_F", "", 1100, "" }, // spazio 44
+            { "B_LegStrapBag_black_F", "", 1100, "" }, // spazio 
             { "B_LegStrapBag_coyote_F", "", 1100, "" },
             { "B_LegStrapBag_olive_F", "", 1100, "" },
-            { "B_Messenger_Coyote_F", "", 1400, "" }, // spazio 59
+            { "B_Messenger_Coyote_F", "", 1400, "" }, // spazio 
             { "B_Messenger_Olive_F", "", 1400, "" },
             { "B_Messenger_Black_F", "", 1400, "" },
             { "B_Messenger_Gray_F", "", 1400, "" },
             { "B_Messenger_IDAP_F", "", 1400, "" },
-            { "B_AssaultPack_khk", "", 1600, "" }, // spazio 64
+            { "B_AssaultPack_khk", "", 1600, "" }, // spazio 
             { "B_AssaultPack_dgtl", "", 1600, "" },
             { "B_AssaultPack_rgr", "", 1600, "" },
             { "B_AssaultPack_sgg", "", 1600, "" },
@@ -248,7 +248,7 @@ class Clothing {
             { "B_AssaultPack_tna_F", "", 1600, "" },
             { "B_AssaultPack_wdl_F", "", 1600, "" },
             { "B_AssaultPack_eaf_F", "", 1600, "" },
-            { "B_FieldPack_oli", "", 1800, "" }, // spazio 74
+            { "B_FieldPack_oli", "", 1800, "" }, // spazio 
             { "B_FieldPack_khk", "", 1800, "" },
             { "B_FieldPack_ocamo", "", 1800, "" },
             { "B_FieldPack_oucamo", "", 1800, "" },
@@ -257,27 +257,27 @@ class Clothing {
             { "B_FieldPack_ghex_F", "", 1800, "" },
             { "B_FieldPack_green_F", "", 1800, "" }, 
             { "B_FieldPack_taiga_F", "", 1800, "" },
-            { "B_TacticalPack_rgr", "", 2100, "" }, // spazio 84
+            { "B_TacticalPack_rgr", "", 2100, "" }, // spazio 
             { "B_TacticalPack_mcamo", "", 2100, "" },
             { "B_TacticalPack_ocamo", "", 2100, "" },
             { "B_TacticalPack_blk", "", 2100, "" },
             { "B_TacticalPack_oli", "", 2100, "" },
-            { "B_ViperLightHarness_blk_F", "", 2200, "" }, // spazio 89
+            { "B_ViperLightHarness_blk_F", "", 2200, "" }, // spazio 
             { "B_ViperLightHarness_ghex_F", "", 2200, "" },
             { "B_ViperLightHarness_hex_F", "", 2200, "" },
             { "B_ViperLightHarness_khk_F", "", 2200, "" },
             { "B_ViperLightHarness_oli_F", "", 2200, "" },
-            { "B_Kitbag_rgr", "", 2300, "" }, // spazio 94
+            { "B_Kitbag_rgr", "", 2300, "" }, // spazio 
             { "B_Kitbag_mcamo", "", 2300, "" },
             { "B_Kitbag_sgg", "", 2300, "" },
             { "B_Kitbag_cbr", "", 2300, "" },
             { "B_Kitbag_tan", "", 2300, "" },
-            { "B_ViperHarness_blk_F", "", 2400, "" }, // spazio 99
+            { "B_ViperHarness_blk_F", "", 2400, "" }, // spazio 
             { "B_ViperHarness_ghex_F", "", 2400, "" },
             { "B_ViperHarness_hex_F", "", 2400, "" },
             { "B_ViperHarness_khk_F", "", 2400, "" },
             { "B_ViperHarness_oli_F", "", 2400, "" },
-            { "B_Carryall_green_F", "", 2600, "" }, // spazio 104
+            { "B_Carryall_green_F", "", 2600, "" }, // spazio 
             { "B_Carryall_ocamo", "", 2600, "" },
             { "B_Carryall_oucamo", "", 2600, "" },
             { "B_Carryall_mcamo", "", 2600, "" },
@@ -288,7 +288,7 @@ class Clothing {
             { "B_Carryall_taiga_F", "", 2600, "" },
             { "B_Carryall_wdl_F", "", 2600, "" },
             { "B_Carryall_eaf_F", "", 2600, "" },
-            { "B_Bergen_mcamo_F", "", 3600, "" }, // spazio 144
+            { "B_Bergen_mcamo_F", "", 3600, "" }, // spazio 
             { "B_Bergen_dgtl_F", "", 3600, "" },
             { "B_Bergen_hex_F", "", 3600, "" },
             { "B_Bergen_tna_F", "", 3600, "" },

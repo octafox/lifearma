@@ -43,7 +43,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 45000;
+        price = 65000;
         illegal = false;
         side = "civ";
     };
@@ -59,7 +59,7 @@ class Licenses {
     class home {
         variable = "home";
         displayName = "STR_License_Home";
-        price = 150000;
+        price = 250000;
         illegal = false;
         side = "civ";
     };
@@ -108,7 +108,7 @@ class Licenses {
     class copper {
         variable = "copper";
         displayName = "STR_License_Copper";
-        price = 15000;
+        price = 10000;
         illegal = false;
         side = "civ";
     };
@@ -166,7 +166,7 @@ class Licenses {
     class cAir {
         variable = "cAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 10000;
         illegal = false;
         side = "cop";
     };
@@ -183,7 +183,7 @@ class Licenses {
     class mAir {
         variable = "mAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 10s000;
         illegal = false;
         side = "med";
     };
