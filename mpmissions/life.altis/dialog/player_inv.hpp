@@ -25,6 +25,13 @@ class playerSettings {
             colorText[] = {0.95,0.95,0.95,1};
             colorBackground[] = {0,0,0,0};
         };
+        class ButtonBackgroundClose: Life_RscPicture {
+            x = 0.618559 * safezoneW + safezoneX;
+            y = 0.343738 * safezoneH + safezoneY;
+            w = 0.0103094 * safezoneW;
+            h = 0.0220087 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
         class ButtonClose: xeRscIconButton {
             onButtonClick = "closeDialog 0;";
             idc = 1002;
