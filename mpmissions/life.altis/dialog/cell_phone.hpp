@@ -46,6 +46,7 @@ class Life_cell_phone {
         };
         class textEdit: Life_RscEdit {
             idc = 3003;
+            text = "";
             x = 0.407215 * safezoneW + safezoneX;
             y = 0.389957 * safezoneH + safezoneY;
             w = 0.170106 * safezoneW;
