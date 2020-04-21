@@ -38,7 +38,7 @@ class Life_Client_Core {
     class xefunc {
         file = "core\xescripts";
         class xe_hud {};
-        class xe_licenseGui {};
+        class xe_licenseGuiInit {};
         class ussTeleport {};
     };
 
