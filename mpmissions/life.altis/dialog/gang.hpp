@@ -36,8 +36,7 @@ class Life_My_Gang_Diag {
             h = (1 / 25);
         };
 
-        class GangMemberList: Life_RscListBox
-        {
+        class GangMemberList: Life_RscListBox {
             idc = 2621;
             text = "";
             sizeEx = 0.035;

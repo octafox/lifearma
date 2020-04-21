@@ -680,10 +680,10 @@
             <Original>Portachiavi - Lista delle Chiavi</Original>
         </Key>
         <Key ID="STR_Keys_DropKey">
-            <Original>Abbandona Chiave</Original>
+            <Original>Butta la chiave</Original>
         </Key>
         <Key ID="STR_Keys_GiveKey">
-            <Original>Dai Chiave</Original>
+            <Original>Dai la chiave</Original>
         </Key>
     </Package>
     <Package name="Player_Menu">
