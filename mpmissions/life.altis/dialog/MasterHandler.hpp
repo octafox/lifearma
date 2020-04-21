@@ -28,4 +28,4 @@
 #include "compensate.hpp"
 #include "FuelStat.hpp"
 #include "newsStation.hpp"
-#include "licenseGui.hpp"
+#include "xe_licenseGui.hpp"
