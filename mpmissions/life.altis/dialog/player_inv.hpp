@@ -258,6 +258,7 @@ class playerSettings {
             idc = -1;
             text = "icons\xeicons\licenses.paa";
             tooltip = "licenses";
+            onButtonClick = "createDialog ""xe_licenseGui"";";
             x = 0.441219 * safezoneW + safezoneX;
             y = 0.374572 * safezoneH + safezoneY;
             w = 0.0195937 * safezoneW;
