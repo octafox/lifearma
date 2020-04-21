@@ -114,7 +114,7 @@ class playerSettings {
         };
         class inventoryList: Life_RscListBox {
             idc = item_list;
-            sizeEx = 0.020;
+            sizeEx = 0.05;
             x = 0.530928 * safezoneW + safezoneX;
             y = 0.392158 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
