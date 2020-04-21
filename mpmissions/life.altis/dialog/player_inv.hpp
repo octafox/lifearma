@@ -23,6 +23,7 @@ class playerSettings {
             idc = 2009;
             style = 1;
             colorText[] = {0.95,0.95,0.95,1};
+            colorBackground[] = {0,0,0,0};
         };
         class ButtonClose: xeRscIconButton {
             onButtonClick = "closeDialog 0;";
