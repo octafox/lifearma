@@ -1,17 +1,17 @@
 
 class xeCfg_backpacks {
     class B_Parachute {
-        vInvSize = 40;
+        vInvSize = 26;
     };
 
     class B_LegStrapBag_black_F {
-        vInvSize = 44;
+        vInvSize = 26;
     };
     class B_LegStrapBag_coyote_F : B_LegStrapBag_black_F {};
     class B_LegStrapBag_olive_F : B_LegStrapBag_black_F {};
 
     class B_Messenger_Coyote_F {
-        vInvSize = 59;
+        vInvSize = 26;
     };
     class B_Messenger_Olive_F : B_Messenger_Coyote_F {};
     class B_Messenger_Black_F : B_Messenger_Coyote_F {};
@@ -19,7 +19,7 @@ class xeCfg_backpacks {
     class B_Messenger_IDAP_F : B_Messenger_Coyote_F {};
 
     class B_AssaultPack_khk {
-        vInvSize = 64;
+        vInvSize = 26;
     };
     class B_AssaultPack_dgtl : B_AssaultPack_khk {};
     class B_AssaultPack_rgr : B_AssaultPack_khk {};
@@ -33,7 +33,7 @@ class xeCfg_backpacks {
     class B_AssaultPack_eaf_F : B_AssaultPack_khk {};
 
     class B_FieldPack_oli {
-        vInvSize = 74;
+        vInvSize = 26;
     };
     class B_FieldPack_khk : B_FieldPack_oli {};
     class B_FieldPack_ocamo : B_FieldPack_oli {};
@@ -45,7 +45,7 @@ class xeCfg_backpacks {
     class B_FieldPack_taiga_F : B_FieldPack_oli {};
 
     class B_TacticalPack_rgr {
-        vInvSize = 84;
+        vInvSize = 26;
     };
     class B_TacticalPack_mcamo : B_TacticalPack_rgr {};
     class B_TacticalPack_ocamo : B_TacticalPack_rgr {};
@@ -53,7 +53,7 @@ class xeCfg_backpacks {
     class B_TacticalPack_oli : B_TacticalPack_rgr {};
 
     class B_ViperLightHarness_blk_F {
-        vInvSize = 89;
+        vInvSize = 26;
     };
     class B_ViperLightHarness_ghex_F : B_ViperLightHarness_blk_F {};
     class B_ViperLightHarness_hex_F : B_ViperLightHarness_blk_F {};
@@ -61,7 +61,7 @@ class xeCfg_backpacks {
     class B_ViperLightHarness_oli_F : B_ViperLightHarness_blk_F {};
 
     class B_Kitbag_rgr {
-        vInvSize = 94;
+        vInvSize = 26;
     };
     class B_Kitbag_mcamo : B_Kitbag_rgr {};
     class B_Kitbag_sgg : B_Kitbag_rgr {};
@@ -69,7 +69,7 @@ class xeCfg_backpacks {
     class B_Kitbag_tan : B_Kitbag_rgr {};
 
     class B_ViperHarness_blk_F {
-        vInvSize = 99;
+        vInvSize = 26;
     };
     class B_ViperHarness_ghex_F : B_ViperHarness_blk_F {};
     class B_ViperHarness_hex_F : B_ViperHarness_blk_F {};
@@ -77,7 +77,7 @@ class xeCfg_backpacks {
     class B_ViperHarness_oli_F : B_ViperHarness_blk_F {};
 
     class B_Carryall_green_F {
-        vInvSize = 200;
+        vInvSize = 40;
     };
     class B_Carryall_ocamo : B_Carryall_green_F {};
     class B_Carryall_oucamo : B_Carryall_green_F {};
@@ -91,7 +91,7 @@ class xeCfg_backpacks {
     class B_Carryall_eaf_F : B_Carryall_green_F {};
 
     class B_Bergen_mcamo_F {
-        vInvSize = 600;
+        vInvSize = 52;
     };
     class B_Bergen_dgtl_F : B_Bergen_mcamo_F {};
     class B_Bergen_hex_F : B_Bergen_mcamo_F {};
