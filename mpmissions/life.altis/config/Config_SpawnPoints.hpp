@@ -79,7 +79,7 @@ class CfgSpawnPoints {
 
             class ctrg {
                 displayName = "CTRG";
-                spawnMarker = "ctrg_air_2";
+                spawnMarker = "ctrg_spawn_1";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
                 conditions = "call life_coplevel >= 5";
             };
