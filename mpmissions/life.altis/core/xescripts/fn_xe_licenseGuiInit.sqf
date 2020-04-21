@@ -1,3 +1,9 @@
+#include "..\..\script_macros.hpp"
+/*
+	Author: xedom
+*/
+
+_side = switch (playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
 
 _lic = CONTROL(8010,8011);
 _struct = "";
