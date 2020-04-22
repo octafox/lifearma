@@ -23,7 +23,7 @@ class xeRscIconButton {
     w = 0.2;
     h = 0.15;
 
-    tooltip = "Lista Ricercati";
+    tooltip = "";
     tooltipColorBox[] = {1,1,1,0};
     tooltipColorText[] = { 1, 1, 1, 1 };
     tooltipColorShade[] = { 0, 0, 0, 0.65 };
@@ -42,7 +42,7 @@ class xeRscIconButton {
     soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick",0.09,1};
     soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1};
 
-    action = "hint 'ciao'";
+    action = "";
 };
 
 class Life_Checkbox {

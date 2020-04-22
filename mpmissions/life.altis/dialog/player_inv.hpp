@@ -1,7 +1,7 @@
-#include "player_sys.sqf"
+#include "guiIds_macros.hpp"
 
 class playerSettings {
-    idd = playersys_DIALOG;
+    idd = ID_playerSettings;
     movingEnable = 1;
     enableSimulation = 1;
 
@@ -10,8 +10,7 @@ class playerSettings {
     class controls {
 // title
         class menuTitle: Life_RscTitle {
-            idc = -1;
-
+            idc = ID_menuTitle;
             text = "Menu Giocatore"; //--- ToDo: Localize;
             x = 0.335049 * safezoneW + safezoneX;
             y = 0.343739 * safezoneH + safezoneY;
@@ -20,14 +19,14 @@ class playerSettings {
             colorText[] = {0.95,0.95,0.95,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
-        class PlayersName: menuTitle {
-            idc = 2009;
+        class playersName: menuTitle {
+            idc = ID_playersName;
             style = 1;
             colorText[] = {0.95,0.95,0.95,1};
             colorBackground[] = {0,0,0,0};
         };
-        class ButtonBackgroundClose: Life_RscPicture {
-            idc = -1;
+        class buttonBackgroundClose: Life_RscPicture {
+            idc = ID_buttonBackgroundClose;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.618559 * safezoneW + safezoneX;
             y = 0.343738 * safezoneH + safezoneY;
@@ -35,9 +34,9 @@ class playerSettings {
             h = 0.0220087 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class ButtonClose: xeRscIconButton {
+        class buttonClose: xeRscIconButton {
+            idc = ID_buttonClose;
             onButtonClick = "closeDialog 0;";
-            idc = 1002;
             text = "icons\xeicons\x.paa"; //--- ToDo: Localize;
             x = 0.618559 * safezoneW + safezoneX;
             y = 0.343738 * safezoneH + safezoneY;
@@ -49,7 +48,7 @@ class playerSettings {
 
 // money
         class moneyTitle: Life_RscText {
-            idc = -1;
+            idc = ID_moneyTitle;
             text = "$STR_PM_MoneyStats";
             x = 0.335 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -58,7 +57,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class moneyBackground: Life_RscText {
-            idc = -1;
+            idc = ID_moneyBackground;
             x = 0.335 * safezoneW + safezoneX;
             y = 0.389975 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
@@ -66,7 +65,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.7};
         };
         class moneyInfo: Life_RscStructuredText {
-            idc = 2015;
+            idc = ID_moneyInfo;
             sizeEx = 0.020;
             text = "";
             x = 0.335 * safezoneW + safezoneX;
@@ -76,7 +75,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class moneyEdit: Life_RscEdit {
-            idc = 2018;
+            idc = ID_moneyEdit;
             text = "1"; //--- ToDo: Localize;
             x = 0.335 * safezoneW + safezoneX;
             y = 0.504401 * safezoneH + safezoneY;
@@ -85,7 +84,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class moneyGive: Life_RscButtonMenu {
-            idc = 2001;
+            idc = ID_moneyGive;
             text = "$STR_Global_Give";
             onButtonClick = "[] call life_fnc_giveMoney";
             x = 0.335 * safezoneW + safezoneX;
@@ -96,7 +95,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class moneyNearPlayers: Life_RscCombo {
-            idc = 2022;
+            idc = ID_moneyNearPlayers;
             x = 0.335 * safezoneW + safezoneX;
             y = 0.528606 * safezoneH + safezoneY;
             w = 0.0979687 * safezoneW;
@@ -106,7 +105,7 @@ class playerSettings {
 
 // inventory
         class inventoryTitle: Life_RscText {
-            idc = -1;
+            idc = ID_inventoryTitle;
             text = "$STR_PM_cItems"; //--- ToDo: Localize;
             x = 0.530928 * safezoneW + safezoneX;
             y = 0.367948 * safezoneH + safezoneY;
@@ -115,67 +114,67 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryBackground: Life_RscText {
-            idc = -1;
+            idc = ID_inventoryBackground;
             x = 0.530928 * safezoneW + safezoneX;
             y = 0.389957 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
-            h = 0.231091 * safezoneH;
+            h = 0.242095 * safezoneH;
             colorBackground[] = {0,0,0,0.7};
         };
         class inventoryList: Life_RscListBox {
-            idc = item_list;
+            idc = ID_inventoryList;
             sizeEx = 0.035;
             x = 0.530928 * safezoneW + safezoneX;
-            y = 0.392158 * safezoneH + safezoneY;
+            y = 0.394359 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
-            h = 0.132052 * safezoneH;
+            h = 0.138655 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryEdit: Life_RscEdit {
-            idc = item_edit;
+            idc = ID_inventoryEdit;
             text = "1"; //--- ToDo: Localize;
             x = 0.530928 * safezoneW + safezoneX;
-            y = 0.52641 * safezoneH + safezoneY;
+            y = 0.537415 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
             h = 0.0220087 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryNearPlayers: Life_RscCombo {
-            idc = 2023;
+            idc = ID_inventoryNearPlayers;
             x = 0.530928 * safezoneW + safezoneX;
-            y = 0.55062 * safezoneH + safezoneY;
+            y = 0.561625 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
             h = 0.0220087 * safezoneH;
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
         class inventoryUse: Life_RscButtonMenu {
+            idc = ID_inventoryUse;
             onButtonClick = "[] call life_fnc_useItem;";
-            idc = 1014;
             text = "$STR_Global_Use"; //--- ToDo: Localize;
             x = 0.581445 * safezoneW + safezoneX;
-            y = 0.574829 * safezoneH + safezoneY;
+            y = 0.585834 * safezoneH + safezoneY;
             w = 0.0474234 * safezoneW;
             h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryGive: Life_RscButtonMenu {
-            idc = 2002;
+            idc = ID_inventoryGive;
             onButtonClick = "[] call life_fnc_giveItem;";
             text = "$STR_Global_Give"; //--- ToDo: Localize;
             x = 0.530928 * safezoneW + safezoneX;
-            y = 0.574829 * safezoneH + safezoneY;
+            y = 0.585834 * safezoneH + safezoneY;
             w = 0.0484544 * safezoneW;
             h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
             colorBackground[] = {0.1,0.1,0.1,1};
         };
         class inventoryRemove: Life_RscButtonMenu {
+            idc = ID_inventoryRemove;
             onButtonClick = "[] call life_fnc_removeItem;";
-            idc = -1;
             text = "$STR_Global_Remove"; //--- ToDo: Localize;
             x = 0.530928 * safezoneW + safezoneX;
-            y = 0.596838 * safezoneH + safezoneY;
+            y = 0.610043 * safezoneH + safezoneY;
             w = 0.0979397 * safezoneW;
             h = 0.0220087 * safezoneH;
             colorText[] = {1,1,1,1};
@@ -183,8 +182,8 @@ class playerSettings {
         };
 
 // buttons background
-        class buttonBackgroundLicenses: Life_RscPicture {
-            idc = -1;
+        class buttonBackground1: Life_RscPicture {
+            idc = ID_buttonBackground1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -192,8 +191,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundKeys: Life_RscPicture {
-            idc = -1;
+        class buttonBackground2: Life_RscPicture {
+            idc = ID_buttonBackground2;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -201,8 +200,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundGang: Life_RscPicture {
-            idc = -1;
+        class buttonBackground3: Life_RscPicture {
+            idc = ID_buttonBackground3;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -210,8 +209,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundCell: Life_RscPicture {
-            idc = -1;
+        class buttonBackground4: Life_RscPicture {
+            idc = ID_buttonBackground4;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -219,8 +218,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundSyncData: Life_RscPicture {
-            idc = -1;
+        class buttonBackground5: Life_RscPicture {
+            idc = ID_buttonBackground5;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -228,8 +227,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundSettings: Life_RscPicture {
-            idc = -1;
+        class buttonBackground6: Life_RscPicture {
+            idc = ID_buttonBackground6;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -237,8 +236,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundAdminMenu: Life_RscPicture {
-            idc = -1;
+        class buttonBackground7: Life_RscPicture {
+            idc = ID_buttonBackground7;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
@@ -246,19 +245,82 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackgroundWantedList: Life_RscPicture {
-            idc = -1;
+        class buttonBackground8: Life_RscPicture {
+            idc = ID_buttonBackground8;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
             w = 0.0257812 * safezoneW;
             h = 0.0440099 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground9: Life_RscPicture {
+            idc = ID_buttonBackground9;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.5 * safezoneW + safezoneX;
+            y = 0.477995 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440099 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground10: Life_RscPicture {
+            idc = ID_buttonBackground10;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.438143 * safezoneW + safezoneX;
+            y = 0.533013 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground11: Life_RscPicture {
+            idc = ID_buttonBackground11;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.469072 * safezoneW + safezoneX;
+            y = 0.533013 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground12: Life_RscPicture {
+            idc = ID_buttonBackground12;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.5 * safezoneW + safezoneX;
+            y = 0.533013 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground13: Life_RscPicture {
+            idc = ID_buttonBackground13;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.438143 * safezoneW + safezoneX;
+            y = 0.588035 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground14: Life_RscPicture {
+            idc = ID_buttonBackground14;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.469072 * safezoneW + safezoneX;
+            y = 0.588035 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
+        };
+        class buttonBackground15: Life_RscPicture {
+            idc = ID_buttonBackground15;
+            text = "#(argb,8,8,3)color(0,0,0,0.8)";
+            x = 0.5 * safezoneW + safezoneX;
+            y = 0.588035 * safezoneH + safezoneY;
+            w = 0.0257812 * safezoneW;
+            h = 0.0440098 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
 
 // buttons
         class buttonLicenses: xeRscIconButton {
-            idc = -1;
+            idc = ID_buttonLicenses;
             text = "icons\xeicons\licenses.paa";
             tooltip = "licenses";
             onButtonClick = "createDialog ""xe_licenseGui"";";
@@ -270,7 +332,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
         class buttonKeys: xeRscIconButton {
-            idc = 2013;
+            idc = ID_buttonKeys;
             text = "icons\xeicons\keys.paa";
             tooltip = "keys";
             onButtonClick = "createDialog ""Life_key_management"";";
@@ -282,7 +344,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
         class buttonGang: xeRscIconButton {
-            idc = 2011;
+            idc = ID_buttonGang;
             text = "icons\xeicons\gang.paa";
             tooltip = "gang";
             onButtonClick = "if (isNil ""life_action_gangInUse"") then {if (isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
@@ -293,8 +355,20 @@ class playerSettings {
             colorText[] = {1,1,1,1};
             colorBackground[] = {0,0,0,0.8};
         };
+        class buttonWantedList: xeRscIconButton {
+            idc = ID_buttonWantedList;
+            text = "icons\xeicons\licenses.paa";
+            tooltip = "licenses";
+            onButtonClick = "[] call life_fnc_wantedMenu";
+            x = 0.503094 * safezoneW + safezoneX;
+            y = 0.374572 * safezoneH + safezoneY;
+            w = 0.0195937 * safezoneW;
+            h = 0.030807 * safezoneH;
+            colorText[] = {1,1,1,1};
+            colorBackground[] = {0,0,0,0.8};
+        };
         class buttonPhone: xeRscIconButton {
-            idc = 2014;
+            idc = ID_buttonPhone;
             text = "icons\xeicons\phone.paa";
             tooltip = "phone";
             onButtonClick = "createDialog ""Life_cell_phone"";";
@@ -306,7 +380,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
         class buttonSyncData: xeRscIconButton {
-            idc = -1;
+            idc = ID_buttonSyncData;
             //shortcuts[] = {0x00050000 + 2};
             text = "icons\xeicons\sync.paa";
             tooltip = "sync";
@@ -319,7 +393,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
         class buttonSettings: xeRscIconButton {
-            idc = -1;
+            idc = ID_buttonSettings;
             text = "icons\xeicons\settings.paa";
             tooltip = "settings";
             onButtonClick = "[] call life_fnc_settingsMenu;";
@@ -331,23 +405,11 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
         class buttonAdminMenu: xeRscIconButton {
-            idc = 2021;
+            idc = ID_buttonAdminMenu;
             text = "icons\xeicons\admin.paa";
             tooltip = "admin";
             onButtonClick = "closeDialog 0; createDialog ""life_admin_menu"";";
             x = 0.441219 * safezoneW + safezoneX;
-            y = 0.484597 * safezoneH + safezoneY;
-            w = 0.0195937 * safezoneW;
-            h = 0.030807 * safezoneH;
-            colorText[] = {1,1,1,1};
-            colorBackground[] = {0,0,0,0.8};
-        };
-        class buttonWantedList: xeRscIconButton {
-            idc = 2012;
-            text = "icons\xeicons\licenses.paa";
-            tooltip = "licenses";
-            onButtonClick = "[] call life_fnc_wantedMenu";
-            x = 0.472156 * safezoneW + safezoneX;
             y = 0.484597 * safezoneH + safezoneY;
             w = 0.0195937 * safezoneW;
             h = 0.030807 * safezoneH;
