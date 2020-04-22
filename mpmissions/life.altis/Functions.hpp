@@ -33,13 +33,18 @@ class Life_Client_Core {
         class setupEVH {};
         class survival {};
         class welcomeNotification {};
-    };;
+    };
 
     class xefunc {
         file = "core\xescripts";
         class xe_hud {};
         class xe_licenseGuiInit {};
         class ussTeleport {};
+    };
+
+    class scripts {
+        file = "core\scripts";
+        class atmMarkers {};
     };
 
     class Actions {
