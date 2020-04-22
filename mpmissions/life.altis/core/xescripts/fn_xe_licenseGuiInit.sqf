@@ -1,11 +1,12 @@
 #include "..\..\script_macros.hpp"
+#include "..\..\dialog\guiIds_macros.hpp"
 /*
 	Author: xedom
 */
 
 _side = switch (playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
 
-_lic = CONTROL(8010,8011);
+_lic = CONTROL(ID_xe_licenseGui,ID_xe_licenseGui_licenses);
 _struct = "";
 {
     _displayName = getText(_x >> "displayName");

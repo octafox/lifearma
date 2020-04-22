@@ -3,7 +3,7 @@
 */
 #include "common.hpp"
 #include "shop_items.hpp"
-#include "player_inv.hpp"
+#include "xe_playermenu.hpp"
 #include "gang.hpp"
 #include "key_chain.hpp"
 #include "impound.hpp"

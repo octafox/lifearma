@@ -1,6 +1,6 @@
 #include "guiIds_macros.hpp"
 
-class playerSettings {
+class xe_playermenu {
     idd = ID_xe_playerMenu;
     movingEnable = 1;
     enableSimulation = 1;
@@ -182,8 +182,8 @@ class playerSettings {
         };
 
 // buttons background
-        class buttonBackground1: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground1;
+        class buttonBackground01: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground01;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -191,8 +191,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground2: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground2;
+        class buttonBackground02: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground02;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -200,8 +200,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground3: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground3;
+        class buttonBackground03: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground03;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.36797 * safezoneH + safezoneY;
@@ -209,8 +209,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground4: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground4;
+        class buttonBackground04: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground04;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -218,8 +218,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground5: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground5;
+        class buttonBackground05: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground05;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -227,8 +227,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground6: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground6;
+        class buttonBackground06: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground06;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.422983 * safezoneH + safezoneY;
@@ -236,8 +236,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground7: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground7;
+        class buttonBackground07: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground07;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.438125 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
@@ -245,8 +245,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground8: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground8;
+        class buttonBackground08: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground08;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.469062 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;
@@ -254,8 +254,8 @@ class playerSettings {
             h = 0.0440099 * safezoneH;
             colorBackground[] = {0,0,0,0.8};
         };
-        class buttonBackground9: Life_RscPicture {
-            idc = ID_xe_playerMenu_buttonBackground9;
+        class buttonBackground09: Life_RscPicture {
+            idc = ID_xe_playerMenu_buttonBackground09;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.5 * safezoneW + safezoneX;
             y = 0.477995 * safezoneH + safezoneY;

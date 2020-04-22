@@ -1,4 +1,5 @@
 #include "..\..\script_macros.hpp"
+#include "..\..\dialog\guiIds_macros.hpp"
 /*
     File: fn_p_updateMenu.sqf
     Author: Bryan "Tonic" Boardwine
@@ -10,15 +11,15 @@ private ["_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_si
 disableSerialization;
 
 if (FETCH_CONST(life_adminlevel) < 1) then {
-    ctrlShow[2021,false];
+    ctrlShow[ID_xe_playerMenu_buttonAdminMenu,false];
 };
 
 _side = switch (playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
 
-_inv = CONTROL(2001,2005);
-_near = CONTROL(2001,2022);
-_near_i = CONTROL(2001,2023);
-_mstatus = CONTROL(2001,2015);
+_inv = CONTROL(ID_xe_playerMenu,2005);
+_near = CONTROL(ID_xe_playerMenu,2022);
+_near_i = CONTROL(ID_xe_playerMenu,2023);
+_mstatus = CONTROL(ID_xe_playerMenu,ID_xe_playerMenu_moneyInfo);
 lbClear _inv;
 lbClear _near;
 lbClear _near_i;
@@ -36,7 +37,7 @@ _near_units = [];
 } forEach _near_units;
 
 _mstatus ctrlSetStructuredText parseText format ["<img size='1.3' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t>",[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-ctrlSetText[2009,format ["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
+ctrlSetText[ID_xe_playerMenu_playersName,format ["Spazio: %1 / %2", life_carryWeight, life_maxWeight]];
 
 {
     if (ITEM_VALUE(configName _x) > 0) then {
@@ -48,24 +49,3 @@ ctrlSetText[2009,format ["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
         };
     };
 } forEach ("true" configClasses (missionConfigFile >> "VirtualItems"));
-
-
-// _lic = CONTROL(2001,2014);
-// _struct = "";
-// {
-//     _displayName = getText(_x >> "displayName");
-
-//     if (LICENSE_VALUE(configName _x,_side)) then {
-//         _struct = _struct + format ["%1<br/>",localize _displayName];
-//     };
-// } forEach (format ["getText(_x >> 'side') isEqualTo '%1'",_side] configClasses (missionConfigFile >> "Licenses"));
-
-// if (_struct isEqualTo "") then {
-//     _struct = "No Licenses";
-// };
-
-// _lic ctrlSetStructuredText parseText format ["
-// <t size='0.8px'>
-// %1
-// </t>
-// ",_struct];
