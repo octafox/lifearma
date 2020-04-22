@@ -36,7 +36,7 @@ if (dialog) then {
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);
 showCinemaBorder true;
 life_deathCamera cameraEffect ["Internal","Back"];
-createDialog "DeathScreen";
+createDialog "xe_deathScreen";
 life_deathCamera camSetTarget _unit;
 life_deathCamera camSetRelPos [0,3.5,4.5];
 life_deathCamera camSetFOV .5;

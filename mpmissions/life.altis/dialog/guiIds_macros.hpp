@@ -51,3 +51,11 @@
 #define ID_xe_licenseGui_licenseButtonClose -1
 #define ID_xe_licenseGui_licenseList -1
 #define ID_xe_licenseGui_licenses 4002
+
+//death screen gui
+#define ID_xe_deathScreen 7300
+#define ID_xe_deathScreen_textMedicsOnline 7304
+#define ID_xe_deathScreen_textMedicsNearby 7305
+#define ID_xe_deathScreen_buttonRespawn 7302
+#define ID_xe_deathScreen_buttonMedic 7303
+#define ID_xe_deathScreen_textRespawnTime 7301
