@@ -1,7 +1,7 @@
 #include "guiIds_macros.hpp"
 
 class xe_deathScreen {
-    idd = 7300;
+    idd = ID_xe_deathScreen;
     name = "xe_deathScreen";
     movingEnable = 0;
     enableSimulation = 1;

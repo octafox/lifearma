@@ -1,5 +1,5 @@
 #include "..\..\script_macros.hpp"
-
+#include "..\..\dialog\guiIds_macros.hpp"
 /*
     File: fn_escInterupt.sqf
     Author: Bryan "Tonic" Boardwine
@@ -19,7 +19,7 @@ private _escSync = {
     waitUntil {
         _abortButton ctrlSetText format [localize "STR_NOTF_AbortESC",[(_timeStamp - time),"SS.MS"] call BIS_fnc_secondsToString];
         _abortButton ctrlCommit 0;
-        if (dialog && {isNull (findDisplay 7300)}) then {closeDialog 0};
+        if (dialog && {isNull (findDisplay ID_xe_deathScreen)}) then {closeDialog 0};
 
         round(_timeStamp - time) <= 0 || {isNull (findDisplay 49)}
     };

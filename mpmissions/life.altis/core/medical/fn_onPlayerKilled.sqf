@@ -1,4 +1,5 @@
 #include "..\..\script_macros.hpp"
+#include "..\..\dialog\guiIds_macros.hpp"
 /*
     File: fn_onPlayerKilled.sqf
     Author: Bryan "Tonic" Boardwine
@@ -43,14 +44,14 @@ life_deathCamera camSetFOV .5;
 life_deathCamera camSetFocus [50,0];
 life_deathCamera camCommit 0;
 
-(findDisplay 7300) displaySetEventHandler ["KeyDown","if ((_this select 1) isEqualTo 1) then {true}"]; //Block the ESC menu
+(findDisplay ID_xe_deathScreen) displaySetEventHandler ["KeyDown","if ((_this select 1) isEqualTo 1) then {true}"]; //Block the ESC menu
 
 //Create a thread for something?
 _unit spawn {
     private ["_maxTime","_RespawnBtn","_Timer"];
     disableSerialization;
-    _RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
-    _Timer = ((findDisplay 7300) displayCtrl 7301);
+    _RespawnBtn = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonRespawn);
+    _Timer = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_textRespawnTime);
     if (LIFE_SETTINGS(getNumber,"respawn_timer") < 5) then {
         _maxTime = time + 5;
     } else {
@@ -67,7 +68,7 @@ _unit spawn {
 
 _unit spawn {
     disableSerialization;
-    private _requestBtn = ((findDisplay 7300) displayCtrl 7303);
+    private _requestBtn = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonMedic);
     _requestBtn ctrlEnable false;
     private _requestTime = time + 5;
     waitUntil {round(_requestTime - time) <= 0 || isNull _this};
