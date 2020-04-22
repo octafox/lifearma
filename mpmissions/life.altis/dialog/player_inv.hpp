@@ -8,6 +8,7 @@ class playerSettings {
     class controlsBackground {};
 
     class controls {
+// title
         class menuTitle: Life_RscTitle {
             idc = -1;
 
@@ -26,11 +27,13 @@ class playerSettings {
             colorBackground[] = {0,0,0,0};
         };
         class ButtonBackgroundClose: Life_RscPicture {
+            idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
             x = 0.618559 * safezoneW + safezoneX;
             y = 0.343738 * safezoneH + safezoneY;
             w = 0.0103094 * safezoneW;
             h = 0.0220087 * safezoneH;
+            colorBackground[] = {0,0,0,0.8};
         };
         class ButtonClose: xeRscIconButton {
             onButtonClick = "closeDialog 0;";
@@ -44,7 +47,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
 
-        // money
+// money
         class moneyTitle: Life_RscText {
             idc = -1;
             text = "$STR_PM_MoneyStats";
@@ -101,7 +104,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,0.8};
         };
 
-        // inventory
+// inventory
         class inventoryTitle: Life_RscText {
             idc = -1;
             text = "$STR_PM_cItems"; //--- ToDo: Localize;
@@ -179,7 +182,7 @@ class playerSettings {
             colorBackground[] = {0.1,0.1,0.1,1};
         };
 
-        // buttons background
+// buttons background
         class buttonBackgroundLicenses: Life_RscPicture {
             idc = -1;
             text = "#(argb,8,8,3)color(0,0,0,0.8)";
@@ -253,7 +256,7 @@ class playerSettings {
             colorBackground[] = {0,0,0,0.8};
         };
 
-        // buttons
+// buttons
         class buttonLicenses: xeRscIconButton {
             idc = -1;
             text = "icons\xeicons\licenses.paa";

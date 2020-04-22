@@ -6,7 +6,7 @@ class Life_impound_menu {
     onLoad = "ctrlShow [2330,false];";
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText    {
+        class Life_RscTitleBackground: Life_RscText {
             colorBackground[] = {0.1,0.1,0.1,1};
             idc = -1;
             x = 0.1;
