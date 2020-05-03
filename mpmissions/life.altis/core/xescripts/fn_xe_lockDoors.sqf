@@ -4,7 +4,7 @@
 
 diag_log "[xeScripts] fn_xe_lockDoors runned";
 
-blockerdBuildings = [];
+blockerdBuildings = [civ_block_1,civ_block_2,civ_block_3];
 
 inGameUISetEventHandler ["Action", '
 	_side = side player;
