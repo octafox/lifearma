@@ -116,9 +116,9 @@ class xe_hud {
         class txt_thirst: Life_RscText {
             idc = 1208;
             text = "99"; //--- ToDo: Localize;
-            x = 0.917656 * safezoneW + safezoneX;
+            x = 0.847656 * safezoneW + safezoneX;
             y = 0.937899 * safezoneH + safezoneY;
-            w = 0.0515625 * safezoneW;
+            w = 0.1215625 * safezoneW;
             h = 0.0330075 * safezoneH;
             font = "PuristaMedium";
             style = ST_RIGHT;
@@ -126,9 +126,9 @@ class xe_hud {
         class txt_hunger: Life_RscText {
             idc = 1209;
             text = "99"; //--- ToDo: Localize;
-            x = 0.917656 * safezoneW + safezoneX;
+            x = 0.847656 * safezoneW + safezoneX;
             y = 0.90049 * safezoneH + safezoneY;
-            w = 0.0515625 * safezoneW;
+            w = 0.1215625 * safezoneW;
             h = 0.0330075 * safezoneH;
             font = "PuristaMedium";
             style = ST_RIGHT;
@@ -136,9 +136,9 @@ class xe_hud {
         class txt_health: Life_RscText {
             idc = 1210;
             text = "99"; //--- ToDo: Localize;
-            x = 0.917656 * safezoneW + safezoneX;
+            x = 0.847656 * safezoneW + safezoneX;
             y = 0.863085 * safezoneH + safezoneY;
-            w = 0.0515625 * safezoneW;
+            w = 0.1215625 * safezoneW;
             h = 0.0330075 * safezoneH;
             font = "PuristaMedium";
             style = ST_RIGHT;
@@ -146,9 +146,9 @@ class xe_hud {
         class txt_cash: Life_RscText {
             idc = 1211;
             text = "99"; //--- ToDo: Localize;
-            x = 0.917656 * safezoneW + safezoneX;
+            x = 0.847656 * safezoneW + safezoneX;
             y = 0.825673 * safezoneH + safezoneY;
-            w = 0.0515625 * safezoneW;
+            w = 0.1215625 * safezoneW;
             h = 0.0330075 * safezoneH;
             font = "PuristaMedium";
             style = ST_RIGHT;

@@ -97,7 +97,7 @@ class CarShops {
         side = "med";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "" },
+            { "C_SUV_01_F", "" },
             { "I_Truck_02_medical_F", "" },
             { "O_Truck_03_medical_F", "" },
             { "B_Truck_01_medical_F", "" }
@@ -729,6 +729,9 @@ class LifeCfgVehicles {
             }, "" },
             { "Police", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+            }, "" },
+            { "Medico", "med", {
+                "textures\med\veh\suv_med.jpg"
             }, "" }
         };
     };
