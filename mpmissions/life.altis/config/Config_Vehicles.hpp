@@ -553,7 +553,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\cop\veh\offroad_pula.jpg"
             }, "" }
         };
     };
@@ -706,6 +706,9 @@ class LifeCfgVehicles {
             }, "" },
             { "Black", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            }, "" },
+            { "Police", "cop", {
+                "textures\cop\veh\hatchback_polizia.jpg"
             }, "" }
         };
     };
@@ -787,7 +790,7 @@ class LifeCfgVehicles {
         price = 200000;
         textures[] = {
             { "Police", "cop", {
-                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
+                "textures\cop\veh\hummingbird_polizia.jpg"
             }, "" },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
