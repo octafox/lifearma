@@ -39,12 +39,13 @@ class Life_Client_Core {
         file = "core\xescripts";
         class xe_hud {};
         class xe_licenseGuiInit {};
-        class ussTeleport {};
+        class xe_atmMarkers {};
+        class xe_lockDoors {};
     };
 
     class scripts {
         file = "core\scripts";
-        class atmMarkers {};
+        class brighterNights {};
     };
 
     class Actions {

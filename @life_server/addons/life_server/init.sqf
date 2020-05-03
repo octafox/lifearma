@@ -126,7 +126,8 @@ master_group attachTo[bank_obj,[0,0,0]];
     };
 } forEach allUnits;
 
-[8,true,12] execFSM "\life_server\FSM\timeModule.fsm";
+// _skipDay - _fastNight - _skipNight
+[4,true,12] execFSM "\life_server\FSM\timeModule.fsm";
 
 life_adminLevel = 0;
 life_medicLevel = 0;
