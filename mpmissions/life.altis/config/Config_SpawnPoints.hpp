@@ -21,28 +21,28 @@ class CfgSpawnPoints {
 
             class Pyrgos {
                 displayName = "Pyrgos";
-                spawnMarker = "civ_spawn_2";
+                spawnMarker = "civ_spawn_pyrgos";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "!license_civ_rebel";
             };
 
             class Sofia {
                 displayName = "Sofia";
-                spawnMarker = "civ_spawn_4";
+                spawnMarker = "civ_spawn_sofia";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "!license_civ_rebel";
             };
 
             class Athira {
                 displayName = "Athira";
-                spawnMarker = "civ_spawn_3";
+                spawnMarker = "civ_spawn_athira";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class RebelS {
                 displayName = "Ribelli";
-                spawnMarker = "Rebelop_1";
+                spawnMarker = "reb_spawn_base";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
             };
@@ -51,35 +51,35 @@ class CfgSpawnPoints {
         class Cop {
             class Kavala {
                 displayName = "Kavala";
-                spawnMarker = "cop_spawn_1";
+                spawnMarker = "cop_spawn_kavala";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Athira {
                 displayName = "Athira";
-                spawnMarker = "cop_spawn_3";
+                spawnMarker = "cop_spawn_athira";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
             };
 
             class Pyrgos {
                 displayName = "Pyrgos";
-                spawnMarker = "cop_spawn_2";
+                spawnMarker = "cop_spawn_pyrgos";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
             class Air {
                 displayName = $STR_MAR_Police_Air_HQ;
-                spawnMarker = "cop_spawn_4";
+                spawnMarker = "cop_spawn_airport";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
                 conditions = "";
             };
 
             class ctrg {
                 displayName = "CTRG";
-                spawnMarker = "ctrg_spawn_1";
+                spawnMarker = "ctrg_spawn_base";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
                 conditions = "call life_coplevel >= 5";
             };

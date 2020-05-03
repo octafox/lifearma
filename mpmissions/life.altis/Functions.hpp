@@ -46,6 +46,7 @@ class Life_Client_Core {
     class scripts {
         file = "core\scripts";
         class brighterNights {};
+        class civInteractionMenu {};
     };
 
     class Actions {

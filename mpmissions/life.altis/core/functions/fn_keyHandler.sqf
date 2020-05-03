@@ -111,16 +111,21 @@ switch (_code) do {
     };
 
     //Surrender (Shift + B)
-    case 48: {
-        if (_shift) then {
-            if (player getVariable ["playerSurrender",false]) then {
-                player setVariable ["playerSurrender",false,true];
-            } else {
-                [] spawn life_fnc_surrender;
-            };
-            _handled = true;
-        };
-    };
+	case 48: { //The number, 48, is the key that has to be pressed in order to zip tie someone currently "b"
+	    if(_shift) then {_handled = true;}; //This makes it so they have to hold shift + key(48) to work.
+		if(playerSide in [west,independent]) exitWith {};//Makes it so police and EMS cant zip tie people
+		if !(license_civ_rebel) exitWith { hintSilent "You need a rebel training!"; };//Add required license's. Remove the whole line if you dont want any checks
+		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,east]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		{
+			if([false,"zipties",1] call life_fnc_handleInv) then//Removes the zipties from the inventory
+			{
+				[] call life_fnc_RestrainAction;
+				hintSilent "You have cuffed him! ";
+			} else {
+				hintSilent "You don't have zipties";
+			};
+		};
+     };
 
     //Holster / recall weapon. (Shift + H)
     case 35: {
