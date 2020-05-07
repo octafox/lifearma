@@ -49,3 +49,5 @@ ctrlSetText[ID_xe_playerMenu_playersName,format ["Spazio: %1 / %2", life_carryWe
         };
     };
 } forEach ("true" configClasses (missionConfigFile >> "VirtualItems"));
+
+[] spawn life_fnc_xe_playerMenuStaus;

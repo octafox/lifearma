@@ -3,7 +3,6 @@
 #define ID_xe_playerMenu 3001
 #define ID_xe_playerMenu_menuTitle -1
 #define ID_xe_playerMenu_playersName 3002
-#define ID_xe_playerMenu_buttonBackgroundClose -1
 #define ID_xe_playerMenu_buttonClose -1
 #define ID_xe_playerMenu_moneyTitle -1
 #define ID_xe_playerMenu_moneyBackground -1
@@ -42,6 +41,16 @@
 #define ID_xe_playerMenu_buttonSyncData -1
 #define ID_xe_playerMenu_buttonSettings -1
 #define ID_xe_playerMenu_buttonAdminMenu 3029
+#define ID_xe_playerMenu_buttonRegolamento -1
+#define ID_xe_playerMenu_buttonChangelog -1
+#define ID_xe_playerMenu_stautsBackgroud -1
+#define ID_xe_playerMenu_tsTxt -1
+#define ID_xe_playerMenu_copCounterIcon -1
+#define ID_xe_playerMenu_medCounterIcon -1
+#define ID_xe_playerMenu_civCounterIcon -1
+#define ID_xe_playerMenu_copCountertxt 3030
+#define ID_xe_playerMenu_medCountertxt 3031
+#define ID_xe_playerMenu_civCountertxt 3032
 
 // licenses gui
 #define ID_xe_licenseGui 4001

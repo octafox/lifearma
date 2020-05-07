@@ -41,4 +41,6 @@ if (FETCH_CONST(life_adminlevel) < 1) then {
     ctrlShow[ID_xe_playerMenu_buttonBackground07,false];
 };
 
+
+[] call life_fnc_xe_playerMenuStaus;
 [] call life_fnc_p_updateMenu;

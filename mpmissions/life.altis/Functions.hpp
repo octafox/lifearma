@@ -41,6 +41,7 @@ class Life_Client_Core {
         class xe_licenseGuiInit {};
         class xe_atmMarkers {};
         class xe_lockDoors {};
+        class xe_playerMenuStaus {};
     };
 
     class scripts {
