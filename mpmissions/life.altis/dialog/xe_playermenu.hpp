@@ -17,12 +17,12 @@ class xe_playermenu {
 		w = 0.452812 * safezoneW;
 		h = 0.042 * safezoneH;
 		colorText[] = {0.95,0.95,0.95,1};
-		colorBackground[] = {0.1,0.1,0.1,1};
+		colorBackground[] = {0,0,0,1};
 	};
 	class playersName: menuTitle {
 		idc = ID_xe_playerMenu_playersName;
 		style = 1;
-		w = 0.426562 * safezoneW:
+		w = 0.431562 * safezoneW;
 		colorText[] = {0.95,0.95,0.95,1};
 		colorBackground[] = {0,0,0,0};
 	};
@@ -45,7 +45,7 @@ class xe_playermenu {
 		y = 0.276 * safezoneH + safezoneY;
 		w = 0.1575 * safezoneW;
 		h = 0.042 * safezoneH;
-		colorBackground[] = {0.1,0.1,0.1,1};
+		colorBackground[] = {0,0,0,1};
 	};
 	class moneyBackground: Life_RscText {
 		idc = ID_xe_playerMenu_moneyBackground;
@@ -73,7 +73,7 @@ class xe_playermenu {
 		h = 0.042 * safezoneH;
 		colorBackground[] = {0.1,0.1,0.1,0.8};
 	};
-	class moneyGive: Life_RscButtonMenu {
+	class moneyGive: xeRscButton {
 		idc = ID_xe_playerMenu_moneyGive;
 		text = "Dai"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_giveMoney";
@@ -82,7 +82,7 @@ class xe_playermenu {
 		w = 0.1575 * safezoneW;
 		h = 0.042 * safezoneH;
 		colorText[] = {1,1,1,1};
-		colorBackground[] = {0.1,0.1,0.1,1};
+		colorBackground[] = {0,0,0,0.8};
 	};
 	class moneyNearPlayers: Life_RscCombo {
 		idc = ID_xe_playerMenu_moneyNearPlayers;
@@ -101,7 +101,7 @@ class xe_playermenu {
 		y = 0.276 * safezoneH + safezoneY;
 		w = 0.1575 * safezoneW;
 		h = 0.042 * safezoneH;
-		colorBackground[] = {0.1,0.1,0.1,1};
+		colorBackground[] = {0,0,0,1};
 	};
 	class inventoryBackground: Life_RscText {
 		idc = ID_xe_playerMenu_inventoryBackground;
@@ -113,7 +113,7 @@ class xe_playermenu {
 	};
 	class inventoryList: Life_RscListBox {
 		idc = ID_xe_playerMenu_inventoryList;
-		sizeEx = 0.020;
+		sizeEx = 0.030;
 		x = 0.565625 * safezoneW + safezoneX;
 		y = 0.3264 * safezoneH + safezoneY;
 		w = 0.1575 * safezoneW;
@@ -137,7 +137,7 @@ class xe_playermenu {
 		h = 0.042 * safezoneH;
 		colorBackground[] = {0.1,0.1,0.1,0.8};
 	};
-	class inventoryUse: Life_RscButtonMenu {
+	class inventoryUse: xeRscButton {
 		idc = ID_xe_playerMenu_inventoryUse;
 		text = "Usa"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_useItem;";
@@ -148,7 +148,7 @@ class xe_playermenu {
 		colorText[] = {1,1,1,1};
 		colorBackground[] = {0,0,0,.8};
 	};
-	class inventoryGive: Life_RscButtonMenu {
+	class inventoryGive: xeRscButton {
 		idc = ID_xe_playerMenu_inventoryGive;
 		text = "Dai"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_giveItem;";
@@ -159,7 +159,7 @@ class xe_playermenu {
 		colorText[] = {1,1,1,1};
 		colorBackground[] = {0,0,0,.8};
 	};
-	class inventoryRemove: Life_RscButtonMenu {
+	class inventoryRemove: xeRscButton {
 		idc = ID_xe_playerMenu_inventoryRemove;
 		text = "Rimuovi"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_removeItem;";
@@ -173,7 +173,7 @@ class xe_playermenu {
 
 // buttons background
 	class buttonBackground01: life_RscPicture {
-		idc = ID_xe_playerMenu_buttonBackground0;
+		idc = ID_xe_playerMenu_buttonBackground01;
 		text = "#(argb,8,8,3)color(0,0,0,0.8)"; //--- ToDo: Localize;
 		x = 0.434375 * safezoneW + safezoneX;
 		y = 0.276 * safezoneH + safezoneY;
@@ -236,7 +236,7 @@ class xe_playermenu {
 		colorBackground[] = {0,0,0,0.8};
 	};
 	class buttonBackground08: life_RscPicture {
-		idc = ID_xe_playerMenu_buttonBackground0;
+		idc = ID_xe_playerMenu_buttonBackground08;
 		text = "#(argb,8,8,3)color(0,0,0,0.8)"; //--- ToDo: Localize;
 		x = 0.5 * safezoneW + safezoneX;
 		y = 0.6456 * safezoneH + safezoneY;
@@ -247,7 +247,7 @@ class xe_playermenu {
 
 // buttons
 	class button01: xeRscIconButton { //phone
-		idc = ID_xe_playerMenu_buttonLicenses;
+		idc = ID_xe_playerMenu_buttonPhone;
 		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
 		onButtonClick = "createDialog ""Life_cell_phone"";";
 		tooltip = "phone"; //--- ToDo: Localize;
@@ -290,40 +290,40 @@ class xe_playermenu {
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button04_2: xeRscIconButton { //gang
+	class button05: xeRscIconButton { //wantedlist
 		idc = ID_xe_playerMenu_buttonWantedList;
 		text = "icons\xeicons\gang.paa"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_wantedMenu";
-		tooltip = "gang"; //--- ToDo: Localize;
+		tooltip = "wantedlist"; //--- ToDo: Localize;
 		x = 0.510499 * safezoneW + safezoneX;
 		y = 0.4216 * safezoneH + safezoneY;
 		w = 0.039375 * safezoneW;
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button05: xeRscIconButton { //regolamento
+	class button06: xeRscIconButton { //regolamento
 		idc = ID_xe_playerMenu_buttonRegolamento;
-		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
+		text = "icons\xeicons\rules.paa"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_welcomeNotification;";
-		tooltip = "phone"; //--- ToDo: Localize;
+		tooltip = "regolamento"; //--- ToDo: Localize;
 		x = 0.444876 * safezoneW + safezoneX;
 		y = 0.5448 * safezoneH + safezoneY;
 		w = 0.039375 * safezoneW;
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button06: xeRscIconButton { //changelogs
+	class button07: xeRscIconButton { //changelogs
 		idc = ID_xe_playerMenu_buttonChangelog;
-		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
+		text = "icons\xeicons\changelogs.paa"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_welcomeNotification;";
-		tooltip = "phone"; //--- ToDo: Localize;
+		tooltip = "changelogs"; //--- ToDo: Localize;
 		x = 0.510499 * safezoneW + safezoneX;
 		y = 0.5448 * safezoneH + safezoneY;
 		w = 0.039375 * safezoneW;
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button07: xeRscIconButton { //settings
+	class button08: xeRscIconButton { //settings
 		idc = ID_xe_playerMenu_buttonSettings;
 		text = "icons\xeicons\settings.paa"; //--- ToDo: Localize;
 		onButtonClick = "[] call life_fnc_settingsMenu;";
@@ -334,7 +334,7 @@ class xe_playermenu {
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button08: xeRscIconButton { //syncdate
+	class button09: xeRscIconButton { //syncdate
 		idc = ID_xe_playerMenu_buttonSyncData;
 		text = "icons\xeicons\sync.paa"; //--- ToDo: Localize;
 		onButtonClick = "[] call SOCK_fnc_syncData;";
@@ -345,15 +345,48 @@ class xe_playermenu {
 		h = 0.07 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
-	class button09: xeRscIconButton { //admin
-		idc = ID_xe_playerMenu_buttonSyncData;
+	class button10: xeRscIconButton { //admin
+		idc = ID_xe_playerMenu_buttonAdminMenu;
 		text = "icons\xeicons\admin.paa"; //--- ToDo: Localize;
 		onButtonClick = "closeDialog 0; createDialog ""life_admin_menu"";";
 		tooltip = "admin"; //--- ToDo: Localize;
-		x = 0.738874 * safezoneW + safezoneX;
-		y = 0.2984 * safezoneH + safezoneY;
-		w = 0.039375 * safezoneW;
-		h = 0.07 * safezoneH;
+		x = 0.434375 * safezoneW + safezoneX;
+		y = 0.2312 * safezoneH + safezoneY;
+		w = 0.018375 * safezoneW;
+		h = 0.0308 * safezoneH;
+		colorBackground[] = {0,0,0,0.8};
+	};
+	class button11: xeRscIconButton { //compense
+		idc = ID_xe_playerMenu_buttonAdminMenuCompense;
+		text = "icons\xeicons\income.paa"; //--- ToDo: Localize;
+		onButtonClick = "createDialog ""Life_Admin_Compensate"";";
+		tooltip = "compense"; //--- ToDo: Localize;
+		x = 0.457999 * safezoneW + safezoneX;
+		y = 0.2312 * safezoneH + safezoneY;
+		w = 0.018375 * safezoneW;
+		h = 0.0308 * safezoneH;
+		colorBackground[] = {0,0,0,0.8};
+	};
+	class button12: xeRscIconButton { //goodmode
+		idc = ID_xe_playerMenu_buttonAdminMenuGodMode;
+		text = "icons\xeicons\godmode.paa"; //--- ToDo: Localize;
+		onButtonClick = "[] call life_fnc_adminGodMode;";
+		tooltip = "godmode"; //--- ToDo: Localize;
+		x = 0.48162 * safezoneW + safezoneX;
+		y = 0.2312 * safezoneH + safezoneY;
+		w = 0.018375 * safezoneW;
+		h = 0.0308 * safezoneH;
+		colorBackground[] = {0,0,0,0.8};
+	};
+	class button13: xeRscIconButton { //teleport
+		idc = ID_xe_playerMenu_buttonAdminMenuTeleport;
+		text = "icons\xeicons\map.paa"; //--- ToDo: Localize;
+		onButtonClick = "[] call life_fnc_adminTeleport; hint 'Select where you would like to teleport';";
+		tooltip = "teleport"; //--- ToDo: Localize;
+		x = 0.503937 * safezoneW + safezoneX;
+		y = 0.2312 * safezoneH + safezoneY;
+		w = 0.018375 * safezoneW;
+		h = 0.0308 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
 
@@ -377,11 +410,11 @@ class xe_playermenu {
 	};
 	class copCounterIcon: life_RscPicture {
 		idc = ID_xe_playerMenu_copCounterIcon;
-		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
-		x = 0.276875 * safezoneW + safezoneX;
+		text = "icons\xeicons\police.paa"; //--- ToDo: Localize;
+		x = 0.275562 * safezoneW + safezoneX;
 		y = 0.7156 * safezoneH + safezoneY;
-		w = 0.013125 * safezoneW;
-		h = 0.028 * safezoneH;
+		w = 0.018375 * safezoneW;
+		h = 0.0308 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
 	class copCountertxt: Life_RscText {
@@ -394,10 +427,10 @@ class xe_playermenu {
 	};
 	class medCounterIcon: life_RscPicture {
 		idc = ID_xe_playerMenu_medCounterIcon;
-		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
+		text = "icons\xeicons\medic.paa"; //--- ToDo: Localize;
 		x = 0.329375 * safezoneW + safezoneX;
 		y = 0.7156 * safezoneH + safezoneY;
-		w = 0.013125 * safezoneW;
+		w = 0.018375 * safezoneW;
 		h = 0.028 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};
@@ -411,10 +444,10 @@ class xe_playermenu {
 	};
 	class civCounterIcon: life_RscPicture {
 		idc = ID_xe_playerMenu_civCounterIcon;
-		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
+		text = "icons\xeicons\civilian.paa"; //--- ToDo: Localize;
 		x = 0.381875 * safezoneW + safezoneX;
 		y = 0.7156 * safezoneH + safezoneY;
-		w = 0.013125 * safezoneW;
+		w = 0.018375 * safezoneW;
 		h = 0.028 * safezoneH;
 		colorBackground[] = {0,0,0,0.8};
 	};

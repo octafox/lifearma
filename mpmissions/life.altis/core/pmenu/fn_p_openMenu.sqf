@@ -12,15 +12,6 @@ if (!alive player || dialog) exitWith {}; //Prevent them from opening this for e
 createDialog "xe_playermenu";
 disableSerialization;
 
-ctrlShow[ID_xe_playerMenu_buttonBackground08, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground09, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground10, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground11, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground12, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground13, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground14, false];
-ctrlShow[ID_xe_playerMenu_buttonBackground15, false];
-
 switch (playerSide) do {
     case west: {
         ctrlShow[ID_xe_playerMenu_buttonGang,false];
@@ -38,7 +29,9 @@ switch (playerSide) do {
 
 if (FETCH_CONST(life_adminlevel) < 1) then {
     ctrlShow[ID_xe_playerMenu_buttonAdminMenu,false];
-    ctrlShow[ID_xe_playerMenu_buttonBackground07,false];
+    ctrlShow[ID_xe_playerMenu_buttonAdminMenuCompense,false];
+    ctrlShow[ID_xe_playerMenu_buttonAdminMenuGodMode,false];
+    ctrlShow[ID_xe_playerMenu_buttonAdminMenuTeleport,false];
 };
 
 

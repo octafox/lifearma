@@ -18,6 +18,7 @@
 #define ID_xe_playerMenu_inventoryUse -1
 #define ID_xe_playerMenu_inventoryGive 2002 // non modificare
 #define ID_xe_playerMenu_inventoryRemove -1
+
 #define ID_xe_playerMenu_buttonBackground01 3011
 #define ID_xe_playerMenu_buttonBackground02 3012
 #define ID_xe_playerMenu_buttonBackground03 3013
@@ -26,13 +27,7 @@
 #define ID_xe_playerMenu_buttonBackground06 3016
 #define ID_xe_playerMenu_buttonBackground07 3017
 #define ID_xe_playerMenu_buttonBackground08 3018
-#define ID_xe_playerMenu_buttonBackground09 3019
-#define ID_xe_playerMenu_buttonBackground10 3020
-#define ID_xe_playerMenu_buttonBackground11 3021
-#define ID_xe_playerMenu_buttonBackground12 3022
-#define ID_xe_playerMenu_buttonBackground13 3023
-#define ID_xe_playerMenu_buttonBackground14 3024
-#define ID_xe_playerMenu_buttonBackground15 3025
+
 #define ID_xe_playerMenu_buttonLicenses -1
 #define ID_xe_playerMenu_buttonKeys 2013 // non modificare
 #define ID_xe_playerMenu_buttonGang 3027
@@ -41,8 +36,12 @@
 #define ID_xe_playerMenu_buttonSyncData -1
 #define ID_xe_playerMenu_buttonSettings -1
 #define ID_xe_playerMenu_buttonAdminMenu 3029
+#define ID_xe_playerMenu_buttonAdminMenuCompense 3019
+#define ID_xe_playerMenu_buttonAdminMenuGodMode 3020
+#define ID_xe_playerMenu_buttonAdminMenuTeleport 3021
 #define ID_xe_playerMenu_buttonRegolamento -1
 #define ID_xe_playerMenu_buttonChangelog -1
+
 #define ID_xe_playerMenu_stautsBackgroud -1
 #define ID_xe_playerMenu_tsTxt -1
 #define ID_xe_playerMenu_copCounterIcon -1

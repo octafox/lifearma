@@ -36,7 +36,14 @@ _near_units = [];
     };
 } forEach _near_units;
 
-_mstatus ctrlSetStructuredText parseText format ["<img size='1.3' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t>",[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+_mstatus ctrlSetStructuredText parseText format [
+    "<img size='1.3' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t><br/><img size='1.3' image='icons\xeicon\income.paa'/> <t size='0.8px'>$%3 / %4 min</t>",
+    [BANK] call life_fnc_numberText,
+    [CASH] call life_fnc_numberText,
+    str(call life_paycheck),
+    str(getNumber(missionConfigFile >> "Life_Settings" >> "paycheck_period"))
+];
+
 ctrlSetText[ID_xe_playerMenu_playersName,format ["Spazio: %1 / %2", life_carryWeight, life_maxWeight]];
 
 {
@@ -50,4 +57,4 @@ ctrlSetText[ID_xe_playerMenu_playersName,format ["Spazio: %1 / %2", life_carryWe
     };
 } forEach ("true" configClasses (missionConfigFile >> "VirtualItems"));
 
-[] spawn life_fnc_xe_playerMenuStaus;
+[] call life_fnc_xe_playerMenuStaus;
