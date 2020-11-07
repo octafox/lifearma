@@ -358,7 +358,7 @@ class xe_playermenu {
 	};
 	class button11: xeRscIconButton { //compense
 		idc = ID_xe_playerMenu_buttonAdminMenuCompense;
-		text = "icons\xeicons\income.paa"; //--- ToDo: Localize;
+		text = "icons\xeicons\\income.paa"; //--- ToDo: Localize;
 		onButtonClick = "createDialog ""Life_Admin_Compensate"";";
 		tooltip = "compense"; //--- ToDo: Localize;
 		x = 0.457999 * safezoneW + safezoneX;
