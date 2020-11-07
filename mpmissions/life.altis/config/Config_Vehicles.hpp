@@ -88,8 +88,7 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
             { "B_G_Offroad_01_F", "" },
-            { "O_MRAP_02_F", "" },
-            { "I_Heli_light_03_unarmed_F", "" }
+            { "O_MRAP_02_F", "" }
         };
     };
 
@@ -119,9 +118,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", "" },
             { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
-            { "B_MRAP_01_F", "call life_coplevel >= 2" },
-            { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" }
+            { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" }
         };
     };
 
