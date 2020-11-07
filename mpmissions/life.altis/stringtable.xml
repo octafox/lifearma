@@ -373,7 +373,7 @@
     </Package>
     <Package name="CellPhone_Messages">
         <Key ID="STR_CELLMSG_EnterMSG">
-            <Original>You must enter a message to send!</Original>
+            <Original>Devi inserire un messaggio!</Original>
         </Key>
         <Key ID="STR_CELLMSG_LIMITEXCEEDED">
             <Original>Your message cannot exceed 400 characters!</Original>
@@ -385,16 +385,16 @@
             <Original>You have sent a message to all EMS Units.</Original>
         </Key>
         <Key ID="STR_CELLMSG_ToPerson">
-            <Original>You sent %1 a message: %2</Original>
+            <Original>Hai inviato %1 un messaggio: %2</Original>
         </Key>
         <Key ID="STR_CELLMSG_NoAdmin">
-            <Original>You are not an admin!</Original>
+            <Original>Non sei un Admin!</Original>
         </Key>
         <Key ID="STR_CELLMSG_AdminToPerson">
             <Original>Admin Message Sent To: %1 - Message: %2</Original>
         </Key>
         <Key ID="STR_CELLMSG_AdminToAll">
-            <Original>Admin Message Sent To All: %1</Original>
+            <Original>Messaggio dell'Admin inviato a tutti: %1</Original>
         </Key>
     </Package>
     <Package name="Chop_Shop">
@@ -902,7 +902,7 @@
             <Original>eviscerazione %1</Original>
         </Key>
         <Key ID="STR_NOTF_Guttingfinish">
-            <Original>You have collected some raw %1 meat</Original>
+            <Original>Hai raccolto %1 carne fresca</Original>
         </Key>
         <Key ID="STR_NOTF_CaughtTurtle">
             <Original>Hai raccolto della carne di tartaruga</Original>
