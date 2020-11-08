@@ -304,7 +304,7 @@ class xe_playermenu {
 	class button06: xeRscIconButton { //regolamento
 		idc = ID_xe_playerMenu_buttonRegolamento;
 		text = "icons\xeicons\rules.paa"; //--- ToDo: Localize;
-		onButtonClick = "[] call life_fnc_welcomeNotification;";
+		onButtonClick = "[] call life_fnc_rules;";
 		tooltip = "regolamento"; //--- ToDo: Localize;
 		x = 0.444876 * safezoneW + safezoneX;
 		y = 0.5448 * safezoneH + safezoneY;
@@ -315,7 +315,7 @@ class xe_playermenu {
 	class button07: xeRscIconButton { //changelogs
 		idc = ID_xe_playerMenu_buttonChangelog;
 		text = "icons\xeicons\changelogs.paa"; //--- ToDo: Localize;
-		onButtonClick = "[] call life_fnc_welcomeNotification;";
+		onButtonClick = "[] call life_fnc_changelogs;";
 		tooltip = "changelogs"; //--- ToDo: Localize;
 		x = 0.510499 * safezoneW + safezoneX;
 		y = 0.5448 * safezoneH + safezoneY;
