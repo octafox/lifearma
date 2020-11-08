@@ -3393,31 +3393,31 @@
             <Original>%1 - %2 veicolo ricettato %3 per $%4  Contanti(prima di ricettare): $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle_BEF">
-            <Original>veicolo comprato %1 per $%2. Contanti: $%3  Saldo Banca: $%4</Original> <!-- Tradurre -->
+            <Original>Veicolo comprato %1 per $%2. Contanti: $%3  Saldo Banca: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle">
-            <Original>%1 - %2 veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
-            <Original>veicolo venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>veicolo Venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
-            <Original>%1 - %2 veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang_BEF">
-            <Original>prelevati $%1 dal conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Prelevati $%1 dal conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewGang">
-            <Original>%1 - %2 prelevati $%3 dal conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Prelevati $%3 dal conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang_BEF">
-            <Original>depositati $%1 nel conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Depositati $%1 nel conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositeGang">
-            <Original>%1 - %2 depositati $%3 nel conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Depositati $%3 nel conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank_BEF">
-            <Original>prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
             <Original>%1 - %2 prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
