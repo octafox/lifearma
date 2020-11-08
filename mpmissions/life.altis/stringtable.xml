@@ -3050,10 +3050,10 @@
             <Original>Ospedale Areoporto</Original>
         </Key>
         <Key ID="STR_SP_Cop_Air_N">
-            <Original>North Airport HQ</Original>
+            <Original>QG Polizia Areoportuale Centrale</Original>
         </Key>
         <Key ID="STR_SP_Cop_Air_SW">
-            <Original>South Western Airport HQ</Original>
+            <Original>QG Polizia Areoportuale Secondario</Original>
         </Key>
     </Package>
     <Package name="Crimes">
@@ -3064,10 +3064,10 @@
             <Original>Omicidio colposo</Original>
         </Key>
         <Key ID="STR_Crime_901">
-            <Original>Fuga dalla prigione</Original>
+            <Original>Evasione</Original>
         </Key>
         <Key ID="STR_Crime_215">
-            <Original>Tentativo di furto d'auto</Original>
+            <Original>Tentato furto d'auto</Original>
         </Key>
         <Key ID="STR_Crime_213">
             <Original>Uso di esplosivi illegali</Original>
@@ -3076,7 +3076,7 @@
             <Original>Rapina</Original>
         </Key>
         <Key ID="STR_Crime_207">
-            <Original>Rapimento</Original>
+            <Original>Sequestro di persona</Original>
         </Key>
         <Key ID="STR_Crime_207A">
             <Original>Tentativo di rapimento</Original>
@@ -3115,7 +3115,7 @@
             <Original>Caccia senza licenza</Original>
         </Key>
         <Key ID="STR_Crime_919">
-            <Original>Organo furto</Original>
+            <Original>Furto di Organi</Original>
         </Key>
         <Key ID="STR_Crime_919A">
             <Original>Tentativo furto di organi</Original>
@@ -3166,7 +3166,7 @@
             <Original>Arma Ribelle</Original>
         </Key>
         <Key ID="STR_Crime_16">
-            <Original>abbigliamento illegale</Original>
+            <Original>Abbigliamento illegale</Original>
         </Key>
         <Key ID="STR_Crime_17">
             <Original>Nascondere faccia (Mask)</Original>
