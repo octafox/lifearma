@@ -2829,10 +2829,10 @@
             <Original>Armeria</Original>
         </Key>
         <Key ID="STR_MAR_Heroin_Field">
-            <Original>Opium Poppy Field</Original>
+            <Original>Campo di Oppio</Original>
         </Key>
         <Key ID="STR_MAR_Heroin_Processing">
-            <Original>Processing eroina</Original>
+            <Original>Trattamento eroina</Original>
         </Key>
         <Key ID="STR_MAR_Garage">
             <Original>Box auto</Original>
@@ -2889,7 +2889,7 @@
             <Original>Stazione di rifornimento Conservare</Original>
         </Key>
         <Key ID="STR_MAR_Rebel_Market">
-            <Original>mercato Rebel</Original>
+            <Original>Mercato Ribelle</Original>
         </Key>
         <Key ID="STR_MAR_Question_Dealer">
             <Original>Minaccia Spacciatore</Original>
@@ -2922,7 +2922,7 @@
             <Original>Armeria dei Sergenti</Original>
         </Key>
         <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>di veicoli</Original>
+            <Original>Concessonario</Original>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Lavorazione Sabbia</Original>
@@ -3085,16 +3085,16 @@
             <Original>Uso di stupefacenti in pubblico</Original>
         </Key>
         <Key ID="STR_Crime_487">
-            <Original>grande furto</Original>
+            <Original>Grande furto</Original>
         </Key>
         <Key ID="STR_Crime_488">
-            <Original>piccoli furti</Original>
+            <Original>Piccoli furti</Original>
         </Key>
         <Key ID="STR_Crime_480">
             <Original>Mordi e fuggi</Original>
         </Key>
         <Key ID="STR_Crime_481">
-            <Original>possesso di droga</Original>
+            <Original>Possesso di droga</Original>
         </Key>
         <Key ID="STR_Crime_482">
             <Original>Tentativo di spaccio</Original>
@@ -3103,7 +3103,7 @@
             <Original>Vendita di droga</Original>
         </Key>
         <Key ID="STR_Crime_459">
-            <Original>furto con scasso</Original>
+            <Original>Furto con scasso</Original>
         </Key>
         <Key ID="STR_Crime_666">
             <Original>Evasione delle tasse</Original>
@@ -3115,7 +3115,7 @@
             <Original>Caccia senza licenza</Original>
         </Key>
         <Key ID="STR_Crime_919">
-            <Original>organo furto</Original>
+            <Original>Organo furto</Original>
         </Key>
         <Key ID="STR_Crime_919A">
             <Original>Tentativo furto di organi</Original>
@@ -3420,19 +3420,19 @@
             <Original>Prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
-            <Original>%1 - %2 prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank_BEF">
-            <Original>tasferiti $%1 a %2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Tasferiti $%1 a %2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_transferredBank">
-            <Original>%1 - %2 tasferiti $%3 a %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Tasferiti $%3 a %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
-            <Original>depositati $%1 in Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Depositati $%1 in Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_depositedBank">
-            <Original>%1 - %2 depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
     </Package>
 </Project>
