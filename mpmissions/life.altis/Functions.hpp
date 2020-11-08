@@ -33,6 +33,8 @@ class Life_Client_Core {
         class setupEVH {};
         class survival {};
         class welcomeNotification {};
+        class changelogs {};
+        class rules {};
     };
 
     class xefunc {
