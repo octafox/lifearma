@@ -52,20 +52,20 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_illegalguns";
         items[] = {
-            { "SMG_01_F", "Vektor", 0, 0, "" },
-            { "arifle_SDAR_F", "SDAR", 0, 0, "" },
-            { "arifle_TRG20_F", "TRG", 0, 0, "" },
-            { "arifle_AKS_F", "AKs", 0, 0, "" },
-            { "SMG_02_F", "Sting", 0, 0, "" },
-            { "arifle_Mk20_plain_F", "MK20", 0, 0, "" }
+            { "SMG_01_F", "Vektor", 50000, 0, "" },
+            { "SMG_02_F", "Sting", 65000, 0, "" },
+            { "arifle_SDAR_F", "SDAR", 75000, 0, "" },
+            { "arifle_AKS_F", "AKs", 130000, 0, "" },
+            { "arifle_TRG20_F", "TRG", 135000, 0, "" },
+            { "arifle_Mk20_plain_F", "MK20", 140000, 0, "" }
         };
         mags[] = {
-            { "30Rnd_45ACP_Mag_SMG_01", "", 0, 0, "" },
-            { "20Rnd_556x45_UW_mag", "", 0, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 0, 0, "" },
-            { "30Rnd_545x39_Mag_F", "", 0, 0, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 0, 0, "" }
+            { "30Rnd_45ACP_Mag_SMG_01", "", 1000, 0, "" },
+            { "20Rnd_556x45_UW_mag", "", 3000, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 4000, 0, "" },
+            { "30Rnd_545x39_Mag_F", "", 3500, 0, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 2000, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 4000, 0, "" }
         };
         accs[] = {
             { "", "", 0, 0, "" }
