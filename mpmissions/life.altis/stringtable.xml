@@ -2931,7 +2931,7 @@
             <Original>Processo Roccia</Original>
         </Key>
         <Key ID="STR_MAR_Wong_Food_Cart">
-            <Original>Wong Food Cart</Original>
+            <Original>Carrello del Cibo</Original>
         </Key>
         <Key ID="STR_MAR_Open_Vault">
             <Original>Apri Cassaforte</Original>
@@ -2975,7 +2975,7 @@
     </Package>
     <Package name="displayNames">
         <Key ID="STR_C_Remove_uniforms">
-            <Original>Remove Uniform</Original>
+            <Original>Rimuovi Uniforme</Original>
         </Key>
         <Key ID="STR_C_Remove_headgear">
             <Original>Remove Hat</Original>
@@ -3008,7 +3008,7 @@
             <Original>Flashbang</Original>
         </Key>
         <Key ID="STR_W_items_StunPistol">
-            <Original>Stun Pistol</Original>
+            <Original>Teser</Original>
         </Key>
         <Key ID="STR_W_items_TaserRifle">
             <Original>Taser Rifle</Original>
@@ -3032,22 +3032,22 @@
             <Original>North Eastern Rebel Base</Original>
         </Key>
         <Key ID="STR_SP_EMS_Kav">
-            <Original>Kavala Hospital</Original>
+            <Original>Ospedale Kavala</Original>
         </Key>
         <Key ID="STR_SP_EMS_Ath">
-            <Original>Athira Regional</Original>
+            <Original>Athira </Original>
         </Key>
         <Key ID="STR_SP_EMS_Pyr">
-            <Original>Pyrgos Hospital</Original>
+            <Original>Ospedale Pyrgos</Original>
         </Key>
         <Key ID="STR_SP_EMS_SE">
-            <Original>South East Hospital</Original>
+            <Original>Ospedale di Pyrgos</Original>
         </Key>
         <Key ID="STR_SP_EMS_Tan">
-            <Original>Tanouka Regional</Original>
+            <Original>Tanouka </Original>
         </Key>
         <Key ID="STR_SP_EMS_NEair">
-            <Original>North East Airport Hospital</Original>
+            <Original>Ospedale Areoporto</Original>
         </Key>
         <Key ID="STR_SP_Cop_Air_N">
             <Original>North Airport HQ</Original>
