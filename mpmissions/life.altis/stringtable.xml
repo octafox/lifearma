@@ -3354,7 +3354,7 @@
             <Original>Raccolto %1 %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp">
-            <Original>%1 - %2 raccolto %3 %4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Raccolto %3 %4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney_BEF">
             <Original>Raccolto $%1 da terra. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
@@ -3387,7 +3387,7 @@
             <Original>%1 - %2 Hai venduto una casa a $%3. Saldo Banca: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle_BEF">
-            <Original>veicolo ricettato %1 for $%2  Contanti(prima di ricettare): $%3</Original> <!-- Tradurre -->
+            <Original>Veicolo ricettato %1 for $%2  Contanti(prima di ricettare): $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
             <Original>%1 - %2 veicolo ricettato %3 per $%4  Contanti(prima di ricettare): $%5</Original> <!-- Tradurre -->
