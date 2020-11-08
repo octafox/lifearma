@@ -87,8 +87,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
-            { "B_G_Offroad_01_F", "" },
-            { "O_MRAP_02_F", "" }
+            { "B_G_Offroad_01_F", "" }
         };
     };
 
