@@ -832,6 +832,29 @@ class Clothing {
         };
     };
 
+    class illegalguns_clothing {
+        title = "STR_License_IllegalGuns";
+        conditions = "license_civ_illegalguns";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", $STR_C_Remove_uniforms, 0, "" }
+        };
+        headgear[] = {
+            { "NONE", $STR_C_Remove_headgear, 0, "" }
+        };
+        goggles[] = {
+            { "NONE", $STR_C_Remove_goggles, 0, "" }
+        };
+        vests[] = {
+            { "NONE", $STR_C_Remove_vests, 0, "" },
+            { "V_TacVest_blk", "", 0, "" },
+            { "V_TacVest_brn", "", 0, "" }
+        };
+        backpacks[] = {
+            { "NONE", $STR_C_Remove_backpacks, 0, "" }
+        };
+    };
+
     class gun_clothing {
         title = "STR_Shops_C_Gun";
         conditions = "license_civ_gun";

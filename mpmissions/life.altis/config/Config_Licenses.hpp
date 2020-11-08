@@ -162,6 +162,14 @@ class Licenses {
         side = "civ";
     };
 
+    class illegalguns {
+        variable = "illegalguns";
+        displayName = "STR_License_IllegalGuns";
+        price = 500000;
+        illegal = true;
+        side = "civ";
+    };
+
     //Cop Licenses
     class cAir {
         variable = "cAir";

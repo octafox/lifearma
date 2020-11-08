@@ -46,12 +46,41 @@ class WeaponShops {
             { "optic_ACO_grn_smg", "", 2500, 1250, "" }
         };
     };
+    
+    class illegalguns_guns {
+        name = "STR_License_IllegalGuns";
+        side = "civ";
+        conditions = "license_civ_illegalguns";
+        items[] = {
+            { "SMG_01_F", "Vektor", 0, 0, "" },
+            { "arifle_SDAR_F", "SDAR", 0, 0, "" },
+            { "arifle_TRG20_F", "TRG", 0, 0, "" },
+            { "arifle_AKS_F", "AKs", 0, 0, "" },
+            { "SMG_02_F", "Sting", 0, 0, "" },
+            { "arifle_Mk20_plain_F", "MK20", 0, 0, "" }
+        };
+        mags[] = {
+            { "30Rnd_45ACP_Mag_SMG_01", "", 0, 0, "" },
+            { "20Rnd_556x45_UW_mag", "", 0, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 0, 0, "" },
+            { "30Rnd_545x39_Mag_F", "", 0, 0, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 0, 0, "" }
+        };
+        accs[] = {
+            { "", "", 0, 0, "" }
+        };
+    };
 
     class rebel {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
+            { "Binocular", "", 150, 75, "" },
+            { "ItemGPS", "", 100, 50, "" },
+            { "FirstAidKit", "", 150, 75, "" },
+            { "NVGoggles", "", 1000, 1000, "" },
             { "hgun_PDW2000_F", "", 800, 500, "" },
             { "SMG_01_F", "", 800, 500, "" },
             { "SMG_02_F", "", 800, 500, "" },

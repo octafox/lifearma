@@ -1986,6 +1986,12 @@
         <Key ID="STR_License_Firearm">
             <Original>Porto d'Armi</Original>
         </Key>
+        <Key ID="STR_License_IllegalGuns">
+            <Original>Armi illegali</Original>
+        </Key>
+        <Key ID="STR_License_IllegalGuns_Vestiti">
+            <Original>Vestiti illegali</Original>
+        </Key>
         <Key ID="STR_License_CG">
             <Original>Licenza Guardia Costiera</Original>
         </Key>
