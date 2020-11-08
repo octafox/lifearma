@@ -3345,13 +3345,13 @@
     </Package>
     <Package name="Data_Logging">
         <Key ID="STR_DL_AL_Arrested_BEF">
-            <Original>arrestato %1</Original> <!-- Tradurre -->
+            <Original>Arrestato %1</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_Arrested">
             <Original>%1 - %2 arrestato %3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp_BEF">
-            <Original>raccolto %1 %2</Original> <!-- Tradurre -->
+            <Original>Raccolto %1 %2</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp">
             <Original>%1 - %2 raccolto %3 %4</Original> <!-- Tradurre -->
