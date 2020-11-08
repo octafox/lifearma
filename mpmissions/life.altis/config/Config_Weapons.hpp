@@ -97,8 +97,7 @@ class WeaponShops {
             { "arifle_Mk20_F", "", 800, 500, "" },
             { "arifle_TRG21_F", "", 800, 500, "" },
             { "arifle_AKS_F", "", 800, 500, "" },
-            { "arifle_CTAR_blk_F", "", 800, 500, "" },
-            { "srifle_GM6_F", "", 800, 500, "" }
+            { "arifle_CTAR_blk_F", "", 800, 500, "" }
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", "", 800, 500, "" },
@@ -304,8 +303,7 @@ class WeaponShops {
             { "arifle_SPAR_01_blk_F", "", 0, 0, "" },
             { "arifle_MX_SW_F", "", 0, 0, "" },
             { "arifle_MX_SW_Black_F", "", 0, 0, "" },
-            { "arifle_SPAR_02_blk_F", "", 0, 0, "" },
-            { "srifle_LRR_F", "", 0, 0, "" },
+            { "arifle_SPAR_02_blk_F", "", 0, 0, "" },   
             { "hgun_ACPC2_F", "", 0, 0, "" },
             { "hgun_P07_F", "", 0, 0, "" },
             { "hgun_Pistol_heavy_01_F", "", 0, 0, "" },
