@@ -2984,7 +2984,7 @@
             <Original>Remove Glasses</Original>
         </Key>
         <Key ID="STR_C_Remove_vests">
-            <Original>Remove Vest</Original>
+            <Original>Togli vestito</Original>
         </Key>
         <Key ID="STR_C_Remove_backpacks">
             <Original>Remove Backpack</Original>
@@ -3017,19 +3017,19 @@
             <Original>Taser Rifle Magazine</Original>
         </Key>
         <Key ID="STR_SP_Reb_N">
-            <Original>Northern Rebel Base</Original>
+            <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_Reb_S">
-            <Original>Southern Rebel Base</Original>
+            <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_Reb_E">
-            <Original>Eastern Rebel Base</Original>
+            <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_Reb_NW">
-            <Original>North Western Rebel Base</Original>
+            <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_Reb_NE">
-            <Original>North Eastern Rebel Base</Original>
+            <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_EMS_Kav">
             <Original>Ospedale Kavala</Original>
@@ -3058,10 +3058,10 @@
     </Package>
     <Package name="Crimes">
         <Key ID="STR_Crime_187V">
-            <Original>Omicidio colposo veicolare</Original>
+            <Original>Omicidio Stradale</Original>
         </Key>
         <Key ID="STR_Crime_187">
-            <Original>Omicidio colposo</Original>
+            <Original>Omicidio Colposo</Original>
         </Key>
         <Key ID="STR_Crime_901">
             <Original>Evasione</Original>
@@ -3070,7 +3070,7 @@
             <Original>Tentato furto d'auto</Original>
         </Key>
         <Key ID="STR_Crime_213">
-            <Original>Uso di esplosivi illegali</Original>
+            <Original>Uso di esplosivi</Original>
         </Key>
         <Key ID="STR_Crime_211">
             <Original>Rapina</Original>
@@ -3085,10 +3085,10 @@
             <Original>Uso di stupefacenti in pubblico</Original>
         </Key>
         <Key ID="STR_Crime_487">
-            <Original>Grande furto</Original>
+            <Original>Furto Aggravato</Original>
         </Key>
         <Key ID="STR_Crime_488">
-            <Original>Piccoli furti</Original>
+            <Original>Furto</Original>
         </Key>
         <Key ID="STR_Crime_480">
             <Original>Mordi e fuggi</Original>
@@ -3305,7 +3305,7 @@
             <Original>Hai ricevuto un messaggio di testo</Original>
         </Key>
         <Key ID="STR_PoliceDispatch_Title">
-            <Original>911 Centro Richieste</Original>
+            <Original>112 Centro Richieste</Original>
         </Key>
         <Key ID="STR_AdminDispatch_Title">
             <Original>Admin centro di spedizione</Original>
@@ -3348,7 +3348,7 @@
             <Original>Arrestato %1</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_Arrested">
-            <Original>%1 - %2 arrestato %3</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Arrestato %3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_pickedUp_BEF">
             <Original>Raccolto %1 %2</Original> <!-- Tradurre -->
@@ -3360,10 +3360,10 @@
             <Original>Raccolto $%1 da terra. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney">
-            <Original>%1 - %2 raccolto $%3 da terra. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Raccolto $%3 da terra. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed_BEF">
-            <Original>Hai rubato $%1 da %2. Saldo Banca: $%3 Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Hai Rubato $%1 da %2. Saldo Banca: $%3 Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_ML_Robbed">
             <Original>%1 - %2 Hai rubato $%3 da %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
@@ -3399,7 +3399,7 @@
             <Original>%1 - %2 Veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
-            <Original>veicolo Venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Veicolo venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
             <Original>%1 - %2 Veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
