@@ -86,8 +86,13 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "B_Quadbike_01_F", "" },
-            { "B_G_Offroad_01_F", "" }
+            { "C_Hatchback_01_F", "" },
+            { "C_Offroad_01_F", "" },
+            { "C_SUV_01_F", "" },
+            { "C_Hatchback_01_sport_F", "" },
+            { "C_Offroad_02_unarmed_F", "" },
+            { "O_T_LSV_02_unarmed_F", "" },
+            { "O_T_LSV_02_unarmed_black_F", "" }
         };
     };
 
@@ -135,6 +140,8 @@ class CarShops {
         conditions = "call life_coplevel >= 5";
         vehicles[] = {
             { "B_CTRG_LSV_01_light_F", "" },
+            { "B_T_LSV_01_unarmed_CTRG_F", "" },
+            { "B_LSV_01_unarmed_F", "" },
             { "B_CTRG_Heli_Transport_01_tropic_F", "" }
         };
     };
