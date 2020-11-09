@@ -84,7 +84,7 @@ class CarShops {
 
     class reb_car {
         side = "civ";
-        conditions = "";
+        conditions = "license_civ_rebel";
         vehicles[] = {
             { "C_Hatchback_01_F", "" },
             { "C_Offroad_01_F", "" },
@@ -93,6 +93,18 @@ class CarShops {
             { "C_Offroad_02_unarmed_F", "" },
             { "O_T_LSV_02_unarmed_F", "" },
             { "O_T_LSV_02_unarmed_black_F", "" }
+        };
+    };
+
+    class reb_air {
+        side = "civ";
+        conditions = "license_civ_rebel";
+        vehicles[] = {
+            { "I_C_Heli_Light_01_civil_F", "" },
+            { "O_Heli_Transport_04_F", "" },
+            { "O_Heli_Transport_04_bench_F", "" },
+            { "O_Heli_Light_02_unarmed_F", "" },
+            { "I_Heli_light_03_unarmed_F", "" }
         };
     };
 
