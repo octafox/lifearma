@@ -8,6 +8,8 @@ waitUntil {!isNull (uiNameSpace getVariable "xe_hud")};
 
 _display = uiNameSpace getVariable "xe_hud";
 
+[] call life_fnc_playerSkins;
+
 _thirstId = _display displayCtrl 1208;
 _hungerId = _display displayCtrl 1209;
 _healthId = _display displayCtrl 1210;
