@@ -250,7 +250,7 @@ class VirtualItems {
         variable = "blastingCharge";
         displayName = "STR_Item_BCharge";
         weight = 15;
-        buyPrice = 35000;
+        buyPrice = 150000;
         sellPrice = 10000;
         illegal = true;
         edible = -1;
@@ -262,7 +262,7 @@ class VirtualItems {
         variable = "boltCutter";
         displayName = "STR_Item_BCutter";
         weight = 5;
-        buyPrice = 7500;
+        buyPrice = 75000;
         sellPrice = 1000;
         illegal = true;
         edible = -1;
