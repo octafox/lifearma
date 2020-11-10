@@ -16,6 +16,38 @@ class CarShops {
     *   Independent Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
     *   Civilian Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV
     */
+
+    class kart_shop {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+            { "C_Kart_01_Blu_F", "" },
+            { "C_Kart_01_Fuel_F", "" },
+            { "C_Kart_01_Red_F", "" },
+            { "C_Kart_01_Vrana_F", "" }
+        };
+    };
+    class med_shop {
+        side = "med";
+        conditions = "";
+        vehicles[] = {
+            { "C_SUV_01_F", "" },
+            { "I_Truck_02_medical_F", "" },
+            { "O_Truck_03_medical_F", "" },
+            { "B_Truck_01_medical_F", "" }
+        };
+    };
+    class med_air_hs {
+        side = "med";
+        conditions = "";
+        vehicles[] = {
+            { "B_Heli_Light_01_F", "" },
+            { "O_Heli_Light_02_unarmed_F", "" }
+        };
+    };
+
+// ------------------------------------------------------------------
+
     class civ_car {
         side = "civ";
         conditions = "";
@@ -29,8 +61,7 @@ class CarShops {
             { "C_Offroad_02_unarmed_F", "" } //Apex DLC
         };
     };
-
-    class kart_shop {
+    class civ_kart {
         side = "civ";
         conditions = "";
         vehicles[] = {
@@ -40,7 +71,6 @@ class CarShops {
             { "C_Kart_01_Vrana_F", "" }
         };
     };
-
     class civ_truck {
         side = "civ";
         conditions = "";
@@ -58,7 +88,6 @@ class CarShops {
             { "B_Truck_01_fuel_F", "" }
         };
     };
-
     class civ_air {
         side = "civ";
         conditions = "";
@@ -69,8 +98,7 @@ class CarShops {
             { "C_Plane_Civil_01_F", "" } //Apex DLC
         };
     };
-
-     class civ_ship {
+    class civ_ship {
         side = "civ";
         conditions = "";
         vehicles[] = {
@@ -95,7 +123,6 @@ class CarShops {
             { "O_T_LSV_02_unarmed_black_F", "" }
         };
     };
-
     class reb_air {
         side = "civ";
         conditions = "license_civ_rebel";
@@ -108,7 +135,7 @@ class CarShops {
         };
     };
 
-    class med_shop {
+    class med_car {
         side = "med";
         conditions = "";
         vehicles[] = {
@@ -118,8 +145,7 @@ class CarShops {
             { "B_Truck_01_medical_F", "" }
         };
     };
-
-    class med_air_hs {
+    class med_air {
         side = "med";
         conditions = "";
         vehicles[] = {
@@ -137,13 +163,23 @@ class CarShops {
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" }
         };
     };
-
     class cop_air {
         side = "cop";
         conditions = "call life_coplevel >= 3";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
+        };
+    };
+    class cop_ship {
+        side = "cop";
+        conditions = "";
+        vehicles[] = {
+            { "B_Boat_Transport_01_F", "" },
+            { "C_Boat_Civil_01_police_F", "" },
+            { "C_Boat_Transport_02_F", "" }, //Apex DLC
+            { "B_Boat_Armed_01_minigun_F", "call life_coplevel >= 3" },
+            { "B_SDV_01_F", "" }
         };
     };
 
@@ -157,24 +193,11 @@ class CarShops {
             { "B_CTRG_Heli_Transport_01_tropic_F", "" }
         };
     };
-
     class ctrg_air {
         side = "cop";
         conditions = "call life_coplevel >= 5";
         vehicles[] = {
             { "B_CTRG_Heli_Transport_01_tropic_F", "" }
-        };
-    };
-
-    class cop_ship {
-        side = "cop";
-        conditions = "";
-        vehicles[] = {
-            { "B_Boat_Transport_01_F", "" },
-            { "C_Boat_Civil_01_police_F", "" },
-            { "C_Boat_Transport_02_F", "" }, //Apex DLC
-            { "B_Boat_Armed_01_minigun_F", "call life_coplevel >= 3" },
-            { "B_SDV_01_F", "" }
         };
     };
 };
@@ -204,9 +227,6 @@ class LifeCfgVehicles {
     *    etc etc etc
     *
     */
-
-
-
 
     class Default {
         vItemSpace = -1;
@@ -746,7 +766,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             }, "" },
             { "Medico", "med", {
-                "textures\med\veh\suv_med.jpg"
+                "textures\med\med_suv.jpg"
             }, "" }
         };
     };
@@ -850,7 +870,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             }, "" },
             { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+                "textures\med\med_hb.jpg"
             }, "" }
         };
     };
@@ -881,6 +901,34 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
             }, "" }
         };
+    };
+
+    class I_C_Heli_Light_01_civil_F {
+        vItemSpace = 50;
+        conditions = "license_civ_rebel";
+        price = 300000;
+        textures[] = {};
+    };
+
+    class O_Heli_Transport_04_F {
+        vItemSpace = 50;
+        conditions = "license_civ_rebel";
+        price = 300000;
+        textures[] = {};
+    };
+
+    class O_Heli_Transport_04_bench_F {
+        vItemSpace = 50;
+        conditions = "license_civ_rebel";
+        price = 300000;
+        textures[] = {};
+    };
+
+    class I_Heli_light_03_unarmed_F {
+        vItemSpace = 50;
+        conditions = "license_civ_rebel";
+        price = 300000;
+        textures[] = {};
     };
 
     class B_SDV_01_F {
