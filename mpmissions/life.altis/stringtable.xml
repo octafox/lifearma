@@ -107,17 +107,8 @@
         <Key ID="STR_Global_Weapons">
             <Original>Armi</Original>
         </Key>
-        <Key ID="STR_Global_Give">
-            <Original>Dai</Original>
-        </Key>
-        <Key ID="STR_Global_Use">
-            <Original>Usa</Original>
-        </Key>
         <Key ID="STR_Global_Remove">
             <Original>Rimuovi</Original>
-        </Key>
-        <Key ID="STR_Global_Settings">
-            <Original>Impostazioni</Original>
         </Key>
         <Key ID="STR_Global_RentVeh">
             <Original>Affitta</Original>
@@ -198,9 +189,6 @@
         <Key ID="STR_ANOTF_Fail">
             <Original>Non puoi superare i €999.999</Original>
         </Key>
-        <Key ID="STR_ANOTF_Amount">
-            <Original>Si prega di inserire l'importo da rimborsare.</Original>
-        </Key>
         <Key ID="STR_ANOTF_Frozen">
             <Original>Hai disattivato l'input di %1.</Original>
         </Key>
@@ -248,9 +236,6 @@
         </Key>
         <Key ID="STR_NOTF_surrender">
             <Original>Non puoi effettuare questa azione mentre tieni le mani in alto</Original>
-        </Key>
-        <Key ID="STR_NOTF_cantgather">
-            <Original>Non puoi raccogliere questa risorsa con questo veicolo !</Original>
         </Key>
         <Key ID="STR_NOTF_adminDebugCon">
             <Original>Non hai il permesso di farlo.</Original>
@@ -338,9 +323,6 @@
         <Key ID="STR_ATM_DepositSuccessG">
             <Original>Hai despositato €%1 nei fondi della tua gang.</Original>
         </Key>
-        <Key ID="STR_ATM_DepositInUseG">
-            <Original>Qualcuno sta già cercando di depositare del denaro nel conto della Gang.</Original>
-        </Key>
         <Key ID="STR_ATM_NotInGang">
             <Original>Non sei in un Gang!</Original>
         </Key>
@@ -405,12 +387,6 @@
     <Package name="Gang_Menu">
         <Key ID="STR_Gang_Title">
             <Original>Gestione Gang</Original>
-        </Key>
-        <Key ID="STR_Gang_Title2">
-            <Original>Gestione Gang - Gang Attuali</Original>
-        </Key>
-        <Key ID="STR_Gang_Join">
-            <Original>Unisciti</Original>
         </Key>
         <Key ID="STR_Gang_Leave">
             <Original>Abbandona</Original>
@@ -594,28 +570,28 @@
     </Package>
     <Package name="Garage_Strings">
         <Key ID="STR_Garage_AlreadyOwned">
-            <Original>Questo garage è già stato acquistato!</Original> <!-- Tradurre -->
+            <Original>Questo garage è già stato acquistato!</Original> 
         </Key>
         <Key ID="STR_Garage_NotOwner">
-            <Original>Non sei il proprietario di questa casa!</Original> <!-- Tradurre -->
+            <Original>Non sei il proprietario di questa casa!</Original> 
         </Key>
         <Key ID="STR_Garage_HouseBuyMSG">
-            <Original>Questo è disponibile a &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original> <!-- Tradurre -->
+            <Original>Questo è disponibile a &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original> 
         </Key>
         <Key ID="STR_House_Hideout">
-            <Original>Questo edificio è un covo gang!</Origina> <!-- Tradurre --> 
+            <Original>Questo edificio è un covo gang!</Origina>  
         </Key>
         <Key ID="STR_House_SellGarageMSG">
-            <Original>Sei sicuro di voler vendere il tuo garage? Verrà venduto a: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original> <!-- Tradurre -->
+            <Original>Sei sicuro di voler vendere il tuo garage? Verrà venduto a: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original> 
         </Key>
         <Key ID="STR_House_GarageSell">
-            <Original>Vendi il garage</Original> <!-- Tradurre -->
+            <Original>Vendi il garage</Original> 
         </Key>
         <Key ID="STR_House_GaragePurchase">
-            <Original>Acquista il garage</Original> <!-- Tradurre -->
+            <Original>Acquista il garage</Original> 
         </Key>
         <Key ID="STR_Garage_NotOwned">
-            <Original>Non possiedi il garage qui!</Original> <!-- Tradurre -->
+            <Original>Non possiedi il garage qui!</Original> 
         </Key>
         <Key ID="STR_Garage_Title">
             <Original>Garage Veicoli</Original>
@@ -625,12 +601,6 @@
         </Key>
         <Key ID="STR_Garage_SellVehicle">
             <Original>Vendi Veicolo</Original>
-        </Key>
-        <Key ID="STR_Garage_SellPrice">
-            <Original>Prezzo di vendita</Original>
-        </Key>
-        <Key ID="STR_Garage_SFee">
-            <Original>Costo ritiro</Original>
         </Key>
         <Key ID="STR_Garage_NoVehicles">
             <Original>Non hai veicoli nel Garage.</Original>
@@ -686,38 +656,6 @@
             <Original>Dai la chiave</Original>
         </Key>
     </Package>
-    <Package name="Player_Menu">
-        <Key ID="STR_PM_Title">
-            <Original>Menu Giocatore</Original>
-        </Key>
-        <Key ID="STR_PM_cItems">
-            <Original>Oggetti Attuali</Original>
-        </Key>
-        <Key ID="STR_PM_Licenses">
-            <Original>Licenze</Original>
-        </Key>
-        <Key ID="STR_PM_MoneyStats">
-            <Original>Statistiche Fondi</Original>
-        </Key>
-        <Key ID="STR_PM_MyGang">
-            <Original>Mia Gang</Original>
-        </Key>
-        <Key ID="STR_PM_WantedList">
-            <Original>Lista Ricercati</Original>
-        </Key>
-        <Key ID="STR_PM_CellPhone">
-            <Original>Cellulare</Original>
-        </Key>
-        <Key ID="STR_PM_KeyChain">
-            <Original>Portachiavi</Original>
-        </Key>
-        <Key ID="STR_PM_AdminMenu">
-            <Original>Menu Admin</Original>
-        </Key>
-        <Key ID="STR_PM_SyncData">
-            <Original>Salva Dati</Original>
-        </Key>
-    </Package>
     <Package name="Settings_Menu">
         <Key ID="STR_SM_Title">
             <Original>Menu Impostazioni</Original>
@@ -743,12 +681,6 @@
         <Key ID="STR_SM_PlayerTags">
             <Original>Tag Giocatore</Original>
         </Key>
-        <Key ID="STR_SM_TagsON">
-            <Original>Tags ON</Original>
-        </Key>
-        <Key ID="STR_SM_TagsOFF">
-            <Original>Tags OFF</Original>
-        </Key>
         <Key ID="STR_SM_SC">
             <Original>Interruttore Sidechat</Original>
         </Key>
@@ -756,13 +688,7 @@
             <Original>Rivela oggetti più vicini</Original>
         </Key>
         <Key ID="STR_SM_BCSW">
-            <Original>Cambio di trasmissione</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_SM_SCOFF">
-            <Original>Chat fazione OFF</Original>
-        </Key>
-        <Key ID="STR_SM_SCON">
-            <Original>Chat fazione ON</Original>
+            <Original>Cambio di trasmissione</Original> 
         </Key>
     </Package>
     <Package name="Virt_Shop">
@@ -904,9 +830,6 @@
         <Key ID="STR_NOTF_Guttingfinish">
             <Original>Hai raccolto %1 carne fresca</Original>
         </Key>
-        <Key ID="STR_NOTF_CaughtTurtle">
-            <Original>Hai raccolto della carne di tartaruga</Original>
-        </Key>
         <Key ID="STR_NOTF_Earned_1">
             <Original>Hai guadagnato $%1</Original>
         </Key>
@@ -921,9 +844,6 @@
         </Key>
         <Key ID="STR_NOTF_InvFull">
             <Original>Il tuo inventario è pieno.</Original>
-        </Key>
-        <Key ID="STR_NOTF_Gathering">
-            <Original>Raccogliendo %1</Original>
         </Key>
         <Key ID="STR_NOTF_ChopSoldCar">
             <Original>Hai venduto un %1 per %2$</Original>
@@ -1090,26 +1010,14 @@
         <Key ID="STR_NOTF_NotEnoughMoney">
             <Original>Non hai tutti quei soldi!</Original>
         </Key>
-        <Key ID="STR_NOTF_NotACop">
-            <Original>Non sei un poliziotto.</Original>
-        </Key>
         <Key ID="STR_NOTF_NoRoom">
             <Original>Non hai abbastanza spazio per quell'oggetto.</Original>
-        </Key>
-        <Key ID="STR_NOTF_ProcessWOLicense">
-            <Original>È necessario $%1 a processo senza patente!</Original>
         </Key>
         <Key ID="STR_NOTF_NotEnoughItemProcess">
             <Original>Non disponi di abbastanza materiale grezzo!</Original>
         </Key>
         <Key ID="STR_NOTF_ItemProcess">
             <Original>Hai processato i tuoi oggetti!</Original>
-        </Key>
-        <Key ID="STR_NOTF_RapidAction">
-            <Original>Non puoi riusare così rapidamente il tasto azione!</Original>
-        </Key>
-        <Key ID="STR_NOTF_NotEnoughFunds">
-            <Original>Non hai abbastanza fondi nel tuo conto in banca.</Original>
         </Key>
         <Key ID="STR_NOTF_CouldntAdd">
             <Original>Non puoi aggiungerlo al tuo inventario.</Original>
@@ -1164,9 +1072,6 @@
         </Key>
         <Key ID="STR_NOTF_Gather_Success">
             <Original>Hai raccolto %2 unità di %1.</Original>
-        </Key>
-        <Key ID="STR_NOTF_GatherVeh">
-            <Original>Non si può raccogliere da dentro una macchina!</Original>
         </Key>
         <Key ID="STR_NOTF_NoLootingPerson">
             <Original>Non è consentito a saccheggiare cadaveri.</Original>
@@ -1288,37 +1193,37 @@
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">
-            <Original>Trasmetti una notizia</Original> <!-- Tradurre -->
+            <Original>Trasmetti una notizia</Original> 
         </Key>
         <Key ID="STR_News_DialogTitle">
-            <Original>Trasmissione: Canale 7</Original> <!-- Tradurre -->
+            <Original>Trasmissione: Canale 7</Original> 
         </Key>
         <Key ID="STR_News_MsgHeader">
-            <Original>Titolo:</Original> <!-- Tradurre -->
+            <Original>Titolo:</Original> 
         </Key>
         <Key ID="STR_News_MsgContent">
-            <Original>Messaggio:</Original> <!-- Tradurre -->
+            <Original>Messaggio:</Original> 
         </Key>
         <Key ID="STR_News_Broadcast">
-            <Original>Trasmetti</Original> <!-- Tradurre -->
+            <Original>Trasmetti</Original> 
         </Key>
         <Key ID="STR_News_StructuredText">
-            <Original>Costo della trasmissione: %1&lt;br /&gt;Prossima trasmissione disponibile tra: %2</Original> <!-- Tradurre -->
+            <Original>Costo della trasmissione: %1&lt;br /&gt;Prossima trasmissione disponibile tra: %2</Original> 
         </Key>
         <Key ID="STR_News_HeaderLength">
-            <Original>Il titolo può contenere massimo %1 caratteri</Original> <!-- Tradurre -->
+            <Original>Il titolo può contenere massimo %1 caratteri</Original> 
         </Key>
         <Key ID="STR_News_UnsupportedCharacter">
-            <Original>Hai usato un carattere non supportato!</Original> <!-- Tradurre -->
+            <Original>Hai usato un carattere non supportato!</Original> 
         </Key>
         <Key ID="STR_News_Now">
-            <Original>Adesso</Original> <!-- Tradurre -->
+            <Original>Adesso</Original> 
         </Key>
         <Key ID="STR_News_NotEnough">
-            <Original>Ti servono $%1 per trasmettere!</Original> <!-- Tradurre -->
+            <Original>Ti servono $%1 per trasmettere!</Original> 
         </Key>
         <Key ID="STR_News_BroadcastedBy">
-            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Trasmesso da: %2</Original> <!-- Tradurre -->
+            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Trasmesso da: %2</Original> 
         </Key>
     </Package>
     <Package name="Jail_Strings">
@@ -1386,9 +1291,6 @@
         </Key>
     </Package>
     <Package name="Cop_Strings">
-        <Key ID="STR_Cop_TicketError">
-            <Original>Impossibile aprire l'interfaccia per le multe</Original>
-        </Key>
         <Key ID="STR_Cop_Ticket">
             <Original>Multando %1</Original>
         </Key>
@@ -1586,9 +1488,6 @@
         <Key ID="STR_MISC_SirensOFF">
             <Original>Sirene spente</Original>
         </Key>
-        <Key ID="STR_MISC_NoStorageWarn">
-            <Original>Devi posizionare dei contenitori per aver la possibilità di depositare qualcosa!</Original>
-        </Key>
         <Key ID="STR_MISC_NoStorageVeh">
             <Original>Questo veicolo non è in grado di trasportare oggetti virtuali.</Original>
         </Key>
@@ -1727,17 +1626,6 @@
             <Original>Non vi è alcun proprietario per questa casa.</Original>
         </Key>
     </Package>
-    <Package name="HUD">
-        <Key ID="STR_HUD_Food">
-            <Original>Cibo</Original>
-        </Key>
-        <Key ID="STR_HUD_Health">
-            <Original>Salute</Original>
-        </Key>
-        <Key ID="STR_HUD_Water">
-            <Original>acqua</Original>
-        </Key>
-    </Package>
     <Package name="Vehicle_Service">
         <Key ID="STR_Service_Chopper_NoAir">
             <Original>Non c'è alcun elicottero sulla piazzola d'atterraggio</Original>
@@ -1762,9 +1650,6 @@
         <Key ID="STR_Item_Apple">
             <Original>Mela</Original>
         </Key>
-        <Key ID="STR_Item_Apples">
-            <Original>Mele</Original>
-        </Key>
         <Key ID="STR_Item_Heroin">
             <Original>Eroina</Original>
         </Key>
@@ -1773,9 +1658,6 @@
         </Key>
         <Key ID="STR_Item_Peach">
             <Original>Pesca</Original>
-        </Key>
-        <Key ID="STR_Item_Peaches">
-            <Original>Pesche</Original>
         </Key>
         <Key ID="STR_Item_OilU">
             <Original>Olio non processato</Original>
@@ -1863,9 +1745,6 @@
         </Key>
         <Key ID="STR_Item_Sheep">
             <Original>Mutton alla griglia</Original>
-        </Key>
-        <Key ID="STR_Item_FishingPole">
-            <Original>Canna da pesca</Original>
         </Key>
         <Key ID="STR_Item_WaterBottle">
             <Original>Bottiglia d'acqua</Original>
@@ -2048,12 +1927,6 @@
         <Key ID="STR_ISTR_Blast_KeepOff">
             <Original>Il tempo sta scorrendo! Tieni la polizia lontana dalla cassaforte!</Original>
         </Key>
-        <Key ID="STR_ISTR_Blast_Disarmed">
-            <Original>La carica esplosiva è stata disinnescata!</Original>
-        </Key>
-        <Key ID="STR_ISTR_Blast_Opened">
-            <Original>La cassaforte è stata aperta</Original>
-        </Key>
         <Key ID="STR_ISTR_Blast_Exploit">
             <Original>È necessario aprire il contenitore prima di mettere il caricabatterie!</Original>
         </Key>
@@ -2129,15 +2002,6 @@
         <Key ID="STR_ISTR_Lock_FailedNOTF">
             <Original>%1 è stato visto provare a scassinare un veicolo.</Original>
         </Key>
-        <Key ID="STR_ISTR_Pick_NotNear">
-            <Original>Non ti trovi vicino ad una cava!</Original>
-        </Key>
-        <Key ID="STR_ISTR_Pick_MineVeh">
-            <Original>Non puoi minare da dentro un veicolo!</Original>
-        </Key>
-        <Key ID="STR_ISTR_Pick_Success">
-            <Original>Hai minato %2 %1</Original>
-        </Key>
         <Key ID="STR_ISTR_Spike_Place">
             <Original>Posa striscie chiodate</Original>
         </Key>
@@ -2149,9 +2013,6 @@
         </Key>
         <Key ID="STR_ISTR_Box_HouseFull">
             <Original>Non puoi installare altri contenitori in casa tua.</Original>
-        </Key>
-        <Key ID="STR_ISTR_Box_HouseFull_2">
-            <Original>I contenitori in casa tua hanno finito lo spazio disponibile.</Original>
         </Key>
         <Key ID="STR_ISTR_SelectItemFirst">
             <Original>Devi prima selezionare un oggetto!</Original>
@@ -2212,12 +2073,6 @@
         <Key ID="STR_Process_License">
             <Original>Hai bisogno di $%1 per processare senza la dovuta licenza!</Original>
         </Key>
-        <Key ID="STR_Process_Processed">
-            <Original>Hai processato %1 in %2</Original>
-        </Key>
-        <Key ID="STR_Process_Processed2">
-            <Original>Hai processato %1 in %2 al costo di $%3</Original>
-        </Key>
     </Package>
     <Package name="Medical_Strings">
         <Key ID="STR_Medic_Online">
@@ -2254,20 +2109,6 @@
             <Original>Sei andato troppo distante dal corpo.</Original>
         </Key>
     </Package>
-    <Package name="Federal_Reserve">
-        <Key ID="STR_NOTF_FRRobbery_fail">
-            <Original>La rapina è fallita per cause sconosciute</Original>
-        </Key>
-        <Key ID="STR_NOTF_FRRobbery_Success">
-            <Original>$%1 sono stati rubati durante la rapina alla banca</Original>
-        </Key>
-        <Key ID="STR_FEDR_VInUse">
-            <Original>Questo Caveau sta venendo rapinando da qualcun'altro</Original>
-        </Key>
-        <Key ID="STR_FEDR_VRecently">
-            <Original>Questo Caveau è stato svaligiato di recente</Original>
-        </Key>
-    </Package>
     <Package name="Other_GUI_Stuff">
         <Key ID="STR_GUI_Garage">
             <Original>Garage</Original>
@@ -2285,7 +2126,7 @@
             <Original>Interruttore modalità side-channel, disattivare questa funzione se non si vuole parlare con i giocatori da parte vostra.</Original>
         </Key>
         <Key ID="STR_GUI_BroadcastSwitch">
-            <Original>Cambia la modalità di trasmissione dei giocatori, spegnilo se non vuoi vedere le trasmissioni.</Original> <!-- Tradurre -->
+            <Original>Cambia la modalità di trasmissione dei giocatori, spegnilo se non vuoi vedere le trasmissioni.</Original> 
         </Key>
         <Key ID="STR_GUI_PlayTags">
             <Original>Controlla la visualizzazione delle tags sopra la testa dei giocatori</Original>
@@ -2335,10 +2176,10 @@
             <Original>Sfonda Porta</Original>
         </Key>
         <Key ID="STR_pInAct_GarageExt">
-            <Original>Garage</Original> <!-- Tradurre -->
+            <Original>Garage</Original> 
         </Key>
         <Key ID="STR_pInAct_GarageExtNOTF">
-            <Original>Puoi comprare questo garage a $%1. Devi prima possedere la casa!</Original> <!-- Tradurre -->
+            <Original>Puoi comprare questo garage a $%1. Devi prima possedere la casa!</Original> 
         </Key>
         <Key ID="STR_pInAct_SearchHouse">
             <Original>Cerca Casa</Original>
@@ -2350,7 +2191,7 @@
             <Original>Compra Casa</Original>
         </Key>
         <Key ID="STR_pInAct_BuyGarage">
-            <Original>Compra il Garage della casa</Original> <!-- Tradurre -->
+            <Original>Compra il Garage della casa</Original> 
         </Key>
         <Key ID="STR_pInAct_SellGarage">
             <Original>Vendi Garage</Original>
@@ -2388,7 +2229,7 @@
             <Original>Raddrizza veicolo</Original>
         </Key>
         <Key ID="STR_vInAct_GetInVehicle">
-            <Original>Entra nel veicolo</Original> <!-- Tradurre -->
+            <Original>Entra nel veicolo</Original> 
         </Key>
         <Key ID="STR_vInAct_PushBoat">
             <Original>Spingi Barca</Original>
@@ -2413,15 +2254,6 @@
         </Key>
         <Key ID="STR_vInAct_DeviceMine">
             <Original>Piazza mine dal veicolo</Original>
-        </Key>
-        <Key ID="STR_Vehicle_StoreVehicle">
-            <Original>Conservare il veicolo</Original>
-        </Key>
-        <Key ID="STR_Vehicle_Store">
-            <Original>Negozio</Original>
-        </Key>
-        <Key ID="STR_Vehicle_Clean">
-            <Original>Pulito</Original>
         </Key>
         <Key ID="STR_NPC_Protected">
             <Original>Questo veicolo è protetto NPC.</Original>
@@ -2504,15 +2336,6 @@
         </Key>
         <Key ID="STR_Shop_UI_Backpack">
             <Original>Zaini</Original>
-        </Key>
-        <Key ID="STR_Shop_Unimpound_VehExist">
-            <Original>C'è già un veicolo qui.</Original>
-        </Key>
-        <Key ID="STR_Shop_Unimpound_NotEnough">
-            <Original>Non hai abbastanza fondi con te o nel tuo conto in banca per poter ritirare il tuo veicolo.</Original>
-        </Key>
-        <Key ID="STR_Shop_Unimpound_Success">
-            <Original>Hai ritirato dal sequestro il tuo %1 al costo di $%3</Original>
         </Key>
         <Key ID="STR_Shop_Veh_DidntPick">
             <Original>Non hai selezionato un veicolo!</Original>
@@ -2635,9 +2458,6 @@
         </Key>
     </Package>
     <Package name="Fuel_Pump">
-        <Key ID="STR_Action_PumpJerry">
-            <Original>Fare rifornimento di carburante scatola metallica</Original>
-        </Key>
         <Key ID="STR_Action_Pump">
             <Original>Fare rifornimento di veicoli</Original>
         </Key>
@@ -2652,9 +2472,6 @@
         </Key>
         <Key ID="STR_Distance_Vehicle_Pump">
             <Original>Il veicolo è troppo lontano o vi sei all'interno!</Original>
-        </Key>
-        <Key ID="STR_Vehicle_Ready_Pump">
-            <Original>Il veicolo è pieno!</Original>
         </Key>
     </Package>
     <Package name="Player_Actions">
@@ -2672,9 +2489,6 @@
         <Key ID="STR_MAR_Hospital">
             <Original>Ospedale</Original>
         </Key>
-        <Key ID="STR_MAR_Police_Station">
-            <Original>Questura</Original>
-        </Key>
         <Key ID="STR_MAR_Police_Air_HQ">
             <Original>QG Aereo Polizia</Original>
         </Key>
@@ -2689,18 +2503,6 @@
         </Key>
         <Key ID="STR_MAR_Altis_Corrections">
             <Original>Penitenziario di Altis</Original>
-        </Key>
-        <Key ID="STR_MAR_Tanoa_Corrections">
-            <Original>Penitenziario di Tanoa</Original>
-        </Key>
-        <Key ID="STR_MAR_Police_HQ">
-            <Original>QG Polizia</Original>
-        </Key>
-        <Key ID="STR_MAR_Coast_Guard">
-            <Original>Guardia Costiera</Original>
-        </Key>
-        <Key ID="STR_MAR_Rebel_Outpost">
-            <Original>Avamposto Ribelle</Original>
         </Key>
         <Key ID="STR_MAR_Air_Shop">
             <Original>Negozio Aereo</Original>
@@ -2864,15 +2666,6 @@
         <Key ID="STR_MAR_Gold_Bars_Buyer">
             <Original>Gioielliere</Original>
         </Key>
-        <Key ID="STR_MAR_Gang_Hideout1">
-            <Original>Covo Gang 1</Original>
-        </Key>
-        <Key ID="STR_MAR_Gang_Hideout2">
-            <Original>Covo Gang 2</Original>
-        </Key>
-        <Key ID="STR_MAR_Gang_Hideout3">
-            <Original>Covo Gang 3</Original>
-        </Key>
         <Key ID="STR_MAR_Hunting_Grounds">
             <Original>Riserva di Caccia</Original>
         </Key>
@@ -2915,14 +2708,11 @@
         <Key ID="STR_MAR_Cop_Weapon_Shop">
             <Original>Armeria da Agenti</Original>
         </Key>
-        <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
-            <Original>Armeria da Pattuglia</Original>
-        </Key>
-        <Key ID="STR_MAR_Sergeant_Weapon_Shop">
-            <Original>Armeria dei Sergenti</Original>
+        <Key ID="STR_MAR_Vehicle_Shop">
+            <Original>Concessionario</Original>
         </Key>
         <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>Concessonario</Original>
+            <Original>Concessionario</Original>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Lavorazione Sabbia</Original>
@@ -2938,21 +2728,6 @@
         </Key>
         <Key ID="STR_MAR_Fix_Vault">
             <Original>Ripara Cassaforte</Original>
-        </Key>
-        <Key ID="STR_MAR_FED_Front">
-            <Original>Riserva Federale - Entrata Frontale</Original>
-        </Key>
-        <Key ID="STR_MAR_FED_Side">
-            <Original>Riserva Federale - Ingresso laterale</Original>
-        </Key>
-        <Key ID="STR_MAR_FED_Back">
-            <Original>Riserva Federale - Ingresso sul Retro</Original>
-        </Key>
-        <Key ID="STR_MAR_FED_Vault">
-            <Original>Riserva Federale - Vista della Cassaforte</Original>
-        </Key>
-        <Key ID="STR_MAR_FED_Off_display">
-            <Original>Disattivare la visualizzazione</Original>
         </Key>
         <Key ID="STR_MAR_Armament">
             <Original>Armamento</Original>
@@ -2989,15 +2764,6 @@
         <Key ID="STR_C_Remove_backpacks">
             <Original>Remove Backpack</Original>
         </Key>
-        <Key ID="STR_C_Civ_Niko">
-            <Original>Casual Wears</Original>
-        </Key>
-        <Key ID="STR_C_Civ_BandMask">
-            <Original>Hat and Bandana</Original>
-        </Key>
-        <Key ID="STR_C_Cop_uniforms">
-            <Original>Cop Uniform</Original>
-        </Key>
         <Key ID="STR_C_EMS_uniforms">
             <Original>EMS Uniform</Original>
         </Key>
@@ -3010,19 +2776,10 @@
         <Key ID="STR_W_items_StunPistol">
             <Original>Teser</Original>
         </Key>
-        <Key ID="STR_W_items_TaserRifle">
-            <Original>Taser Rifle</Original>
-        </Key>
         <Key ID="STR_W_mags_TaserRifle">
             <Original>Taser Rifle Magazine</Original>
         </Key>
-        <Key ID="STR_SP_Reb_N">
-            <Original>Base Ribelle</Original>
-        </Key>
         <Key ID="STR_SP_Reb_S">
-            <Original>Base Ribelle</Original>
-        </Key>
-        <Key ID="STR_SP_Reb_E">
             <Original>Base Ribelle</Original>
         </Key>
         <Key ID="STR_SP_Reb_NW">
@@ -3113,12 +2870,6 @@
         </Key>
         <Key ID="STR_Crime_668">
             <Original>Caccia senza licenza</Original>
-        </Key>
-        <Key ID="STR_Crime_919">
-            <Original>Furto di Organi</Original>
-        </Key>
-        <Key ID="STR_Crime_919A">
-            <Original>Tentativo furto di organi</Original>
         </Key>
         <Key ID="STR_Crime_1">
             <Original>Guida senza patente</Original>
@@ -3311,128 +3062,93 @@
             <Original>Admin centro di spedizione</Original>
         </Key>
         <Key ID="STR_AdminMessage_Title">
-            <Original>Admin: Messaggio</Original> <!-- Tradurre -->
-        </Key>
-    </Package>
-    <Package name="Tanoa Strings">
-        <Key ID="STR_Civ_Plane">
-            <Original>Aereo Civile</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Tan">
-            <Original>Questura</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Store">
-            <Original>Negozio Polizia</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Car">
-            <Original>Macchine Polizia</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Heli">
-            <Original>Elicotteri Polizia</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Boat">
-            <Original>Barche Polizia</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Rebel_Car">
-            <Original>Macchine Ribelli</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Rebel_Heli">
-            <Original>Elicotteri Ribelli</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_Police_Tanoa">
-            <Original>Questura</Original> <!-- Tradurre -->
+            <Original>Admin: Messaggio</Original> 
         </Key>
     </Package>
     <Package name="Data_Logging">
         <Key ID="STR_DL_AL_Arrested_BEF">
-            <Original>Arrestato %1</Original> <!-- Tradurre -->
+            <Original>Arrestato %1</Original> 
         </Key>
         <Key ID="STR_DL_AL_Arrested">
-            <Original>%1 - %2 Arrestato %3</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Arrestato %3</Original> 
         </Key>
         <Key ID="STR_DL_AL_pickedUp_BEF">
-            <Original>Raccolto %1 %2</Original> <!-- Tradurre -->
+            <Original>Raccolto %1 %2</Original> 
         </Key>
         <Key ID="STR_DL_AL_pickedUp">
-            <Original>%1 - %2 Raccolto %3 %4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Raccolto %3 %4</Original> 
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney_BEF">
-            <Original>Raccolto $%1 da terra. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Raccolto $%1 da terra. Saldo Banca: $%2  Contanti: $%3</Original> 
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney">
-            <Original>%1 - %2 Raccolto $%3 da terra. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Raccolto $%3 da terra. Saldo Banca: $%4  Contanti: $%5</Original> 
         </Key>
         <Key ID="STR_DL_ML_Robbed_BEF">
-            <Original>Hai Rubato $%1 da %2. Saldo Banca: $%3 Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Hai Rubato $%1 da %2. Saldo Banca: $%3 Contanti: $%4</Original> 
         </Key>
         <Key ID="STR_DL_ML_Robbed">
-            <Original>%1 - %2 Hai rubato $%3 da %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai rubato $%3 da %4. Saldo Banca: $%5  Contanti: $%6</Original> 
         </Key>
         <Key ID="STR_DL_AL_createdGang_BEF">
-            <Original>Hai creato la gang: %1 per $%2</Original> <!-- Tradurre -->
+            <Original>Hai creato la gang: %1 per $%2</Original> 
         </Key>
         <Key ID="STR_DL_AL_createdGang">
-            <Original>%1 - %2 Hai creato la gang: %3 per $%4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai creato la gang: %3 per $%4</Original> 
         </Key>
         <Key ID="STR_DL_AL_boughtHouse_BEF">
-            <Original>Hai comprato una casa a $%1.  Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Hai comprato una casa a $%1.  Saldo Banca: $%2  Contanti: $%3</Original> 
         </Key>
         <Key ID="STR_DL_AL_boughtHouse">
-            <Original>%1 - %2 Hai comprato una casa a $%3. Saldo Banca: $%4 Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai comprato una casa a $%3. Saldo Banca: $%4 Contanti: $%5</Original> 
         </Key>
         <Key ID="STR_DL_AL_soldHouse_BEF">
-            <Original>Hai venduto una casa a $%1. Saldo Banca: $%2</Original> <!-- Tradurre -->
+            <Original>Hai venduto una casa a $%1. Saldo Banca: $%2</Original> 
         </Key>
         <Key ID="STR_DL_AL_soldHouse">
-            <Original>%1 - %2 Hai venduto una casa a $%3. Saldo Banca: $%4</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Hai venduto una casa a $%3. Saldo Banca: $%4</Original> 
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle_BEF">
-            <Original>Veicolo ricettato %1 for $%2  Contanti(prima di ricettare): $%3</Original> <!-- Tradurre -->
+            <Original>Veicolo ricettato %1 for $%2  Contanti(prima di ricettare): $%3</Original> 
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
-            <Original>%1 - %2 veicolo ricettato %3 per $%4  Contanti(prima di ricettare): $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 veicolo ricettato %3 per $%4  Contanti(prima di ricettare): $%5</Original> 
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle_BEF">
-            <Original>Veicolo comprato %1 per $%2. Contanti: $%3  Saldo Banca: $%4</Original> <!-- Tradurre -->
+            <Original>Veicolo comprato %1 per $%2. Contanti: $%3  Saldo Banca: $%4</Original> 
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle">
-            <Original>%1 - %2 Veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Veicolo comprato %3 per $%4. Contanti: $%5  Saldo Banca: $%6</Original> 
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
-            <Original>Veicolo venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Veicolo venduto %1 per $%2. Saldo Banca: $%3  Contanti: $%4</Original> 
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
-            <Original>%1 - %2 Veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Veicolo venduto %3 per $%4. Saldo Banca: $%5  Contanti: $%6</Original> 
         </Key>
         <Key ID="STR_DL_ML_withdrewGang_BEF">
-            <Original>Prelevati $%1 dal conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Prelevati $%1 dal conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> 
         </Key>
         <Key ID="STR_DL_ML_withdrewGang">
-            <Original>%1 - %2 Prelevati $%3 dal conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_DL_ML_depositeGang_BEF">
-            <Original>Depositati $%1 nel conto gang. Saldo Conto Gang: $%2  Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
-        </Key>
-        <Key ID="STR_DL_ML_depositeGang">
-            <Original>%1 - %2 Depositati $%3 nel conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Prelevati $%3 dal conto gang. Saldo Conto Gang: $%4  Saldo Banca: $%5  Contanti: $%6</Original> 
         </Key>
         <Key ID="STR_DL_ML_withdrewBank_BEF">
-            <Original>Prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Prelevati $%1 dalla Banca. Saldo Banca: $%2  Contanti: $%3</Original> 
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
-            <Original>%1 - %2 Prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Prelevati $%3 dalla Banca. Saldo Banca: $%4  Contanti: $%5</Original> 
         </Key>
         <Key ID="STR_DL_ML_transferredBank_BEF">
-            <Original>Tasferiti $%1 a %2. Saldo Banca: $%3  Contanti: $%4</Original> <!-- Tradurre -->
+            <Original>Tasferiti $%1 a %2. Saldo Banca: $%3  Contanti: $%4</Original> 
         </Key>
         <Key ID="STR_DL_ML_transferredBank">
-            <Original>%1 - %2 Tasferiti $%3 a %4. Saldo Banca: $%5  Contanti: $%6</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Tasferiti $%3 a %4. Saldo Banca: $%5  Contanti: $%6</Original> 
         </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
-            <Original>Depositati $%1 in Banca. Saldo Banca: $%2  Contanti: $%3</Original> <!-- Tradurre -->
+            <Original>Depositati $%1 in Banca. Saldo Banca: $%2  Contanti: $%3</Original> 
         </Key>
         <Key ID="STR_DL_ML_depositedBank">
-            <Original>%1 - %2 Depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> <!-- Tradurre -->
+            <Original>%1 - %2 Depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> 
         </Key>
     </Package>
 </Project>
