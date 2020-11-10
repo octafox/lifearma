@@ -44,6 +44,7 @@ class Life_Client_Core {
         class xe_atmMarkers {};
         class xe_lockDoors {};
         class xe_playerMenuStaus {};
+        class xe_garageMenu {};
     };
 
     class scripts {
