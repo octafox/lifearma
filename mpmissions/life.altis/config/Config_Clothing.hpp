@@ -15,7 +15,7 @@
 *
 */
 class Clothing {
-    class bruce {
+    class civ_clothing {
         title = "STR_Shops_C_Bruce";
         conditions = "";
         side = "civ";
@@ -296,7 +296,7 @@ class Clothing {
         };
     };
 
-    class cop {
+    class cop_clothing {
         title = "STR_Shops_C_Police";
         conditions = "";
         side = "cop";
@@ -525,7 +525,7 @@ class Clothing {
         };
     };
 
-    class ctrg {
+    class ctrg_clothing {
         title = "CTRG";
         conditions = "call life_coplevel >= 5";
         side = "cop";
@@ -808,7 +808,7 @@ class Clothing {
         };
     };
 
-    class dive {
+    class dive_clothing {
         title = "STR_Shops_C_Diving";
         conditions = "license_civ_dive";
         side = "civ";
@@ -943,7 +943,7 @@ class Clothing {
         };
     };
 
-    class reb {
+    class reb_clothing {
         title = "STR_Shops_C_Rebel";
         conditions = "license_civ_rebel";
         side = "civ";
@@ -1212,7 +1212,7 @@ class Clothing {
         };
     };
 
-    class kart {
+    class kart_clothing {
         title = "STR_Shops_C_Kart";
         conditions = "";
         side = "civ";

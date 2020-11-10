@@ -21,7 +21,7 @@
 */
 class WeaponShops {
     //Armory Shops
-    class gun {
+    class gun_weapon {
         name = "Billy Joe's Firearms";
         side = "civ";
         conditions = "license_civ_gun";
@@ -72,7 +72,7 @@ class WeaponShops {
         };
     };
 
-    class rebel {
+    class reb_weapon {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
         conditions = "license_civ_rebel";
@@ -164,7 +164,7 @@ class WeaponShops {
         };
     };
 
-    class gang {
+    class gang_weapon {
         name = "Hideout Armament";
         side = "civ";
         conditions = "";
@@ -230,7 +230,7 @@ class WeaponShops {
     };
 
     //Cop Shops
-    class cop_basic {
+    class cop_weapon {
         name = "Altis Cop Shop";
         side = "cop";
         conditions = "";
@@ -275,7 +275,7 @@ class WeaponShops {
 
 
     //Ctrg Shops
-    class ctrg_basic {
+    class ctrg_weapon {
         name = "ctrg";
         side = "cop";
         conditions = "call life_coplevel >= 5";

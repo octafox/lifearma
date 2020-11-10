@@ -9,7 +9,7 @@
 */
 class VirtualShops {
     //Virtual Shops
-    class market {
+    class civ_market {
         name = "STR_Shops_Market";
         side = "civ";
         conditions = "";
@@ -23,14 +23,28 @@ class VirtualShops {
         items[] = { "waterBottle", "rabbit", "rabbit","apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
     };
 
-    class rebel {
+    class reb_market {
         name = "STR_Shops_Rebel";
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
-    class gang {
+    class cop_market {
+        name = "STR_Shops_Cop";
+        side = "cop";
+        conditions = "";
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+    };
+
+    class ctrg_market {
+        name = "Mercato";
+        side = "cop";
+        conditions = "call life_coplevel >= 5";
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+    };
+
+    class gang_market {
         name = "STR_Shops_Gang";
         side = "civ";
         conditions = "";
@@ -119,20 +133,6 @@ class VirtualShops {
         side = "civ";
         conditions = "";
         items[] = { "goldbar" };
-    };
-
-    class cop {
-        name = "STR_Shops_Cop";
-        side = "cop";
-        conditions = "";
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
-    };
-
-    class ctrg {
-        name = "Mercato";
-        side = "cop";
-        conditions = "call life_coplevel >= 5";
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
 };
 
