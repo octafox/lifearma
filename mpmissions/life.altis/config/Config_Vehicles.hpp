@@ -140,6 +140,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_SUV_01_F", "" },
+            { "C_Offroad_01_F", "" },
             { "I_Truck_02_medical_F", "" },
             { "O_Truck_03_medical_F", "" },
             { "B_Truck_01_medical_F", "" }
@@ -589,6 +590,9 @@ class LifeCfgVehicles {
             }, "" },
             { "Police", "cop", {
                 "textures\cop\veh\offroad_pula.jpg"
+            }, "" },
+            { "Medico", "med", {
+                "textures\med\med_off.jpg"
             }, "" }
         };
     };
@@ -763,7 +767,10 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             }, "" },
             { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+                "textures\cop\cop_suv.jpg"
+            }, "" },
+            { "Police2", "cop", {
+                "textures\cop\cop_suv_2.jpg"
             }, "" },
             { "Medico", "med", {
                 "textures\med\med_suv.jpg"
