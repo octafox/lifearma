@@ -3151,4 +3151,138 @@
             <Original>%1 - %2 Depositati $%3 in Banca. Saldo Banca: $%4  Contanti: $%5</Original> 
         </Key>
     </Package>
+    <Package name="NPCs">
+        <Key ID="STR_npc_civ_car">
+            <Original>[CIV] Car</Original>
+        </Key>
+        <Key ID="STR_npc_civ_kart">
+            <Original>[CIV] Kart</Original>
+        </Key>
+        <Key ID="STR_npc_civ_truck">
+            <Original>[CIV] Truck</Original>
+        </Key>
+        <Key ID="STR_npc_civ_air">
+            <Original>[CIV] Air</Original>
+        </Key>
+        <Key ID="STR_npc_civ_ship">
+            <Original>[CIV] Ship</Original>
+        </Key>
+        <Key ID="STR_npc_civ_garage_car">
+            <Original>[CIV] Garage Car</Original>
+        </Key>
+        <Key ID="STR_npc_civ_garage_air">
+            <Original>[CIV] Garage Air</Original>
+        </Key>
+        <Key ID="STR_npc_civ_garage_ship">
+            <Original>[CIV] Garage Ship</Original>
+        </Key>
+        <Key ID="STR_npc_reb_car">
+            <Original>[REB] Car</Original>
+        </Key>
+        <Key ID="STR_npc_reb_air">
+            <Original>[REB] Air</Original>
+        </Key>
+        <Key ID="STR_npc_med_car">
+            <Original>[MED] Car</Original>
+        </Key>
+        <Key ID="STR_npc_med_air">
+            <Original>[MED] Air</Original>
+        </Key>
+        <Key ID="STR_npc_med_garage_car">
+            <Original>[MED] Garage Car</Original>
+        </Key>
+        <Key ID="STR_npc_med_garage_air">
+            <Original>[MED] Garage Air</Original>
+        </Key>
+        <Key ID="STR_npc_cop_car">
+            <Original>[COP] Car</Original>
+        </Key>
+        <Key ID="STR_npc_cop_air">
+            <Original>[COP] Air</Original>
+        </Key>
+        <Key ID="STR_npc_cop_garage_car">
+            <Original>[COP] Garage Car</Original>
+        </Key>
+        <Key ID="STR_npc_cop_garage_air">
+            <Original>[COP] Garage Air</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_car">
+            <Original>[CTRG] Car</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_air">
+            <Original>[CTRG] Air</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_garage_car">
+            <Original>[CTRG] Garage Car</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_garage_air">
+            <Original>[CTRG] Garage Air</Original>
+        </Key>
+        <Key ID="STR_npc_civ_market">
+            <Original>[CIV] Market</Original>
+        </Key>
+        <Key ID="STR_npc_gang_market">
+            <Original>[GANG] Market</Original>
+        </Key>
+        <Key ID="STR_npc_reb_market">
+            <Original>[REB] Market</Original>
+        </Key>
+        <Key ID="STR_npc_med_market">
+            <Original>[MED] Market</Original>
+        </Key>
+        <Key ID="STR_npc_cop_market">
+            <Original>[COP] Market</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_market">
+            <Original>[CTRG] Market</Original>
+        </Key>
+        <Key ID="STR_npc_civ_general">
+            <Original>[CIV] General</Original>
+        </Key>
+        <Key ID="STR_npc_civ_weapon">
+            <Original>[CIV] Weapon</Original>
+        </Key>
+        <Key ID="STR_npc_gang_weapon">
+            <Original>[GANG] Weapon</Original>
+        </Key>
+        <Key ID="STR_npc_reb_weapon">
+            <Original>[REB] Weapon</Original>
+        </Key>
+        <Key ID="STR_npc_med_basic">
+            <Original>[MED] Basic</Original>
+        </Key>
+        <Key ID="STR_npc_cop_weapon">
+            <Original>[COP] Weapon</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_weapon">
+            <Original>[CTRG] Weapon</Original>
+        </Key>
+        <Key ID="STR_npc_civ_clothing">
+            <Original>[CIV] Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_civ_clothing_kart">
+            <Original>[CIV] Kart Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_civ_clothing_dive">
+            <Original>[CIV] Dive Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_civ_clothing_gun">
+            <Original>[CIV] Gun Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_gang_clothing">
+            <Original>[GANG] Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_reb_clothing">
+            <Original>[REB] Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_med_clothing">
+            <Original>[MED] Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_cop_clothing">
+            <Original>[COP] Clothing</Original>
+        </Key>
+        <Key ID="STR_npc_ctrg_clothing">
+            <Original>[CTRG] Clothing</Original>
+        </Key>
+    </Package>
 </Project>
