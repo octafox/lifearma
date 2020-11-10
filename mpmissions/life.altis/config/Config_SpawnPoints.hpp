@@ -26,13 +26,6 @@ class CfgSpawnPoints {
                 conditions = "!license_civ_rebel";
             };
 
-            class Sofia {
-                displayName = "Sofia";
-                spawnMarker = "civ_spawn_sofia";
-                icon = "icons\xeicons\civilian.paa";
-                conditions = "!license_civ_rebel";
-            };
-
             class Athira {
                 displayName = "Athira";
                 spawnMarker = "civ_spawn_athira";

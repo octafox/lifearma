@@ -17,34 +17,6 @@ class CarShops {
     *   Civilian Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV
     */
 
-    class kart_shop {
-        side = "civ";
-        conditions = "";
-        vehicles[] = {
-            { "C_Kart_01_Blu_F", "" },
-            { "C_Kart_01_Fuel_F", "" },
-            { "C_Kart_01_Red_F", "" },
-            { "C_Kart_01_Vrana_F", "" }
-        };
-    };
-    class med_shop {
-        side = "med";
-        conditions = "";
-        vehicles[] = {
-            { "C_SUV_01_F", "" },
-            { "I_Truck_02_medical_F", "" },
-            { "O_Truck_03_medical_F", "" },
-            { "B_Truck_01_medical_F", "" }
-        };
-    };
-    class med_air_hs {
-        side = "med";
-        conditions = "";
-        vehicles[] = {
-            { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" }
-        };
-    };
 
 // ------------------------------------------------------------------
 
@@ -147,6 +119,14 @@ class CarShops {
         };
     };
     class med_air {
+        side = "med";
+        conditions = "";
+        vehicles[] = {
+            { "B_Heli_Light_01_F", "" },
+            { "O_Heli_Light_02_unarmed_F", "" }
+        };
+    };
+    class med_air_hs {
         side = "med";
         conditions = "";
         vehicles[] = {
