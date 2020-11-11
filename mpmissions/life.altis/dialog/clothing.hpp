@@ -9,19 +9,19 @@ class Life_Clothing {
         class Life_RscTitleBackground: Life_RscText {
             colorBackground[] = {0.1,0.1,0.1,1};
             idc = -1;
-            x = 0.0821059 * safezoneW + safezoneX;
-            y = 0.212176 * safezoneH + safezoneY;
-            w = 0.318;
-            h = (1 / 25);
+            x = 0.0848863 * safezoneW + safezoneX;
+            y = 0.205934 * safezoneH + safezoneY;
+            w = 0.150227 * safezoneW;
+            h = 0.0280062 * safezoneH;
         };
 
         class MainBackground: Life_RscText {
             colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
-            x = 0.0822359 * safezoneW + safezoneX;
-            y = 0.236099 * safezoneH + safezoneY;
-            w = 0.318;
-            h = 0.5 - (22 / 250);
+            x = 0.0822508 * safezoneW + safezoneX;
+            y = 0.236181 * safezoneH + safezoneY;
+            w = 0.177906 * safezoneW;
+            h = 0.364085 * safezoneH;
         };
     };
 
@@ -30,10 +30,10 @@ class Life_Clothing {
             colorBackground[] = {0, 0, 0, 0};
             idc = 3103;
             text = "";
-            x = 0.0821059 * safezoneW + safezoneX;
-            y = 0.212176 * safezoneH + safezoneY;
-            w = 0.6;
-            h = (1 / 25);
+            x = 0.0848863 * safezoneW + safezoneX;
+            y = 0.205934 * safezoneH + safezoneY;
+            w = 0.150227 * safezoneW;
+            h = 0.0280062 * safezoneH;
         };
 
         class ClothingList: Life_RscListBox {
@@ -41,60 +41,60 @@ class Life_Clothing {
             text = "";
             sizeEx = 0.035;
             onLBSelChanged = "[_this] call life_fnc_changeClothes;";
-            x = 0.0842977 * safezoneW + safezoneX;
-            y = 0.240498 * safezoneH + safezoneY;
-            w = 0.3;
-            h = 0.35;
+            x = 0.0843593 * safezoneW + safezoneX;
+            y = 0.240382 * safezoneH + safezoneY;
+            w = 0.172637 * safezoneW;
+            h = 0.245055 * safezoneH;
         };
 
         class PriceTag: Life_RscStructuredText {
             idc = 3102;
             text = "";
             sizeEx = 0.035;
-            x = 0.0853304 * safezoneW + safezoneX;
-            y = 0.439419 * safezoneH + safezoneY;
-            w = 0.2;
-            h = (1 / 25);
+            x = 0.0848864 * safezoneW + safezoneX;
+            y = 0.528006 * safezoneH + safezoneY;
+            w = 0.0830225 * safezoneW;
+            h = 0.0280062 * safezoneH;
         };
 
         class TotalPrice: Life_RscStructuredText {
             idc = 3106;
             text = "";
             sizeEx = 0.035;
-            x = 0.148258 * safezoneW + safezoneX;
-            y = 0.439419 * safezoneH + safezoneY;
-            w = 0.2;
-            h = (1 / 25);
+            x = 0.174497 * safezoneW + safezoneX;
+            y = 0.528006 * safezoneH + safezoneY;
+            w = 0.0830225 * safezoneW;
+            h = 0.0280062 * safezoneH;
         };
 
         class FilterList: Life_RscCombo {
             idc = 3105;
             colorBackground[] = {0,0,0,0.7};
             onLBSelChanged  = "_this call life_fnc_clothingFilter";
-            x = 0.0822359 * safezoneW + safezoneX;
-            y = 0.468 * safezoneH + safezoneY;
-            w = 0.318;
-            h = 0.035;
+            x = 0.0822268 * safezoneW + safezoneX;
+            y = 0.491601 * safezoneH + safezoneY;
+            w = 0.178171 * safezoneW;
+            h = 0.0301067 * safezoneH;
         };
 
         class CloseButtonKey: Life_RscButtonMenu {
             idc = -1;
             text = "$STR_Global_Close";
             onButtonClick = "closeDialog 0; [] call life_fnc_playerSkins;";
-            x = 0.157 * safezoneW + safezoneX;
-            y = 0.489992 * safezoneH + safezoneY;
-            w = (6.25 / 40);
-            h = (1 / 25);
+            x = 0.240389 * safezoneW + safezoneX;
+            y = 0.197537 * safezoneH + safezoneY;
+            w = 0.0177916 * safezoneW;
+            h = 0.0336074 * safezoneH;
         };
 
         class BuyButtonKey: Life_RscButtonMenu {
             idc = -1;
             text = "$STR_Global_Buy";
             onButtonClick = "[] call life_fnc_buyClothes;";
-            x = 0.0822359 * safezoneW + safezoneX;
-            y = 0.489992 * safezoneH + safezoneY;
-            w = (6.25 / 40);
-            h = (1 / 25);
+            x = 0.0822508 * safezoneW + safezoneX;
+            y = 0.564412 * safezoneH + safezoneY;
+            w = 0.177257 * safezoneW;
+            h = 0.0336074 * safezoneH;
         };
 
         class viewAngle: life_RscXSliderH {
