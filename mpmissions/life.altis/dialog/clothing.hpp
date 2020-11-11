@@ -6,6 +6,9 @@ class Life_Clothing {
     //onLoad = "[] execVM 'core\client\keychain\init.sqf'";
 
     class controlsBackground {
+    };
+
+    class controls {
         class Life_RscTitleBackground: Life_RscText {
             colorBackground[] = {0.1,0.1,0.1,1};
             idc = -1;
@@ -14,7 +17,7 @@ class Life_Clothing {
             w = 0.150227 * safezoneW;
             h = 0.0280062 * safezoneH;
         };
-
+        
         class MainBackground: Life_RscText {
             colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
@@ -23,17 +26,15 @@ class Life_Clothing {
             w = 0.177906 * safezoneW;
             h = 0.364085 * safezoneH;
         };
-    };
 
-    class controls {
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = 3103;
             text = "";
             x = 0.0848863 * safezoneW + safezoneX;
-            y = 0.205934 * safezoneH + safezoneY;
+            y = 0.197537 * safezoneH + safezoneY;
             w = 0.150227 * safezoneW;
-            h = 0.0280062 * safezoneH;
+            h = 0.0336074 * safezoneH;
         };
 
         class ClothingList: Life_RscListBox {
@@ -79,7 +80,7 @@ class Life_Clothing {
 
         class CloseButtonKey: Life_RscButtonMenu {
             idc = -1;
-            text = "$STR_Global_Close";
+            text = " X";
             onButtonClick = "closeDialog 0; [] call life_fnc_playerSkins;";
             x = 0.240389 * safezoneW + safezoneX;
             y = 0.197537 * safezoneH + safezoneY;
