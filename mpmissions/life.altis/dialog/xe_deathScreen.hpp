@@ -42,7 +42,7 @@ class xe_deathScreen {
         class buttonMedic: Life_RscButtonMenu {
             idc = ID_xe_deathScreen_buttonMedic;
             onButtonClick = "[] call life_fnc_requestMedic;";
-            text = "Medico";
+            text = "Aiuto!!!";
             class Attributes {align = "center";};
             x = 0.503093 * safezoneW + safezoneX;
             y = 0.533013 * safezoneH + safezoneY;

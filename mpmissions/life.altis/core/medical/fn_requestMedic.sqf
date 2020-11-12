@@ -21,7 +21,7 @@ if (_medicsOnline) then {
 
 //Create a thread to monitor duration since last request (prevent spammage).
 [] spawn  {
-    ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen) ctrlEnable false;
+    ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonMedic) ctrlEnable false;
     sleep (2 * 60);
-    ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen) ctrlEnable true;
+    ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonMedic) ctrlEnable true;
 };
