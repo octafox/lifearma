@@ -13,12 +13,12 @@ if (!hasInterface && !isServer) exitWith {
 CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 if (LIFE_SETTINGS(getNumber,"spyGlass_toggle") isEqualTo 1) then {[] execVM "SpyGlass\fn_initSpy.sqf";};
 
-0 enableChannel [false, false];
+0 enableChannel false;
 1 enableChannel [true, false];
-2 enableChannel [false, false];
-3 enableChannel [true, true];
-4 enableChannel [true, true];
-5 enableChannel [true, true];
+2 enableChannel false;
+3 enableChannel true;
+4 enableChannel true;
+5 enableChannel true;
 
 [] spawn life_fnc_xe_atmMarkers;
 [] spawn life_fnc_xe_lockDoors;
