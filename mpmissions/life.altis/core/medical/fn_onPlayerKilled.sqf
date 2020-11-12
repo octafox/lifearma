@@ -53,12 +53,14 @@ _unit spawn {
     _RespawnBtn = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonRespawn);
     _Timer = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_textRespawnTime);
 
-    _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
-    if (independent countSide playableUnits < 1) then {
-        _maxTime = time + 120;
-    };
     if (side player == independent) then {
-        _maxTime = time + 5;
+        _maxTime = time + 8;
+    } else {
+        if (independent countSide playableUnits < 1) then {
+            _maxTime = time + 120;
+        } else {
+            _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
+        };
     };
     _RespawnBtn ctrlEnable false;
     waitUntil {
