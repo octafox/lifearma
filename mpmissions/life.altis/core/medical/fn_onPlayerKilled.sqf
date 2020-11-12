@@ -52,11 +52,8 @@ _unit spawn {
     disableSerialization;
     _RespawnBtn = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_buttonRespawn);
     _Timer = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_textRespawnTime);
-    if (LIFE_SETTINGS(getNumber,"respawn_timer") < 5) then {
-        _maxTime = time + 5;
-    } else {
-        _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
-    };
+
+    _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
     if (independent countSide playableUnits < 1) then {
         _maxTime = time + 120;
     };
