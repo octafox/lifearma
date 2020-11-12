@@ -74,7 +74,7 @@ class Loadouts {
         weapon[] = {};
         mags[] = {};
         items[] = {
-            {"FirstAidKit", 2, "call life_medicLevel >= 1"}
+            {"FirstAidKit", 3, "call life_medicLevel >= 1"}
         };
         linkedItems[] = {
             {"ItemMap", "call life_medicLevel >= 1"},

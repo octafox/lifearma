@@ -28,7 +28,7 @@ if (!isClass (missionConfigFile >> "LifeCfgVehicles" >> _className)) then {
 };
 
 private _textures = ((M_CONFIG(getArray,"LifeCfgVehicles",_className,"textures") select _index) param [2,[]]);
-if (_textures isEqualTo []) exitWith {};
+if (_textures isEqualTo []) exitWith {}; // xeFix
 
 _vehicle setVariable ["Life_VEH_color",_index,true];
 
