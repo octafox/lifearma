@@ -140,8 +140,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" }
+            { "C_SUV_01_F", "" }
         };
     };
     class cop_air {
@@ -569,7 +568,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
             { "Police", "cop", {
-                "textures\cop\veh\offroad_pula.jpg"
+                "textures\cop\cop_off.jpg"
             }, "" },
             { "Medico", "med", {
                 "textures\med\med_off.jpg"
@@ -725,9 +724,6 @@ class LifeCfgVehicles {
             }, "" },
             { "Black", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
-            }, "" },
-            { "Police", "cop", {
-                "textures\cop\veh\hatchback_polizia.jpg"
             }, "" }
         };
     };
@@ -814,9 +810,6 @@ class LifeCfgVehicles {
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
         price = 200000;
         textures[] = {
-            { "Police", "cop", {
-                "textures\cop\veh\hummingbird_polizia.jpg"
-            }, "" },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
             }, "" },
@@ -856,8 +849,11 @@ class LifeCfgVehicles {
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             }, "" },
-            { "EMS White", "med", {
+            { "Medici", "med", {
                 "textures\med\med_hb.jpg"
+            }, "" },
+            { "Polizia", "cop", {
+                "textures\cop\cop_hb.jpg"
             }, "" }
         };
     };
