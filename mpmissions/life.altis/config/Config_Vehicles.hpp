@@ -745,9 +745,6 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "textures\cop\cop_suv.jpg"
             }, "" },
-            { "Police2", "cop", {
-                "textures\cop\cop_suv_2.jpg"
-            }, "" },
             { "Medico", "med", {
                 "textures\med\med_suv.jpg"
             }, "" }
