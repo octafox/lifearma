@@ -104,15 +104,15 @@ publicVariableServer "life_fnc_RequestClientId";
     Universal workaround for usage in a preInit function. - AgentRev
     Remove if Bohemia actually fixes the issue.
 */
-{
-    _x params [["_chan",-1,[0]], ["_noText","false",[""]], ["_noVoice","false",[""]]];
+// {
+//     _x params [["_chan",-1,[0]], ["_noText","false",[""]], ["_noVoice","false",[""]]];
 
-    _noText = [false,true] select ((["false","true"] find toLower _noText) max 0);
-    _noVoice = [false,true] select ((["false","true"] find toLower _noVoice) max 0);
+//     _noText = [false,true] select ((["false","true"] find toLower _noText) max 0);
+//     _noVoice = [false,true] select ((["false","true"] find toLower _noVoice) max 0);
 
-    _chan enableChannel [!_noText, !_noVoice];
+//     _chan enableChannel [!_noText, !_noVoice];
 
-} forEach getArray (missionConfigFile >> "disableChannels");
+// } forEach getArray (missionConfigFile >> "disableChannels");
 
 if (life_HC_isActive) then {
     [getPlayerUID player, player getVariable ["realname", name player]] remoteExec ["HC_fnc_wantedProfUpdate", HC_Life];
