@@ -57,7 +57,7 @@ _unit spawn {
     } else {
         _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
     };
-    if (side _unit == independent) then {
+    if (side player == independent) then {
         _maxTime = time + 5;
     };
     if (independent countSide playableUnits < 1) then {
