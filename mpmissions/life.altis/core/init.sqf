@@ -132,5 +132,15 @@ diag_log "----------------------------------------------------------------------
 3 enableChannel true;
 4 enableChannel true;
 5 enableChannel true;
+6 enableChannel false;
+7 enableChannel false;
+8 enableChannel false;
+9 enableChannel false;
+10 enableChannel false;
+11 enableChannel false;
+12 enableChannel false;
+13 enableChannel false;
+14 enableChannel false;
+15 enableChannel false;
 
 [] spawn life_fnc_autoSaveInv;
