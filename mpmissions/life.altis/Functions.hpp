@@ -54,6 +54,7 @@ class Life_Client_Core {
     class scripts {
         file = "core\scripts";
         class brighterNights {};
+        class notification_system {};
     };
 
     class Actions {
