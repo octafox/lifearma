@@ -17,6 +17,7 @@ unsafeCVL = 1; // Allows createVehicleLocal to be executed in Multiplayer
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
+#include "derleon\Scripts_Master.hpp"
 
 class CfgServer {
     DatabaseName = "armalife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]

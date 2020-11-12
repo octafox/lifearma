@@ -230,4 +230,3 @@ class Life_Settings {
 #include "Config_Garages.hpp"
 #include "Config_Loadouts.hpp"
 #include "Config_xe.hpp"
-#include "derleon\Scripts_Master.hpp"
