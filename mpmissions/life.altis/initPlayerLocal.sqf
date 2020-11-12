@@ -17,5 +17,13 @@ if (LIFE_SETTINGS(getNumber,"spyGlass_toggle") isEqualTo 1) then {[] execVM "Spy
 [] spawn life_fnc_xe_lockDoors;
 [] spawn life_fnc_brighterNights;
 
+[] spawn {
+    while {true} do {
+        sleep 5;
+        [] spawn life_fnc_hudUpdate;
+        [] spawn life_fnc_playerSkins;
+    };
+};
+
 [] execVM "core\init.sqf";
 [] execVM "briefing.sqf";

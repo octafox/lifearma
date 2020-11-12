@@ -43,5 +43,11 @@ if (!isNull _source && {_source != _unit}) then {
     };
 };
 
+if(vehicle _source isKindOf "LandVehicle") then {
+    if(_source != _unit AND {alive _unit} AND {isPlayer _source}) then {
+        _damage = 0.001;
+    };
+};
+
 [] spawn life_fnc_hudUpdate;
 _damage;
