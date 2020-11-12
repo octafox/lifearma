@@ -57,7 +57,12 @@ if(_rip) then {
 		if!(alive _player) exitWith {};
 	};
 	if!(alive _player) exitWith { _rip = false; };
-	if(_player distance _npc > 10.5) exitWith { deleteMarker "MarkerxeRobbery"; _npc switchMove ""; hint "You need to stay within 10m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
+	if(_player distance _npc > 10.5) exitWith { 
+		deleteMarker "MarkerxeRobbery"; 
+		_npc switchMove ""; 
+		hint "You need to stay within 10m to Rob registry! - Now the registry is locked."; 
+		5 cutText ["","PLAIN"]; _rip = false;
+	};
 	5 cutText ["","PLAIN"];
 
 	titleText[format["You have stolen $%1, now get away before the cops arrive!",[_money] call life_fnc_numberText],"PLAIN"];

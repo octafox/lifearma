@@ -126,9 +126,11 @@ diag_log format ["               End of Altis Life Client Init :: Total Executio
 diag_log "----------------------------------------------------------------------------------------------------";
 
 
-0 enableChannel false;
+0 enableChannel [true, false];
 1 enableChannel [true, false];
 2 enableChannel false;
 3 enableChannel true;
 4 enableChannel true;
 5 enableChannel true;
+
+[] spawn life_fnc_autoSaveInv;

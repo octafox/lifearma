@@ -23,6 +23,10 @@ class SpyGlass {
 
 class Life_Client_Core {
     tag = "life";
+    class autosave {
+        file = "derleon\autosave";
+        class autoSaveInv {};
+    };
 
     class Master_Directory {
         file = "core";
