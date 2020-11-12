@@ -11,7 +11,7 @@ private ["_skinName"];
 switch (playerSide) do {
     case civilian: {
         if (uniform player isEqualTo "U_C_Poloshirt_blue") then {
-            player setObjectTextureGlobal [0, "textures\civilian_uniform_1.jpg"];
+            player setObjectTextureGlobal [0, "textures\civ_uni.jpg"];
         };
         if (uniform player isEqualTo "U_C_Driver_2") then {
             player setObjectTextureGlobal [0, "#(argb,8,8,3)color(0.361,0.05,0,1)"];
