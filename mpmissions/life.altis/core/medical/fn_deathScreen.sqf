@@ -14,7 +14,7 @@ _medicsOnline = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_t
 _medicsNear = ((findDisplay ID_xe_deathScreen) displayCtrl ID_xe_deathScreen_textMedicsNearby);
 
 waitUntil {
-    _nearby = if (([independent,getPosATL player,120] call life_fnc_nearUnits)) then {"Yes"} else {"No"};
+    _nearby = if (([independent,getPosATL player,120] call life_fnc_nearUnits)) then {"Si"} else {"No"};
     _medicsOnline ctrlSetText format [localize "STR_Medic_Online",independent countSide playableUnits];
     _medicsNear ctrlSetText format [localize "STR_Medic_Near",_nearby];
     sleep 1;

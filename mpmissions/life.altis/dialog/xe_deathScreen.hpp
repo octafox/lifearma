@@ -11,7 +11,7 @@ class xe_deathScreen {
     class Controls {
         class textMedicsOnline: Life_RscText {
             idc = ID_xe_deathScreen_textMedicsOnline;
-            text = "Medics Online: 1";
+            text = "Medics Online: 1"; //xe fix
             x = 0.407215 * safezoneW + safezoneX;
             y = 0.449381 * safezoneH + safezoneY;
             w = 0.0938159 * safezoneW;
@@ -20,7 +20,7 @@ class xe_deathScreen {
         };
         class textMedicsNearby: Life_RscText {
             idc = ID_xe_deathScreen_textMedicsNearby;
-            text = "Medics Nearby: No"; //--- ToDo: Localize;
+            text = "Medics Nearby: No"; //xe fix
             x = 0.503093 * safezoneW + safezoneX;
             y = 0.449381 * safezoneH + safezoneY;
             w = 0.0948468 * safezoneW;
@@ -42,7 +42,7 @@ class xe_deathScreen {
         class buttonMedic: Life_RscButtonMenu {
             idc = ID_xe_deathScreen_buttonMedic;
             onButtonClick = "[] call life_fnc_requestMedic;";
-            text = "Request Medic";
+            text = "Chiama il Medico";
             class Attributes {align = "center";};
             x = 0.503093 * safezoneW + safezoneX;
             y = 0.533013 * safezoneH + safezoneY;
