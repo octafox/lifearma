@@ -1,3 +1,5 @@
+#!/bin/bash
+
 WORKDIR = /home/game/lifearma/
 
 cd $WORKDIR/
@@ -14,6 +16,3 @@ armake pack life_hc life_hc.pbo
 cd $WORKDIR/mpmissions/
 rm -rf life.altis.pbo
 armake pack life.altis life.altis.pbo
-
-cd $WORKDIR/
-./start.sh
