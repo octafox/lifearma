@@ -264,7 +264,7 @@ class WeaponShops {
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
             { "optic_MRD", "", 275, 137, "" },
-            { "acc_flashlight_pistol", "", 250, 125, "" },//Pistol Flashlight
+            { "acc_flashlight_pistol", "", 250, 125, "" },
             { "acc_flashlight", "", 750, 375, "" },
             { "optic_Holosight", "", 120, 60, "" },
             { "optic_Arco", "", 250, 125, "" },
