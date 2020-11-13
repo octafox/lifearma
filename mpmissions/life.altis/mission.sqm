@@ -18827,7 +18827,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="removeallWeapons this; " \n "this allowDamage false; " \n "this enableSimulation false; " \n "this addAction[localize""STR_npc_civ_garage_car"",life_fnc_xe_garageMenu,[""Car"",""civ_car_garage_1""],0,true,true,"""",""playerSide isEqualTo civilian"",5]; " \n "this addAction[""Store in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",""!life_garage_store"",5]; " \n "this setVariable[""realname"",""Garage""];";
+						init="removeallWeapons this; " \n "this allowDamage false; " \n "this enableSimulation false; " \n "this addAction[localize""STR_npc_civ_garage_car"",life_fnc_xe_garageMenu,[""Car"",""civ_car_garage_1""],0,true,true,"""",""playerSide isEqualTo civilian"",5]; " \n "this addAction[""Deposita nel Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",""!life_garage_store"",5]; " \n "this setVariable[""realname"",""Garage""];";
 						name="npc_civ_garage_1";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
@@ -126250,7 +126250,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="removeallWeapons this; " \n "this allowDamage false; " \n "this enableSimulation false; " \n "this addAction[localize""STR_npc_civ_garage_car"",life_fnc_xe_garageMenu,[""Car"",""civ_car_garage_5""],0,true,true,"""",""playerSide isEqualTo civilian"",5]; " \n "this addAction[""Store in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",""!life_garage_store"",5]; " \n "this setVariable[""realname"",""Garage""];";
+						init="removeallWeapons this; " \n "this allowDamage false; " \n "this enableSimulation false; " \n "this addAction[localize""STR_npc_civ_garage_car"",life_fnc_xe_garageMenu,[""Car"",""civ_car_garage_5""],0,true,true,"""",""playerSide isEqualTo civilian"",5]; " \n "this addAction[""Deposita nel Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",""!life_garage_store"",5]; " \n "this setVariable[""realname"",""Garage""];";
 						name="npc_civ_garage_2";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
