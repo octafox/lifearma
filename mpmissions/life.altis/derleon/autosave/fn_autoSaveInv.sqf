@@ -34,10 +34,10 @@ if (!isServer) then {
 				{
 					if (LB_SETTINGS(getNumber,"lockManuelSync") isEqualTo 1) then 
 					{
-						systemChat format["Deine Daten wurden automatisch gespeichert. Manuelles Speichern für %1 min. gesperrt.", (LB_SETTINGS(getNumber,"lockManuelSync"))];
+						systemChat format["I dati sono stati salvati automaticamente. Salvataggio manuale disattivato per %1 min.", (LB_SETTINGS(getNumber,"lockManuelSync"))];
 					};
 				} else {
-					systemChat "Deine Daten wurden automatisch gespeichert.";
+					systemChat "I dati sono stati salvati automaticamente.";
 				};
 			};
 
