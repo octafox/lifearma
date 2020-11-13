@@ -42,7 +42,6 @@ class WeaponShops {
             { "10Rnd_9x21_Mag", "", 2500, 0, "" } //Apex DLC
         };
         accs[] = {
-          
             { "optic_ACO_grn_smg", "", 2500, 0, "" }
         };
     };
@@ -264,12 +263,13 @@ class WeaponShops {
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
-            { "optic_MRD", "", 275, 137, "call life_coplevel >= 1" },
-            { "acc_flashlight_pistol", "", 250, 125, "call life_coplevel >= 1" },//Pistol Flashlight
-            { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
-            { "optic_Holosight", "", 120, 60, "call life_coplevel >= 2" },
-            { "optic_Arco", "", 250, 125, "call life_coplevel >= 2" },
-            { "muzzle_snds_H", "", 275, 137, "call life_coplevel >= 2" }
+            { "optic_MRD", "", 275, 137, "" },
+            { "acc_flashlight_pistol", "", 250, 125, "" },//Pistol Flashlight
+            { "acc_flashlight", "", 750, 375, "" },
+            { "optic_Holosight", "", 120, 60, "" },
+            { "optic_Arco", "", 250, 125, "" },
+            { "optic_ACO_grn_smg", "", 2500, 0, "" },
+            { "muzzle_snds_H", "", 275, 137, "" }
         };
     };
 
