@@ -145,10 +145,9 @@ class CarShops {
     };
     class cop_air {
         side = "cop";
-        conditions = "call life_coplevel >= 3";
+        conditions = "call life_coplevel >= 2";
         vehicles[] = {
-            { "B_Heli_Light_01_F", "" },
-            { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
+            { "B_Heli_Light_01_F", "" }
         };
     };
     class cop_ship {
@@ -175,8 +174,9 @@ class CarShops {
     };
     class ctrg_air {
         side = "cop";
-        conditions = "call life_coplevel >= 5";
+        conditions = "call life_coplevel >= 6";
         vehicles[] = {
+            { "B_Heli_Light_01_F", "" },
             { "B_CTRG_Heli_Transport_01_tropic_F", "" }
         };
     };
