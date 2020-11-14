@@ -75,7 +75,7 @@ class Life_Settings {
     /* Gang System Configurations */
     gang_price = 150000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 25000; //The base cost for purchasing additional slots in a gang
-    gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
+    gang_upgradeMultiplier = 1.5; //CURRENTLY NOT IN USE
     gang_area[] = {"gang_area_1","gang_area_2","gang_area_3"}; //Variable of gang zone markers  
 
     /* Housing System Configurations */

@@ -12,6 +12,13 @@ class CfgSpawnPoints {
 
     class Altis {
         class Civilian {
+            class RebelS {
+                displayName = "Ribelli";
+                spawnMarker = "reb_spawn_base";
+                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                conditions = "license_civ_rebel";
+            };
+            
             class Kavala {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_kavala";
@@ -31,13 +38,6 @@ class CfgSpawnPoints {
                 spawnMarker = "civ_spawn_athira";
                 icon = "icons\xeicons\civilian.paa";
                 conditions = "";
-            };
-
-            class RebelS {
-                displayName = "Ribelli";
-                spawnMarker = "reb_spawn_base";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
             };
         };
 
