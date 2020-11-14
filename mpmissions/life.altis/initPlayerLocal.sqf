@@ -26,11 +26,11 @@ if (LIFE_SETTINGS(getNumber,"spyGlass_toggle") isEqualTo 1) then {[] execVM "Spy
 };
 
 [] spawn {
-    ["Benvenuto nel server!"] call life_fnc_notification_system;
+    ["Benvenuto nel server!","info",30] call life_fnc_notification_system;
     while {true} do {
-        ["Restarts: 04:00 - 12:00 - 20:00","info",30] call life_fnc_notification_system;
-        ["Se volete contribuire in qualche modo, venite sul teamspeak3 e contattate gli Admin","info",30] call life_fnc_notification_system;
         ["TeamSpeak3: ts.octafox.it:9988","info",30] call life_fnc_notification_system;
+        ["Se volete contribuire in qualsiasi modo, venite sul teamspeak3 e contattate gli Admin.","info",30] call life_fnc_notification_system;
+        ["Restarts: 01:00 - 06:00 - 13:00 - 19:00","info",30] call life_fnc_notification_system;
         sleep 600;
     };
 };

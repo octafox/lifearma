@@ -31,7 +31,7 @@ _message = _message + "fazioni: la polizia, i CTRG e i Ribelli. La polizia garan
 _message = _message + "della legge, mentre i CTRG mirano a debellare le particelle piu’ pericolose di criminalità sull’isola. <br />";
 _message = _message + "I ribelli aspirano a prendere il controllo dell’isola, in modo da istituire un governo di stampo anarchico <br />";
 _message = _message + "e una nazione egualitaria. Starà al civile scegliere da che parte stare.</t><br />";
-_message = _message + "<br /><t>Restarts: 04:00 - 12:00 - 20:00</t><br />";
+_message = _message + "<br /><t>Restarts: 01:00 - 06:00 - 13:00 - 19:00</t><br />";
 _message = _message + "<br /><a color='#00DFFF'>•</a> Teamspeak: <a href='ts3server://ts.octafox.it/?port=9988' color='#56BDD6'>ts.octafox.it:9988</a><br /><br /><br />";
 _message = _message + "Benvenuto, <a color='#B000FF'>Octafox</a> Staff Team.<br />";
 
