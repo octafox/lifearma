@@ -24,13 +24,13 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "B_Quadbike_01_F", "" },
-            { "C_Hatchback_01_F", "" },
-            { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "" },
-            { "C_Van_01_transport_F", "" },
-            { "C_Offroad_02_unarmed_F", "" } //Apex DLC
+            { "B_Quadbike_01_F", "Quad" },
+            { "C_Hatchback_01_F", "Hatchback" },
+            { "C_Offroad_01_F", "Offroad" },
+            { "C_Offroad_02_unarmed_F", "4WD" },
+            { "C_SUV_01_F", "SUV" },
+            { "C_Hatchback_01_sport_F", "Hatchback Sportivo" },
+            { "C_Van_01_transport_F", "Truck" }
         };
     };
     class civ_kart {
