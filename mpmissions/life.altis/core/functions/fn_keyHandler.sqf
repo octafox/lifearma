@@ -162,6 +162,14 @@ switch (_code) do {
         if (_shift && playerSide isEqualTo civilian && !isNull cursorObject && cursorObject isKindOf "CAManBase" && isPlayer cursorObject && alive cursorObject && cursorObject distance player < 4 && speed cursorObject < 1) then {
             if ((animationState cursorObject) != "Incapacitated" && (currentWeapon player == primaryWeapon player || currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable ["restrained",false]) && !life_istazed && !life_isknocked) then {
                 [cursorObject] spawn life_fnc_knockoutAction;
+
+                if("ItemRadio" in assignedItems cursorTarget) then {
+                    cursorTarget removeweapon "ItemRadio";
+                    hint localize "STR_physicalPhone_phoneDrop";
+                    _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);
+                } else {
+                    hint localize "STR_physicalPhone_phoneMissing";
+                };
             };
         };
     };

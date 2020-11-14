@@ -249,7 +249,7 @@ class xe_playermenu {
 	class button01: xeRscIconButton { //phone
 		idc = ID_xe_playerMenu_buttonPhone;
 		text = "icons\xeicons\phone.paa"; //--- ToDo: Localize;
-		onButtonClick = "createDialog ""Life_cell_phone"";";
+		onButtonClick = "[] call life_fnc_physicalPhone;"; // "createDialog ""Life_cell_phone"";"
 		tooltip = "phone"; //--- ToDo: Localize;
 		x = 0.444876 * safezoneW + safezoneX;
 		y = 0.2984 * safezoneH + safezoneY;

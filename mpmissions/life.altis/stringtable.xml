@@ -3285,4 +3285,12 @@
             <Original>[CTRG] Clothing</Original>
         </Key>
     </Package>
+    <Package name="physicalPhone">
+        <Key ID="STR_physicalPhone_phoneDrop">
+            <Original>The cellphone of the person was placed on the ground.</Original>
+        </Key>
+        <Key ID="STR_physicalPhone_phoneMissing">
+            <Original>The person that you knock out have no cellphone!</Original>
+        </Key>
+    </Package>
 </Project>
