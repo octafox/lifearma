@@ -27,12 +27,12 @@ class WeaponShops {
         conditions = "license_civ_gun";
         items[] = {
             { "ItemRadio", "", 0, 0, "" },
-            { "hgun_Rook40_F", "", 25000, 0, "" },
-            { "hgun_Pistol_01_F", "", 30000, 0, "" }, //Apex DLC
-            { "hgun_Pistol_heavy_02_F", "", 30000, 0, "" },
-            { "hgun_ACPC2_F", "", 35000, 0, "" },
-            { "SMG_05_F", "", 60000, 0, "" }, //Apex DLC
-            { "hgun_PDW2000_F", "", 65000, 0, "" }
+            { "hgun_Rook40_F", "", 55000, 0, "" },
+            { "hgun_Pistol_01_F", "", 60000, 0, "" }, //Apex DLC
+            { "hgun_Pistol_heavy_02_F", "", 60000, 0, "" },
+            { "hgun_ACPC2_F", "", 65000, 0, "" },
+            { "SMG_05_F", "", 90000, 0, "" }, //Apex DLC
+            { "hgun_PDW2000_F", "", 105000, 0, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 1250, 0, "" },
@@ -53,12 +53,12 @@ class WeaponShops {
         conditions = "license_civ_illegalguns";
         items[] = {
             { "ItemRadio", "", 0, 0, "" },
-            { "SMG_01_F", "Vektor", 40000, 0, "" },
-            { "SMG_02_F", "Sting", 55000, 0, "" },
+            { "SMG_01_F", "Vektor", 90000, 0, "" },
+            { "SMG_02_F", "Sting", 105000, 0, "" },
             { "arifle_SDAR_F", "SDAR", 35000, 0, "" },
-            { "arifle_AKS_F", "AKs", 120000, 0, "" },
-            { "arifle_TRG20_F", "TRG", 125000, 0, "" },
-            { "arifle_Mk20_plain_F", "MK20", 130000, 0, "" }
+            { "arifle_AKS_F", "AKs", 375000, 0, "" },
+            { "arifle_TRG20_F", "TRG", 400000, 0, "" },
+            { "arifle_Mk20_plain_F", "MK20", 430000, 0, "" }
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", "", 1000, 0, "" },
@@ -172,10 +172,10 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "ItemRadio", "", 0, 0, "" },
-            { "hgun_Rook40_F", "", 15000, 750, "" },
-            { "hgun_Pistol_heavy_02_F", "", 20000, 1250, "" },
-            { "hgun_ACPC2_F", "", 25000, 2250, "" },
-            { "hgun_PDW2000_F", "", 45000, 4750, "" }
+            { "hgun_Rook40_F", "", 35000, 750, "" },
+            { "hgun_Pistol_heavy_02_F", "", 40000, 1250, "" },
+            { "hgun_ACPC2_F", "", 45000, 2250, "" },
+            { "hgun_PDW2000_F", "", 95000, 4750, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
