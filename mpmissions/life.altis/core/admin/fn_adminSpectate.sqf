@@ -17,5 +17,5 @@ if (_unit == player) exitWith {[localize "STR_ANOTF_Error","info",30] call life_
 closeDialog 0;
 
 _unit switchCamera "INTERNAL";
-hint format [localize "STR_NOTF_nowSpectating",_unit getVariable ["realname",name _unit]];
+[format [localize "STR_NOTF_nowSpectating",_unit getVariable ["realname",name _unit]],"info",30] call life_fnc_notification_system;
 AM_Exit = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 68) then {(findDisplay 46) displayRemoveEventHandler ['KeyDown',AM_Exit]; player switchCamera 'INTERNAL'; hint localize 'STR_NOTF_stoppedSpectating';}; false"];

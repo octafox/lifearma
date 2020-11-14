@@ -52,7 +52,7 @@ if (life_HC_isActive) then {
     [_vid,_pid,_sellPrice,player,life_garage_type] remoteExecCall ["TON_fnc_vehicleDelete",RSERV];
 };
 
-hint format [localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText];
+[format [localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText],"info",30] call life_fnc_notification_system;
 BANK = BANK + _sellPrice;
 [1] call SOCK_fnc_updatePartial;
 

@@ -149,7 +149,7 @@ if (isClass(missionConfigFile >> "Licenses" >> life_clothing_store)) then {
     _flag = M_CONFIG(getText,"Licenses",life_clothing_store,"side");
     _displayName = M_CONFIG(getText,"Licenses",life_clothing_store,"displayName");
     if !(LICENSE_VALUE(life_clothing_store,_flag)) exitWith {
-        hint format [localize "STR_Shop_YouNeed",localize _displayName];
+        [format [localize "STR_Shop_YouNeed",localize _displayName],"info",30] call life_fnc_notification_system;
         closeDialog 0;
     };
 };

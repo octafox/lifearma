@@ -15,4 +15,4 @@ if (_target == player) exitWith {[localize "STR_ANOTF_Error","info",30] call lif
 
 if (!(vehicle _target isEqualTo _target)) exitWith {hint localize "STR_Admin_CannotTpHere"};
 _target setPos (getPos player);
-hint format [localize "STR_NOTF_haveTPedToYou",_target getVariable ["realname",name _target]];
+[format [localize "STR_NOTF_haveTPedToYou",_target getVariable ["realname",name _target]],"info",30] call life_fnc_notification_system;

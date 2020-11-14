@@ -34,5 +34,5 @@ if (_index isEqualTo -1) then  {
     _vehicle setVariable ["vehicle_info_owners",_owners,true];
 };
 
-hint format [localize "STR_NOTF_givenKeysTo",_unit getVariable ["realname",name _unit],typeOf _vehicle];
+[format [localize "STR_NOTF_givenKeysTo",_unit getVariable ["realname",name _unit],typeOf _vehicle],"info",30] call life_fnc_notification_system;
 [_vehicle,_unit,profileName] remoteExecCAll ["TON_fnc_clientGetKey",_unit];

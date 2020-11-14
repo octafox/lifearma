@@ -116,7 +116,7 @@ if (_hasLicense) then {
     if (_minimumConversions isEqualTo (_totalConversions call BIS_fnc_lowestNum)) then {[localize "STR_NOTF_ItemProcess","info",30] call life_fnc_notification_system;} else {[localize "STR_Process_Partial","info",30] call life_fnc_notification_system;};
     life_is_processing = false; life_action_inUse = false;
 } else {
-    if (CASH < _cost) exitWith {hint format [localize "STR_Process_License",[_cost] call life_fnc_numberText]; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
+    if (CASH < _cost) exitWith {[format [localize "STR_Process_License",[_cost] call life_fnc_numberText],"info",30] call life_fnc_notification_system; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
 
     for "_i" from 0 to 1 step 0 do {
         uiSleep  0.9;
@@ -128,7 +128,7 @@ if (_hasLicense) then {
     };
 
     if (player distance _vendor > 10) exitWith {[localize "STR_Process_Stay","info",30] call life_fnc_notification_system; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
-    if (CASH < _cost) exitWith {hint format [localize "STR_Process_License",[_cost] call life_fnc_numberText]; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
+    if (CASH < _cost) exitWith {[format [localize "STR_Process_License",[_cost] call life_fnc_numberText],"info",30] call life_fnc_notification_system; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
 
     {
         [false,(_x select 0),((_x select 1)*(_minimumConversions))] call life_fnc_handleInv;

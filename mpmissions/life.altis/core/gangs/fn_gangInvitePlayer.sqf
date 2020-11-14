@@ -30,7 +30,7 @@ if (_action) then {
     _members = group player getVariable "gang_members";
     _members pushBack getPlayerUID _unit;
     group player setVariable ["gang_members",_members,true];
-    hint format [localize "STR_GNOTF_InviteSent",_unit getVariable ["realname",name _unit]];
+    [format [localize "STR_GNOTF_InviteSent",_unit getVariable ["realname",name _unit]],"info",30] call life_fnc_notification_system;
 } else {
     [localize "STR_GNOTF_InviteCancel","info",30] call life_fnc_notification_system;
 };

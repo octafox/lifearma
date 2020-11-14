@@ -58,7 +58,7 @@ if !([_conditions] call life_fnc_levelCheck) exitWith {[localize "STR_Shop_Veh_N
 private _colorIndex = lbValue[2304,(lbCurSel 2304)];
 
 if (_purchasePrice < 0) exitWith {closeDialog 0;}; //Bad price entry
-if (CASH < _purchasePrice) exitWith {hint format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText];closeDialog 0;};
+if (CASH < _purchasePrice) exitWith {[format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText],"info",30] call life_fnc_notification_system;closeDialog 0;};
 
 private _spawnPoints = life_veh_shop select 1;
 private _spawnPoint = "";

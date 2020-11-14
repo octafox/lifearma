@@ -14,7 +14,7 @@ if (CASH < life_ticket_val) exitWith {
         closeDialog 0;
     };
 
-    hint format [localize "STR_Cop_Ticket_Paid",[life_ticket_val] call life_fnc_numberText];
+    [format [localize "STR_Cop_Ticket_Paid",[life_ticket_val] call life_fnc_numberText],"info",30] call life_fnc_notification_system;
     BANK = BANK - life_ticket_val;
     [1] call SOCK_fnc_updatePartial;
     life_ticket_paid = true;
