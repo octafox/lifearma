@@ -33,6 +33,7 @@ class Loadouts {
         linkedItems[] = {
             {"ItemMap", "call life_copLevel > 0"},
             {"ItemCompass", "call life_copLevel > 0"},
+            {"ItemRadio", ""},
             {"ItemWatch", "call life_copLevel > 0"}
         };
     };
@@ -57,6 +58,7 @@ class Loadouts {
         linkedItems[] = {
             {"ItemMap", ""},
             {"ItemCompass", ""},
+            {"ItemRadio", ""},
             {"ItemWatch", ""}
         };
     };
@@ -79,6 +81,7 @@ class Loadouts {
         linkedItems[] = {
             {"ItemMap", "call life_medicLevel >= 1"},
             {"ItemCompass", "call life_medicLevel >= 1"},
+            {"ItemRadio", ""},
             {"ItemWatch", "call life_medicLevel >= 1"}
         };
     };

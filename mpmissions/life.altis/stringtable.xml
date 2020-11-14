@@ -3292,5 +3292,8 @@
         <Key ID="STR_physicalPhone_phoneMissing">
             <Original>The person that you knock out have no cellphone!</Original>
         </Key>
+        <Key ID="STR_physicalPhone_phoneNeed">
+            <Original>You must have have a cellphone (Radio) to use this. You can buy cellphone in a general store</Original>
+        </Key>
     </Package>
 </Project>

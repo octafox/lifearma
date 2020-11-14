@@ -163,13 +163,13 @@ switch (_code) do {
             if ((animationState cursorObject) != "Incapacitated" && (currentWeapon player == primaryWeapon player || currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable ["restrained",false]) && !life_istazed && !life_isknocked) then {
                 [cursorObject] spawn life_fnc_knockoutAction;
 
-                if("ItemRadio" in assignedItems cursorTarget) then {
-                    cursorTarget removeweapon "ItemRadio";
-                    [localize "STR_physicalPhone_phoneDrop","info",30] call life_fnc_notification_system;
-                    _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);
-                } else {
-                    [localize "STR_physicalPhone_phoneMissing","info",30] call life_fnc_notification_system;
-                };
+                // if("ItemRadio" in assignedItems cursorTarget) then {
+                //     cursorTarget removeweapon "ItemRadio";
+                //     [localize "STR_physicalPhone_phoneDrop","info",30] call life_fnc_notification_system;
+                //     _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);
+                // } else {
+                //     [localize "STR_physicalPhone_phoneMissing","info",30] call life_fnc_notification_system;
+                // };
             };
         };
     };

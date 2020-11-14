@@ -26,6 +26,7 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_gun";
         items[] = {
+            { "ItemRadio", "", 0, 0, "" },
             { "hgun_Rook40_F", "", 25000, 0, "" },
             { "hgun_Pistol_01_F", "", 30000, 0, "" }, //Apex DLC
             { "hgun_Pistol_heavy_02_F", "", 30000, 0, "" },
@@ -51,6 +52,7 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_illegalguns";
         items[] = {
+            { "ItemRadio", "", 0, 0, "" },
             { "SMG_01_F", "Vektor", 40000, 0, "" },
             { "SMG_02_F", "Sting", 55000, 0, "" },
             { "arifle_SDAR_F", "SDAR", 35000, 0, "" },
@@ -77,6 +79,7 @@ class WeaponShops {
         conditions = "license_civ_rebel";
         items[] = {
             { "Binocular", "", 150, 75, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
             { "NVGoggles", "", 1000, 0, "" },
@@ -168,6 +171,7 @@ class WeaponShops {
         side = "civ";
         conditions = "";
         items[] = {
+            { "ItemRadio", "", 0, 0, "" },
             { "hgun_Rook40_F", "", 15000, 750, "" },
             { "hgun_Pistol_heavy_02_F", "", 20000, 1250, "" },
             { "hgun_ACPC2_F", "", 25000, 2250, "" },
@@ -192,6 +196,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "Binocular", "", 150, 75, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "ItemMap", "", 50, 25, "" },
             { "ItemCompass", "", 50, 25, "" },
@@ -213,6 +218,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "Binocular", "", 750, 75, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 500, 50, "" },
             { "ItemMap", "", 250, 25, "" },
             { "ItemCompass", "", 250, 25, "" },
@@ -235,6 +241,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "Binocular", "", 150, 75, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 100, 75, "" },
             { "NVGoggles", "", 1000, 1000, "" },
@@ -281,6 +288,7 @@ class WeaponShops {
         conditions = "call life_coplevel >= 5";
         items[] = {
             { "Binocular", "", 150, 75, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
             { "NVGoggles", "", 1000, 1000, "" },
@@ -407,6 +415,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "ItemGPS", "", 100, 50, "" },
+            { "ItemRadio", "", 0, 0, "" },
             { "Binocular", "", 150, 75, "" },
             { "FirstAidKit", "", 150, 75, "" },
             { "NVGoggles", "", 1200, 600, "" }
