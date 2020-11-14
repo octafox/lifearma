@@ -12,6 +12,7 @@ armake pack life_server life_server.pbo
 cd ${WORKDIR}/@life_hc/addons/
 rm -rf life_hc.pbo
 armake pack life_hc life_hc.pbo
+armake sign ${WORKDIR}/signKey/life.biprivatekey life_hc.pbo
 
 cd ${WORKDIR}/mpmissions/
 rm -rf life.altis.pbo
