@@ -24,7 +24,7 @@ _action = [
 
 if (_action) then {
     _unitID = getPlayerUID _unit;
-    if (_unitID isEqualTo "") exitWith {hint localize "STR_GNOTF_badUID";}; //Unlikely?
+    if (_unitID isEqualTo "") exitWith {[localize "STR_GNOTF_badUID","info",30] call life_fnc_notification_system;}; //Unlikely?
     group player setVariable ["gang_owner",_unitID,true];
     group player selectLeader _unit;
     [_unit,group player] remoteExec ["TON_fnc_clientGangLeader",_unit]; //Boot that bitch!
@@ -36,6 +36,6 @@ if (_action) then {
     };
 
 } else {
-    hint localize "STR_GNOTF_TransferCancel";
+    [localize "STR_GNOTF_TransferCancel","info",30] call life_fnc_notification_system;
 };
 [] call life_fnc_gangMenu;

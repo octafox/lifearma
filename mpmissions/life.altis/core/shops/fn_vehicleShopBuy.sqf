@@ -9,8 +9,8 @@
 
 params [["_mode",true,[true]]];
 
-if ((lbCurSel 2302) isEqualTo -1) exitWith {hint localize "STR_Shop_Veh_DidntPick";closeDialog 0;};
-if ((time - life_action_delay) < 0.2) exitWith {hint localize "STR_NOTF_ActionDelay";};
+if ((lbCurSel 2302) isEqualTo -1) exitWith {[localize "STR_Shop_Veh_DidntPick","info",30] call life_fnc_notification_system;closeDialog 0;};
+if ((time - life_action_delay) < 0.2) exitWith {[localize "STR_NOTF_ActionDelay","info",30] call life_fnc_notification_system;};
 life_action_delay = time;
 
 private _className = lbData[2302,(lbCurSel 2302)];
@@ -53,7 +53,7 @@ if (_mode) then {
 
 private _conditions = M_CONFIG(getText,"LifeCfgVehicles",_className,"conditions");
 
-if !([_conditions] call life_fnc_levelCheck) exitWith {hint localize "STR_Shop_Veh_NoLicense";};
+if !([_conditions] call life_fnc_levelCheck) exitWith {[localize "STR_Shop_Veh_NoLicense","info",30] call life_fnc_notification_system;};
 
 private _colorIndex = lbValue[2304,(lbCurSel 2304)];
 
@@ -79,7 +79,7 @@ if ((life_veh_shop select 0) == "med_air_hs") then {
 };
 
 
-if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block"; closeDialog 0;};
+if (_spawnPoint isEqualTo "") exitWith {[localize "STR_Shop_Veh_Block","info",30] call life_fnc_notification_system; closeDialog 0;};
 CASH = CASH - _purchasePrice;
 [0] call SOCK_fnc_updatePartial;
 if (_mode) then {

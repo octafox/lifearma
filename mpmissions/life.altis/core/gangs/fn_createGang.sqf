@@ -16,7 +16,7 @@ _allowed = toArray("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 if (_length > 32) exitWith {hint localize "STR_GNOTF_Over32"};
 _badChar = false;
 {if (!(_x in _allowed)) exitWith {_badChar = true;};} forEach _chrByte;
-if (_badChar) exitWith {hint localize "STR_GNOTF_IncorrectChar";};
+if (_badChar) exitWith {[localize "STR_GNOTF_IncorrectChar","info",30] call life_fnc_notification_system;};
 if (BANK < (LIFE_SETTINGS(getNumber,"gang_price"))) exitWith {hint format [localize "STR_GNOTF_NotEnoughMoney",[((LIFE_SETTINGS(getNumber,"gang_price")) - BANK)] call life_fnc_numberText];};
 
 if (life_HC_isActive) then {
@@ -34,6 +34,6 @@ if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     publicVariableServer "advanced_log";
 };
 
-hint localize "STR_NOTF_SendingData";
+[localize "STR_NOTF_SendingData","info",30] call life_fnc_notification_system;
 closeDialog 0;
 life_action_gangInUse = true;

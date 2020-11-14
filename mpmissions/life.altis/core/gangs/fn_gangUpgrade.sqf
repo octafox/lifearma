@@ -38,5 +38,5 @@ if (_action) then {
     };
 
 } else {
-    hint localize "STR_GNOTF_UpgradeCancel";
+    [localize "STR_GNOTF_UpgradeCancel","info",30] call life_fnc_notification_system;
 };

@@ -54,4 +54,4 @@ if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "ST
 life_action_inUse = false;
 
 _vault setVariable ["safe_open",false,true];
-hint localize "STR_Cop_VaultRepaired";
+[localize "STR_Cop_VaultRepaired","info",30] call life_fnc_notification_system;

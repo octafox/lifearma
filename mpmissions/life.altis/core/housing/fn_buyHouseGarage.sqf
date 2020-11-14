@@ -10,8 +10,8 @@ private _house = param [0,objNull,[objNull]];
 private _uid = getPlayerUID player;
 
 if (isNull _house) exitWith {};
-if (_house getVariable ["garageBought",false]) exitWith {hint localize "STR_Garage_alreadyOwned";};
-if ((_house getVariable "house_owner") select 0 != getPlayerUID player) exitWith {hint localize "STR_Garage_NotOwner";};
+if (_house getVariable ["garageBought",false]) exitWith {[localize "STR_Garage_alreadyOwned","info",30] call life_fnc_notification_system;};
+if ((_house getVariable "house_owner") select 0 != getPlayerUID player) exitWith {[localize "STR_Garage_NotOwner","info",30] call life_fnc_notification_system;};
 if (_house getVariable ["blacklistedGarage",false]) exitWith {};
 closeDialog 0;
 

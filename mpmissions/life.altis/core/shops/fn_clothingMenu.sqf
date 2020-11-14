@@ -32,7 +32,7 @@ if !(_shopSide isEqualTo "") then {
 if (_exit) exitWith {};
 
 _exit = [_conditions] call life_fnc_levelCheck;
-if !(_exit) exitWith {hint localize "STR_Shop_Veh_NoLicense";};
+if !(_exit) exitWith {[localize "STR_Shop_Veh_NoLicense","info",30] call life_fnc_notification_system;};
 
 //Save old inventory
 life_oldClothes = uniform player;
@@ -55,10 +55,10 @@ ctrlSetText [3103,localize _shopTitle];
 sliderSetRange [3107, 0, 360];
 
 //Cop / Civ Pre Check
-if (_shop in ["bruce","dive","reb","kart"] && {!(playerSide isEqualTo civilian)}) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
-if (_shop == "reb" && {!license_civ_rebel}) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if (_shop == "cop" && {!(playerSide isEqualTo west)}) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
-if (_shop == "dive" && {!license_civ_dive}) exitWith {hint localize "STR_Shop_NotaDive"; closeDialog 0;};
+if (_shop in ["bruce","dive","reb","kart"] && {!(playerSide isEqualTo civilian)}) exitWith {[localize "STR_Shop_NotaCiv","info",30] call life_fnc_notification_system; closeDialog 0;};
+if (_shop == "reb" && {!license_civ_rebel}) exitWith {[localize "STR_Shop_NotaReb","info",30] call life_fnc_notification_system; closeDialog 0;};
+if (_shop == "cop" && {!(playerSide isEqualTo west)}) exitWith {[localize "STR_Shop_NotaCop","info",30] call life_fnc_notification_system; closeDialog 0;};
+if (_shop == "dive" && {!license_civ_dive}) exitWith {[localize "STR_Shop_NotaDive","info",30] call life_fnc_notification_system; closeDialog 0;};
 
 
 private ["_pos","_oldPos","_oldDir","_oldBev","_testLogic","_nearVeh","_light"];

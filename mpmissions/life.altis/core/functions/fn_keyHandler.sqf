@@ -95,7 +95,7 @@ switch (_code) do {
         private _CommandMode = actionKeys "tacticalView";
 
         if (_code in _CommandMode) then {
-            hint localize "STR_NOTF_CommanderView";
+            [localize "STR_NOTF_CommanderView","info",30] call life_fnc_notification_system;
             _handled = true;
         };
     };
@@ -165,10 +165,10 @@ switch (_code) do {
 
                 if("ItemRadio" in assignedItems cursorTarget) then {
                     cursorTarget removeweapon "ItemRadio";
-                    hint localize "STR_physicalPhone_phoneDrop";
+                    [localize "STR_physicalPhone_phoneDrop","info",30] call life_fnc_notification_system;
                     _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);
                 } else {
-                    hint localize "STR_physicalPhone_phoneMissing";
+                    [localize "STR_physicalPhone_phoneMissing","info",30] call life_fnc_notification_system;
                 };
             };
         };
@@ -187,7 +187,7 @@ switch (_code) do {
                 if (!(isNil "_list")) then {
                     _house = nearestObject [(ASLtoATL (getPosASL _list)), "House"];
                     if (_house getVariable ["locked", false]) then {
-                        hint localize "STR_House_ContainerDeny";
+                        [localize "STR_House_ContainerDeny","info",30] call life_fnc_notification_system;
                     } else {
                         [_list] spawn life_fnc_openInventory;
                     };

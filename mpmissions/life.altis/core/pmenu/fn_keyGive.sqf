@@ -15,11 +15,11 @@ _list = _dialog displayCtrl 2701;
 _plist = _dialog displayCtrl 2702;
 
 _sel = lbCurSel _list;
-if ((_list lbData _sel) isEqualTo "") exitWith {hint localize "STR_NOTF_didNotSelectVehicle";};
+if ((_list lbData _sel) isEqualTo "") exitWith {[localize "STR_NOTF_didNotSelectVehicle","info",30] call life_fnc_notification_system;};
 _vehicle = _list lbData _sel;
 _vehicle = life_vehicles select parseNumber(_vehicle);
 
-if ((lbCurSel 2702) isEqualTo -1) exitWith {hint localize "STR_NOTF_didNotSelectPlayer";};
+if ((lbCurSel 2702) isEqualTo -1) exitWith {[localize "STR_NOTF_didNotSelectPlayer","info",30] call life_fnc_notification_system;};
 _sel = lbCurSel _plist;
 _unit = _plist lbData _sel;
 _unit = call compile format ["%1", _unit];

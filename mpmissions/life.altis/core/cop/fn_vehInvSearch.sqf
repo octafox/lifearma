@@ -37,5 +37,5 @@ if (_value > 0) then {
     [1] call SOCK_fnc_updatePartial;
     _vehicle setVariable ["Trunk",[[],0],true];
 } else {
-    hint localize "STR_Cop_NoIllegalVeh";
+    [localize "STR_Cop_NoIllegalVeh","info",30] call life_fnc_notification_system;
 };

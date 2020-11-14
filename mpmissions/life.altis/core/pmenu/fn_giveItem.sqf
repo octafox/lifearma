@@ -16,11 +16,11 @@ call {
     private _value = ctrlText 2010;
 
     if ((lbCurSel 2023) isEqualTo -1) exitWith {
-        hint localize "STR_NOTF_noOneSelected";
+        [localize "STR_NOTF_noOneSelected","info",30] call life_fnc_notification_system;
     };
 
     if ((lbCurSel 2005) isEqualTo -1) exitWith {
-        hint localize "STR_NOTF_didNotSelectItemToGive";
+        [localize "STR_NOTF_didNotSelectItemToGive","info",30] call life_fnc_notification_system;
     };
 
 
@@ -28,20 +28,20 @@ call {
     _unit = call compile format ["%1",_unit];
 
     if (isNil "_unit") exitWith {
-        hint localize "STR_NOTF_notWithinRange";
+        [localize "STR_NOTF_notWithinRange","info",30] call life_fnc_notification_system;
     };
     if (isNull _unit || {_unit isEqualTo player}) exitWith {};
 
     private _item = lbData [2005, lbCurSel 2005];
 
     if !([_value] call TON_fnc_isnumber) exitWith {
-        hint localize "STR_NOTF_notNumberFormat";
+        [localize "STR_NOTF_notNumberFormat","info",30] call life_fnc_notification_system;
     };
     if (parseNumber _value <= 0) exitWith {
-        hint localize "STR_NOTF_enterAmountGive";
+        [localize "STR_NOTF_enterAmountGive","info",30] call life_fnc_notification_system;
     };
     if !([false,_item, parseNumber _value] call life_fnc_handleInv) exitWith {
-        hint localize "STR_NOTF_couldNotGive";
+        [localize "STR_NOTF_couldNotGive","info",30] call life_fnc_notification_system;
     };
 
     [_unit, _value, _item, player] remoteExecCall ["life_fnc_receiveItem", _unit];

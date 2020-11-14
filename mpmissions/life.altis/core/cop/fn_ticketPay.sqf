@@ -9,7 +9,7 @@
 if (isNil "life_ticket_val" || isNil "life_ticket_cop") exitWith {};
 if (CASH < life_ticket_val) exitWith {
     if (BANK < life_ticket_val) exitWith {
-        hint localize "STR_Cop_Ticket_NotEnough";
+        [localize "STR_Cop_Ticket_NotEnough","info",30] call life_fnc_notification_system;
         [1,"STR_Cop_Ticket_NotEnoughNOTF",true,[profileName]] remoteExecCall ["life_fnc_broadcast",life_ticket_cop];
         closeDialog 0;
     };

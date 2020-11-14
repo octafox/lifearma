@@ -68,7 +68,7 @@ switch (true) do {
         life_is_arrested = false;
         life_bail_paid = false;
 
-        hint localize "STR_Jail_Paid";
+        [localize "STR_Jail_Paid","info",30] call life_fnc_notification_system;
         player setPos (getMarkerPos "jail_release");
 
         if (life_HC_isActive) then {
@@ -82,7 +82,7 @@ switch (true) do {
 
     case (_esc): {
         life_is_arrested = false;
-        hint localize "STR_Jail_EscapeSelf";
+        [localize "STR_Jail_EscapeSelf","info",30] call life_fnc_notification_system;
         [0, "STR_Jail_EscapeNOTF", true, [profileName]] remoteExecCall ["life_fnc_broadcast", RCLIENT];
 
         if (life_HC_isActive) then {
@@ -96,7 +96,7 @@ switch (true) do {
 
     case (alive player && {!_esc} && {!_bail}): {
         life_is_arrested = false;
-        hint localize "STR_Jail_Released";
+        [localize "STR_Jail_Released","info",30] call life_fnc_notification_system;
 
         if (life_HC_isActive) then {
             [getPlayerUID player] remoteExecCall ["HC_fnc_wantedRemove", HC_Life];

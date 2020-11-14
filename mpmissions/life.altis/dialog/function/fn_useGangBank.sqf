@@ -16,7 +16,7 @@ if ((time - life_action_delay) < 0.5) exitWith {hint localize "STR_NOTF_ActionDe
 
 //Series of stupid checks
 if (isNil {(group player) getVariable "gang_name"}) exitWith {hint localize "STR_ATM_NotInGang"}; // Checks if player isn't in a gang
-if (_value > 999999) exitWith {hint localize "STR_ATM_WithdrawMax";};
+if (_value > 999999) exitWith {[localize "STR_ATM_WithdrawMax","info",30] call life_fnc_notification_system;};
 if (_value < 1) exitWith {};
 if (!([str(_value)] call TON_fnc_isnumber)) exitWith {hint localize "STR_ATM_notnumeric"};
 if (_deposit && _value > CASH) exitWith {hint localize "STR_ATM_NotEnoughCash"};

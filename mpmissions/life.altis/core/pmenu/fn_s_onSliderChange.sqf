@@ -56,7 +56,7 @@ switch _mode do {
             ctrlSetText [20324,format ["Fuel : %1 liters",_value - (floor(_fuel * _fueltank))]];
             ctrlSetText [20323,format ["Total : $%1",round ((uiNamespace getVariable ["fuel_cost",0]) * (_value -(floor(_fuel * _fueltank)))) ]];
         } else {
-            hint localize "STR_Select_Vehicle_Pump";
+            [localize "STR_Select_Vehicle_Pump","info",30] call life_fnc_notification_system;
         };
     };
 

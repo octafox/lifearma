@@ -58,7 +58,7 @@ if (life_garage_sp isEqualType []) then {
     };
 };
 
-hint localize "STR_Garage_SpawningVeh";
+[localize "STR_Garage_SpawningVeh","info",30] call life_fnc_notification_system;
 BANK = BANK - _price;
 [1] call SOCK_fnc_updatePartial;
 closeDialog 0;

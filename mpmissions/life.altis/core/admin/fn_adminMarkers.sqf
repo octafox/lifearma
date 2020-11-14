@@ -9,7 +9,7 @@ params [
     ["_reOpen", false, [false]]
 ];
 
-if (FETCH_CONST(life_adminlevel) < 4) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if (FETCH_CONST(life_adminlevel) < 4) exitWith {closeDialog 0; [localize "STR_ANOTF_ErrorLevel","info",30] call life_fnc_notification_system;};
 
 life_markers_active = true;
 

@@ -41,7 +41,7 @@ life_pInact_curTarget = _curTarget;
 
 if (_curTarget in life_hideoutBuildings) exitWith {
     closeDialog 0;
-    hint localize "STR_House_Hideout";
+    [localize "STR_House_Hideout","info",30] call life_fnc_notification_system;
 };
 
 if (_curTarget isKindOf "House_F" && playerSide isEqualTo west) exitWith {

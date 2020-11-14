@@ -37,5 +37,5 @@ if (life_HC_isActive) then {
     [_vehicle,false,(_this select 1),_storetext] remoteExec ["TON_fnc_vehicleStore",RSERV];
 };
 
-hint localize "STR_Garage_Store_Server";
+[localize "STR_Garage_Store_Server","info",30] call life_fnc_notification_system;
 life_garage_store = true;

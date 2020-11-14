@@ -12,7 +12,7 @@ private _unit = lbData[2902,lbCurSel (2902)];
 _unit = call compile format ["%1", _unit];
 if (isNil "_unit") exitWith {};
 if (isNull _unit) exitWith {};
-if (_unit == player) exitWith {hint localize "STR_ANOTF_Error";};
+if (_unit == player) exitWith {[localize "STR_ANOTF_Error","info",30] call life_fnc_notification_system;};
 
 closeDialog 0;
 

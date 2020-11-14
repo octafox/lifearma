@@ -12,14 +12,14 @@ private ["_ctrl","_num","_index","_data","_old","_value","_weight","_diff"];
 disableSerialization;
 if (isNull life_trunk_vehicle || !alive life_trunk_vehicle) exitWith {hint localize "STR_MISC_VehDoesntExist"};
 if (!alive player) exitWith {closeDialog 0;};
-if ((life_trunk_vehicle getVariable ["trunk_in_use_by",player]) != player) exitWith {  closeDialog 0; hint localize "STR_MISC_VehInvUse"; };
+if ((life_trunk_vehicle getVariable ["trunk_in_use_by",player]) != player) exitWith {  closeDialog 0; [localize "STR_MISC_VehInvUse","info",30] call life_fnc_notification_system; };
 
-if ((lbCurSel 3502) isEqualTo -1) exitWith {hint localize "STR_Global_NoSelection";};
+if ((lbCurSel 3502) isEqualTo -1) exitWith {[localize "STR_Global_NoSelection","info",30] call life_fnc_notification_system;};
 _ctrl = ctrlSelData(3502);
 _num = ctrlText 3505;
-if (!([_num] call TON_fnc_isnumber)) exitWith {hint localize "STR_MISC_WrongNumFormat";};
+if (!([_num] call TON_fnc_isnumber)) exitWith {[localize "STR_MISC_WrongNumFormat","info",30] call life_fnc_notification_system;};
 _num = parseNumber(_num);
-if (_num < 1) exitWith {hint localize "STR_MISC_Under1";};
+if (_num < 1) exitWith {[localize "STR_MISC_Under1","info",30] call life_fnc_notification_system;};
 
 _index = [_ctrl,((life_trunk_vehicle getVariable "Trunk") select 0)] call TON_fnc_index;
 _data = (life_trunk_vehicle getVariable "Trunk") select 0;
@@ -51,6 +51,6 @@ if (_ctrl == "money") then {
         life_trunk_vehicle setVariable ["Trunk",[_data,(_old select 1) - _weight],true];
         [life_trunk_vehicle] call life_fnc_vehInventory;
     } else {
-        hint localize "STR_NOTF_InvFull";
+        [localize "STR_NOTF_InvFull","info",30] call life_fnc_notification_system;
     };
 };

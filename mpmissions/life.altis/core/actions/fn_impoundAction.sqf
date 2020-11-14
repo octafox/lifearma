@@ -43,7 +43,7 @@ for "_i" from 0 to 1 step 0 do {
 
 "progressBar" cutText ["","PLAIN"];
 
-if (player distance _vehicle > 10) exitWith {hint localize "STR_NOTF_ImpoundingCancelled"; life_action_inUse = false;};
+if (player distance _vehicle > 10) exitWith {[localize "STR_NOTF_ImpoundingCancelled","info",30] call life_fnc_notification_system; life_action_inUse = false;};
 if (!alive player) exitWith {life_action_inUse = false;};
 
 if (count crew _vehicle isEqualTo 0) then {
@@ -74,7 +74,7 @@ if (count crew _vehicle isEqualTo 0) then {
             [1] call SOCK_fnc_updatePartial;
     };
 } else {
-    hint localize "STR_NOTF_ImpoundingCancelled";
+    [localize "STR_NOTF_ImpoundingCancelled","info",30] call life_fnc_notification_system;
 };
 
 life_action_inUse = false;

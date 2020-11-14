@@ -7,7 +7,7 @@
     Figure it out.
 */
 private ["_value","_action"];
-if (FETCH_CONST(life_adminlevel) < 2) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if (FETCH_CONST(life_adminlevel) < 2) exitWith {closeDialog 0; [localize "STR_ANOTF_ErrorLevel","info",30] call life_fnc_notification_system;};
 _value = parseNumber(ctrlText 9922);
 if (_value < 0) exitWith {};
 if (_value > 999999) exitWith {hint localize "STR_ANOTF_Fail"};
@@ -24,6 +24,6 @@ if (_action) then {
     hint format [localize "STR_ANOTF_Success",[_value] call life_fnc_numberText];
     closeDialog 0;
 } else {
-    hint localize "STR_NOTF_ActionCancel";
+    [localize "STR_NOTF_ActionCancel","info",30] call life_fnc_notification_system;
     closeDialog 0;
 };

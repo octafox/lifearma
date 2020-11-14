@@ -80,5 +80,5 @@ if (_value > 0) then {
         [_house] remoteExecCall ["TON_fnc_updateHouseTrunk",RSERV];
     };
 } else {
-    hint localize "STR_House_Raid_NoIllegal";
+    [localize "STR_House_Raid_NoIllegal","info",30] call life_fnc_notification_system;
 };
