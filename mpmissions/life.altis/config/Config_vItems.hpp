@@ -444,7 +444,7 @@ class VirtualItems {
         displayName = "STR_Item_DiamondC";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 4500;
+        sellPrice = 4000;
         illegal = false;
         edible = -1;
         drinkable = -1;
@@ -544,7 +544,7 @@ class VirtualItems {
         displayName = "STR_Item_CocaineP";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 11000;
+        sellPrice = 9500;
         illegal = true;
         edible = -1;
         drinkable = -1;
