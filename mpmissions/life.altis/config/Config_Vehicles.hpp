@@ -24,13 +24,13 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "B_Quadbike_01_F", "Quad" },
-            { "C_Hatchback_01_F", "Hatchback" },
-            { "C_Offroad_01_F", "Offroad" },
-            { "C_Offroad_02_unarmed_F", "4WD" },
-            { "C_SUV_01_F", "SUV" },
-            { "C_Hatchback_01_sport_F", "Hatchback Sportivo" },
-            { "C_Van_01_transport_F", "Truck" }
+            { "B_Quadbike_01_F", "" }, // Quad
+            { "C_Hatchback_01_F", "" }, // Hatchback
+            { "C_Offroad_01_F", "" }, // Offroad
+            { "C_Offroad_02_unarmed_F", "" }, // 4WD
+            { "C_SUV_01_F", "" }, // SUV
+            { "C_Hatchback_01_sport_F", "" }, // Hatchback Sportivo
+            { "C_Van_01_transport_F", "" } // Truck
         };
     };
     class civ_kart {
@@ -47,17 +47,17 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "C_Van_01_box_F", "Truck Boxer" },
-            { "C_Van_01_fuel_F", "Fuel Truck" },
-            { "I_Truck_02_transport_F", "Zamak Trasporto" },
-            { "I_Truck_02_covered_F", "Zamak Coperto" },
-            { "I_Truck_02_fuel_F", "Zamak Fuel" },
-            { "O_Truck_03_transport_F", "Tempest Trasporto" },
-            { "O_Truck_03_covered_F", "Tempest Coperto" },
-            { "O_Truck_03_device_F", "Tempest Device" },
-            { "B_Truck_01_transport_F", "HEMTT Trasporto" },
-            { "B_Truck_01_box_F", "HEMTT Box" },
-            { "B_Truck_01_fuel_F", "HEMTT Fuel" }
+            { "C_Van_01_box_F", "" }, // Truck Boxer
+            { "C_Van_01_fuel_F", "" }, // Fuel Truck
+            { "I_Truck_02_transport_F", "" }, // Zamak Trasporto
+            { "I_Truck_02_covered_F", "" }, // Zamak Coperto
+            { "I_Truck_02_fuel_F", "" }, // Zamak Fuel
+            { "O_Truck_03_transport_F", "" }, // Tempest Trasporto
+            { "O_Truck_03_covered_F", "" }, // Tempest Coperto
+            { "O_Truck_03_device_F", "" }, // Tempest Device
+            { "B_Truck_01_transport_F", "" }, // HEMTT Trasporto
+            { "B_Truck_01_box_F", "" }, // HEMTT Box
+            { "B_Truck_01_fuel_F", "" } // HEMTT Fuel
         };
     };
     class civ_air {
