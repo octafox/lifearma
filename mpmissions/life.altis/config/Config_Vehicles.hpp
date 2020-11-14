@@ -47,17 +47,17 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "C_Van_01_box_F", "" },
-            { "I_Truck_02_transport_F", "" },
-            { "I_Truck_02_covered_F", "" },
-            { "B_Truck_01_transport_F", "" },
-            { "O_Truck_03_transport_F", "" },
-            { "O_Truck_03_covered_F", "" },
-            { "B_Truck_01_box_F", "" },
-            { "O_Truck_03_device_F", "" },
-            { "C_Van_01_fuel_F", "" },
-            { "I_Truck_02_fuel_F", "" },
-            { "B_Truck_01_fuel_F", "" }
+            { "C_Van_01_box_F", "Truck Boxer" },
+            { "C_Van_01_fuel_F", "Fuel Truck" },
+            { "I_Truck_02_transport_F", "Zamak Trasporto" },
+            { "I_Truck_02_covered_F", "Zamak Coperto" },
+            { "I_Truck_02_fuel_F", "Zamak Fuel" },
+            { "O_Truck_03_transport_F", "Tempest Trasporto" },
+            { "O_Truck_03_covered_F", "Tempest Coperto" },
+            { "O_Truck_03_device_F", "Tempest Device" },
+            { "B_Truck_01_transport_F", "HEMTT Trasporto" },
+            { "B_Truck_01_box_F", "HEMTT Box" },
+            { "B_Truck_01_fuel_F", "HEMTT Fuel" }
         };
     };
     class civ_air {
@@ -675,7 +675,7 @@ class LifeCfgVehicles {
     };
 
     class I_Truck_02_transport_F {
-        vItemSpace = 270;
+        vItemSpace = 140;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 110000;
         textures[] = {
