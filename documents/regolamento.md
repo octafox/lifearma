@@ -89,7 +89,7 @@ es 2: La gang del Bosco ha seminato il panico nell'isola: i suoi membri hanno uc
 -  Multe e arresti vanno a discrezione degli agenti. (es 1: Pippo è stato catturato dalla polizia con un camion pieno di cocaina. Pippo viene arrestato. es 2: La polizia effettua un controllo su Pippo, che appare sulla lista dei ricercati per spaccio. Pippo non ha droga con se, e al momento non sta facendo nulla di illegale. La polizia non lo manda direttamente in carcere, bensì lo multa.  In caso pippo si riufiutasse di pagare la multa, la polizia si troverebbe costretta a mandarlo in carcere. es 3: Topo Gigio viene fermato dalla polizia per un controllo. E' sulla lista dei ricercati, accusato di 5 omicidi. Non possiede niente di illegale con se, ma i suoi capi di accusa permettono alla polizia di arrestare Topo Gigio ). 
 
 ## RIBELLI
-- I civili non hanno il diritto di accesso alla base ribelle senza l'accompagnamento o l'autorizzazione di un ribelle.
+- I civili non hanno il permesso di accedere alla base ribelle senza l'accompagnamento o l'autorizzazione di un ribelle. Questi ultimi possono aprire il fuoco contro soggetti armati non autorizzati all'interno del perimetro 
 
 - Il Ribelle protegge e sostiene il civile intenzionato a costruire un nuovo governo per Altis: si schiera contro polizia e CTRG, contro civili che commettono crimini nei confronti di altri civili onesti e innocenti. Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
 
