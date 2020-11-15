@@ -1,7 +1,7 @@
 ## Limiti Membri
 - CTRG massimo 6
 - Ribelli massimo 6
-- Gang massimo 5
+- Gang massimo 5 (non sono permesse alleanze o collaborazioni con altre gang o civili)
 
 ## Regolamento generale
 
@@ -50,6 +50,8 @@
 - Le alleanze non sono vietate, ma vanno dichiarate. (es: Ribelli e la Gang del Bosco occupano Athira. Perchè l'azione sia regolare, l'alleanza deve essere dichiarata in chat globale)
 
 - Nel caso in cui si venga inseguiti è severamente vietato depositare il veicolo con il quale si sta scappando nel garage.
+
+- I civili non possono ingaggiare o essere ingaggiati per 20 minuti dopo la fine di un azione(disingaggio compreso).
 
 ## Regolamento della rapina alla banca e altro.
 
