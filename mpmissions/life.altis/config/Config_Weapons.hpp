@@ -89,17 +89,17 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 16000, 0, "" },
             { "hgun_Pistol_01_F", "", 16000, 500, "" },
             { "sgun_HunterShotgun_01_F", "", 35000, 0, "" },
-            { "sgun_HunterShotgun_01_sawedoff_F", "", 35000, 0, "" },
-            { "hgun_PDW2000_F", "", 40000, 0, "" },
-            { "SMG_01_F", "", 65000, 500, "" },
-            { "SMG_02_F", "", 70000, 500, "" },
-            { "SMG_05_F", "", 70000, 500, "" },
+            { "sgun_HunterShotgun_01_sawedoff_F", "", 45000, 0, "" },
+            { "hgun_PDW2000_F", "", 60000, 0, "" },
+            { "SMG_01_F", "", 165000, 500, "" },
+            { "SMG_02_F", "", 170000, 500, "" },
+            { "SMG_05_F", "", 170000, 500, "" },
             { "arifle_SDAR_F", "", 25000, 0, "" },
-            { "arifle_Katiba_F", "", 110000, 0, "" },
-            { "arifle_Mk20_F", "", 90000, 0, "" },
-            { "arifle_TRG21_F", "", 90000, 0, "" },
-            { "arifle_AKS_F", "", 80000, 0, "" },
-            { "arifle_CTAR_blk_F", "", 90000, 0, "" }
+            { "arifle_Katiba_F", "", 310000, 0, "" },
+            { "arifle_Mk20_F", "", 190000, 0, "" },
+            { "arifle_TRG21_F", "", 190000, 0, "" },
+            { "arifle_AKS_F", "", 180000, 0, "" },
+            { "arifle_CTAR_blk_F", "", 190000, 0, "" }
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", "", 800, 0, "" },
