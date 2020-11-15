@@ -78,7 +78,7 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
+            { "Binocular", "", 150, 0, "" },
             { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
@@ -195,7 +195,7 @@ class WeaponShops {
         side = "civ";
         conditions = "";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
+            { "Binocular", "", 150, 0, "" },
             { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "ItemMap", "", 50, 25, "" },
@@ -217,7 +217,7 @@ class WeaponShops {
         side = "";
         conditions = "";
         items[] = {
-            { "Binocular", "", 750, 75, "" },
+            { "Binocular", "", 100, 0, "" },
             { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 500, 50, "" },
             { "ItemMap", "", 250, 25, "" },
@@ -240,7 +240,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
+            { "Binocular", "", 150, 0, "" },
             { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 100, 75, "" },
@@ -287,7 +287,7 @@ class WeaponShops {
         side = "cop";
         conditions = "call life_coplevel >= 5";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
+            { "Binocular", "", 150, 0, "" },
             { "ItemRadio", "", 0, 0, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
@@ -416,7 +416,7 @@ class WeaponShops {
         items[] = {
             { "ItemGPS", "", 100, 50, "" },
             { "ItemRadio", "", 0, 0, "" },
-            { "Binocular", "", 150, 75, "" },
+            { "Binocular", "", 150, 0, "" },
             { "FirstAidKit", "", 150, 75, "" },
             { "NVGoggles", "", 1200, 600, "" }
         };
