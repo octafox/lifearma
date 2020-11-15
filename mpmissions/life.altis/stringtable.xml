@@ -181,13 +181,13 @@
             <Original>Il giocatore non esiste più</Original>
         </Key>
         <Key ID="STR_ANOTF_CompWarn">
-            <Original>Stai per donarti €%1 per rimborsare un altro giocatore &lt;br/&gt;&lt;br/&gt; Dovrai donare il denaro manualmente.</Original>
+            <Original>Stai per donarti $%1 per rimborsare un altro giocatore &lt;br/&gt;&lt;br/&gt; Dovrai donare il denaro manualmente.</Original>
         </Key>
         <Key ID="STR_ANOTF_Success">
-            <Original>€%1 ti sono stati accreditati.</Original>
+            <Original>$%1 ti sono stati accreditati.</Original>
         </Key>
         <Key ID="STR_ANOTF_Fail">
-            <Original>Non puoi superare i €999.999</Original>
+            <Original>Non puoi superare i $999.999</Original>
         </Key>
         <Key ID="STR_ANOTF_Frozen">
             <Original>Hai disattivato l'input di %1.</Original>
@@ -270,7 +270,7 @@
             <Original>Trasferisci</Original>
         </Key>
         <Key ID="STR_ATM_GreaterThan">
-            <Original>Non puoi depositare più di €999,999 alla volta</Original>
+            <Original>Non puoi depositare più di $999,999 alla volta</Original>
         </Key>
         <Key ID="STR_ATM_notnumeric">
             <Original>Il valore inserito non è numerico.</Original>
@@ -282,7 +282,7 @@
             <Original>Sembra che il giocatore selezionato non esista</Original>
         </Key>
         <Key ID="STR_ATM_TransferMax">
-            <Original>Non puoi trasferire più di €999.000 alla volta</Original>
+            <Original>Non puoi trasferire più di $999.000 alla volta</Original>
         </Key>
         <Key ID="STR_ATM_NotEnoughFunds">
             <Original>Non hai fondi sufficienti nel tuo conto in banca!</Original>
@@ -291,25 +291,25 @@
             <Original>Il conto della gang non ha abbastanza denaro!</Original>
         </Key>
         <Key ID="STR_ATM_SentMoneyFail">
-            <Original>Non hai fondi sufficienti nel tuo conto in banca, per trasferire €%1 necessiti di €%2 per pagare la tassa di trasferimento.</Original>
+            <Original>Non hai fondi sufficienti nel tuo conto in banca, per trasferire $%1 necessiti di $%2 per pagare la tassa di trasferimento.</Original>
         </Key>
         <Key ID="STR_ATM_SentMoneySuccess">
-            <Original>Hai trasferito €%1 a %2. Sono stati trattenuti €%3 di tassa per il trasferimento.</Original>
+            <Original>Hai trasferito $%1 a %2. Sono stati trattenuti $%3 di tassa per il trasferimento.</Original>
         </Key>
         <Key ID="STR_ATM_WireTransfer">
-            <Original>%1 ha effettuato un bonifico sul tuo conto di €%2</Original>
+            <Original>%1 ha effettuato un bonifico sul tuo conto di $%2</Original>
         </Key>
         <Key ID="STR_ATM_WithdrawMax">
-            <Original>Non puoi prelevare più di €999.000 in una volta</Original>
+            <Original>Non puoi prelevare più di $999.000 in una volta</Original>
         </Key>
         <Key ID="STR_ATM_WithdrawMin">
-            <Original>Non puoi prelevare meno di €100</Original>
+            <Original>Non puoi prelevare meno di $100</Original>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccess">
-            <Original>Hai prelevato €%1 dal tuo conto in banca</Original>
+            <Original>Hai prelevato $%1 dal tuo conto in banca</Original>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccessG">
-            <Original>Hai ritirato €%1 dal nostro gruppo.</Original>
+            <Original>Hai ritirato $%1 dal nostro gruppo.</Original>
         </Key>
         <Key ID="STR_ATM_WithdrawInUseG">
             <Original>Qualcuno sta già cercando di ritirare del denaro dal fondo gang.</Original>
@@ -318,10 +318,10 @@
             <Original>Non hai abbastanza denaro con te.</Original>
         </Key>
         <Key ID="STR_ATM_DepositSuccess">
-            <Original>Hai despositato €%1 nel tuo conto bancario</Original>
+            <Original>Hai despositato $%1 nel tuo conto bancario</Original>
         </Key>
         <Key ID="STR_ATM_DepositSuccessG">
-            <Original>Hai despositato €%1 nei fondi della tua gang.</Original>
+            <Original>Hai despositato $%1 nei fondi della tua gang.</Original>
         </Key>
         <Key ID="STR_ATM_NotInGang">
             <Original>Non sei in un Gang!</Original>

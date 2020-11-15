@@ -23,4 +23,4 @@ _cash = [CASH] call life_fnc_numberText;
 _thirstId ctrlSetText format ["%2 %1","%",_thirst];
 _hungerId ctrlSetText format ["%2 %1","%",_hunger];
 _healthId ctrlSetText format ["%2 %1","%",_health];
-_cashId ctrlSetText format ["%2 %1","€",_cash];
+_cashId ctrlSetText format ["%2 %1","$",_cash];
