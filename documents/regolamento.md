@@ -52,6 +52,7 @@
 - I civili non possono ingaggiare o essere ingaggiati per 20 minuti dopo la fine di un azione(disingaggio compreso).
 
 ## Regolamento della rapina alla banca e altro.
+- Si può fare una sola rapina in banca per restart.
 
 
 - Nel raggio dell'azione è possibile aprire il fuoco in quanto considerato zona calda (il raggio equivale a 500m)
