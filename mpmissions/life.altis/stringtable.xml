@@ -294,7 +294,7 @@
             <Original>Non hai fondi sufficienti nel tuo conto in banca, per trasferire €%1 necessiti di €%2 per pagare la tassa di trasferimento.</Original>
         </Key>
         <Key ID="STR_ATM_SentMoneySuccess">
-            <Original>Hai trasferito €%1 a %2.\n\nSono stati trattenuti €%3 di tassa per il trasferimento.</Original>
+            <Original>Hai trasferito €%1 a %2. Sono stati trattenuti €%3 di tassa per il trasferimento.</Original>
         </Key>
         <Key ID="STR_ATM_WireTransfer">
             <Original>%1 ha effettuato un bonifico sul tuo conto di €%2</Original>
@@ -460,7 +460,7 @@
             <Original>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Original>
         </Key>
         <Key ID="STR_GNOTF_NotEnoughMoney">
-            <Original>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: $%1</Original>
+            <Original>Non hai abbastanza fondi nel tuo conto in banca. Ti mancano: $%1</Original>
         </Key>
         <Key ID="STR_GNOTF_CreateSuccess">
             <Original>Hai creato la Gang %1 al costo di $%2</Original>
@@ -894,7 +894,7 @@
             <Original>Il sequestro è stato annullato.</Original>
         </Key>
         <Key ID="STR_NOTF_Impounded">
-            <Original>Hai sequestrato un %1\n\nHai ricevuto $%2 per aver mantenuto l'ordine nelle strade!</Original>
+            <Original>Hai sequestrato un %1 Hai ricevuto $%2 per aver mantenuto l'ordine nelle strade!</Original>
         </Key>
         <Key ID="STR_NOTF_HasImpounded">
             <Original>%1 ha sequestrato il %2 di %3</Original>
@@ -963,7 +963,7 @@
             <Original>I tuoi articoli illegali sono stati messi sotto sequestro.</Original>
         </Key>
         <Key ID="STR_NOTF_VehCheat">
-            <Original>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat. \n\nCancellazione veicolo.</Original>
+            <Original>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat.  Cancellazione veicolo.</Original>
         </Key>
         <Key ID="STR_NOTF_Action">
             <Original>Stai già compiendo un'azione, attendi che finisca.</Original>
@@ -1173,7 +1173,7 @@
             <Original>Non è possibile rimuovere un elemento quando si è in un veicolo.</Original>
         </Key>
         <Key ID="STR_NOTF_nowSpectating">
-            <Original>Si è ora spectating %1.\n\nPremere F10 per smettere di spettatori.</Original>
+            <Original>Si è ora spectating %1. Premere F10 per smettere di spettatori.</Original>
         </Key>
         <Key ID="STR_NOTF_stoppedSpectating">
             <Original>Hai smesso di spettatori.</Original>
@@ -1231,7 +1231,7 @@
             <Original>Sei stato arrestato, sconta la tua pena. Se cercherai di rinascere o di riconnetterti il tuo tempo aumenterà!</Original>
         </Key>
         <Key ID="STR_Jail_LicenseNOTF">
-            <Original>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Original>
+            <Original>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi Porto d'armi\nLicenza Ribelle</Original>
         </Key>
         <Key ID="STR_Jail_EscapeNOTF">
             <Original>%1 è scappato dalla prigione!</Original>
@@ -2276,7 +2276,7 @@
             <Original>Hai già utilizzato la funzione di salva dati, puoi usare quest'opzione solo una volta ogni 5 minuti.</Original>
         </Key>
         <Key ID="STR_Session_SyncData">
-            <Original>Salvando le informazioni giocatore sul server.\n\nAttendere fino a 20 secondi prima di abbandonare.</Original>
+            <Original>Salvando le informazioni giocatore sul server. Attendere fino a 20 secondi prima di abbandonare.</Original>
         </Key>
     </Package>
     <Package name="Shop_Strings">
@@ -2341,7 +2341,7 @@
             <Original>Non hai selezionato un veicolo!</Original>
         </Key>
         <Key ID="STR_Shop_Veh_NotEnough">
-            <Original>Non hai fondi sufficienti per comprare questo veicolo.\n\nTi mancano: $%1</Original>
+            <Original>Non hai fondi sufficienti per comprare questo veicolo. Ti mancano: $%1</Original>
         </Key>
         <Key ID="STR_Shop_Veh_NoLicense">
             <Original>Non hai la licenza richiesta per l'acquisto!</Original>
@@ -3024,7 +3024,7 @@
             <Original>&lt;t align='center'&gt;&lt;t color='#FF0000'&gt;&lt;t size='3'&gt;SPY-GLASS&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;Cheater Flagged&lt;/t&gt;&lt;br/&lt;br/&gt;Name: %1&lt;br/&gt;Detection: %2</Original>
         </Key>
         <Key ID="STR_SpyDetect_cmdMenuCheck">
-            <Original>%1 was observed by SPY-GLASS, he/she was trying to access commanding menu:\n\n %2\n\n and that commanding-menu is not known to the system. PLEASE NOTE he/she may not be cheating but the SPY-GLASS found it relevant to report in.</Original>
+            <Original>%1 was observed by SPY-GLASS, he/she was trying to access commanding menu:  %2  and that commanding-menu is not known to the system. PLEASE NOTE he/she may not be cheating but the SPY-GLASS found it relevant to report in.</Original>
         </Key>
         <Key ID="STR_SpyDetect_Variable_MN">
             <Original>Variable: %1 is not allowed TYPE: %2 NS: MN</Original>

@@ -14,6 +14,9 @@ private _escSync = {
     disableSerialization;
     private _abortButton = CONTROL(49,104);
     private _abortTime = LIFE_SETTINGS(getNumber,"escapeMenu_timer");
+    if (FETCH_CONST(life_adminlevel) > 1) then {
+        _abortTime = 1;
+    };
     private _timeStamp = time + _abortTime;
 
     waitUntil {
