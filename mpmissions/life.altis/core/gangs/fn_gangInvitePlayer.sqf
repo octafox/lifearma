@@ -16,7 +16,7 @@ if (isNull _unit) exitWith {}; //Bad unit?
 if (_unit == player) exitWith {hint localize "STR_GNOTF_InviteSelf"};
 if (!isNil {(group _unit) getVariable "gang_name"}) exitWith {[localize "STR_GNOTF_playerAlreadyInGang","info",30] call life_fnc_notification_system;}; //Added
 
-if (count(group player getVariable ["gang_members",8]) == (group player getVariable ["gang_maxMembers",8])) exitWith {hint localize "STR_GNOTF_MaxSlot"};
+if (count(group player getVariable ["gang_members",8]) == (group player getVariable ["gang_maxMembers",3])) exitWith {hint localize "STR_GNOTF_MaxSlot"};
 
 _action = [
     format [localize "STR_GNOTF_InvitePlayerMSG",_unit getVariable ["realname",name _unit]],

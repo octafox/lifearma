@@ -7,7 +7,7 @@
     Determinds the upgrade price and blah
 */
 private ["_maxMembers","_slotUpgrade","_upgradePrice"];
-_maxMembers = group player getVariable ["gang_maxMembers",8];
+_maxMembers = group player getVariable ["gang_maxMembers",3];
 _slotUpgrade = _maxMembers + 1;
 _upgradePrice = round(_slotUpgrade * ((LIFE_SETTINGS(getNumber,"gang_upgradeBase"))) / ((LIFE_SETTINGS(getNumber,"gang_upgradeMultiplier"))));
 
