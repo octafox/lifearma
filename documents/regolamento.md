@@ -1,3 +1,8 @@
+## Limiti Membri
+- CTRG massimo 6
+- Ribelli massimo 6
+- Gang massimo 5
+
 ## Regolamento generale
 
 - Non commettere RDM (Random DeathMatch) o VDM (vehicle DeathMatch).
