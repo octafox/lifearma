@@ -847,8 +847,8 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_TacVest_blk", "", 0, "" },
-            { "V_TacVest_brn", "", 0, "" }
+            { "V_TacVest_blk", "", 200000, "" },
+            { "V_TacVest_brn", "", 200000, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" }
