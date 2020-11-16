@@ -17,6 +17,9 @@ def licenseToMoney(allLicense):
             resp+=price.licenze[licenza]
     return resp
 
+def vehicleToMoney(mezzo):
+    return price.veicoli[mezzo]
+
 def gangsPrint(gangs):
     resp=""
     for gang in gangs:
@@ -34,8 +37,14 @@ try:
     conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
 except mariadb.Error as err:
     print("Connection error")
-
 armalife = conn.cursor()
+
+armalife.execute('SELECT pid,classname FROM vehicles WHERE side="civ"')
+vehicles = {}
+for pid, classname in armalife:
+    vehicles[pid]=vehicleToMoney(classname)
+print(vehicles)
+
 armalife.execute("SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
 players = {}
 for uid,pid,name,cash,bankacc,civ_gear,civ_licenses in armalife:

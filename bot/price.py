@@ -105,5 +105,6 @@ veicoli={
     "B_SDV_01_F": 30000,
     "C_Van_01_fuel_F": 70000,
     "I_Truck_02_fuel_F": 130000,
-    "B_Truck_01_fuel_F": 190000
+    "B_Truck_01_fuel_F": 190000,
+    "B_Heli_Transport_03_F":1000000
 }
