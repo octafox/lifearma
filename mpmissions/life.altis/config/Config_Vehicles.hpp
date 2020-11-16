@@ -103,6 +103,7 @@ class CarShops {
             { "O_Heli_Transport_04_F", "" },
             { "O_Heli_Transport_04_bench_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
+            { "B_Heli_Transport_03_F", "" },
             { "I_Heli_light_03_unarmed_F", "" }
         };
     };
@@ -955,4 +956,14 @@ class LifeCfgVehicles {
         price = 190000;
         textures[] = {};
     };
+
+    class B_Heli_Transport_03_F {
+        vItemSpace = 50;
+        vFuelSpace = 500000;
+        conditions = "license_civ_rebel";
+        price = 1000000;
+        textures[] = {};
+    };
+
+    
 };
