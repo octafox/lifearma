@@ -11,7 +11,7 @@ def gangsPrint(gangs):
         money = "${:,}".format(gang["money"])
         members = ', '.join(gang["members"])
         moneyXmember="${:,}".format(int(gang["money"]/len(gang["members"])))
-        print("{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember))
+        return "{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember)
 
 def playerPrint(players):
     for player in players:
@@ -51,4 +51,4 @@ for owner,name,members in armalife:
 
 
 
-gangsPrint(gangs)
+print(gangsPrint(gangs))
