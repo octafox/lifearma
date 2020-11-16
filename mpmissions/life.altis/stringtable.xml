@@ -3296,4 +3296,33 @@
             <Original>You must have have a cellphone (Radio) to use this. You can buy cellphone in a general store</Original>
         </Key>
     </Package>
+    <Package name="usbAction">
+        <Key ID="STR_usbAction_item_usb">
+            <Original>U.S.B.</Original>
+        </Key>
+        <Key ID="STR_usbAction_item_dati">
+            <Original>Dati</Original>
+        </Key>
+        <Key ID="STR_usbAction_downloadFiles">
+            <Original>Scarica dati</Original>
+        </Key>
+        <Key ID="STR_usbAction_alreadyInDownloading">
+            <Original>Il download è già in corso!</Original>
+        </Key>
+        <Key ID="STR_usbAction_noVeh">
+            <Original>Esci dal veicolo</Original>
+        </Key>
+        <Key ID="STR_usbAction_needUSB">
+            <Original>Ti serve una chiavetta USB</Original>
+        </Key>
+        <Key ID="STR_usbAction_alarm">
+            <Original>Attenzione! - Hacking partito!</Original>
+        </Key>
+        <Key ID="STR_usbAction_tooFar">
+            <Original>Devi rimanere entro 5 metri dal computer</Original>
+        </Key>
+        <Key ID="STR_usbAction_downloaded">
+            <Original>Dati scaricati</Original>
+        </Key>
+    </Package>
 </Project>

@@ -924,4 +924,28 @@ class VirtualItems {
         drinkable = -1;
         icon = "icons\ico_muttonLeg.paa";
     };
+
+    class usb {
+        variable = "usb";
+        displayName = "STR_usbAction_item_usb";
+        weight = 90;
+        buyPrice = 10000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\xeicons\usb.paa";
+    };
+
+    class dati {
+        variable = "dati";
+        displayName = "STR_usbAction_item_dati";
+        weight = 90;
+        buyPrice = 175;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\xeicons\dati.paa";
+    };
 };
