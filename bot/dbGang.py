@@ -2,6 +2,14 @@ import mariadb
 import re
 import config
 
+def gangsPrint(gangs):
+    for gang in gangs:
+        name = gang["name"]
+        money = "${:,}".format(gang["money"])
+        members = ', '.join(gang["members"])
+        moneyXmember="${:,}".format(int(gang["money"]/len(gang["members"])))
+        print("{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember))
+
 try:
     conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
 except mariadb.Error as err:
@@ -31,11 +39,6 @@ for owner,name,members in armalife:
 
     gangs.append(gang)
 
-def gangsPrint(gangs):
-    for gang in gangs:
-        name = gang["name"]
-        money = "${:,}".format(gang["money"])
-        members = ', '.join(gang["members"])
-        print("{}:\n\tMoney: {}\n\tMembers: {}\n".format(name,money,members))
+
 
 gangsPrint(gangs)
