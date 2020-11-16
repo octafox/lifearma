@@ -31,5 +31,11 @@ for owner,name,members in armalife:
 
     gangs.append(gang)
 
+def gangsPrint(gangs):
+    for gang in gangs:
+        name = gang["name"]
+        money = "${:,}".format(gang["money"])
+        members = ', '.join(gang["members"])
+        print("{}:\n\tMoney: {}\n\tMembers: {}\n".format(name,money,members))
 
-print(gangs)
+gangsPrint(gangs)
