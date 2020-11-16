@@ -10,6 +10,11 @@ def gangsPrint(gangs):
         moneyXmember="${:,}".format(int(gang["money"]/len(gang["members"])))
         print("{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember))
 
+def playerPrint(players):
+    for player in players:
+        name = player["name"]
+
+
 try:
     conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
 except mariadb.Error as err:
@@ -40,5 +45,5 @@ for owner,name,members in armalife:
     gangs.append(gang)
 
 
-
+print(players)
 gangsPrint(gangs)
