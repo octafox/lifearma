@@ -1,7 +1,7 @@
 ## Limiti Membri
 - CTRG massimo 6
 - Ribelli massimo 6
-- Gang massimo 5 (non sono permesse alleanze o collaborazioni con altre gang o civili)
+- Gang massimo 6 (non sono permesse alleanze o collaborazioni con altre gang o civili)
 - Circa 1 poliziotto ogni 3 civili
 - Circa 1 medico ogni 8 civili
 
@@ -52,6 +52,8 @@
 - Nel caso in cui si venga inseguiti è severamente vietato depositare il veicolo con il quale si sta scappando nel garage.
 
 - I civili non possono ingaggiare o essere ingaggiati per 20 minuti dopo la fine di un azione(disingaggio compreso).
+
+- Il limite massimo di partecipanti ad un'azione per le gang civili e per i ribelli è di 6 membri, mentre per la polizia di 8. 
 
 ## Regolamento della rapina alla banca e altro.
 - Si può fare una sola rapina in banca per restart.
