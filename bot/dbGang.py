@@ -2,22 +2,22 @@ import mariadb
 import re
 import config
 
-def gearToMoney(inventory):
+def gunToMoney(inventory):
     return 0
 
 def gangsPrint(gangs):
+    resp=""
     for gang in gangs:
         name = gang["name"]
         money = "${:,}".format(gang["money"])
         members = ', '.join(gang["members"])
         moneyXmember="${:,}".format(int(gang["money"]/len(gang["members"])))
-        return "{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember)
+        resp+= ("{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember))
+    return resp
 
 def playerPrint(players):
     for player in players:
         name = player["name"]
-
-
 
 try:
     conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
@@ -32,7 +32,7 @@ for uid,pid,name,cash,bankacc,civ_gear in armalife:
     player["uid"] = uid
     player["name"] = name
     player["money"] = cash+bankacc
-    player["inventory"] = gearToMoney(civ_gear)
+    player["gear"] = gunToMoney(civ_gear)
     players[pid] = player
 
 armalife.execute("SELECT owner,name,members FROM gangs")
@@ -50,5 +50,5 @@ for owner,name,members in armalife:
     gangs.append(gang)
 
 
-
+print(players['76561198145380401'])
 print(gangsPrint(gangs))

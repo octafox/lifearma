@@ -1,0 +1,76 @@
+armi={
+    "hgun_Rook40_F":35000,
+    "hgun_Pistol_heavy_02_F":40000,
+    "hgun_ACPC2_F":45000,
+    "arifle_SDAR_F":65000,
+    "hgun_PDW2000_F":75000,
+    "sgun_HunterShotgun_01_F":100000,
+    "sgun_HunterShotgun_01_sawedoff_F":100000,
+    "arifle_AKS_F":275000,
+    "arifle_TRG20_F":300000,
+    "arifle_Mk20_plain_F":330000,
+    "arifle_TRG21_F":300000,
+    "SMG_01_F":200000,
+    "SMG_02_F":200000,
+    "SMG_05_F":200000,
+    "SMG_03C_TR_black":200000,
+    "SMG_03_black":200000,
+    "SMG_03C_black":200000,
+    "arifle_MX_F":400000,
+    "arifle_MXC_Black_F":400000,
+    "arifle_MX_Black_F":400000,
+    "arifle_ARX_blk_F":400000,
+    "arifle_SPAR_01_blk_F":400000,
+    "arifle_MX_SW_F":400000,
+    "arifle_MX_SW_Black_F":400000,
+    "arifle_SPAR_02_blk_F":400000,
+    "arifle_CTAR_blk_F":400000,
+    "arifle_Katiba_F":400000
+}
+
+licenze={
+    "[`license_civ_driver`,1]":1000,
+    "[`license_civ_boat`,1]":1000,
+    "[`license_civ_pilot`,1]":45000,
+    "[`license_civ_trucking`,1]":50000,
+    "[`license_civ_gun`,1]":65000,
+    "[`license_civ_dive`,1]":6000,
+    "[`license_civ_home`,1]":250000,
+    "[`license_civ_oil`,1]":40000,
+    "[`license_civ_diamond`,1]":120000,
+    "[`license_civ_salt`,1]":70000,
+    "[`license_civ_sand`,1]":35000,
+    "[`license_civ_iron`,1]":30000,
+    "[`license_civ_copper`,1]":10000,
+    "[`license_civ_cement`,1]":20000,
+    "[`license_civ_medmarijuana`,1]":15000,
+    "[`license_civ_cocaine`,1]":250000,
+    "[`license_civ_heroin`,1]":140000,
+    "[`license_civ_marijuana`,1]":120000,
+    "[`license_civ_illegalguns`,1]":800000
+}
+
+'''
+veicoli={
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":,
+    "":
+
+}
+'''
