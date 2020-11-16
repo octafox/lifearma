@@ -2,6 +2,9 @@ import mariadb
 import re
 import config
 
+def gearToMoney(inventory):
+    return 0
+
 def gangsPrint(gangs):
     for gang in gangs:
         name = gang["name"]
@@ -15,19 +18,21 @@ def playerPrint(players):
         name = player["name"]
 
 
+
 try:
     conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
 except mariadb.Error as err:
     print("Connection error")
 
 armalife = conn.cursor()
-armalife.execute("SELECT uid,pid,name,cash,bankacc FROM players")
+armalife.execute("SELECT uid,pid,name,cash,bankacc,civ_gear FROM players")
 players = {}
-for uid,pid,name,cash,bankacc in armalife:
+for uid,pid,name,cash,bankacc,civ_gear in armalife:
     player = {}
     player["uid"] = uid
     player["name"] = name
     player["money"] = cash+bankacc
+    player["inventory"] = gearToMoney(civ_gear)
     players[pid] = player
 
 armalife.execute("SELECT owner,name,members FROM gangs")
@@ -45,5 +50,5 @@ for owner,name,members in armalife:
     gangs.append(gang)
 
 
-print(players)
+
 gangsPrint(gangs)
