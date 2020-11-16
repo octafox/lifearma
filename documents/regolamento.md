@@ -2,6 +2,8 @@
 - CTRG massimo 6
 - Ribelli massimo 6
 - Gang massimo 5 (non sono permesse alleanze o collaborazioni con altre gang o civili)
+- Circa 1 poliziotto ogni 3 civili
+- Circa 1 medico ogni 8 civili
 
 ## Regolamento generale
 

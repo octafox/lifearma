@@ -1,9 +1,21 @@
 import mariadb
 import re
 import config
+import price
 
 def gunToMoney(inventory):
-    return 0
+    resp=0
+    for nome in price.armi:
+        if nome in inventory:
+            resp+=price.armi[nome]
+    return resp
+
+def licenseToMoney(allLicense):
+    resp=""
+    for licenza in price.licenze:
+        if licenza in allLicense:
+            resp+=price.licenze[licenza]
+    return resp
 
 def gangsPrint(gangs):
     resp=""
@@ -12,7 +24,9 @@ def gangsPrint(gangs):
         money = "${:,}".format(gang["money"])
         members = ', '.join(gang["members"])
         moneyXmember="${:,}".format(int(gang["money"]/len(gang["members"])))
-        resp+= ("{}:\n\tMoney: {}\n\tMembers: {}\n\tMoney per Member:{}\n".format(name,money,members,moneyXmember))
+        gearMoney="${:,}".format(gang["gearMoney"])
+        total="${:,}".format(gang["gearMoney"]+gang["money"])
+        resp+= ("{}: {}\n\tMoney: {}\n\tMoney per Member: {}\n\tGear Money:{}\n\tTotal: {}\n\n".format(name,members,money,moneyXmember,gearMoney,total))
     return resp
 
 def playerPrint(players):
@@ -32,7 +46,7 @@ for uid,pid,name,cash,bankacc,civ_gear in armalife:
     player["uid"] = uid
     player["name"] = name
     player["money"] = cash+bankacc
-    player["gear"] = gunToMoney(civ_gear)
+    player["gearMoney"] = gunToMoney(civ_gear)
     players[pid] = player
 
 armalife.execute("SELECT owner,name,members FROM gangs")
@@ -42,13 +56,14 @@ for owner,name,members in armalife:
     members = re.findall(r'[0-9]{17}',members)
     membersName = list(map(lambda x: players[x]["name"],members))
     gangMoney = sum(list(map(lambda x: int(players[x]["money"]), members)))
+    gangGearMoney = sum(list(map(lambda x: (players[x]["gearMoney"]), members)))
 
     gang["name"] = name
     gang["members"] = membersName
     gang["money"] = gangMoney
+    gang["gearMoney"] = gangGearMoney
 
     gangs.append(gang)
 
 
-print(players['76561198145380401'])
 print(gangsPrint(gangs))

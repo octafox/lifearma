@@ -50,7 +50,7 @@ licenze={
     "[`license_civ_illegalguns`,1]":800000
 }
 
-'''
+
 veicoli={
     "":,
     "":,
@@ -73,4 +73,3 @@ veicoli={
     "":
 
 }
-'''
