@@ -30,6 +30,7 @@ disableSerialization;
 
 _rip = true;
 _npc removeAction _actionID;
+[false,"usb",1] call life_fnc_handleInv;
 
 [1,format[localize"STR_usbAction_alarm", _npc]] remoteExec ["life_fnc_broadcast",west];
 
@@ -61,7 +62,8 @@ if(_rip) then {
 	5 cutText ["","PLAIN"];
 
 	titleText[format[localize"STR_usbAction_downloaded"],"PLAIN"];
-	life_cash = life_cash + _money; // add dati
+	// life_cash = life_cash + _money; // add dati
+	[true,"dati",1] call life_fnc_handleInv;
 
 	_rip = false;
 	if!(alive _player) exitWith {};

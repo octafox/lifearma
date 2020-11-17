@@ -928,7 +928,7 @@ class VirtualItems {
     class usb {
         variable = "usb";
         displayName = "STR_usbAction_item_usb";
-        weight = 90;
+        weight = 35;
         buyPrice = 10000;
         sellPrice = 0;
         illegal = true;
@@ -940,7 +940,7 @@ class VirtualItems {
     class dati {
         variable = "dati";
         displayName = "STR_usbAction_item_dati";
-        weight = 90;
+        weight = 35;
         buyPrice = 175;
         sellPrice = 0;
         illegal = true;
