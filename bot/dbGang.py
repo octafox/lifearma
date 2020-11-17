@@ -2,6 +2,7 @@ import mariadb
 import re
 import config
 import price
+import pandas as pd
 
 def gunToMoney(inventory):
     resp=0
@@ -43,7 +44,7 @@ armalife.execute('SELECT pid,classname FROM vehicles WHERE side="civ"')
 vehicles = {}
 for pid, classname in armalife:
     vehicles[pid]=vehicleToMoney(classname)
-print(vehicles)
+print(len(vehicles))
 
 armalife.execute("SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
 players = {}

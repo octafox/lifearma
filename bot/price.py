@@ -106,5 +106,6 @@ veicoli={
     "C_Van_01_fuel_F": 70000,
     "I_Truck_02_fuel_F": 130000,
     "B_Truck_01_fuel_F": 190000,
-    "B_Heli_Transport_03_F":1000000
+    "B_Heli_Transport_03_F":1000000,
+    "O_T_LSV_02_unarmed_black_F":100000
 }
