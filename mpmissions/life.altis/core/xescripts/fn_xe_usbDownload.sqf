@@ -6,9 +6,9 @@ _actionID = [_this,2] call BIS_fnc_param;
 _distance = 5;
 _minMoney = 200000;
 _maxMoney = 300000;
-_copsRequire = 0;
-_speedProgressBar = 0.01;
-_timeToReset = 60;
+_copsRequire = 4;
+_speedProgressBar = 0.004;
+_timeToReset = 3600;
 
 _rip = false;
 _cops = (west countSide playableUnits);
