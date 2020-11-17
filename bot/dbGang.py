@@ -1,77 +1,102 @@
-import mariadb
 import re
-import config
 import price
 import pandas as pd
+import config
+
 
 def gunToMoney(inventory):
-    resp=0
+    resp = 0
     for nome in price.armi:
         if nome in inventory:
-            resp+=price.armi[nome]
+            resp += price.armi[nome]
     return resp
 
+
 def licenseToMoney(allLicense):
-    resp=0
+    resp = 0
     for licenza in price.licenze:
         if licenza in allLicense:
-            resp+=price.licenze[licenza]
+            resp += price.licenze[licenza]
     return resp
+
 
 def vehicleToMoney(mezzo):
     return price.veicoli[mezzo]
 
+
 def gangsPrint(gangs):
-    resp=""
+    resp = ""
     for gang in gangs:
         name = gang["name"]
-        money = "${:,}".format(gang["money"])
+        money = (gang["money"])
         members = ', '.join(gang["members"])
-        gearMoney="${:,}".format(gang["gearMoney"])
-        moneyLicense="${:,}".format(gang["licenseMoney"])
-        total="${:,}".format(gang["gearMoney"]+gang["money"]+gang["licenseMoney"])
-        totalXmember="${:,}".format(int((gang["gearMoney"]+gang["money"]+gang["licenseMoney"])/len(gang["members"])))
-        resp+= ("{}: {}\n\tMoney: {}\n\tGear Money:{}\n\tMoney of License: {}\n\tTotal: {}\n\tTotal per Member: {}\n\n".format(name,members,money,gearMoney,moneyLicense,total,totalXmember))
+        gearMoney = (gang["gearMoney"])
+        moneyLicense = (gang["licenseMoney"])
+        total = (
+            gang["gearMoney"]+gang["money"]+gang["licenseMoney"])
+        totalXmember = (
+            int((gang["gearMoney"]+gang["money"]+gang["licenseMoney"])/len(gang["members"])))
+        resp += ("{}: {}\n\tMoney: {}\n\tGear Money:{}\n\tMoney of License: {}\n\tTotal: {}\n\tTotal per Member: {}\n\n".format(
+            name, members, money, gearMoney, moneyLicense, total, totalXmember))
     return resp
 
-try:
-    conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
-except mariadb.Error as err:
-    print("Connection error")
-armalife = conn.cursor()
 
-armalife.execute('SELECT pid,classname FROM vehicles WHERE side="civ"')
-vehicles = {}
-for pid, classname in armalife:
-    vehicles[pid]=vehicleToMoney(classname)
-print(len(vehicles))
+def loadTotal(df):
+    sumcol=df['money'] + df['civ_gear'] + df['civ_licenses'] + df['civ_vehicles']
+    df['total']=sumcol
+    return df
 
-armalife.execute("SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
-players = {}
-for uid,pid,name,cash,bankacc,civ_gear,civ_licenses in armalife:
-    player = {}
-    player["uid"] = uid
-    player["name"] = name
-    player["money"] = cash+bankacc
-    player["gearMoney"] = gunToMoney(civ_gear)
-    player["licenseMoney"]= licenseToMoney(civ_licenses)
-    players[pid] = player
-
-armalife.execute("SELECT owner,name,members FROM gangs")
-gangs = []
-for owner,name,members in armalife:
-    gang = {}
-    members = re.findall(r'[0-9]{17}',members)
-    membersName = list(map(lambda x: players[x]["name"],members))
-    gangMoney = sum(list(map(lambda x: int(players[x]["money"]), members)))
-    gangGearMoney = sum(list(map(lambda x: (players[x]["gearMoney"]), members)))
-    licenseMoney = sum(list(map(lambda x: (players[x]["licenseMoney"]), members)))
-    gang["name"] = name
-    gang["members"] = membersName
-    gang["money"] = gangMoney
-    gang["gearMoney"] = gangGearMoney
-    gang["licenseMoney"] = licenseMoney
-    gangs.append(gang)
+def addVehicles(df):
+    dbLife.execute('SELECT pid,classname FROM vehicles WHERE side="civ"')
+    for pid, classname in dbLife:
+        df.loc[pid,'civ_vehicles'] += vehicleToMoney(classname)
+    return df
 
 
-print(gangsPrint(gangs))
+def setAllPlayers(dbLife):
+    dbLife.execute(
+        "SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
+    risultato = pd.DataFrame(
+        columns=['uid', 'name', 'money', 'civ_gear', 'civ_licenses', 'civ_vehicles'])
+    for uid, pid, name, cash, bankacc, civ_gear, civ_licenses in dbLife:
+        new_row = {'uid': uid,
+                   'name': name,
+                   'money': int(cash+bankacc),
+                   'civ_gear': gunToMoney(civ_gear),
+                   'civ_licenses': licenseToMoney(civ_licenses),
+                   'civ_vehicles': 0
+                   }
+        risultato.loc[pid] = new_row
+    risultato = addVehicles(risultato)
+    return loadTotal(risultato)        
+
+
+
+def setAllGangs(dbLife, players):
+    dbLife.execute("SELECT owner,name,members FROM gangs")
+    risultato = pd.DataFrame(
+        columns=['owner', 'name', 'membersName', 'gangMoney', 'gangGearMoney'])
+
+    for owner, name, members in dbLife:
+        members = re.findall(r'[0-9]{17}', members)
+        membersName = list(map(lambda x: players.loc[x, "name"], members))
+        gangMoney = sum(
+            list(map(lambda x: int(players.loc[x, "money"]), members)))
+        gangGearMoney = sum(
+            list(map(lambda x: (players.loc[x, "gearMoney"]), members)))
+        licenseMoney = sum(
+            list(map(lambda x: (players.loc[x, "licenseMoney"]), members)))
+        new_row = {'name': name,
+                   'membersName': membersName,
+                   'gangMoney': gangMoney,
+                   'gangGearMoney': gangGearMoney,
+                   'licenseMoney': licenseMoney,
+                   }
+        risultato.loc[owner] = new_row
+    return risultato
+
+
+dbLife = config.connect()
+if __name__ == '__main__':
+    df = (setAllPlayers(dbLife))
+    df.to_csv('bot/stats/player.csv',index=True)
