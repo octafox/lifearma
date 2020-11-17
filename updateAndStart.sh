@@ -7,11 +7,10 @@ else
     WORKDIR=$1
 fi
 
-
 cd $WORKDIR/
 
-git pull
 rm build.sh && rm start.sh
+git pull
 chmod +x build.sh
 chmod +x start.sh
 ./build.sh $WORKDIR
