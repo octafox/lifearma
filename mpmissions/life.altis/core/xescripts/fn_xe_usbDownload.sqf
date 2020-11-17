@@ -46,7 +46,7 @@ _barProgress = 0.0001;
 if(_rip) then {
 	while{true} do {
 		sleep 3;
-		_barProgress = _barProgress + _speedProgressBar = 0.003;
+		_barProgress = _barProgress + _speedProgressBar;
 		_progress progressSetPosition _barProgress;
 		_pgText ctrlSetText format["Download avviato, resta vicino ("+str(_distance)+"m) (%1%2)...",round(_barProgress * 100),"%"];
 
