@@ -11,7 +11,7 @@ _maxMoney = 300000;
 _copsRequire = 0;
 _speedProgressBar = 0.003;
 
-systemChat "[xeUSBEvent] script avviato"
+systemChat "[xeUSBEvent] script avviato";
 
 _rip = false;
 _cops = (west countSide playableUnits);
@@ -27,7 +27,7 @@ if(_cops < _copsRequire) exitWith {
 	hint "Servono "+str(_copsRequire)+" agenti in servizio";
 };
 disableSerialization;
-systemChat "[xeUSBEvent] script partito"
+systemChat "[xeUSBEvent] script partito";
 
 _rip = true;
 _npc removeAction _actionID;
@@ -71,7 +71,7 @@ if(_rip) then {
 	[getPlayerUID _player,name _player,"211"] remoteExec ["life_fnc_wantedAdd",2];
 };
 
-systemChat "[xeUSBEvent] script finito"
+systemChat "[xeUSBEvent] script finito";
 sleep 3600;
-systemChat "[xeUSBEvent] script risettato"
+systemChat "[xeUSBEvent] script risettato";
 _actionID = _npc addAction[localize"STR_usbAction_downloadFiles",life_fnc_xe_usbDownload];
