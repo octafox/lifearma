@@ -10,11 +10,11 @@ fi
 cd $WORKDIR/
 git pull origin master
 
-cd $WORKDIR/@life_server/addons/
+cd $WORKDIR/\@life_server/addons/
 rm -rf life_server.pbo
 armake pack life_server life_server.pbo
 
-cd $WORKDIR/@life_hc/addons/
+cd $WORKDIR/\@life_hc/addons/
 rm -rf life_hc.pbo
 armake pack life_hc life_hc.pbo
 rm life_hc.pbo.life.bisign
