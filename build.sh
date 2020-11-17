@@ -7,7 +7,6 @@ else
     WORKDIR=$1
 fi
 
-
 cd $WORKDIR/
 git pull origin master
 
