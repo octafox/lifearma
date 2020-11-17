@@ -4,8 +4,6 @@ _player = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
 _actionID = [_this,2] call BIS_fnc_param;
 
 _distance = 5;
-_minMoney = 200000;
-_maxMoney = 300000;
 _copsRequire = 4;
 _speedProgressBar = 0.004;
 _timeToReset = 3600;
@@ -17,7 +15,7 @@ if(_player distance _npc > _distance) exitWith { hint "Devi stare entro "+str(_d
 if(_rip) exitWith { hint localize"STR_usbAction_alreadyInDownloading" };
 if(vehicle player != _player) exitWith { hint localize"STR_usbAction_noVeh" };
 if!(alive _player) exitWith {};
-// if(currentWeapon _player == "") exitWith { hint localize"STR_usbAction_needUSB" }; // serve l'usb
+if(life_inv_usb < 1) exitWith { hint localize"STR_usbAction_needUSB" };
 if(_cops < _copsRequire) exitWith {
 	[_vault,-1] remoteExec ["disableSerialization;",2];
 	hint "Servono "+str(_copsRequire)+" agenti in servizio";
