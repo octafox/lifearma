@@ -49,6 +49,7 @@ class Life_Client_Core {
         class xe_lockDoors {};
         class xe_playerMenuStaus {};
         class xe_garageMenu {};
+        class xe_usbDownload {};
     };
 
     class scripts {
