@@ -1,6 +1,12 @@
 #!/bin/bash
 
-WORKDIR = /home/game/lifearma/
+if [ $# -eq 0 ]
+then
+    WORKDIR=/home/arma/server
+else
+    WORKDIR=$1
+fi
+
 
 cd $WORKDIR/
 git pull origin master

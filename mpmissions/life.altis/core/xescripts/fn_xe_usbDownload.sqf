@@ -20,8 +20,7 @@ if(_player distance _npc > _distance) exitWith { hint "Devi stare entro "+str(_d
 if(_rip) exitWith { hint localize"STR_usbAction_alreadyInDownloading" };
 if(vehicle player != _player) exitWith { hint localize"STR_usbAction_noVeh" };
 if!(alive _player) exitWith {};
-if(currentWeapon _player == "") exitWith { hint localize"STR_usbAction_needUSB" }; // serve l'usb
-//remove usb
+// if(currentWeapon _player == "") exitWith { hint localize"STR_usbAction_needUSB" }; // serve l'usb
 if(_cops =< _copsRequire) exitWith {
 	[_vault,-1] remoteExec ["disableSerialization;",2];
 	hint "Servono "+str(_copsRequire)+" agenti in servizio";
