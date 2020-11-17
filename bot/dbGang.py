@@ -71,11 +71,10 @@ def setAllPlayers(dbLife):
     return loadTotal(risultato)        
 
 
-
 def setAllGangs(dbLife, players):
     dbLife.execute("SELECT owner,name,members FROM gangs")
     risultato = pd.DataFrame(
-        columns=['owner', 'name', 'membersName', 'gangMoney', 'gangGearMoney'])
+        columns=['owner', 'name', 'membersName', 'gangMoney', 'gangGearMoney','licenseMoney','vehiclesMoney','total'])
 
     for owner, name, members in dbLife:
         members = re.findall(r'[0-9]{17}', members)
@@ -83,14 +82,20 @@ def setAllGangs(dbLife, players):
         gangMoney = sum(
             list(map(lambda x: int(players.loc[x, "money"]), members)))
         gangGearMoney = sum(
-            list(map(lambda x: (players.loc[x, "gearMoney"]), members)))
+            list(map(lambda x: (players.loc[x, "civ_gear"]), members)))
         licenseMoney = sum(
-            list(map(lambda x: (players.loc[x, "licenseMoney"]), members)))
+            list(map(lambda x: (players.loc[x, "civ_licenses"]), members)))
+        vehiclesMoney = sum(
+            list(map(lambda x: (players.loc[x, "civ_vehicles"]), members)))
+        total=sum(
+            list(map(lambda x: (players.loc[x, "total"]), members)))
         new_row = {'name': name,
                    'membersName': membersName,
                    'gangMoney': gangMoney,
                    'gangGearMoney': gangGearMoney,
                    'licenseMoney': licenseMoney,
+                   'vehiclesMoney':vehiclesMoney,
+                   'total':total
                    }
         risultato.loc[owner] = new_row
     return risultato
@@ -100,3 +105,5 @@ dbLife = config.connect()
 if __name__ == '__main__':
     df = (setAllPlayers(dbLife))
     df.to_csv('bot/stats/player.csv',index=True)
+    dfGang=setAllGangs(dbLife,df)
+    dfGang.to_csv('bot/stats/gang.csv',index=True)
