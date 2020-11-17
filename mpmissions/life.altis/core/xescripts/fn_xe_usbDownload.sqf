@@ -11,6 +11,7 @@ _maxMoney = 300000;
 _copsRequire = 0;
 _speedProgressBar = 0.003;
 
+systemChat "[xeUSBEvent] script avviato"
 
 _rip = false;
 _cops = (west countSide playableUnits);
@@ -21,11 +22,12 @@ if(_rip) exitWith { hint localize"STR_usbAction_alreadyInDownloading" };
 if(vehicle player != _player) exitWith { hint localize"STR_usbAction_noVeh" };
 if!(alive _player) exitWith {};
 // if(currentWeapon _player == "") exitWith { hint localize"STR_usbAction_needUSB" }; // serve l'usb
-if(_cops =< _copsRequire) exitWith {
+if(_cops < _copsRequire) exitWith {
 	[_vault,-1] remoteExec ["disableSerialization;",2];
 	hint "Servono "+str(_copsRequire)+" agenti in servizio";
 };
 disableSerialization;
+systemChat "[xeUSBEvent] script partito"
 
 _rip = true;
 _npc removeAction _actionID;
@@ -68,5 +70,8 @@ if(_rip) then {
 	if!(alive _player) exitWith {};
 	[getPlayerUID _player,name _player,"211"] remoteExec ["life_fnc_wantedAdd",2];
 };
+
+systemChat "[xeUSBEvent] script finito"
 sleep 3600;
+systemChat "[xeUSBEvent] script risettato"
 _actionID = _npc addAction[localize"STR_usbAction_downloadFiles",life_fnc_xe_usbDownload];
