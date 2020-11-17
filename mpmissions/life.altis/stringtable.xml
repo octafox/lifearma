@@ -344,10 +344,10 @@
             <Original>Msg Admin</Original>
         </Key>
         <Key ID="STR_CELL_AdminMsg">
-            <Original>Admin -> Civ</Original>
+            <Original>All'Admin</Original>
         </Key>
         <Key ID="STR_CELL_AdminMSGAll">
-            <Original>All'Admin</Original>
+            <Original>Admin -> Civ</Original>
         </Key>
         <Key ID="STR_CELL_EMSRequest">
             <Original>Msg medici</Original>
