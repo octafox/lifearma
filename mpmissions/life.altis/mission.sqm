@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=10523;
+		nextID=10529;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2907;
+		nextID=3147;
 	};
 	class Camera
 	{
-		pos[]={25320.48,99.2827,21799.844};
-		dir[]={-0.31714094,-0.69259524,0.64805174};
-		up[]={-0.30447015,0.7212323,0.62214959};
-		aside[]={0.89831084,-3.9476145e-006,0.43962759};
+		pos[]={8570.1768,100.35773,25157.914};
+		dir[]={0.79977441,-0.59352654,-0.090052336};
+		up[]={0.58981198,0.80480552,-0.066411406};
+		aside[]={-0.11189263,-1.2027704e-007,-0.99373239};
 	};
 };
 binarizationWanted=0;
@@ -788,7 +788,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1775;
+		items=1776;
 		class Item0
 		{
 			dataType="Marker";
@@ -851,7 +851,7 @@ class Mission
 			position[]={14071.576,26.289,18740.402};
 			name="civ_spawn_athira";
 			type="Empty";
-			angle=226.24046;
+			angle=226.24043;
 			id=7;
 			atlOffset=0.00042915344;
 		};
@@ -5893,13 +5893,13 @@ class Mission
 				angles[]={0,2.7419298,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=747;
 			type="Land_CashDesk_F";
+			atlOffset=0.56286049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6654,7 +6654,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=19;
+				items=13;
 				class Item0
 				{
 					dataType="Object";
@@ -6680,8 +6680,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8578.1602,96.640274,25157.795};
-						angles[]={0.2531251,4.9803491,6.1115494};
+						position[]={8576.1729,97.336029,25155.422};
+						angles[]={0.18067499,4.9803491,6.1861577};
 					};
 					side="West";
 					flags=4;
@@ -6700,8 +6700,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8568.1602,97.88295,25157.795};
-						angles[]={0.15475833,4.8629413,6.1571898};
+						position[]={8576.8799,96.845802,25157.729};
+						angles[]={0.18067499,4.9580088,6.1861577};
 					};
 					side="West";
 					flags=4;
@@ -6720,8 +6720,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8583.1602,96.375931,25155.059};
-						angles[]={0.2531251,4.9803491,6.0793829};
+						position[]={8577.5869,96.208672,25159.848};
+						angles[]={0.25311917,4.9803491,6.111557};
 					};
 					side="West";
 					flags=4;
@@ -6740,8 +6740,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8563.1602,98.913971,25155.059};
-						angles[]={0.11154399,4.9803491,6.1729679};
+						position[]={8578.9082,97.172729,25154.563};
+						angles[]={0.071876638,4.9803491,6.1861567};
 					};
 					side="West";
 					flags=4;
@@ -6760,8 +6760,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8588.6719,95.292046,25151.945};
-						angles[]={0.015987216,4.9803491,6.0819488};
+						position[]={8579.5654,96.662865,25156.766};
+						angles[]={0.25311917,4.9803491,6.111557};
 					};
 					side="West";
 					flags=4;
@@ -6780,8 +6780,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8559.8096,99.022697,25157.398};
-						angles[]={0.11154399,4.9803491,6.1729679};
+						position[]={8580.0967,96.033333,25158.83};
+						angles[]={0.25311893,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6800,8 +6800,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8575.9307,95.854919,25162.324};
-						angles[]={0.2531251,4.9803491,6.1115494};
+						position[]={8581.457,96.750618,25153.775};
+						angles[]={0.015998369,4.9805002,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6820,8 +6820,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8588.0615,95.241844,25155.527};
-						angles[]={0.22163936,4.9803491,6.0526972};
+						position[]={8582.0557,96.392395,25155.877};
+						angles[]={0.25311893,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6840,8 +6840,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8578.0879,97.408798,25152.393};
-						angles[]={0.071872659,4.9803491,6.1861625};
+						position[]={8582.5967,95.772842,25157.84};
+						angles[]={0.25311893,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6860,8 +6860,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8568.3994,97.029327,25162.65};
-						angles[]={6.1914506,4.9803491,6.1310449};
+						position[]={8583.9619,96.244652,25153.043};
+						angles[]={0.015998369,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6880,8 +6880,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8582.2803,96.694107,25151.414};
-						angles[]={0.071872659,4.9803491,6.0263247};
+						position[]={8584.5098,96.099869,25155.02};
+						angles[]={0.015998369,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6900,8 +6900,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8562.9443,98.364365,25159.313};
-						angles[]={0.15475833,4.9803491,6.1297359};
+						position[]={8585.0439,95.493477,25156.965};
+						angles[]={0.25311893,4.9803491,6.0793886};
 					};
 					side="West";
 					flags=4;
@@ -6913,129 +6913,6 @@ class Mission
 						isPlayable=1;
 					};
 					id=781;
-					type="B_RangeMaster_F";
-					atlOffset=7.6293945e-006;
-				};
-				class Item13
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8586.7178,95.741585,25148.891};
-						angles[]={0.016004669,5.1804862,6.0793829};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_14";
-						description="Polizia 14";
-						isPlayable=1;
-					};
-					id=782;
-					type="B_RangeMaster_F";
-					atlOffset=7.6293945e-006;
-				};
-				class Item14
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8564.2061,97.669922,25162.691};
-						angles[]={6.2431998,4.9803491,6.1297359};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_15";
-						description="Polizia 15";
-						isPlayable=1;
-					};
-					id=783;
-					type="B_RangeMaster_F";
-				};
-				class Item15
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8593.1602,94.469978,25145.607};
-						angles[]={0.011990411,4.9803491,6.0819488};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_16";
-						description="Polizia 16";
-						isPlayable=1;
-					};
-					id=784;
-					type="B_RangeMaster_F";
-					atlOffset=7.6293945e-006;
-				};
-				class Item16
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8582.7285,95.76548,25157.764};
-						angles[]={0.2531251,4.9803491,6.0793829};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_17";
-						description="Polizia 17";
-						isPlayable=1;
-					};
-					id=785;
-					type="B_RangeMaster_F";
-				};
-				class Item17
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8577.4766,96.239716,25159.801};
-						angles[]={0.2531251,4.9803491,6.1115494};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_18";
-						description="Polizia 18";
-						isPlayable=1;
-					};
-					id=786;
-					type="B_RangeMaster_F";
-				};
-				class Item18
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8567.707,97.554123,25160.207};
-						angles[]={0.18067649,4.9803491,6.1310449};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						name="cop_19";
-						description="Polizia 19";
-						isPlayable=1;
-					};
-					id=787;
 					type="B_RangeMaster_F";
 				};
 			};
@@ -21300,7 +21177,6 @@ class Mission
 						angles[]={0,6.1261058,0};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store"",1.5,true,true,"""",""true"",5];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee"",1.5,true,true,"""",""true"",5];";
@@ -21310,7 +21186,7 @@ class Mission
 					};
 					id=1067;
 					type="C_Nikos_aged";
-					atlOffset=5.1498413e-005;
+					atlOffset=0.5720005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -77181,7 +77057,7 @@ class Mission
 							};
 							id=5254;
 							type="Land_Can_Dented_F";
-							atlOffset=2.3924026;
+							atlOffset=2.3816528;
 						};
 						class Item25
 						{
@@ -77522,6 +77398,7 @@ class Mission
 							};
 							id=10471;
 							type="MetalBarrel_burning_F";
+							atlOffset=-4.5776367e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77587,7 +77464,7 @@ class Mission
 						};
 					};
 					id=5225;
-					atlOffset=-23.923866;
+					atlOffset=-23.882042;
 				};
 				class Item1
 				{
@@ -77639,7 +77516,7 @@ class Mission
 				};
 			};
 			id=5271;
-			atlOffset=12.646103;
+			atlOffset=12.649;
 		};
 		class Item1478
 		{
@@ -86107,6 +85984,7 @@ class Mission
 					};
 					id=6686;
 					type="Land_CncBarrierMedium_F";
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -86188,7 +86066,7 @@ class Mission
 					};
 					id=6688;
 					type="Land_CncWall1_F";
-					atlOffset=0.039791107;
+					atlOffset=0.0397892;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -86269,6 +86147,7 @@ class Mission
 					};
 					id=6690;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -86857,6 +86736,7 @@ class Mission
 					};
 					id=6703;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87019,6 +86899,7 @@ class Mission
 					};
 					id=6707;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87059,6 +86940,7 @@ class Mission
 					};
 					id=6708;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87507,6 +87389,7 @@ class Mission
 					};
 					id=6719;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87668,6 +87551,7 @@ class Mission
 					};
 					id=6723;
 					type="Land_CncWall1_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -88069,7 +87953,7 @@ class Mission
 					};
 					id=6733;
 					type="Land_Plank_01_4m_F";
-					atlOffset=0.14690399;
+					atlOffset=0.14690018;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -90999,7 +90883,7 @@ class Mission
 					};
 					id=6803;
 					type="Land_Stretcher_01_olive_F";
-					atlOffset=0.18517685;
+					atlOffset=0.18517494;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -91041,7 +90925,7 @@ class Mission
 					};
 					id=6804;
 					type="Land_Stretcher_01_olive_F";
-					atlOffset=0.18575478;
+					atlOffset=0.18575668;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -91125,7 +91009,7 @@ class Mission
 					};
 					id=6806;
 					type="Land_Stretcher_01_olive_F";
-					atlOffset=0.18747711;
+					atlOffset=0.1874752;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -91873,6 +91757,7 @@ class Mission
 					};
 					id=6824;
 					type="Land_CncBarrierMedium_F";
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -93185,6 +93070,7 @@ class Mission
 					};
 					id=10452;
 					type="Land_CampingChair_V2_F";
+					atlOffset=-0.0002746582;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -93226,7 +93112,7 @@ class Mission
 					};
 					id=10455;
 					type="Land_CampingChair_V2_F";
-					atlOffset=-7.6293945e-006;
+					atlOffset=-0.0002746582;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -93308,7 +93194,7 @@ class Mission
 					};
 					id=10457;
 					type="Box_Syndicate_Ammo_F";
-					atlOffset=-7.6293945e-006;
+					atlOffset=-9.1552734e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -93516,7 +93402,7 @@ class Mission
 				};
 			};
 			id=6581;
-			atlOffset=-0.30970764;
+			atlOffset=-0.11346436;
 		};
 		class Item1493
 		{
@@ -132702,6 +132588,7 @@ class Mission
 			};
 			id=10430;
 			type="Land_BriefingRoomDesk_01_F";
+			atlOffset=-0.00094604492;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -133117,7 +133004,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={25326.971,85.310989,21823.268};
-				angles[]={-0,3.1843221,6.2826972};
+				angles[]={0,3.1843221,6.2826972};
 			};
 			side="Empty";
 			class Attributes
@@ -133157,7 +133044,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={25321.982,85.317383,21823.496};
-				angles[]={-0,3.1843221,6.2826972};
+				angles[]={0,3.1843221,6.2826972};
 			};
 			side="Empty";
 			class Attributes
@@ -133495,7 +133382,7 @@ class Mission
 			};
 			id=10464;
 			type="Land_WoodenBox_F";
-			atlOffset=1.5258789e-005;
+			atlOffset=0.00018310547;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -133656,7 +133543,7 @@ class Mission
 			};
 			id=10476;
 			type="Land_Can_Dented_F";
-			atlOffset=0.5222702;
+			atlOffset=0.52223206;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -133856,6 +133743,7 @@ class Mission
 			};
 			id=10486;
 			type="Land_Ground_sheet_folded_F";
+			atlOffset=5.3405762e-005;
 		};
 		class Item1753
 		{
@@ -134250,6 +134138,7 @@ class Mission
 			};
 			id=10502;
 			type="Land_Stretcher_01_sand_F";
+			atlOffset=-0.00026702881;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -134747,6 +134636,143 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item1775
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=6;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8573.6836,99.379807,25146.545};
+						angles[]={0.047964405,4.99826,6.0114131};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_14";
+						description="Polizia 14";
+						isPlayable=1;
+					};
+					id=782;
+					type="B_RangeMaster_F";
+					atlOffset=-7.6293945e-006;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8576.0469,98.756149,25145.814};
+						angles[]={0.047964405,4.9803491,6.0114131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_17";
+						description="Polizia 17";
+						isPlayable=1;
+					};
+					id=785;
+					type="B_RangeMaster_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8576.5684,98.491486,25147.691};
+						angles[]={0.2481136,4.9803491,6.0114131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_18";
+						description="Polizia 18";
+						isPlayable=1;
+					};
+					id=786;
+					type="B_RangeMaster_F";
+					atlOffset=7.6293945e-006;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8577.1172,97.858307,25149.588};
+						angles[]={0.2481136,4.9596148,6.0114131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_19";
+						description="Polizia 19";
+						isPlayable=1;
+					};
+					id=787;
+					type="B_RangeMaster_F";
+					atlOffset=7.6293945e-006;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8574.7646,98.310799,25150.389};
+						angles[]={0.2481136,4.9803491,6.0114131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_16";
+						description="Polizia 16";
+						isPlayable=1;
+					};
+					id=784;
+					type="B_RangeMaster_F";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8574.2002,98.94899,25148.49};
+						angles[]={0.2481136,4.9803491,6.0114131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="cop_15";
+						description="Polizia 15";
+						isPlayable=1;
+					};
+					id=783;
+					type="B_RangeMaster_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=10523;
+			atlOffset=-7.6293945e-006;
 		};
 	};
 };
