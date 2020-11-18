@@ -3324,5 +3324,14 @@
         <Key ID="STR_usbAction_downloaded">
             <Original>Dati scaricati</Original>
         </Key>
+        <Key ID="STR_usbAction_stayNear">
+            <Original>Devi stare entro %1m</Original>
+        </Key>
+        <Key ID="STR_usbAction_neededCops">
+            <Original>Servono %1 agenti in servizio</Original>
+        </Key>
+        <Key ID="STR_usbAction_downloading">
+            <Original>Download avviato, resta vicino (%1m) (%2%3)...</Original>
+        </Key>
     </Package>
 </Project>

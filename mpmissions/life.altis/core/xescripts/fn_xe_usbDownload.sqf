@@ -11,14 +11,12 @@ _timeToReset = 3600;
 _rip = false;
 _cops = (west countSide playableUnits);
 
-[localize"STR_usbAction_alreadyInDownloading","info",30] call life_fnc_notification_system;
-
-if(_player distance _npc > _distance) exitWith { [format["Devi stare entro %1m",str(_distance)],"info",30] call life_fnc_notification_system; };
+if(_player distance _npc > _distance) exitWith { [format[localize"STR_usbAction_stayNear",str(_distance)],"info",30] call life_fnc_notification_system; };
 if(_rip) exitWith { [localize"STR_usbAction_alreadyInDownloading","info",30] call life_fnc_notification_system; };
 if(vehicle player != _player) exitWith { [localize"STR_usbAction_noVeh","info",30] call life_fnc_notification_system; };
 if!(alive _player) exitWith {};
 if(life_inv_usb < 1) exitWith { [localize"STR_usbAction_needUSB","info",30] call life_fnc_notification_system; };
-if(_cops < _copsRequire) exitWith { [format["Servono %1 agenti in servizio",str(_copsRequire)],"info",30] call life_fnc_notification_system; };
+if(_cops < _copsRequire) exitWith { [format[localize"STR_usbAction_neededCops",str(_copsRequire)],"info",30] call life_fnc_notification_system; };
 disableSerialization;
 
 _rip = true;
@@ -31,7 +29,7 @@ _npc removeAction _actionID;
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Download avviato, resta vicino (%1m) (1%1)...",str(_distance),"%"];
+_pgText ctrlSetText format[localize"STR_usbAction_downloading",str(_distance),1,"%"];
 _progress progressSetPosition 0.01;
 _barProgress = 0.0001;
 
@@ -40,7 +38,7 @@ if(_rip) then {
 		sleep 2;
 		_barProgress = _barProgress + _speedProgressBar;
 		_progress progressSetPosition _barProgress;
-		_pgText ctrlSetText format["Download avviato, resta vicino (%1m) (%2%3)...",str(_distance),round(_barProgress * 100),"%"];
+		_pgText ctrlSetText format[localize"STR_usbAction_downloading",str(_distance),round(_barProgress * 100),"%"];
 
 		if(_barProgress >= 1) exitWith {};
 		if(_player distance _npc > _distance) exitWith {};
