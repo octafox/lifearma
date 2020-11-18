@@ -134,6 +134,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "goldbar" };
     };
+
+    class usbVendor {
+        name = "STR_usbAction_Vendor_dati";
+        side = "civ";
+        conditions = "";
+        items[] = { "dati" };
+    };
 };
 
 /*
@@ -931,7 +938,7 @@ class VirtualItems {
         weight = 35;
         buyPrice = 10000;
         sellPrice = 0;
-        illegal = true;
+        illegal = false;
         edible = -1;
         drinkable = -1;
         icon = "icons\xeicons\usb.paa";
@@ -941,9 +948,9 @@ class VirtualItems {
         variable = "dati";
         displayName = "STR_usbAction_item_dati";
         weight = 35;
-        buyPrice = 175;
-        sellPrice = 0;
-        illegal = true;
+        buyPrice = -1;
+        sellPrice = 250000;
+        illegal = false;
         edible = -1;
         drinkable = -1;
         icon = "icons\xeicons\dati.paa";

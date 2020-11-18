@@ -3303,6 +3303,9 @@
         <Key ID="STR_usbAction_item_dati">
             <Original>Dati</Original>
         </Key>
+        <Key ID="STR_usbAction_Vendor_dati">
+            <Original>Vendita dati</Original>
+        </Key>
         <Key ID="STR_usbAction_downloadFiles">
             <Original>Scarica dati</Original>
         </Key>
