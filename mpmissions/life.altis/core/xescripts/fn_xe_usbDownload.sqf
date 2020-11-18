@@ -11,14 +11,16 @@ _timeToReset = 3600;
 _rip = false;
 _cops = (west countSide playableUnits);
 
-if(_player distance _npc > _distance) exitWith { hint "Devi stare entro "+str(_distance)+"m"};
-if(_rip) exitWith { hint localize"STR_usbAction_alreadyInDownloading" };
-if(vehicle player != _player) exitWith { hint localize"STR_usbAction_noVeh" };
+[localize"STR_usbAction_alreadyInDownloading","info",30] call life_fnc_notification_system;
+
+if(_player distance _npc > _distance) exitWith { [format["Devi stare entro "+str(_distance)+"m"],"info",30] call life_fnc_notification_system; };
+if(_rip) exitWith { [localize"STR_usbAction_alreadyInDownloading","info",30] call life_fnc_notification_system; };
+if(vehicle player != _player) exitWith { [localize"STR_usbAction_noVeh","info",30] call life_fnc_notification_system; };
 if!(alive _player) exitWith {};
-if(life_inv_usb < 1) exitWith { hint localize"STR_usbAction_needUSB" };
+if(life_inv_usb < 1) exitWith { [localize"STR_usbAction_needUSB","info",30] call life_fnc_notification_system; };
 if(_cops < _copsRequire) exitWith {
 	[_vault,-1] remoteExec ["disableSerialization;",2];
-	hint "Servono "+str(_copsRequire)+" agenti in servizio";
+	[format["Servono "+str(_copsRequire)+" agenti in servizio"],"info",30] call life_fnc_notification_system;
 };
 disableSerialization;
 
@@ -49,7 +51,7 @@ if(_rip) then {
 	};
 	if!(alive _player) exitWith { _rip = false; };
 	if(_player distance _npc > _distance) exitWith { 
-		hint localize"STR_usbAction_tooFar"; 
+		[localize"STR_usbAction_tooFar","info",30] call life_fnc_notification_system;
 		5 cutText ["","PLAIN"];
 		_rip = false;
 	};
