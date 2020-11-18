@@ -18,10 +18,7 @@ if(_rip) exitWith { [localize"STR_usbAction_alreadyInDownloading","info",30] cal
 if(vehicle player != _player) exitWith { [localize"STR_usbAction_noVeh","info",30] call life_fnc_notification_system; };
 if!(alive _player) exitWith {};
 if(life_inv_usb < 1) exitWith { [localize"STR_usbAction_needUSB","info",30] call life_fnc_notification_system; };
-if(_cops < _copsRequire) exitWith {
-	[_vault,-1] remoteExec ["disableSerialization;",2];
-	[format["Servono %1 agenti in servizio",str(_copsRequire)],"info",30] call life_fnc_notification_system;
-};
+if(_cops < _copsRequire) exitWith { [format["Servono %1 agenti in servizio",str(_copsRequire)],"info",30] call life_fnc_notification_system; };
 disableSerialization;
 
 _rip = true;
