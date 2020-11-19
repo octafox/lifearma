@@ -252,8 +252,8 @@ class WeaponShops {
             { "SMG_02_F", "", 2000, 1000, "" }, // String
             { "SMG_05_F", "", 2000, 1000, "" }, // Protector
             { "arifle_SDAR_F", "", 2000, 1000, "" }, // SDAR
-            { "arifle_TRG20_F", "TRG", 400000, 0, "call life_coplevel >= 3" }, // TRG
-            { "arifle_Mk20_plain_F", "MK20", 430000, 0, "call life_coplevel >= 3" }, // MK20
+            { "arifle_TRG20_F", "TRG", 2000, 0, "call life_coplevel >= 3" }, // TRG
+            { "arifle_Mk20_plain_F", "MK20", 2000, 0, "call life_coplevel >= 3" }, // MK20
             { "SMG_03C_TR_black", "", 2000, 1000, "call life_coplevel >= 4" }, // ADR
             { "SMG_03_black", "", 2000, 1000, "call life_coplevel >= 4" }, // ADR
             { "SMG_03C_black", "", 2000, 1000, "call life_coplevel >= 4" }, // ADR
