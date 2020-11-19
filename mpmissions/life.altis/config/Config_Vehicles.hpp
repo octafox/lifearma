@@ -880,7 +880,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             }, "" },
             { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+                "textures\med\med_orc.jpg"
             }, "" }
         };
     };
