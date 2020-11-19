@@ -116,6 +116,7 @@ class CarShops {
             { "C_Offroad_01_F", "" },
             { "I_Truck_02_medical_F", "" },
             { "O_Truck_03_medical_F", "" },
+            { "C_IDAP_Van_02_medevac_F", "" },
             { "B_Truck_01_medical_F", "" }
         };
     };
@@ -962,6 +963,34 @@ class LifeCfgVehicles {
         vFuelSpace = 500000;
         conditions = "license_civ_rebel";
         price = 1000000;
+        textures[] = {};
+    };
+
+    class C_IDAP_Van_02_medevac_F {
+        vItemSpace = 200;
+        conditions = "";
+        price = 45000;
+        textures[] = {};
+    };
+
+    class C_Van_02_vehicle_F {
+        vItemSpace = 200;
+        conditions = "";
+        price = 45000;
+        textures[] = {};
+    };
+
+    class C_Van_02_transport_F {
+        vItemSpace = 200;
+        conditions = "";
+        price = 45000;
+        textures[] = {};
+    };
+
+    class I_E_Offroad_01_covered_F {
+        vItemSpace = 200;
+        conditions = "";
+        price = 45000;
         textures[] = {};
     };
 

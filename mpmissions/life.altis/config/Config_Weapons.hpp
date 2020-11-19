@@ -264,27 +264,27 @@ class WeaponShops {
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
             { "30Rnd_45ACP_Mag_SMG_01", "", 200, 100, "" },
             { "30Rnd_9x21_Mag_SMG_02", "", 200, 100, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 1000, 0, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 2000, 0, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 0, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 200, 0, "" },
             { "2Rnd_12Gauge_Pellets", "", 200, 100, "" },
             { "50Rnd_570x28_SMG_03", "", 200, 100, "" },
-            { "30Rnd_556x45_Stanag", "", 4000, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 4000, 0, "" },
-            { "20Rnd_556x45_UW_mag", "", 3000, 0, "" },
-            { "30Rnd_545x39_Mag_F", "", 3500, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 200, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 200, 0, "" },
+            { "20Rnd_556x45_UW_mag", "", 200, 0, "" },
+            { "30Rnd_545x39_Mag_F", "", 200, 0, "" },
             { "2Rnd_12Gauge_Slug", "", 200, 100, "" },
             { "16Rnd_9x21_Mag", "", 200, 100, "" },
-            { "16Rnd_9x21_Mag", "", 125, 60, "" }
+            { "16Rnd_9x21_Mag", "", 200, 60, "" }
         };
         accs[] = {
-            { "muzzle_snds_L", "", 650, 325, "" },
-            { "optic_MRD", "", 275, 137, "" },
-            { "acc_flashlight_pistol", "", 250, 125, "" },
-            { "acc_flashlight", "", 750, 375, "" },
-            { "optic_Holosight", "", 120, 60, "" },
-            { "optic_Arco", "", 250, 125, "" },
-            { "optic_ACO_grn_smg", "", 2500, 0, "" },
-            { "muzzle_snds_H", "", 275, 137, "" }
+            { "muzzle_snds_L", "", 200, 325, "" },
+            { "optic_MRD", "", 200, 137, "" },
+            { "acc_flashlight_pistol", "", 200, 125, "" },
+            { "acc_flashlight", "", 200, 375, "" },
+            { "optic_Holosight", "", 200, 60, "" },
+            { "optic_Arco", "", 200, 125, "" },
+            { "optic_ACO_grn_smg", "", 200, 0, "" },
+            { "muzzle_snds_H", "", 200, 137, "" }
         };
     };
 
@@ -423,6 +423,9 @@ class WeaponShops {
             { "ItemRadio", "", 0, 0, "" }
         };
         mags[] = {};
-        accs[] = {};
+        accs[] = {
+            { "optic_Hamr", "", 10500, 0, "" },
+            { "optic_ACO_grn_smg", "", 2500, 0, "" }
+        };
     };
 };
