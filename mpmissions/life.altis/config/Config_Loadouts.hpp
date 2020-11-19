@@ -41,6 +41,7 @@ class Loadouts {
     // CIV
     class CIV {
         uniform[] = {
+            {"U_C_Poloshirt_salmon", ""},
             {"U_BG_Guerilla3_1", "license_civ_rebel"},
             {"U_C_Driver_2", "life_is_arrested"},
             {"U_C_Poloshirt_blue", "!life_is_arrested"},
