@@ -5,7 +5,7 @@ _actionID = [_this,2] call BIS_fnc_param;
 
 _distance = 5;
 _copsRequire = 4;
-_speedProgressBar = 0.004;
+_speedProgressBar = 0.002;
 _timeToReset = 3600;
 
 _rip = false;
