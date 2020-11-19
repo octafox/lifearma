@@ -21,28 +21,28 @@ class xeCfg_backpacks {
     class B_AssaultPack_khk {
         vInvSize = 26;
     };
-    class B_AssaultPack_dgtl : B_AssaultPack_khk {};
-    class B_AssaultPack_rgr : B_AssaultPack_khk {};
-    class B_AssaultPack_sgg : B_AssaultPack_khk {};
-    class B_AssaultPack_blk : B_AssaultPack_khk {};
-    class B_AssaultPack_cbr : B_AssaultPack_khk {};
     class B_AssaultPack_mcamo : B_AssaultPack_khk {};
     class B_AssaultPack_ocamo : B_AssaultPack_khk {};
     class B_AssaultPack_tna_F : B_AssaultPack_khk {};
     class B_AssaultPack_wdl_F : B_AssaultPack_khk {};
     class B_AssaultPack_eaf_F : B_AssaultPack_khk {};
+    class B_AssaultPack_dgtl : B_AssaultPack_khk {};
+    class B_AssaultPack_cbr : B_AssaultPack_khk {};
+    class B_AssaultPack_rgr : B_AssaultPack_khk {};
+    class B_AssaultPack_sgg : B_AssaultPack_khk {};
+    class B_AssaultPack_blk : B_AssaultPack_khk {};
 
     class B_FieldPack_oli {
         vInvSize = 26;
     };
-    class B_FieldPack_khk : B_FieldPack_oli {};
-    class B_FieldPack_ocamo : B_FieldPack_oli {};
-    class B_FieldPack_oucamo : B_FieldPack_oli {};
-    class B_FieldPack_cbr : B_FieldPack_oli {};
-    class B_FieldPack_blk : B_FieldPack_oli {};
-    class B_FieldPack_ghex_F : B_FieldPack_oli {};
     class B_FieldPack_green_F : B_FieldPack_oli {};
     class B_FieldPack_taiga_F : B_FieldPack_oli {};
+    class B_FieldPack_oucamo : B_FieldPack_oli {};
+    class B_FieldPack_ghex_F : B_FieldPack_oli {};
+    class B_FieldPack_ocamo : B_FieldPack_oli {};
+    class B_FieldPack_khk : B_FieldPack_oli {};
+    class B_FieldPack_cbr : B_FieldPack_oli {};
+    class B_FieldPack_blk : B_FieldPack_oli {};
 
     class B_TacticalPack_rgr {
         vInvSize = 26;
@@ -79,16 +79,16 @@ class xeCfg_backpacks {
     class B_Carryall_green_F {
         vInvSize = 40;
     };
-    class B_Carryall_ocamo : B_Carryall_green_F {};
+    class B_Carryall_taiga_F : B_Carryall_green_F {};
     class B_Carryall_oucamo : B_Carryall_green_F {};
+    class B_Carryall_ghex_F : B_Carryall_green_F {};
     class B_Carryall_mcamo : B_Carryall_green_F {};
+    class B_Carryall_eaf_F : B_Carryall_green_F {};
+    class B_Carryall_wdl_F : B_Carryall_green_F {};
+    class B_Carryall_ocamo : B_Carryall_green_F {};
     class B_Carryall_khk : B_Carryall_green_F {};
     class B_Carryall_cbr : B_Carryall_green_F {};
     class B_Carryall_oli : B_Carryall_green_F {};
-    class B_Carryall_ghex_F : B_Carryall_green_F {};
-    class B_Carryall_taiga_F : B_Carryall_green_F {};
-    class B_Carryall_wdl_F : B_Carryall_green_F {};
-    class B_Carryall_eaf_F : B_Carryall_green_F {};
 
     class B_Bergen_mcamo_F {
         vInvSize = 52;
