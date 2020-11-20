@@ -144,6 +144,6 @@ diag_log "----------------------------------------------------------------------
 14 enableChannel false;
 15 enableChannel false;
 
-null = [allUnits] spawn life_fnc_h8_dragBody;
+null = allUnits execVM life_fnc_h8_dragBody;
 
 [] spawn life_fnc_autoSaveInv;
