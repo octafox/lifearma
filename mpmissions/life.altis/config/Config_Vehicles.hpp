@@ -92,7 +92,8 @@ class CarShops {
             { "C_Hatchback_01_sport_F", "" },
             { "C_Offroad_02_unarmed_F", "" },
             { "O_T_LSV_02_unarmed_F", "" },
-            { "O_T_LSV_02_unarmed_black_F", "" }
+            { "O_T_LSV_02_unarmed_black_F", "" },
+            { "O_MRAP_02_F", "" }
         };
     };
     class reb_air {
@@ -142,14 +143,16 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" }
+            { "C_SUV_01_F", "" },
+            { "B_MRAP_01_F", "" }
         };
     };
     class cop_air {
         side = "cop";
         conditions = "call life_coplevel >= 2";
         vehicles[] = {
-            { "B_Heli_Light_01_F", "" }
+            { "B_Heli_Light_01_F", "" },
+            { "B_CTRG_Heli_Transport_01_tropic_F", "call life_coplevel >= 4" }
         };
     };
     class cop_ship {
@@ -158,9 +161,9 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", "" },
             { "C_Boat_Civil_01_police_F", "" },
-            { "C_Boat_Transport_02_F", "" }, //Apex DLC
+            { "C_Boat_Transport_02_F", "" },
             { "B_Boat_Armed_01_minigun_F", "call life_coplevel >= 3" },
-            { "B_SDV_01_F", "" }
+            { "B_SDV_01_F", "call life_coplevel >= 4" }
         };
     };
 
@@ -533,7 +536,7 @@ class LifeCfgVehicles {
     class O_MRAP_02_F {
         vItemSpace = 60;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 150000;
+        price = 450000;
         textures[] = { };
     };
 
