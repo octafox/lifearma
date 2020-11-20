@@ -165,7 +165,7 @@ H8_addDrag = {
 };
 
 
-if (isServer) then {
+if (!isServer) then {
 	if (isNil ("H8_dragUnitArray")) then {
 		H8_dragUnitArray = [];
 		H8_increments = 0;
