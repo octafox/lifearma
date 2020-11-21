@@ -23,7 +23,7 @@
 
 @reboot /home/arma/server/restart.sh
 
-0   0   *   *   *   /home/arma/server/restart.sh
-0   6   *   *   *   /home/arma/server/restart.sh
-0   12  *   *   *   /home/arma/server/restart.sh
-0   18  *   *   *   /home/arma/server/restart.sh
+0   1   *   *   *   /home/arma/server/restart.sh
+0   7   *   *   *   /home/arma/server/restart.sh
+0   13  *   *   *   /home/arma/server/restart.sh
+0   19  *   *   *   /home/arma/server/restart.sh
