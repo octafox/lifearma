@@ -9,6 +9,8 @@ fi
 
 cd $WORKDIR
 
+mkdir -p logs
+
 tmux kill-session -t arma
 tmux kill-session -t armaHC
 
