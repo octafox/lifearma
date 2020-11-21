@@ -20,18 +20,12 @@ _hunger = round(life_hunger);
 _health = round((1 - (damage player)) * 100);
 _cash = [CASH] call life_fnc_numberText;
 
-if (_thirst < 30) then {
-	_thirstId ctrlSetTextColor [1,0.071,0.071,1];
-	// _thirstId ctrlSetTextColor [1,0.969,0,1]; // giallo
-};
-if (_hunger < 30) then {
-	_hungerId ctrlSetTextColor [1,0.071,0.071,1];
-	// _hungerId ctrlSetTextColor [1,0.969,0,1]; // giallo
-};
-if (_health < 30) then {
-	_healthId ctrlSetTextColor [1,0.071,0.071,1];
-	// _healthId ctrlSetTextColor [1,0.969,0,1]; // giallo
-};
+if (_thirst > 30 && _thirst < 60) then { _thirstId ctrlSetTextColor [1,0.969,0,1]; } 
+else if (_thirst < 30) then { _thirstId ctrlSetTextColor [1,0.071,0.071,1]; };
+if (_hunger > 30 && _hunger < 60) then { _hungerId ctrlSetTextColor [1,0.969,0,1]; } 
+else if (_hunger < 30) then { _hungerId ctrlSetTextColor [1,0.071,0.071,1]; };
+if (_health > 30 && _health < 60) then { _healthId ctrlSetTextColor [1,0.969,0,1]; } 
+else if (_health < 30) then { _healthId ctrlSetTextColor [1,0.071,0.071,1]; };
 
 _thirstId ctrlSetText format ["%2 %1","%",_thirst];
 _hungerId ctrlSetText format ["%2 %1","%",_hunger];
