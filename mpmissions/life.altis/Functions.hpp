@@ -57,7 +57,6 @@ class Life_Client_Core {
         class brighterNights {};
         class notification_system {};
         class physicalPhone {};
-        class h8_dragBody {};
     };
 
     class Actions {
