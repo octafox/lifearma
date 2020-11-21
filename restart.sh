@@ -11,5 +11,11 @@ cd $WORKDIR
 
 tmux kill-session -t arma
 tmux kill-session -t armaHC
-tmux new -d -s arma './build.sh && ./start.sh &> serverLogs_$(date "+%y%m%d%H%M%S").rpt'
-tmux new -d -s armaHC './startHC.sh &> hcLogs_$(date "+%y%m%d%H%M%S").rpt'
+
+echo "> Server Started"
+tmux new -d -s arma './build.sh && ./start.sh &> ./logs/serverLogs_$(date "+%y%m%d%H%M%S").rpt'
+
+sleep 30
+
+echo "> HeadlessClient Started"
+tmux new -d -s armaHC './startHC.sh &> ./logs/hcLogs_$(date "+%y%m%d%H%M%S").rpt'
