@@ -302,7 +302,7 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_I_CombatUniform", "", 350, "call life_coplevel >= 1" },
+            { "U_Rangemaster", "", 350, "call life_coplevel >= 1" },
             { "U_B_Wetsuit", "", 120, "call life_coplevel >= 1" }
         };
         headgear[] = {
@@ -895,8 +895,8 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_I_CombatUniform", "", 0, "" },
-            { "U_I_CombatUniform_shortsleeve", "", 0, "" },
+            { "U_Rangemaster", "", 0, "" },
+            { "U_Rangemaster_shortsleeve", "", 0, "" },
             { "U_I_OfficerUniform", "", 0, "" },
             { "U_I_Wetsuit", "", 0, "" },
             { "U_I_C_Soldier_Para_1_F", "", 0, "" },

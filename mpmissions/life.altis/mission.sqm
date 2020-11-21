@@ -15811,7 +15811,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -15915,7 +15915,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -16024,7 +16024,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -16134,7 +16134,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -16239,7 +16239,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -16350,7 +16350,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -16458,7 +16458,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -17883,7 +17883,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -17994,7 +17994,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -64740,7 +64740,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -64850,7 +64850,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -65029,7 +65029,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -66296,7 +66296,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_I_CombatUniform";
+								typeName="U_Rangemaster";
 								isBackpack=0;
 								class ItemCargo
 								{

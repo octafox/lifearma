@@ -14,7 +14,7 @@ class Loadouts {
     // COP
     class WEST {
         uniform[] = {
-            {"U_I_CombatUniform", "call life_copLevel > 0"}
+            {"U_Rangemaster", "call life_copLevel > 0"}
         };
         headgear[] = {
             {"H_Cap_blk", "call life_copLevel > 0"}

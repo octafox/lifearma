@@ -18,7 +18,7 @@ _restrictedWeapons = LIFE_SETTINGS(getArray,"restricted_weapons");
 switch (playerSide) do
 {
     case west: {
-        if (_item in ["U_I_CombatUniform"]) then {
+        if (_item in ["U_Rangemaster"]) then {
             [] call life_fnc_playerSkins;
         };
     };
