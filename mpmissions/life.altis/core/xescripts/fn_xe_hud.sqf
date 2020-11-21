@@ -20,6 +20,16 @@ _hunger = round(life_hunger);
 _health = round((1 - (damage player)) * 100);
 _cash = [CASH] call life_fnc_numberText;
 
+if (_thirst < 30) then {
+	_thirstId ctrlSetTextColor [1,0.071,0.071,1];
+};
+if (_hunger < 30) then {
+	_hungerId ctrlSetTextColor [1,0.071,0.071,1];
+};
+if (_health < 30) then {
+	_healthId ctrlSetTextColor [1,0.071,0.071,1];
+};
+
 _thirstId ctrlSetText format ["%2 %1","%",_thirst];
 _hungerId ctrlSetText format ["%2 %1","%",_hunger];
 _healthId ctrlSetText format ["%2 %1","%",_health];
