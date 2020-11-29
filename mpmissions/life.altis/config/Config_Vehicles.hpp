@@ -144,6 +144,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", "" },
             { "C_SUV_01_F", "" },
+            { "C_Hatchback_01_sport_F", "" },
             { "B_MRAP_01_F", "" }
         };
     };
@@ -624,7 +625,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             }, "" },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\cop\cop_hc.jpg"
             }, "" }
         };
     };
