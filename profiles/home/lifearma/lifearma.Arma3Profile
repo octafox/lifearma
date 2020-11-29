@@ -23,12 +23,12 @@ class DifficultyPresets
 			weaponInfo = 2;			// Weapon info (0 = never, 1 = fade out, 2 = always)
 			stanceIndicator = 2;	// Stance indicator (0 = never, 1 = fade out, 2 = always)
 			staminaBar = 0;			// Stamina bar
-			weaponCrosshair = 0;	// Weapon crosshair
+			weaponCrosshair = 1;	// Weapon crosshair
 			visionAid = 0;			// Vision aid
 
 			/* View */
 
-			thirdPersonView = 0;	// 3rd person view
+			thirdPersonView = 1;	// 3rd person view
 			cameraShake = 1;		// Camera shake
 
 			/* Multiplayer */

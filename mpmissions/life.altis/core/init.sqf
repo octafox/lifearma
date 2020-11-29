@@ -144,6 +144,4 @@ diag_log "----------------------------------------------------------------------
 14 enableChannel false;
 15 enableChannel false;
 
-allUnits execVM "core\scripts\fn_h8_dragBody.sqf";
-
 [] spawn life_fnc_autoSaveInv;
