@@ -223,14 +223,14 @@ class LifeCfgVehicles {
 
     class B_CTRG_LSV_01_light_F {
         vItemSpace = 2000;
-        conditions = "call life_coplevel >= 5";
+        conditions = "";
         price = 0;
         textures[] = {};
     };
 
     class B_CTRG_Heli_Transport_01_tropic_F {
         vItemSpace = 2000;
-        conditions = "call life_coplevel >= 5";
+        conditions = "";
         price = 0;
         textures[] = {};
     };
