@@ -40,6 +40,7 @@ class DifficultyPresets
 			autoReport = 0;			// Automatic reporting	(0 = disabled, 1 = enabled)
 			multipleSaves = 0;		// Multiple saves		(0 = disabled, 1 = enabled)
 		};
+	};
 
 	class CustomAILevel
 	{
