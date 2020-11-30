@@ -707,30 +707,14 @@ class LifeCfgVehicles {
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 15000;
         textures[] = {
-            { "Beige", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
-            }, "" },
-            { "Green", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
-            }, "" },
-            { "Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
-            }, "" },
-            { "Dark Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
-            }, "" },
-            { "Yellow", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
-            }, "" },
-            { "White", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
-            }, "" },
-            { "Grey", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
-            }, "" },
-            { "Black", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
-            }, "" }
+            { "Beige", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa" }, "" },
+            { "Green", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa" }, "" },
+            { "Blue", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa" }, "" },
+            { "Dark Blue", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa" }, "" },
+            { "Yellow", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa" }, "" },
+            { "White", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa" }, "" },
+            { "Grey", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa" }, "" },
+            { "Black", "civ", { "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa" }, "" }
         };
     };
 
@@ -739,21 +723,11 @@ class LifeCfgVehicles {
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 20000;
         textures[] = {
-            { "Dark Red", "civ", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
-            }, "" },
-            { "Silver", "civ", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa"
-            }, "" },
-            { "Orange", "civ", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
-            }, "" },
-            { "Police", "cop", {
-                "textures\cop\cop_suv.jpg"
-            }, "" },
-            { "Medico", "med", {
-                "textures\med\med_suv.jpg"
-            }, "" }
+            { "Dark Red", "civ", { "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa" }, "" },
+            { "Silver", "civ", { "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa" }, "" },
+            { "Orange", "civ", { "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa" }, "" },
+            { "Police", "cop", { "textures\cop\cop_suv.jpg" }, "" },
+            { "Medico", "med", { "textures\med\med_suv.jpg" }, "" }
         };
     };
 
@@ -762,12 +736,8 @@ class LifeCfgVehicles {
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 47000;
         textures[] = {
-            { "White", "civ", {
-                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
-            }, "" },
-            { "Red", "civ", {
-                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
-            }, "" }
+            { "White", "civ", { "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa" }, "" },
+            { "Red", "civ", { "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa" }, "" }
         };
     };
 
@@ -776,12 +746,8 @@ class LifeCfgVehicles {
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 60000;
         textures[] = {
-            { "White", "civ", {
-                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
-            }, "" },
-            { "Red", "civ", {
-                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
-            }, "" }
+            { "White", "civ", { "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa" }, "" },
+            { "Red", "civ", { "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa" }, "" }
         };
     };
 
@@ -790,10 +756,7 @@ class LifeCfgVehicles {
         conditions = "";
         price = 30000;
         textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            }, "" }
+            { "Black", "cop", { "#(argb,8,8,3)color(0.05,0.05,0.05,1)", "#(argb,8,8,3)color(0.05,0.05,0.05,1)" }, "" }
         };
     };
 
@@ -802,9 +765,7 @@ class LifeCfgVehicles {
         conditions = "";
         price = 275000;
         textures[] = {
-            { "Rebel Digital", "reb", {
-                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
-            }, "" }
+            { "Rebel Digital", "reb", { "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa" }, "" }
         };
     };
 
