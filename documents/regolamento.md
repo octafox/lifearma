@@ -197,11 +197,7 @@ A)  Controllare quotidianamente il regolamenento, potrebbero esserci modifiche i
 
 Lore;
 
-    I ribelli sono un gruppo di civili, i quali hanno quasi sempre vissuto sull'isola di altis, da svariati anni, sin da quando il nuovo governo si è stabilito
-    con QG a kavala. Tali civili essendo in disaccordo con il governo attuale di altis, per la sua politica interna, per le sue leggi e per come secondo loro, trattano
-    la popolazione di altis, hanno deciso di unirsi, combattere per la loro causa, giusta o sbagliata che sia.
-    Ora i ribelli, controllano una collina ben difesa, sopra l'aeroporto principale, hanno costruito in maniera del tutto illegale posti di blocco per il controllo della zona.
-    I ribelli sono patriottici, amano la loro isola, ed i suoi abitanti, non tollerano ingiustizie ed abusi di potere.
+> I ribelli sono un gruppo di civili, i quali hanno quasi sempre vissuto sull'isola di altis, da svariati anni, sin da quando il nuovo governo si è stabilito con QG a kavala. Tali civili essendo in disaccordo con il governo attuale di altis, per la sua politica interna, per le sue leggi e per come secondo loro, trattan la popolazione di altis, hanno deciso di unirsi, combattere per la loro causa, giusta o sbagliata che sia. Ora i ribelli, controllano una collina ben difesa, sopra l'aeroporto principale, hanno costruito in maniera del tutto illegale posti di blocco per il controllo della zona. I ribelli sono patriottici, amano la loro isola, ed i suoi abitanti, non tollerano ingiustizie ed abusi di potere.
 
 1)  No fly zone sulla base ribelli.
 
