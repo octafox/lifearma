@@ -2,8 +2,8 @@ Buona convivenza:
 
 -- Rischio wipe o ban temporaneo 24/48H -- Casi gravi PermaBan --
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Regolamento Generale:
+--------------------------------------------
+## Regolamento Generale
 
 A)  Controllare quotidianamente il regolamenento, potrebbero esserci modifiche in situazioni di necessità.
 
@@ -60,35 +60,35 @@ A)  Controllare quotidianamente il regolamenento, potrebbero esserci modifiche i
 19) Nel ruolo pre-scontro, spiegare chiaramente, i motivi, le richieste e le possibilità all’avversario. Non esiste “Devi arrenderti!” e basta. 
     Esiste “Arrenditi e se paghi non ti sarà fatto nulla!” oppure “Arrenditi e vai via altrimenti apriamo il fuoco!”.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Limiti Membri:
+--------------------------------------------
+## Limiti Membri
 
-    Ribelli massimo 6
-    Gang massimo 6 (non sono permesse alleanze o collaborazioni con altre gang o civili)
-    Circa 1 poliziotto ogni 3 civili +-
-    Circa 1 medico ogni 8 civili +-
+- Ribelli massimo 6
+- Gang massimo 6 (non sono permesse alleanze o collaborazioni con altre gang o - civili)
+- Circa 1 poliziotto ogni 3 civili +-
+- Circa 1 medico ogni 8 civili +-
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Azioni;
+--------------------------------------------
+## Azioni
 
 1)  E' severamente vietato leggere il nome del player in gioco e/o il nome della gang , se tale player non decide di sua spontanea volontà di presentarsi oppure se obbligato 
     a dare i nominativi.
 
-2)  Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro del luogo dove ha avuto inizio l'azione. Tale area
+2)  1) Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro   del luogo dove ha avuto inizio l'azione. Tale area
     verrà ridotta ogni 10m, fino ad un massimo di 3 restringimenti. Dopo tali restringimenti se l'azione rimane in stallo e/o non 
-    si verificano ingaggi, dopo 45m - 60m totali d'azione, l'azione verrà considerata annullata (Disingaggio Automatico (P.2b)). (Tale regola vale solo in presenza di un'admin. Altrimenti si passa al (P.2b))
-    10m -- 500m --> 350m
-    20m -- 350m --> 200m
-    30m -- 200m --> 100m
+    si verificano ingaggi, dopo 45m - 60m totali d'azione, l'azione verrà considerata annullata (Disingaggio Automatico (P.2)). (Tale regola vale solo in presenza di un'admin. Altrimenti si passa al (P.2))
+        - 10min -- 500m --> 350m
+        - 20min -- 350m --> 200m
+        - 30min -- 200m --> 100m
 
-2b) Disingaggio automatico:
+    2) Disingaggio automatico:
     In caso di mancato ingaggio per 10m ed oltre o staticità nell'azione, avverrà il disingaggio automatico.
 
 3)  Area di ingaggio in caso di azione alla banca di 1000m.
 
-4)  Una volta terminata l'azione i partecipanti, dovranno attendere minimo 30m prima di poter intraprendere una nuova azione, contro gli stessi player dell'azione precedente.
+4) 1) Una volta terminata l'azione i partecipanti, dovranno attendere minimo 30m prima di poter intraprendere una nuova azione, contro gli stessi player dell'azione precedente.
 
-4b) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
+   1) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
 
 5)  Effettuare un raid a qualsiasi base è consentito soltanto con un valido motivo RP esprimendo in chiaro le proprie intenzioni. es. (10m raid base ribelle. NO!)
 5b) Es. corretto: (Peppino vuole raidare la base ribelle, Peppino perciò scriverà in chat "voi avete assaltato i nostri beni ed i nostri cari, aspettatevi una nostra vendetta"
@@ -131,8 +131,8 @@ Azioni;
 
 22) Il limite massimo di partecipanti ad un'azione per le gang civili e per i ribelli è di 6 membri, mentre per la polizia di 8.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Banca Federale:
+--------------------------------------------
+## Banca Federale
 
 1)  Si può fare due sole rapina in banca per restart.
 
@@ -156,8 +156,11 @@ Banca Federale:
 8)  E' assolutamente vietato cercare di spingere i veicoli posizionati agli ingressi della banca, nel tentativo di liberare il passaggio ostruito dai rapinatori.
     Tali veicoli, sono posizionati in modo tale da cercare di impedire alcuni ingressi e/o rallentarne il passaggio alla polizia.  
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-No Fire Zone:
+9) L'azione alla banca si protrae fino al gioielliere
+    > esempio: Se due poliziotti sopravvisuti alla banca decidono / vogliono  di andare al gioielliere ad aspettare i ribelli, sono autorizzati a sparare a vista ai rapinatori
+
+--------------------------------------------
+## No Fire Zone
 
 1)  E' severamente vietato: aprire il fuoco, uccidere, minacciare, derubare, sequestrare, scassinare (civili e/o veicoli).
 
@@ -169,8 +172,8 @@ No Fire Zone:
 
 5)  E' vietato sparare da fuori la Fire Zone verso la No Fire Zone.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Civili:
+--------------------------------------------
+## Civili
 
 1)  Giocare da civile nonostante l'essere membro della polizia obbliga a mantenere il ruolo di poliziotto fuori servizio. Questo non implica non commettere niente di illegale: da civile il poliziotto può fare droga, 
     come può vendere armi. Il suo personaggio combacia però con quello della polizia, ed in caso venga sorpreso dalla polizia a commetterre fatti illeciti è lecito per la polizia espellerlo dai poliziotti.
@@ -189,8 +192,8 @@ Civili:
 	Non possiede niente di illegale con se, ma i suoi capi di accusa permettono alla polizia di arrestare Topo Gigio ).
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Ribelli:
+--------------------------------------------
+## Ribelli
 
 Lore;
 
@@ -205,19 +208,18 @@ Lore;
 2)  I civili non hanno il permesso di accedere alla base ribelle senza l'accompagnamento o l'autorizzazione di un ribelle.
     Questi ultimi possono aprire il fuoco contro soggetti armati non autorizzati all'interno del perimetro
    
-3)  Il Ribelle protegge e sostiene il civile intenzionato a costruire un nuovo governo per Altis: 
-    Si schiera contro polizia, contro civili che commettono crimini nei confronti di altri civili onesti e innocenti. 
-    Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine,
-    che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
+3)  Il Ribelle protegge e sostiene il civile intenzionato a costruire un nuovo governo per Altis:
+
+    Si schiera contro polizia, contro civili che commettono crimini nei confronti di altri civili onesti e innocenti. Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine, che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
    
 4)  I Ribelli possono allearsi con altre gang, a patto che queste abbiano un RP in linea con il proprio. In azione è obbligatorio comunicare l'alleanza.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Polizia:
+--------------------------------------------
+## Polizia
 
-1)  La polizia essendo tutrice della legge, non deve approfittarsi del suo status, accanendosi senza un valido motivo, contro civili e gang
+1) 1) La polizia essendo tutrice della legge, non deve approfittarsi del suo status, accanendosi senza un valido motivo, contro civili e gang
 
-1b) La polizia può cercare e/o perquisire civili anche non sospetti.
+    2) La polizia può cercare e/o perquisire civili anche non sospetti.
 
 2)  Abitazioni: La polizia non può irrompere e perquisire un'abitazione civile, senza un mandato d'arresto verso il proprietario dell'abitazione.
     Se la poliza ha un minimo sospetto verso un individuo, ma in mancanza di prove, non può procedere alla perquisizione dell'abitazione.
@@ -225,11 +227,9 @@ Polizia:
 3)  Se la polizia ha il mandato per procedere ad una perquisizione (P.2) di un'abitazione ed alla confisca dei beni illegali, 
     può procedere solo in presenza del proprietario dell'abitazione.
 
-4)  La polizia può creare posti di blocco non indicati dalla mappa, unicamente per controllare licenze e immatricolazione dei veicoli, ma non può
-    perquisire i civili senza valido motivo.
+4) 1) La polizia può creare posti di blocco non indicati dalla mappa, unicamente per controllare licenze e immatricolazione dei veicoli, ma non può perquisire i civili senza valido motivo.
  
-4b) La polizia ad un posto di blocco può effettuare un controllo completo del conducente, dei passeggeri e del/dei mezzi, 
-    ma tale pratica non può essere la prassi (non abusarne)
+    2) La polizia ad un posto di blocco può effettuare un controllo completo del conducente, dei passeggeri e del/dei mezzi, ma tale pratica non può essere la prassi (non abusarne)
 
 5)  La polizia ha il diritto e l' obbligo di perquisire tutti i civili presi in custodia ed accompagnati in questura.
     I mezzi dei civili arrestati verrano perquisiti prima di scortare i sospetti in questura.   
@@ -238,9 +238,9 @@ Polizia:
     Sta ad ogni giocatore usare il proprio buonsenso per capire quando giocare come poliziotto e quando no. (es: Il server conta 10 persone, di cui 5 civili, un medico, e 4 poliziotti. 
     I poliziotti sono troppi rispetto ai civili: la differenza tra le due parti è infatti di un solo giocatore. Il poliziotto ha quindi il DOVERE di cambiare fazione, passando al lato civile)
    
-7)  Guidare in modo responsabile, avere le luci e le sirene accese non significa che si può guidare in modo irresponsabile.
+7) 1)  Guidare in modo responsabile, avere le luci e le sirene accese non significa che si può guidare in modo irresponsabile.
 
-7b) Le norme della strada, possono esere violate solo in caso di coproata emergenza.
+    2) Le norme della strada, possono essere violate solo in caso di comprovata emergenza.
 
 8) Nel caso in cui la polizia attivi le sirene, chiunque sia inseguito deve considerarsi all'interno di una possibile nuova azione.
   (es 1: peppino guida un quad ed è inseguito dalla polizia, la quale ha acceso le sirene da circa 3 minuti. Il non fermarsi di peppino fa sì che la polizia possa sparare:
@@ -250,19 +250,20 @@ Polizia:
 
 9) La poliza dopo un arresto di un individio.
 
-11)I posti di blocco valgono come alt: se è occupato in modo palese, non fermarsi o aggirarlo in un qualunque modo possibile equivale a non rispettare un alt, e di conseguenza,
-    è motivo per cominciare un azione da parte degli occupanti del posto di blocco
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Armamento polizia:
+10) I posti di blocco valgono come alt: se è occupato in modo palese, non fermarsi o aggirarlo in un qualunque modo possibile equivale a non rispettare un alt, e di conseguenza, è motivo per cominciare un azione da parte degli occupanti del posto di blocco.
+    
+--------------------------------------------
 
-1)  La polizia può armarsi con equipaggiamento pesante, solamente per rapina alla banca, rapina dati, raid base ribelle --- . Terminate tali azioni, 
+## Armamento Polizia
+
+1) 1) La polizia può armarsi con equipaggiamento pesante, solamente per rapina alla banca, rapina dati, raid base ribelle --- . Terminate tali azioni, 
     gli agenti hanno l'obbligo di riconsegnare l'equipaggiamento con quello di servizio, previsto dal loro grado; non possono assolutamente circolare 
     pesantemente armati per rispetto di civili e Gang.
    
-1b) - In caso di violazione del punto sopra descritto, alla prima violazione ci sarà un richiamo verbale.
-    - In caso di seconda o ennesima violazione dallo stesso individuo ci sarà un richiamo verbale oltre ad un abbassamento di grado istantaneo (-1).
-	- In caso di terza violazione recidiva. l'idividuo verrà allontanato dalle forze dell'ordine, bannato per 24H e potrà rientrare unicamente come civile.
-	- In caso di una quarta violazione del regolamento o del rispetto altri, PermaBan.
+    2) - In caso di violazione del punto sopra descritto, alla prima violazione ci sarà un richiamo verbale.
+        - In caso di seconda o ennesima violazione dallo stesso individuo ci sarà un richiamo verbale oltre ad un abbassamento di grado istantaneo (-1).
+        - In caso di terza violazione recidiva. l'idividuo verrà allontanato dalle forze dell'ordine, bannato per 24H e potrà rientrare unicamente come civile.
+        - In caso di una quarta violazione del regolamento o del rispetto altri, PermaBan.
 	
 2)  Gli unici agenti che sono in grado di possedere armi pesanti, in qualsiasi momento, sono unicamente Questore e Vice Questore.
     il reso degli agenti hanno il loadout di sevizio.
@@ -271,13 +272,13 @@ Armamento polizia:
 
 4)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Codice Della Strada:
+--------------------------------------------
+## Codice Della Strada
 
 1)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Medici:
+--------------------------------------------
+## Medici
 
 1)  E servamente vietato rubare veicoli dei medici o distruggerli.
 
@@ -285,15 +286,15 @@ Medici:
 
 3)  Un medico non può schierarsi dalla parte di nessuno, un medico rimane comunque imparziale.
 
-4)  Il medico ha il dovere d'aiutare i nuovi membri in difficoltà in gioco, spiegandogli le regole, il fuonzionamento ed introducendolo all'RP.
+4) 1) Il medico ha il dovere d'aiutare i nuovi membri in difficoltà in gioco, spiegandogli le regole, il fuonzionamento ed introducendolo all'RP.
 
-4b) Se i medici sono etremamente occupati in azioni, possono contattare lo staff per far si che aiutino il nuovo arrivato.
+    2) Se i medici sono etremamente occupati in azioni, possono contattare lo staff per far si che aiutino il nuovo arrivato.
 
 5)  E vietato curare gioccatori durante un conflitto a fuoco in corso. DDevono aspettare finchè l'azione non è terminata.
 
-6)  Guidare in modo responsabile, avere le luci e le sirene accese non significa che si può guidare in modo irresponsabile.
+6) 1) Guidare in modo responsabile, avere le luci e le sirene accese non significa che si può guidare in modo irresponsabile.
 
-6b) Le norme della strada, possono esere violate solo in caso di coproata emergenza.
+    2) Le norme della strada, possono esere violate solo in caso di coproata emergenza.
 
 7)  Terminata un'azione , prima si curano i poliziotti, poi i civili, ed infine i criminali.
 
