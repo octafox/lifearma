@@ -4,9 +4,11 @@ Buona convivenza:
 
 ## Indice Regolamento:
 
- - [Generale](regolamentoGenerale.md)
- - [Azioni](regolamentoAzioni.md)
- - [Civili](regolamentoCivili.md)
- - [Polizia](regolamentoPolizia.md)
- - [Ribelli](regolamentoRibelli.md)
- - [Medici](regolamentoMedici.md)
+ - [Generale](regolamentoGenerale.md#Generale)
+ - [Azioni](regolamentoAzioni.md#Azioni)
+   - [No Fire Zone](regolamentoAzioni.md#No-Fire-Zone)
+   - [Banca Federale](regolamentoAzioni.md#Banca-Federale)
+ - [Civili](regolamentoCivili.md#Civili)
+ - [Polizia](regolamentoPolizia.md#Poliza)
+ - [Ribelli](regolamentoRibelli.md#Ribelli)
+ - [Medici](regolamentoMedici.md#Medici)
