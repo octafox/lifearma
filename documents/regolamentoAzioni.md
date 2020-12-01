@@ -14,8 +14,7 @@
    
 ## Azioni
 
-1)  E' severamente vietato leggere il nome del player in gioco e/o il nome della gang , se tale player non decide di sua spontanea volontà di presentarsi oppure se obbligato 
-    a dare i nominativi.
+1)  E' severamente vietato leggere il nome del player in gioco e/o il nome della gang , se tale player non decide di sua spontanea volontà di presentarsi oppure se obbligato a dare i nominativi.
 
 2)  1) Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro   del luogo dove ha avuto inizio l'azione. Tale area
     verrà ridotta ogni 10m, fino ad un massimo di 3 restringimenti. Dopo tali restringimenti se l'azione rimane in stallo e/o non 

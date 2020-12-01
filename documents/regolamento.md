@@ -1,7 +1,3 @@
-Buona convivenza:
-
--- Rischio wipe o ban temporaneo 24/48H -- Casi gravi PermaBan --
-
 ## Indice Regolamento:
 
  - [Generale](regolamentoGenerale.md#Generale)
@@ -10,5 +6,9 @@ Buona convivenza:
    - [Banca Federale](regolamentoAzioni.md#Banca-Federale)
  - [Civili](regolamentoCivili.md#Civili)
  - [Polizia](regolamentoPolizia.md#Poliza)
+   - [Armamento Polizia](regolamentoPolizia.md#Armamento-Polizia)
  - [Ribelli](regolamentoRibelli.md#Ribelli)
  - [Medici](regolamentoMedici.md#Medici)
+  
+## Sanzioni
+> Se non si ripetta il regolamento si rischia di ricevere un ban temporaneo, un ban permanete o un wipe del personaggio
