@@ -141,9 +141,6 @@ Banca Federale:
 3)  I poliziotti che hanno preso parte all'azione in banca morendo, hanno il divieto piu' assoluto di ostacolare i rapinatori durante la vendita dei lingotti,
     al contrario dei poliziotti disingaggiati o appena entrati nel server ai quali è permesso intervenire.
 
-4)  I posti di blocco valgono come alt: se è occupato in modo palese, non fermarsi o aggirarlo in un qualunque modo possibile equivale a non rispettare un alt, e di conseguenza,
-    è motivo per cominciare un azione da parte degli occupanti del posto di blocco
-
 5)  Le fazioni che non hanno preso parte all'azione hanno il divieto di ostacolare i rapinatori durante la vendita dei lingotti.
 
 6)  Non è permesso intromettersi nella rapina alla banca quando questa è gia stata organizzata ed è già cominciata (es 1: Gang X, da 5 membri, entra nel caveu.
@@ -251,7 +248,10 @@ Polizia:
   Gino si trova sul retro dell'offroad ed è armato. La polizia comincia ad inseguirli ed accende le sirene: Gino ha da questo momento il permesso di sparare per difendersi, 
   anche con l'intento di uccidere i polizziotti che lo inseguono).
 
-9) La poliza dopo un arresto di un individio
+9) La poliza dopo un arresto di un individio.
+
+11)I posti di blocco valgono come alt: se è occupato in modo palese, non fermarsi o aggirarlo in un qualunque modo possibile equivale a non rispettare un alt, e di conseguenza,
+    è motivo per cominciare un azione da parte degli occupanti del posto di blocco
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Armamento polizia:
 
