@@ -1,3 +1,5 @@
+[<< Indice Regolamento](regolamento.md)
+
 ## Polizia
 
 1) 1) La polizia essendo tutrice della legge, non deve approfittarsi del suo status, accanendosi senza un valido motivo, contro civili e gang

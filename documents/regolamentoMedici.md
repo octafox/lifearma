@@ -1,3 +1,5 @@
+[<< Indice Regolamento](regolamento.md)
+
 ## Medici
 
 1)  E servamente vietato rubare veicoli dei medici o distruggerli.

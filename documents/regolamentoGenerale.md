@@ -1,3 +1,5 @@
+[<< Indice Regolamento](regolamento.md)
+
 ## Regolamento Generale
 
 1) Limiti Membri

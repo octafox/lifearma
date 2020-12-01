@@ -1,3 +1,5 @@
+[<< Indice Regolamento](regolamento.md)
+
 ## Civili
 
 1)  Giocare da civile nonostante l'essere membro della polizia obbliga a mantenere il ruolo di poliziotto fuori servizio. Questo non implica non commettere niente di illegale: da civile il poliziotto può fare droga, 

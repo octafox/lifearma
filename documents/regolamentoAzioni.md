@@ -1,3 +1,5 @@
+[<< Indice Regolamento](regolamento.md)
+
 ## No Fire Zone
 
 1)  E' severamente vietato: aprire il fuoco, uccidere, minacciare, derubare, sequestrare, scassinare (civili e/o veicoli).
@@ -29,7 +31,7 @@
 
 4) 1) Una volta terminata l'azione i partecipanti, dovranno attendere minimo 30m prima di poter intraprendere una nuova azione, contro gli stessi player dell'azione precedente.
 
-   1) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
+   2) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
 
 5)  Effettuare un raid a qualsiasi base è consentito soltanto con un valido motivo RP esprimendo in chiaro le proprie intenzioni. es. (10m raid base ribelle. NO!)
 5b) Es. corretto: (Peppino vuole raidare la base ribelle, Peppino perciò scriverà in chat "voi avete assaltato i nostri beni ed i nostri cari, aspettatevi una nostra vendetta"
