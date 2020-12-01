@@ -251,7 +251,7 @@ Polizia:
   Gino si trova sul retro dell'offroad ed è armato. La polizia comincia ad inseguirli ed accende le sirene: Gino ha da questo momento il permesso di sparare per difendersi, 
   anche con l'intento di uccidere i polizziotti che lo inseguono).
 
-
+9) La poliza dopo un arresto di un individio
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Armamento polizia:
 
