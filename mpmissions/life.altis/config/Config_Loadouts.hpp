@@ -73,7 +73,9 @@ class Loadouts {
             {"H_Cap_red", "call life_medicLevel >= 1"}
         };
         vest[] = {};
-        backpack[] = {};
+        backpack[] = {
+            {"B_Messenger_Gray_F", "call life_medicLevel >= 1"}
+        };
         weapon[] = {};
         mags[] = {};
         items[] = {
@@ -82,7 +84,7 @@ class Loadouts {
         linkedItems[] = {
             {"ItemMap", "call life_medicLevel >= 1"},
             {"ItemCompass", "call life_medicLevel >= 1"},
-            {"ItemRadio", ""},
+            {"ItemRadio", "call life_medicLevel >= 1"},
             {"ItemWatch", "call life_medicLevel >= 1"}
         };
     };

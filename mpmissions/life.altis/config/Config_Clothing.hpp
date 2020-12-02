@@ -867,18 +867,51 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-            { "H_Cap_blu", "", 10, "" }
+            { "H_Cap_headphones", "", 10, "" },
+            { "H_MilCap_gry", "", 10, "" },
+            { "H_MilCap_grn", "", 10, "" },
+            { "H_Cap_marshal", "", 10, "" },
+            { "H_HeadSet_black_F", "", 10, "" },
+            { "H_HeadSet_orange_F", "", 10, "" },
+            { "H_HeadSet_red_F", "", 10, "" },
+            { "H_HeadSet_white_F", "", 10, "" },
+            { "H_HeadSet_yellow_F", "", 10, "" },
+            { "H_EarProtectors_red_F", "", 10, "" },
+            { "H_EarProtectors_white_F", "", 10, "" },
+            { "H_EarProtectors_yellow_F", "", 10, "" },
+            { "H_HeadBandage_clean_F", "", 10, "" },
+            { "H_Construction_basic_red_F", "", 10, "" },
+            { "H_Construction_earprot_red_F", "", 10, "" },
+            { "H_Construction_basic_white_F", "", 10, "" },
+            { "H_Construction_earprot_white_F", "", 10, "" },
+            { "H_Cap_White_IDAP_F", "", 10, "" },
+            { "H_Cap_red", "", 10, "" },
+            { "H_Booniehat_tan", "", 10, "" },
+            { "H_Bandanna_sand", "", 10, "" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-            { "G_Shades_Blue", "", 10, "" }
+            { "G_Aviator", "", 10, "" },
+            { "G_Respirator_white_F", "", 10, "" },
+            { "G_Respirator_blue_F", "", 10, "" },
+            { "G_Respirator_yellow_F", "", 10, "" },
+            { "G_EyeProtectors_F", "", 10, "" },
+            { "G_Spectacles_Tinted", "", 10, "" },
+            { "G_RegulatorMask_F", "", 10, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" }
+            { "V_Safety_yellow_F", "", 10, "" },
+            { "V_DeckCrew_white_F", "", 10, "" },
+            { "V_DeckCrew_red_F", "", 10, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_FieldPack_oli", $STR_C_EMS_backpacks, 3000, "" }
+            { "B_LegStrapBag_black_F", "", 10, "" },
+            { "B_Messenger_Black_F", "", 10, "" },
+            { "B_Messenger_Gray_F", "", 10, "" },
+            { "B_Messenger_IDAP_F", "", 10, "" },
+            { "B_Kitbag_tan", "", 10, "" }
         };
     };
 
