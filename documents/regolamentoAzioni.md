@@ -16,14 +16,14 @@
 
 1)  E' severamente vietato leggere il nome del player in gioco e/o il nome della gang , se tale player non decide di sua spontanea volontà di presentarsi oppure se obbligato a dare i nominativi.
 
-2)  1) Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro   del luogo dove ha avuto inizio l'azione. Tale area
+2)  I) Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro   del luogo dove ha avuto inizio l'azione. Tale area
     verrà ridotta ogni 10m, fino ad un massimo di 3 restringimenti. Dopo tali restringimenti se l'azione rimane in stallo e/o non 
     si verificano ingaggi, dopo 45m - 60m totali d'azione, l'azione verrà considerata annullata (Disingaggio Automatico (P.2)). (Tale regola vale solo in presenza di un'admin. Altrimenti si passa al (P.2))
         - 10min -- 500m --> 350m
         - 20min -- 350m --> 200m
         - 30min -- 200m --> 100m
 
-    2) Disingaggio automatico:
+    II) Disingaggio automatico:
     In caso di mancato ingaggio per 10m ed oltre o staticità nell'azione, avverrà il disingaggio automatico.
 
 3)  Area di ingaggio in caso di azione alla banca di 1000m.
