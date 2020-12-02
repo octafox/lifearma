@@ -383,13 +383,6 @@ class Clothing {
             { "V_TacVest_blk", "", 350, "call life_coplevel >= 1" },
             { "V_TacVest_blk_POLICE", "", 350, "call life_coplevel >= 1" },
             { "V_RebreatherB", "", 350, "call life_coplevel >= 1" },
-            { "V_TacVest_gen_F", "", 350, "call life_coplevel >= 1" },
-            { "V_Rangemaster_belt", "", 350, "call life_coplevel >= 1" },
-            { "V_TacVestIR_blk", "", 350, "call life_coplevel >= 1" },
-            { "V_LegStrapBag_black_F", "", 350, "call life_coplevel >= 1" },
-            { "V_TacVest_blk", "", 350, "call life_coplevel >= 1" },
-            { "V_TacVest_blk_POLICE", "", 350, "call life_coplevel >= 1" },
-            { "V_RebreatherB", "", 350, "call life_coplevel >= 1" },
             { "V_PlateCarrier1_blk", "", 0, "call life_coplevel >= 2" },
             { "V_TacVest_gen_F", "", 350, "call life_coplevel >= 1" }
         };
@@ -926,7 +919,6 @@ class Clothing {
             { "H_Booniehat_mcamo", "", 0, "" },
             { "H_Booniehat_tan", "", 0, "" },
             { "H_Booniehat_dgtl", "", 0, "" },
-            { "H_Booniehat_khk_hs", "", 0, "" },
             { "H_Cap_red", "", 0, "" },
             { "H_Cap_blu", "", 0, "" },
             { "H_Cap_oli", "", 0, "" },

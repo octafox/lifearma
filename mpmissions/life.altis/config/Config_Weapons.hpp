@@ -261,23 +261,24 @@ class WeaponShops {
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 0, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 0, "" }, // Teser
 
-            { "hgun_PDW2000_F", "", 2000, 0, "call life_coplevel >= 1" }, // PDW
-            { "SMG_01_F", "", 2000, 0, "call life_coplevel >= 1" }, // Vermin
-            { "SMG_02_F", "", 2000, 0, "call life_coplevel >= 1" }, // String
-            { "SMG_05_F", "", 2000, 0, "call life_coplevel >= 1" }, // Protector
-            { "arifle_SDAR_F", "", 2000, 0, "call life_coplevel >= 1" }, // SDAR
-            { "SMG_03C_TR_black", "", 2000, 0, "call life_coplevel >= 1" }, // ADR
-            { "SMG_03_black", "", 2000, 0, "call life_coplevel >= 1" }, // ADR
-            { "SMG_03C_black", "", 2000, 0, "call life_coplevel >= 1" }, // ADR
+            { "hgun_PDW2000_F", "", 7000, 0, "call life_coplevel >= 1" }, // PDW
+            { "SMG_01_F", "", 7000, 0, "call life_coplevel >= 1" }, // Vermin
+            { "SMG_02_F", "", 7000, 0, "call life_coplevel >= 1" }, // String
+            { "SMG_05_F", "", 7000, 0, "call life_coplevel >= 1" }, // Protector
+            { "arifle_SDAR_F", "", 7000, 0, "call life_coplevel >= 1" }, // SDAR
+            { "SMG_03C_TR_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
+            { "SMG_03_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
+            { "SMG_03C_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
 
-            { "arifle_TRG20_F", "TRG", 2000, 0, "call life_coplevel >= 2" }, // TRG
-            { "arifle_Mk20_plain_F", "MK20", 2000, 0, "call life_coplevel >= 2" }, // MK20
-            { "arifle_SPAR_01_blk_F", "", 0, 0, "call life_coplevel >= 2" }, // SPAR
+            { "arifle_TRG20_F", "TRG", 7000, 0, "call life_coplevel >= 2" }, // TRG
+            { "arifle_Mk20_plain_F", "MK20", 7000, 0, "call life_coplevel >= 2" }, // MK20
+            { "arifle_SPAR_01_blk_F", "", 10000, 0, "call life_coplevel >= 2" }, // SPAR
+            { "arifle_CTAR_blk_F", "", 10000, 0, "call life_coplevel >= 2" }, // Car
             
-            { "arifle_MX_Black_F", "", 0, 0, "call life_coplevel >= 3" }, // MX
-            { "arifle_MXC_Black_F", "", 0, 0, "call life_coplevel >= 3" }, // MXC
+            { "arifle_MX_Black_F", "", 10000, 0, "call life_coplevel >= 3" }, // MX
+            { "arifle_MXC_Black_F", "", 10000, 0, "call life_coplevel >= 3" }, // MXC
 
-            { "arifle_MXM_Black_F", "", 2000, 0, "call life_coplevel >= 4" } // MXM
+            { "arifle_MXM_Black_F", "", 10000, 0, "call life_coplevel >= 4" } // MXM
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },

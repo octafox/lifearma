@@ -95,7 +95,7 @@ class Life_Settings {
 
     /* Jail System Configurations */
     jail_seize_vItems[] = { "spikeStrip","lockpick","goldbar","blastingcharge","boltcutter","defusekit","heroin_unprocessed","heroin_processed","cannabis","marijuana","cocaine_unprocessed","cocaine_processed","turtle_raw" }; //Define VIRTUAL items you want to be removed from players upon jailing here. Use "jail_seize_inventory" for Arma inventory items.
-    jail_seize_inventory = false; //Set to true to run the cop seize script on inmates. False will remove only weapons and magazines otherwise. (Basically used in case cops forget to seize items). [See Lines 127-131 below]
+    jail_seize_inventory = true; //Set to true to run the cop seize script on inmates. False will remove only weapons and magazines otherwise. (Basically used in case cops forget to seize items). [See Lines 127-131 below]
     sendtoJail_locations[] = { "sendToJail_1", "sendToJail_2", "sendToJail_3", "sendToJail_4", "sendToJail_5" }; //Enter the variableName from the mission.sqm here to allow cops to send a person to jail at these locations.
     jail_forceWalk = true;
     jail_timeMultiplier = 10; //Put in minutes how long you want your victim in jail.
@@ -124,10 +124,10 @@ class Life_Settings {
     fuelTank_winMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
 
     /* Search & Seizure System Configurations */
-    seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg" }; //Arma items that will not get seized from player inventories
+    seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue" }; //Arma items that will not get seized from player inventories
     seize_uniform[] = { "U_C_Paramedic_01_F", "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
-    seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
-    seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
+    seize_vest[] = { "V_TacVest_blk_POLICE", "V_Rangemaster_belt","V_TacVestIR_blk","V_LegStrapBag_black_F","V_TacVest_blk","V_TacVest_blk_POLICE","V_RebreatherB","V_PlateCarrier1_blk","V_TacVest_gen_F","V_Rangemaster_belt","V_TacVestIR_blk","V_LegStrapBag_black_F","V_TacVest_blk","V_TacVest_blk_POLICE","V_RebreatherB","V_TacVest_gen_F","V_PlateCarrier1_rgr","V_PlateCarrier1_blk","V_PlateCarrier_Kerry","V_PlateCarrierL_CTRG","V_PlateCarrier1_tna_F","V_PlateCarrier1_rgr_noflag_F","V_PlateCarrier1_wdl","V_Rangemaster_belt","V_TacVestIR_blk","V_TacVest_blk","V_TacVest_gen_F","V_TacVest_oli","V_TacVest_camo","V_PlateCarrierIA1_dgtl","V_RebreatherIA","V_LegStrapBag_olive_F" }; //Any specific vests you want to be seized from players
+    seize_headgear[] = { "H_Cap_police", "H_Booniehat_oli","H_Booniehat_mcamo","H_Booniehat_tan","H_Booniehat_dgtl","H_Bandanna_surfer","H_Bandanna_khk_hs","H_Bandanna_cbr","H_Bandanna_sgg","H_Bandanna_sand","H_Bandanna_surfer_blk","H_Bandanna_surfer_grn","H_Bandanna_gry","H_Bandanna_camo","H_Bandanna_mcamo","H_Booniehat_tna_F","H_EarProtectors_yellow_F","H_EarProtectors_orange_F","H_EarProtectors_red_F","H_HeadSet_yellow_F","H_HeadSet_orange_F","H_HeadSet_red_F","H_WirelessEarpiece_F","H_Hat_Tinfoil_F","H_Booniehat_mgrn","H_Booniehat_taiga","H_Booniehat_eaf","H_Booniehat_wdl","H_Shemag_olive","H_Shemag_olive_hs","H_ShemagOpen_khk","H_ShemagOpen_tan","H_HelmetIA","H_HelmetCrew_I","H_PASGT_basic_olive_F","H_Booniehat_khk","H_Bandanna_khk","H_Bandanna_blu","H_StrawHat","H_StrawHat_dark","H_Hat_blue","H_Hat_brown","H_Hat_camo","H_Hat_grey","H_Hat_checker","H_Hat_tan","H_Hat_Safari_sand_F","H_Hat_Safari_olive_F","H_EarProtectors_white_F","H_EarProtectors_black_F","H_HeadSet_white_F","H_HeadSet_black_F","H_HeadBandage_stained_F","H_HeadBandage_clean_F","H_HeadBandage_bloody_F","H_Beret_blk","H_Beret_gen_F","H_HelmetSpecB_snakeskin","H_PASGT_basic_black_F" }; //Any hats or helmets you want seized from players
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
 
     /* Vehicle System Configurations */
