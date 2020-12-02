@@ -16,3 +16,7 @@
     Si schiera contro polizia, contro civili che commettono crimini nei confronti di altri civili onesti e innocenti. Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine, che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
    
 4)  I Ribelli possono allearsi con altre gang, a patto che queste abbiano un RP in linea con il proprio. In azione è obbligatorio comunicare l'alleanza.
+
+5)  I Ribelli possono armarsi con equipaggiamento "pesante", solamente per rapina alla banca, rapina dati --- . Terminate tali azioni, 
+    i Ribelli hanno l'obbligo di sostituire l'equipaggiamento con quello di servizio, previsto dal loro grado; non possono assolutamente circolare 
+    pesantemente armati per rispetto di Civili e Polizia.

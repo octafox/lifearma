@@ -28,10 +28,9 @@
     2) Le norme della strada, possono essere violate solo in caso di comprovata emergenza.
 
 8) Nel caso in cui la polizia attivi le sirene, chiunque sia inseguito deve considerarsi all'interno di una possibile nuova azione.
-  (es 1: peppino guida un quad ed è inseguito dalla polizia, la quale ha acceso le sirene da circa 3 minuti. Il non fermarsi di peppino fa sì che la polizia possa sparare:
-  a discrezione della polizia dipende l'intento di sparare per uccidere o per magari tentare di bucare le gomme del veicolo per fermarlo. es 2: Marco e Gino sono su un offroad pieno di cocaina.
-  Gino si trova sul retro dell'offroad ed è armato. La polizia comincia ad inseguirli ed accende le sirene: Gino ha da questo momento il permesso di sparare per difendersi, 
-  anche con l'intento di uccidere i polizziotti che lo inseguono).
+  > (es 1: peppino guida un quad ed è inseguito dalla polizia, la quale ha acceso le sirene da circa 3 minuti. Il non fermarsi di peppino fa sì che la polizia possa sparare:
+  > a discrezione della polizia dipende l'intento di sparare per uccidere o per magari tentare di bucare le gomme del veicolo per fermarlo.
+  > es 2: Marco e Gino sono su un offroad pieno di cocaina. Gino si trova sul retro dell'offroad ed è armato. La polizia comincia ad inseguirli ed accende le sirene: Gino ha da questo > momento il permesso di sparare per difendersi, anche con l'intento di uccidere i polizziotti che lo inseguono).
 
 9) La poliza dopo un arresto di un individio.
 
@@ -45,7 +44,7 @@
     gli agenti hanno l'obbligo di riconsegnare l'equipaggiamento con quello di servizio, previsto dal loro grado; non possono assolutamente circolare 
     pesantemente armati per rispetto di civili e Gang.
    
-    2) - In caso di violazione del punto sopra descritto, alla prima violazione ci sarà un richiamo verbale.
+    2)  - In caso di violazione del punto sopra descritto, alla prima violazione ci sarà un richiamo verbale.
         - In caso di seconda o ennesima violazione dallo stesso individuo ci sarà un richiamo verbale oltre ad un abbassamento di grado istantaneo (-1).
         - In caso di terza violazione recidiva. l'idividuo verrà allontanato dalle forze dell'ordine, bannato per 24H e potrà rientrare unicamente come civile.
         - In caso di una quarta violazione del regolamento o del rispetto altri, PermaBan.
@@ -54,5 +53,3 @@
     il reso degli agenti hanno il loadout di sevizio.
 
 3)  Ogni agente in servizio, indipendentemente dal proprio grado, deve avere sempre appresso un taizer per poter immobilizzare il sospettato senza aprire il fuoco.
-
-4)

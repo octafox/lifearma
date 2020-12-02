@@ -18,7 +18,7 @@
 
 2)  1) Quando si da inizio ad un'azione si ha un'area di 500m a partire dal centro   del luogo dove ha avuto inizio l'azione. Tale area
     verrà ridotta ogni 10m, fino ad un massimo di 3 restringimenti. Dopo tali restringimenti se l'azione rimane in stallo e/o non 
-    si verificano ingaggi, dopo 45m - 60m totali d'azione, l'azione verrà considerata annullata (Disingaggio Automatico (P.2)). (Tale regola vale solo in presenza di un'admin. Altrimenti si passa al (P.2))
+    si verificano ingaggi, dopo 45m - 60m totali d'azione, l'azione verrà considerata annullata (Disingaggio Automatico (P.2)). (Tale regola vale solo in presenza di un'admin. Altrimenti si passa al (P.2)).
         - 10min -- 500m --> 350m
         - 20min -- 350m --> 200m
         - 30min -- 200m --> 100m
@@ -33,7 +33,7 @@
    2) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
 
 5)  Effettuare un raid a qualsiasi base è consentito soltanto con un valido motivo RP esprimendo in chiaro le proprie intenzioni. es. (10m raid base ribelle. NO!)
-5b) Es. corretto: (Peppino vuole raidare la base ribelle, Peppino perciò scriverà in chat "voi avete assaltato i nostri beni ed i nostri cari, aspettatevi una nostra vendetta"
+    > Es. corretto: (Peppino vuole raidare la base ribelle, Peppino perciò scriverà in chat "voi avete assaltato i nostri beni ed i nostri cari, aspettatevi una nostra vendetta"
 
 6)  Quando c'è almeno un medico Online, e' vietato fare Respawn, aspettate di essere rianimati.
 
@@ -41,9 +41,8 @@
 
 8)  Se si muore durante un'azione, non si può respawnare; in caso di assenza di medici il giocatore col permesso della squadra avversaria può respawnare ma senza rientrare nell'azione.
 
-9)  New Life (Esempio): Nel caso in cui Peppino, stà tranquillamente farmando o facendo altro, viene raggiunto da Caio, che gli intima di consegnargli le chiavi del veicolo, Peppino, si rifiuta di farlo, 
-    ma dopo svariati tentativi Caio gli spara uccidendolo. A quel punto Peppino, in mancanza di medici e col permesso di Caio, può respawnare, ma essendo in New Life non può assolutamente ritornare sul luogo, 
-    per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio, essendo che ha perso la memoria, e ricorda solo gli amici con cui gioca, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio.
+9)  New Life 
+    > (Esempio): Nel caso in cui Peppino, stà tranquillamente farmando o facendo altro, viene raggiunto da Caio, che gli intima di consegnargli le chiavi del veicolo, Peppino, si rifiuta di farlo, ma dopo svariati tentativi Caio gli spara uccidendolo. A quel punto Peppino, in mancanza di medici e col permesso di Caio, può respawnare, ma essendo in New Life non può assolutamente ritornare sul luogo, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio, essendo che ha perso la memoria, e ricorda solo gli amici con cui gioca, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio.
    
 10) E’ vietato sloggare in azione, fare alt + F4 o tentare in qualsiasi modo di arrestare in modo improvviso il gioco arma 3.
 
@@ -73,6 +72,8 @@
 
 22) Il limite massimo di partecipanti ad un'azione per le gang civili e per i ribelli è di 6 membri, mentre per la polizia di 8.
 
+23) L' istituto penitenziario è considerato Zona Calda dal momento in cui viene trasferito al suo interno un detenuto. Non e' possibile appostarsi all'interno del carcere e bisogna   essere ad una distanza minima di 1,5 Km da esso ed aspettare l'incarcerazione.
+
 --------------------------------------------
 ## Banca Federale
 
@@ -85,12 +86,13 @@
 
 5)  Le fazioni che non hanno preso parte all'azione hanno il divieto di ostacolare i rapinatori durante la vendita dei lingotti.
 
-6)  Non è permesso intromettersi nella rapina alla banca quando questa è gia stata organizzata ed è già cominciata (es 1: Gang X, da 5 membri, entra nel caveu.
-    Ha già perso due uomini, quindi chiama i ribelli per aiuto. Questo caso è esempio di infrazione del regolamento) (es 2: mimmo, gino, e pippo vogliono rapinare la banca.
+6)  Non è permesso intromettersi nella rapina alla banca quando questa è gia stata organizzata ed è già cominciata 
+    > (es 1: Gang X, da 5 membri, entra nel caveu. Ha già perso due uomini, quindi chiama i ribelli per aiuto. Questo caso è esempio di infrazione del regolamento)
+    > (es 2: mimmo, gino, e pippo vogliono rapinare la banca.
 	Prima di organizzare il colpo contattano i ribelli per richiedere supporto. Quando cominciano la rapina DEVONO dichiarare l'allenza in chat globale,
 	in modo che la polizia possa organizzarsi a seconda del numero di uomini che prendono parte alla rapina. In questo caso, l'azione è regolare.)
 	
-7)  Durante la rapina alla banca entrambi i partecipanti, hanno il divieto assoluto di: Utilizzare veicoli e/o velivoli blindati, nel tentativo di spottare gli avversari predisposti alla banca.
+8)  Durante la rapina alla banca entrambi i partecipanti, hanno il divieto assoluto di: Utilizzare veicoli e/o velivoli blindati, nel tentativo di spottare gli avversari predisposti alla banca.
     E' vietato stanzionare con un veicolo e/o velivolo blindato in punti strategici, in attesa di spot. (le manovre con veicoli blindati sono permessi in realtà ad esempio:
 	Peppino e Caio stanno giudando il veicolo/velicolo blindato, verso l'ingresso della banca, i quali una volta arrivati, si posizioneranno in modo da essere coperti dal fuoco nemico,
 	così da poter scendere ed avanzare a piedi verso interno della banca; Peppino e Caio non possono rimanere stanzionati all'interno del veicolo nei pressi del muro/banca)
