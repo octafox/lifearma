@@ -900,7 +900,7 @@ class Clothing {
             { "G_RegulatorMask_F", "", 10, "" }
         };
         vests[] = {
-            { "NONE", $STR_C_Remove_vests, 0, "" }
+            { "NONE", $STR_C_Remove_vests, 0, "" },
             { "V_Safety_yellow_F", "", 10, "" },
             { "V_DeckCrew_white_F", "", 10, "" },
             { "V_DeckCrew_red_F", "", 10, "" }
