@@ -3,14 +3,12 @@ import price
 import pandas as pd
 import config
 
-
 def gunToMoney(inventory):
     resp = 0
     for nome in price.armi:
         if nome in inventory:
             resp += price.armi[nome]
     return resp
-
 
 def licenseToMoney(allLicense):
     resp = 0
@@ -103,10 +101,18 @@ def setAllGangs(players):
         risultato.loc[owner] = new_row
     return risultato
 
-
-dbLife = config.connect()
-if __name__ == '__main__':
+def loadAndSave():
     df = (setAllPlayers())
     df.to_csv('bot/stats/player.csv',index=True)
     dfGang=setAllGangs(df)
     dfGang.to_csv('bot/stats/gang.csv',index=True)
+    return df,dfGang
+
+
+
+
+dbLife = config.connect()
+if __name__ == '__main__':
+    dfPlayer,dfGang=loadAndSave()
+
+    
