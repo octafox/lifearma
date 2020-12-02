@@ -17,6 +17,7 @@
 - [x] Rimuovere la tattica
 - [ ] Fare in modo che i medici possano dirare fuori i civili morti in macchina
 - [ ] Creare una GUI per le licenze
+- [ ] Creare una GUI per l'ATM
 - [ ] Aggiungere lo script del Copshop (Cambio di proprietá)
 
 - [ ] Skin di Batman per hemtt
