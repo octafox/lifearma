@@ -19,30 +19,20 @@ def licenseToMoney(allLicense):
             resp += price.licenze[licenza]
     return resp
 
-
 def vehicleToMoney(mezzo):
     return price.veicoli[mezzo]
 
+def containerToMoney(cn):
+    return price.containers[cn]
 
-def gangsPrint(gangs):
-    resp = ""
-    for gang in gangs:
-        name = gang["name"]
-        money = (gang["money"])
-        members = ', '.join(gang["members"])
-        gearMoney = (gang["gearMoney"])
-        moneyLicense = (gang["licenseMoney"])
-        total = (
-            gang["gearMoney"]+gang["money"]+gang["licenseMoney"])
-        totalXmember = (
-            int((gang["gearMoney"]+gang["money"]+gang["licenseMoney"])/len(gang["members"])))
-        resp += ("{}: {}\n\tMoney: {}\n\tGear Money:{}\n\tMoney of License: {}\n\tTotal: {}\n\tTotal per Member: {}\n\n".format(
-            name, members, money, gearMoney, moneyLicense, total, totalXmember))
-    return resp
-
+def houseSizeToMoney(sizeC):
+    try:
+        return price.houses[sizeC]
+    except:
+        return price.houses[len(price.houses)]
 
 def loadTotal(df):
-    sumcol=df['money'] + df['civ_gear'] + df['civ_licenses'] + df['civ_vehicles']
+    sumcol=df['money'] + df['civ_gear'] + df['civ_licenses'] + df['civ_vehicles']+  df['civ_homeInv']+ df['civ_homeSize']
     df['total']=sumcol
     return df
 
@@ -52,26 +42,39 @@ def addVehicles(df):
         df.loc[pid,'civ_vehicles'] += vehicleToMoney(classname)
     return df
 
+def addContainerAndInv(df):
+    dbLife.execute("SELECT pid, classname, gear FROM containers")
+    playerWithHouse=[]
+    for pid, classname, gear in dbLife:
+        df.loc[pid,'civ_homeInv'] += gunToMoney(gear) + containerToMoney(classname)
+        df.loc[pid,'civ_homeSize'] += 1
+        playerWithHouse.append(pid)
+    
+    for pid in list(set(playerWithHouse)):
+        df.loc[pid,'civ_homeSize']=houseSizeToMoney(df.loc[pid,'civ_homeSize'])
+    return df
 
-def setAllPlayers(dbLife):
+def setAllPlayers():
     dbLife.execute(
         "SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
     risultato = pd.DataFrame(
-        columns=['uid', 'name', 'money', 'civ_gear', 'civ_licenses', 'civ_vehicles'])
+        columns=['uid', 'name', 'money', 'civ_gear', 'civ_licenses', 'civ_vehicles','civ_homeInv','civ_homeSize'])
     for uid, pid, name, cash, bankacc, civ_gear, civ_licenses in dbLife:
         new_row = {'uid': uid,
                    'name': name,
                    'money': int(cash+bankacc),
                    'civ_gear': gunToMoney(civ_gear),
                    'civ_licenses': licenseToMoney(civ_licenses),
-                   'civ_vehicles': 0
+                   'civ_vehicles': 0,
+                   'civ_homeInv':0,
+                   'civ_homeSize':0
                    }
         risultato.loc[pid] = new_row
     risultato = addVehicles(risultato)
+    risultato = addContainerAndInv(risultato)
     return loadTotal(risultato)        
 
-
-def setAllGangs(dbLife, players):
+def setAllGangs(players):
     dbLife.execute("SELECT owner,name,members FROM gangs")
     risultato = pd.DataFrame(
         columns=['owner', 'name', 'membersName', 'gangMoney', 'gangGearMoney','licenseMoney','vehiclesMoney','total'])
@@ -103,7 +106,7 @@ def setAllGangs(dbLife, players):
 
 dbLife = config.connect()
 if __name__ == '__main__':
-    df = (setAllPlayers(dbLife))
+    df = (setAllPlayers())
     df.to_csv('bot/stats/player.csv',index=True)
-    dfGang=setAllGangs(dbLife,df)
+    dfGang=setAllGangs(df)
     dfGang.to_csv('bot/stats/gang.csv',index=True)

@@ -109,3 +109,19 @@ veicoli={
     "B_Heli_Transport_03_F":1000000,
     "O_T_LSV_02_unarmed_black_F":100000
 }
+
+
+#this list is built in this way
+#   number of crates (int) : cost of home   
+houses={
+    1:2000000,
+    2:2500000,
+    3:3500000,
+    4:4000000
+}
+
+
+containers={
+    "Box_IND_Grenades_F":75000,
+    "B_supplyCrate_F":150000
+}
