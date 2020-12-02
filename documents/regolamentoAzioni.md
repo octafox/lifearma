@@ -78,7 +78,7 @@
 
 1)  Si può fare due sole rapina in banca per restart.
 
-2)  Nel raggio dell'azione è possibile aprire il fuoco in quanto considerato zona calda (il raggio equivale a 1000m)
+2)  Nel raggio dell'azione è possibile aprire il fuoco in quanto considerato zona calda (il diametro equivale a 1000m)
 
 3)  I poliziotti che hanno preso parte all'azione in banca morendo, hanno il divieto piu' assoluto di ostacolare i rapinatori durante la vendita dei lingotti,
     al contrario dei poliziotti disingaggiati o appena entrati nel server ai quali è permesso intervenire.

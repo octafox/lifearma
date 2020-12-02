@@ -5,15 +5,15 @@
 1) Limiti Membri
 
    - Ribelli massimo 6
-   - Gang massimo 6 (non sono permesse alleanze o collaborazioni con altre gang o - civili)
-   - Circa 1 poliziotto ogni 3 civili +-
-   - Circa 1 medico ogni 8 civili +-
+   - Gang massimo 6 (non sono permesse alleanze o collaborazioni con altre gang o - Civili)
+   - Circa 1 Poliziotto ogni 3 civili +-
+   - Circa 1 Medico ogni 8 civili +-
 
 2) Controllare quotidianamente il regolamenento, potrebbero esserci modifiche in situazioni di necessità.
 
-3) 1)  Se si trova un giocatore che viola il regolamento del server in quasiasi modo, è caldamente consigliato di produrre delle prove 
-    (video ed audio / screenshot) a dimostrazione del mancato rispetto del regolamento. contattate il prima possibile l'admin o lo staff i quali 
-    provederanno a verificare e risolvere l'accaduto. In mancanza di prove la segnalazione verrà annullata. In mancanza di prove lo staff non garantisce il rimborso.
+3) 1) Se si trova un giocatore che viola il regolamento del server in quasiasi modo, è caldamente consigliato di produrre delle prove 
+      (video ed audio / screenshot) a dimostrazione del mancato rispetto del regolamento. contattate il prima possibile l'admin o lo staff i quali 
+      provederanno a verificare e risolvere l'accaduto. In mancanza di prove la segnalazione verrà annullata. In mancanza di prove lo staff non garantisce il rimborso.
 
    2) Se spariscono i veicoli nel garage, fondi personali spariti, equipaggiamento scomparso, case, licenze, e chi ne ha più ne metta, bisogna procedere col (P.1) sopra elencato. In mancanza di prove lo staff non garantisce il rimborso. (ovvero produzione di prove).
 	
@@ -27,15 +27,15 @@
    
 7)  E' assolutamente vietato usare qualsiasi veicolo o velivolo come arma (kamikaze) nel tantativo di fermare un'altro veicolo, verrà considerato VDM.
 
-8) Si può speronare un'altro veicolo unicamente per mandarlo fuori strada, arrestandone così la corsa, ma non nel tentativo di farlo esplodere.
+8)  Si può speronare un'altro veicolo unicamente per mandarlo fuori strada, arrestandone così la corsa, ma non nel tentativo di farlo esplodere.
 
 9)  E' vietato usare lo SDAR (fucile subacqueo) fuori dall'acqua, o contro i player. Questo trumento serve per cacciare i pesci e le tartarughe.
 
-10)  Quando c'è almeno un medico Online, e' vietato fare Respawn, aspettate di essere rianimati.
+10) Quando c'è almeno un medico Online, e' vietato fare Respawn, aspettate di essere rianimati.
 
-11)  E' assolutamente vietato commettere RDM (Random DeathMatch) o VDM (vehicle DeathMatch).
+11) E' assolutamente vietato commettere RDM (Random DeathMatch) o VDM (vehicle DeathMatch).
 
-12)  E' vietato far esplodere dei veicoli.
+12) E' vietato far esplodere dei veicoli.
 
 13) Tentare di trovare scappatoie nel regolamento equivale ad una violazione automatica dello stesso (usate il buonsenso).
 
@@ -61,3 +61,5 @@
 
 22) Nel ruolo pre-scontro, spiegare chiaramente, i motivi, le richieste e le possibilità all’avversario. Non esiste “Devi arrenderti!” e basta. 
     Esiste “Arrenditi e se paghi non ti sarà fatto nulla!” oppure “Arrenditi e vai via altrimenti apriamo il fuoco!”.
+	
+23) Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale / veicolo).
