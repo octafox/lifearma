@@ -263,7 +263,7 @@ class LifeCfgVehicles {
 
     // Apex DLC
     class C_Plane_Civil_01_F {
-        vItemSpace = 32;
+        vItemSpace = 170;
         conditions = "license_civ_pilot || {!(playerSide isEqualTo civilian)}";
         price = 100000;
         textures[] = {
