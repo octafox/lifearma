@@ -1,5 +1,5 @@
-DB_HOST="your.server.com"
-DB_NAME="dbname"
-DB_USER="dbuser"
-DB_PORT=3301
-DB_PASS="yourpass"
+DB_HOST=".."
+DB_NAME=""
+DB_USER=""
+DB_PORT=
+DB_PASS=""
