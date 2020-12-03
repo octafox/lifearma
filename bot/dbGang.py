@@ -2,6 +2,15 @@ import re
 import price
 import pandas as pd
 import config
+import mariadb
+
+def connect():
+    try:
+        conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
+    except:
+        print("Connection error")
+    armalife=conn.cursor()
+    return armalife
 
 def gunToMoney(inventory):
     resp = 0
@@ -121,7 +130,7 @@ def printPlayer(row):
     return res
    
 
-dbLife = config.connect()
+dbLife = connect()
 if __name__ == '__main__':
     dfPlayer,dfGang=loadAndSave()
     ricerca=input("Inserisci il nome del player da cercare: ")
