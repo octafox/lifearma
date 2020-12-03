@@ -108,11 +108,24 @@ def loadAndSave():
     dfGang.to_csv('bot/stats/gang.csv',index=True)
     return df,dfGang
 
+def getByName(df,name):
+    res= ""
+    for nZ in df['name']:
+        if name.lower() in nZ.lower():
+            res+=printPlayer(df.loc[df['name']==nZ])
+    return res
 
-
+def printPlayer(row):
+    row=row.iloc[0].astype("string")
+    res="\nUID: "+row["uid"]+"\t\tNAME: "+row["name"]+"\t\tALL CASH: "+row["total"]+"\n(money: "+row["money"]+", loadout: "+row["civ_gear"]+", licenses: "+row["civ_licenses"]+", vehicles: "+row["civ_vehicles"]+", home inventory: "+row["civ_homeInv"]+", home value: "+row["civ_homeSize"]+")\n"
+    return res
+   
 
 dbLife = config.connect()
 if __name__ == '__main__':
     dfPlayer,dfGang=loadAndSave()
+    ricerca=input("Inserisci il nome del player da cercare: ")
+    print(getByName(dfPlayer,ricerca))
+
 
     
