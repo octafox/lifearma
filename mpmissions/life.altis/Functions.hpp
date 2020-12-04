@@ -57,6 +57,7 @@ class Life_Client_Core {
         class brighterNights {};
         class notification_system {};
         class physicalPhone {};
+        class removeSnakesAndRabbits {};
     };
 
     class Actions {
