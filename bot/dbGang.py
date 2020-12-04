@@ -3,6 +3,7 @@ import price
 import pandas as pd
 import config
 import mariadb
+import os
 
 def connect():
     try:
@@ -112,9 +113,14 @@ def setAllGangs(players):
 
 def loadAndSave():
     df = (setAllPlayers())
-    df.to_csv('bot/stats/player.csv',index=True)
+
+    statsDirPath = os.path.join(os.path.dirname(os.path.realpath(__file__)),"stats")
+    playersFilePath = os.path.join(statsDirPath,"player.csv")
+    gangsFilePath = os.path.join(statsDirPath,"gang.csv")
+
+    df.to_csv(playersFilePath,index=True)
     dfGang=setAllGangs(df)
-    dfGang.to_csv('bot/stats/gang.csv',index=True)
+    dfGang.to_csv(gangsFilePath,index=True)
     return df,dfGang
 
 def getByName(df,name):
