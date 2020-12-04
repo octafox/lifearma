@@ -63,3 +63,5 @@
     Esiste “Arrenditi e se paghi non ti sarà fatto nulla!” oppure “Arrenditi e vai via altrimenti apriamo il fuoco!”.
 	
 23) Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale / veicolo).
+
+24) Ingaggio palese: Nel caso in cui, vi è un inseguimento (poliza con lampeggianti acccesi / o veicolo civile) che si prolunga per più di 2-3 minuti, vi si attiverà in automatico l'ingaggio. (la poliza ho l'obbligo di attivare le sirene.)
