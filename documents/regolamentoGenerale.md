@@ -64,4 +64,4 @@
 	
 23) Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale / veicolo).
 
-24) Ingaggio palese: Nel caso in cui, vi è un inseguimento (poliza con lampeggianti acccesi / o veicolo civile) che si prolunga per più di 2-3 minuti, vi si attiverà in automatico l'ingaggio. (la poliza ho l'obbligo di attivare le sirene.)
+24) Ingaggio palese: Nel caso in cui, vi è un inseguimento (poliza con lampeggianti acccesi / o veicolo civile) che si prolunga per più di 3 minuti, vi si attiverà in automatico l'ingaggio. (la poliza ho l'obbligo di attivare le sirene.)
