@@ -5,6 +5,7 @@ import config
 import mariadb
 import os
 
+
 def connect():
     try:
         conn = mariadb.connect (user=config.DB_USER, password=config.DB_PASS, host=config.DB_HOST, port=config.DB_PORT, database=config.DB_NAME)
@@ -39,108 +40,139 @@ def houseSizeToMoney(sizeC):
     except:
         return price.houses[len(price.houses)]
 
-def loadTotal(df):
-    sumcol=df['money'] + df['civ_gear'] + df['civ_licenses'] + df['civ_vehicles']+  df['civ_homeInv']+ df['civ_homeSize']
-    df['total']=sumcol
+def addVehiclesToOne(df):
+    dbLife.execute('SELECT pid,classname FROM vehicles WHERE side="civ" AND pid='+df.iat[0,0])
+    for pid, classname in dbLife:
+        df.loc[pid,'spent'] += vehicleToMoney(classname)
     return df
 
 def addVehicles(df):
     dbLife.execute('SELECT pid,classname FROM vehicles WHERE side="civ"')
     for pid, classname in dbLife:
-        df.loc[pid,'civ_vehicles'] += vehicleToMoney(classname)
+        df.loc[pid,'spent'] += vehicleToMoney(classname)
     return df
 
 def addContainerAndInv(df):
     dbLife.execute("SELECT pid, classname, gear FROM containers")
     playerWithHouse=[]
     for pid, classname, gear in dbLife:
-        df.loc[pid,'civ_homeInv'] += gunToMoney(gear) + containerToMoney(classname)
-        df.loc[pid,'civ_homeSize'] += 1
+        df.loc[pid,'spent'] += gunToMoney(gear) + containerToMoney(classname)
         playerWithHouse.append(pid)
     
     for pid in list(set(playerWithHouse)):
-        df.loc[pid,'civ_homeSize']=houseSizeToMoney(df.loc[pid,'civ_homeSize'])
+        df.loc[pid,'spent']+=houseSizeToMoney(playerWithHouse.count(pid))
     return df
+
+def addContainerAndInvToOne(df):
+    dbLife.execute('SELECT pid, classname, gear FROM containers WHERE pid='+df.iat[0,0])
+    playerWithHouse=[]
+    for pid, classname, gear in dbLife:
+        df.loc[pid,'spent'] += gunToMoney(gear) + containerToMoney(classname)
+        playerWithHouse.append(pid)
+    
+    for pid in list(set(playerWithHouse)):
+        df.loc[pid,'spent']+=houseSizeToMoney(playerWithHouse.count(pid))
+    return df
+
+def licenseToText(licenze):
+    resp=""
+    lista_licenze=licenze.replace("`","").split("],[")
+    for licenza in lista_licenze:
+        if ",1" in licenza and not "rebel" in licenza:
+            nomeLicenza=licenza.split("_")
+            resp+=(nomeLicenza[2][:len(nomeLicenza[2])-2])+","
+    if resp!="":
+
+        return resp[:len(resp)-2].replace(",1]","")
+    else:
+        return "None"
+
+def isRebel(licenze):
+    if "[`license_civ_rebel`,1]" in licenze:
+        return "1"
+    else: 
+        return "0"
 
 def setAllPlayers():
     dbLife.execute(
-        "SELECT uid,pid,name,cash,bankacc,civ_gear,civ_licenses FROM players")
+        "SELECT pid,name,cash,bankacc,civ_gear,civ_licenses,coplevel,mediclevel FROM players")
     risultato = pd.DataFrame(
-        columns=['uid', 'name', 'money', 'civ_gear', 'civ_licenses', 'civ_vehicles','civ_homeInv','civ_homeSize'])
-    for uid, pid, name, cash, bankacc, civ_gear, civ_licenses in dbLife:
-        new_row = {'uid': uid,
+        columns=['steamID', 'name', 'money', 'spent', 'license', 'coplevel', 'mediclevel', 'rebel'])
+    for  pid, name, cash, bankacc, civ_gear, civ_licenses,coplevel,mediclevel in dbLife:
+        new_row = {'steamID': pid,
                    'name': name,
+                   'license':licenseToText(civ_licenses),
                    'money': int(cash+bankacc),
-                   'civ_gear': gunToMoney(civ_gear),
-                   'civ_licenses': licenseToMoney(civ_licenses),
-                   'civ_vehicles': 0,
-                   'civ_homeInv':0,
-                   'civ_homeSize':0
+                   'spent': gunToMoney(civ_gear)+licenseToMoney(civ_licenses), 
+                   'coplevel': int(coplevel),
+                   'mediclevel': int(mediclevel),
+                   'rebel':int(isRebel(civ_licenses))
                    }
         risultato.loc[pid] = new_row
     risultato = addVehicles(risultato)
     risultato = addContainerAndInv(risultato)
-    return loadTotal(risultato)        
+    return (risultato)        
 
 def setAllGangs(players):
     dbLife.execute("SELECT owner,name,members FROM gangs")
     risultato = pd.DataFrame(
-        columns=['owner', 'name', 'membersName', 'gangMoney', 'gangGearMoney','licenseMoney','vehiclesMoney','total'])
-
+        columns=['owner', 'name', 'membersName', 'gangMoney', 'gangSpent'])
     for owner, name, members in dbLife:
         members = re.findall(r'[0-9]{17}', members)
         membersName = list(map(lambda x: players.loc[x, "name"], members))
         gangMoney = sum(
             list(map(lambda x: int(players.loc[x, "money"]), members)))
-        gangGearMoney = sum(
-            list(map(lambda x: (players.loc[x, "civ_gear"]), members)))
-        licenseMoney = sum(
-            list(map(lambda x: (players.loc[x, "civ_licenses"]), members)))
-        vehiclesMoney = sum(
-            list(map(lambda x: (players.loc[x, "civ_vehicles"]), members)))
-        total=sum(
-            list(map(lambda x: (players.loc[x, "total"]), members)))
+        gangSpent = sum(
+            list(map(lambda x: (players.loc[x, "spent"]), members)))
         new_row = {'name': name,
                    'membersName': membersName,
                    'gangMoney': gangMoney,
-                   'gangGearMoney': gangGearMoney,
-                   'licenseMoney': licenseMoney,
-                   'vehiclesMoney':vehiclesMoney,
-                   'total':total
+                   'gangSpent': gangSpent
                    }
         risultato.loc[owner] = new_row
     return risultato
 
-def loadAndSave():
+
+def load():
     df = (setAllPlayers())
-
-    statsDirPath = os.path.join(os.path.dirname(os.path.realpath(__file__)),"stats")
-    playersFilePath = os.path.join(statsDirPath,"player.csv")
-    gangsFilePath = os.path.join(statsDirPath,"gang.csv")
-
-    df.to_csv(playersFilePath,index=True)
-    dfGang=setAllGangs(df)
-    dfGang.to_csv(gangsFilePath,index=True)
+    dfGang = setAllGangs(df)
     return df,dfGang
 
-def getByName(df,name):
-    res= ""
-    for nZ in df['name']:
-        if name.lower() in nZ.lower():
-            res+=printPlayer(df.loc[df['name']==nZ])
-    return res
+def loadAndSave():
+    statsDirPath = os.path.join(os.path.dirname(os.path.realpath(__file__)),"stats")
+    playersFilePath = os.path.join(statsDirPath,"player.json")
+    gangsFilePath = os.path.join(statsDirPath,"gang.json")
+    df = (setAllPlayers())
+    df.to_json(playersFilePath, orient='records')
+    dfGang=setAllGangs(df)
+    dfGang.to_json(gangsFilePath, orient='records')
+    return df,dfGang
 
-def printPlayer(row):
-    row=row.iloc[0].astype("string")
-    res="\nUID: "+row["uid"]+"\t\tNAME: "+row["name"]+"\t\tALL CASH: "+row["total"]+"\n(money: "+row["money"]+", loadout: "+row["civ_gear"]+", licenses: "+row["civ_licenses"]+", vehicles: "+row["civ_vehicles"]+", home inventory: "+row["civ_homeInv"]+", home value: "+row["civ_homeSize"]+")\n"
-    return res
-   
+def apiGetPlayerBySID(sid):
+    dbLife.execute(
+        "SELECT pid,name,cash,bankacc,civ_gear,civ_licenses,coplevel,mediclevel FROM players WHERE pid="+sid)
+    risultato = pd.DataFrame(
+        columns=['steamID', 'name', 'money', 'spent', 'license', 'coplevel', 'mediclevel', 'rebel'])
+    for  pid, name, cash, bankacc, civ_gear, civ_licenses,coplevel,mediclevel in dbLife:
+        new_row = {'steamID': pid,
+                   'name': name,
+                   'license':licenseToText(civ_licenses),
+                   'money': int(cash+bankacc),
+                   'spent': gunToMoney(civ_gear)+licenseToMoney(civ_licenses), 
+                   'coplevel': int(coplevel),
+                   'mediclevel': int(mediclevel),
+                   'rebel':int(isRebel(civ_licenses))
+                   }
+        risultato.loc[pid] = new_row
+    risultato = addVehiclesToOne(risultato)
+    risultato = addContainerAndInvToOne(risultato)
+    return risultato.to_json(orient='records')
+
+def apiGetAllPlayers():
+    df = (setAllPlayers())
+    return df.to_json(orient='records')
+
 
 dbLife = connect()
 if __name__ == '__main__':
-    dfPlayer,dfGang=loadAndSave()
-    ricerca=input("Inserisci il nome del player da cercare: ")
-    print(getByName(dfPlayer,ricerca))
-
-
-    
+    print(apiGetPlayerBySID("76561197962072117"))
