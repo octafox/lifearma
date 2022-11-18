@@ -168,7 +168,7 @@ cleanupFSM = [] execFSM "\life_server\FSM\cleanup.fsm";
         uiSleep (30 * 60);
         {
             _x setVariable ["sellers",[],true];
-        } forEach [Dealer_1,Dealer_2,Dealer_3];
+        } forEach [Dealer_2,Dealer_3]; // [Dealer_1,Dealer_2,Dealer_3]
     };
 };
 

@@ -21,9 +21,9 @@
 #
 # m h  dom mon dow   command
 
-@reboot /home/arma/server/restart.sh
+@reboot /home/steam/server/restart.sh
 
-0   1   *   *   *   /home/arma/server/restart.sh
-0   7   *   *   *   /home/arma/server/restart.sh
-0   13  *   *   *   /home/arma/server/restart.sh
-0   19  *   *   *   /home/arma/server/restart.sh
+0   1   *   *   *   /home/steam/server/restart.sh
+0   7   *   *   *   /home/steam/server/restart.sh
+0   13  *   *   *   /home/steam/server/restart.sh
+0   19  *   *   *   /home/steam/server/restart.sh

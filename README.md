@@ -11,9 +11,3 @@ Altis Life RPG 5.0 è una missione sviluppata da Tonic e pertanto anche la nostr
 ## Il nostro scopo
 La nostra missione è di mettere a disposizione della community italiana il nostro lavoro per facilitare i neofiti ad aprire un server.
 Essendo open source tutti possono usufruire delle nostre modifiche al progetto ma sono tenuti a rispettare la [licenza](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) dal quale è coperto.
-## Contatti
-| Piattaforma | Indirizzo |
-| ------ | ------ |
-| teamspeak | ts.octafox.it:9988 |
-| discord | https://discord.gg/jX5PYBJ3 |
-| server A3 | arma.octafox.it:2302 |

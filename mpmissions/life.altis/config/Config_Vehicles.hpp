@@ -142,10 +142,10 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "" },
-            { "B_MRAP_01_F", "" }
+            { "C_Offroad_01_F", "call life_coplevel >= 1" },
+            { "C_SUV_01_F", "call life_coplevel >= 2" },
+            { "C_Hatchback_01_sport_F", "call life_coplevel >= 2" },
+            { "B_MRAP_01_F", "call life_coplevel >= 4" }
         };
     };
     class cop_air {
@@ -304,6 +304,13 @@ class LifeCfgVehicles {
             { "Black", "civ", { "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa", "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa", "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa" }, "" },
             { "Green Hex", "civ", { "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa", "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa", "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa" }, "" }
         };
+    };
+
+    class O_T_LSV_02_unarmed_black_F {
+        vItemSpace = 100;
+        conditions = "license_civ_rebel || {!(playerSide isEqualTo civilian)}";
+        price = 100000;
+        textures[] = {};
     };
 
     class I_Truck_02_medical_F {

@@ -929,8 +929,6 @@ class Clothing {
             { "U_I_C_Soldier_Para_2_F", "", 0, "" },
             { "U_I_C_Soldier_Para_3_F", "", 0, "" },
             { "U_I_C_Soldier_Para_4_F", "", 0, "" },
-            { "U_I_C_Soldier_Para_5_F", "", 0, "" },
-            { "U_I_CBRN_Suit_01_AAF_F", "", 0, "" },
             { "U_I_L_Uniform_01_camo_F", "", 0, "" },
             { "U_I_L_Uniform_01_deserter_F", "", 0, "" },
             { "U_I_L_Uniform_01_tshirt_olive_F", "", 0, "" },
@@ -1094,15 +1092,13 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_Rangemaster_belt", "", 0, "" },
-            { "V_TacVestIR_blk", "", 0, "" },
-            { "V_TacVest_blk", "", 0, "" },
-            { "V_TacVest_gen_F", "", 0, "" },
-            { "V_TacVest_oli", "", 0, "" },
-            { "V_TacVest_camo", "", 0, "" },
-            { "V_PlateCarrierIA1_dgtl", "", 0, "" },
-            { "V_RebreatherIA", "", 0, "" },
-            { "V_LegStrapBag_olive_F", "", 0, "" }
+            { "V_Rangemaster_belt", "", 900, "" },
+            { "V_TacVestIR_blk", "", 40000, "" },
+            { "V_TacVest_blk", "", 40000, "" },
+            { "V_TacVest_oli", "", 40000, "" },
+            { "V_TacVest_camo", "", 40000, "" },
+            { "V_RebreatherIA", "", 40000, "" },
+            { "V_PlateCarrierIA1_dgtl", "", 120000, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
@@ -1151,7 +1147,6 @@ class Clothing {
             { "B_AssaultPack_tna_F", "", 2000, "" },
             { "B_Carryall_ghex_F", "", 2000, "" },
             { "B_FieldPack_ghex_F", "", 2000, "" },
-            { "B_ViperHarness_blk_F", "", 2000, "" },
             { "B_ViperHarness_ghex_F", "", 2000, "" },
             { "B_ViperHarness_hex_F", "", 2000, "" },
             { "B_ViperHarness_khk_F", "", 2000, "" },

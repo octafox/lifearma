@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]
 then
-    WORKDIR=/home/arma/server
+    WORKDIR=/home/steam/server
 else
     WORKDIR=$1
 fi

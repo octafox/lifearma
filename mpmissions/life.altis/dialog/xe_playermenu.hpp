@@ -401,7 +401,7 @@ class xe_playermenu {
 	};
 	class tsTxt: Life_RscText {
 		idc = ID_xe_playerMenu_tsTxt;
-		text = "TS3: ts.octafox.it:9988"; //--- ToDo: Localize;
+		text = "discord.gg/Bve7wg4P9U"; //--- ToDo: Localize;
 		x = 0.270313 * safezoneW + safezoneX;
 		y = 0.6456 * safezoneH + safezoneY;
 		w = 0.1575 * safezoneW;
