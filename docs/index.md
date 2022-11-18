@@ -31,7 +31,6 @@ Se non si ripetta il regolamento si rischia di ricevere un ban temporaneo, un ba
 
 ---
 <footer>
-    by <a href="https://github.com/octafox">octafox</a> <br>
     Discord: <a href="https://discord.gg/Bve7wg4P9U">https://discord.gg/Bve7wg4P9U</a> <br>
     Server ArmaIII: <a href="steam://run/107410//-ip=185.229.238.7 -port=2302/">185.229.238.7:2302</a>
 </footer>
