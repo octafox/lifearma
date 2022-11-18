@@ -25,7 +25,7 @@ DATA_TXT="$(date "+%y%m%d")_$(date "+%H%M%S")"
 mkdir -p $WORKDIR/logs
 
 if $UPDATE_AND_BUILD; then
-    printf "${INFO_C}> Updateing and Building the project${RESETC}\n"
+    printf "${INFO_C}> Updating and Building the project${RESETC}\n"
     $WORKDIR/build.sh;
 fi
 
