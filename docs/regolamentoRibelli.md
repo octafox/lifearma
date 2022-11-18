@@ -13,7 +13,7 @@
    
 3)  Il Ribelle protegge e sostiene il civile intenzionato a costruire un nuovo governo per Altis:
 
-    Si schiera contro polizia, contro civili che commettono crimini nei confronti di altri civili onesti e innocenti. Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine, che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
+    Si schiera contro la polizia, contro i civili che commettono crimini nei confronti di altri civili onesti e innocenti. Sostiene tutti coloro che vogliono liberarsi dell'attuale governo di Altis, che agiscono contro la polizia o che effettuano azioni mirate a destabilizzare l'ordine, che la nato ha imposto sull'isola. Non rispettare questo RP comporta all'espulsione dai Ribelli.
    
 4)  I Ribelli possono allearsi con altre gang, a patto che queste abbiano un RP in linea con il proprio. In azione è obbligatorio comunicare l'alleanza.
 

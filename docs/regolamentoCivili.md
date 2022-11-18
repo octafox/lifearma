@@ -19,7 +19,7 @@
 
 5)  Qualsiasi player tenti di nascondere la propria identità (es. Nascondendo il volto) è probabile che venga fermato, perquisito e multato.
 
-6)  Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale / veicolo).
+6)  Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale/veicolo).
 
 7)  Se la polizia vi troverà a svolgere gare clandestine di velocità, incorrerete in una sanzione.
 

@@ -11,4 +11,4 @@
  - [Medici](regolamentoMedici.md#Medici)
   
 ## Sanzioni
-> Se non si ripetta il regolamento si rischia di ricevere un ban temporaneo, un ban permanete o un wipe del personaggio
+> Se non si rispetta il regolamento si rischia di ricevere un ban temporaneo, un ban permanete o un wipe del personaggio

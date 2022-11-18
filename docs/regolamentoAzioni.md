@@ -28,7 +28,7 @@
 
 3)  Area di ingaggio in caso di azione alla banca di 1000m.
 
-4) 1) Una volta terminata l'azione i partecipanti, dovranno attendere minimo 30m prima di poter intraprendere una nuova azione, contro gli stessi player dell'azione precedente.
+4) 1) Una volta terminata l'azione i partecipanti, dovranno attendere minimo 2H prima di poter intraprendere una nuova azione, contro gli stessi player dell'azione precedente.
 
    2) E vietato, tentare di intraprendere una nuova azione contro il/i medesimo/i player per motivi personali o di vendetta.
 
@@ -42,7 +42,7 @@
 8)  Se si muore durante un'azione, non si può respawnare; in caso di assenza di medici il giocatore col permesso della squadra avversaria può respawnare ma senza rientrare nell'azione.
 
 9)  New Life 
-    > (Esempio): Nel caso in cui Peppino, stà tranquillamente farmando o facendo altro, viene raggiunto da Caio, che gli intima di consegnargli le chiavi del veicolo, Peppino, si rifiuta di farlo, ma dopo svariati tentativi Caio gli spara uccidendolo. A quel punto Peppino, in mancanza di medici e col permesso di Caio, può respawnare, ma essendo in New Life non può assolutamente ritornare sul luogo, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio, essendo che ha perso la memoria, e ricorda solo gli amici con cui gioca, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio.
+    > (Esempio): Nel caso in cui Peppino, stà tranquillamente farmando o facendo altro, viene raggiunto da Caio, che gli intima di consegnargli le chiavi del veicolo, Peppino, si rifiuta di farlo, ma dopo svariati tentativi Caio gli spara uccidendolo. A quel punto Peppino, in mancanza di medici e col permesso di Caio, può respawnare, ma essendo in New Life non può assolutamente ritornare sul luogo, per riprendersi ciò che ha perso, ne tantomeno vendicarsi di Caio, essendo che ha perso la memoria, e ricorda solo gli amici con cui gioca.
    
 10) E’ vietato sloggare in azione, fare alt + F4 o tentare in qualsiasi modo di arrestare in modo improvviso il gioco arma 3.
 
@@ -52,8 +52,8 @@
 
 13) A fine azione è possibile fare respawn solamente in assenza di medici e col permesso dei vincitori.
 
-14) Alla fine dell'azione, la gang perdente dovrà dare tutto l'equipaggiamento (elmetti,giubbotti armi e cappelli, esclusa la divisa e un eventuale taser) alla parte vincente. 
-    Le chaivi dei veicoli non devono invece essere necessariamente cedute alla parte vincente: sta ai vincitori utilizzare grimaldelli per prendere possesso dei veicoli.
+14) Alla fine dell'azione, la gang perdente dovrà dare tutto l'equipaggiamento (elmetti,giubbotti armi e cappelli, esclusa la divisa ed un eventuale taser con relativo silenziatore) alla parte vincente. 
+    Le chaivi dei veicoli non devono invece essere necessariamente cedute alla parte vincente: sta ai vincitori utilizzare i grimaldelli per prendere possesso dei veicoli.
 
 15) Durante un inseguimento è possibile speronare per far andare fuori strada il veicolo inseguito o bloccarlo. (a proprio rischio)
 
@@ -72,7 +72,7 @@
 
 22) Il limite massimo di partecipanti ad un'azione per le gang civili e per i ribelli è di 6 membri, mentre per la polizia di 8.
 
-23) L' istituto penitenziario è considerato Zona Calda dal momento in cui viene trasferito al suo interno un detenuto. Non e' possibile appostarsi all'interno del carcere e bisogna   essere ad una distanza minima di 1,5 Km da esso ed aspettare l'incarcerazione.
+23) L' istituto penitenziario è considerato Zona Calda dal momento in cui viene trasferito al suo interno un detenuto. Non e' possibile appostarsi all'interno del carcere e bisogna   essere ad una distanza minima di 1,5 Km da esso per aspettare l'incarcerazione.
 
 --------------------------------------------
 ## Banca Federale
