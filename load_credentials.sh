@@ -21,7 +21,7 @@ CRED_DIR=credentials.secret
 mkdir -p $CRED_DIR
 
 if $SAVE_CRED; then
-    printf "${INFO_C}> Saving files with credentials${RESETC}"
+    printf "${INFO_C}> Saving files with credentials${RESETC}\n"
     cp $WORKDIR/.gitignore $WORKDIR/$CRED_DIR/
     cp $WORKDIR/config.cfg $WORKDIR/$CRED_DIR/
     cp $WORKDIR/@extdb3/extdb3-conf.ini $WORKDIR/$CRED_DIR/
@@ -30,7 +30,7 @@ if $SAVE_CRED; then
 fi
 
 if $LOAD_CRED || ([[ -v LOAD_CRED_VENV ]] && $LOAD_CRED_VENV); then
-    printf "${INFO_C}> Loading files with credentials${RESETC}"
+    printf "${INFO_C}> Loading files with credentials${RESETC}\n"
     cp $WORKDIR/$CRED_DIR/.gitignore $WORKDIR/.gitignore
     cp $WORKDIR/$CRED_DIR/config.cfg $WORKDIR/config.cfg
     cp $WORKDIR/$CRED_DIR/extdb3-conf.ini $WORKDIR/@extdb3/extdb3-conf.ini
