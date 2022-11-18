@@ -21,7 +21,7 @@ if $SAVE_CRED; then
     cp $WORKDIR/battleye/beserver.cfg $WORKDIR/$CRED_DIR/
 fi
 
-if $LOAD_CRED; then
+if $LOAD_CRED || ([[ -v LOAD_CRED_VENV ]] && $LOAD_CRED_VENV); then
     echo "> loading files with credentials"
     cp $WORKDIR/$CRED_DIR/.gitignore $WORKDIR/.gitignore
     cp $WORKDIR/$CRED_DIR/config.cfg $WORKDIR/config.cfg

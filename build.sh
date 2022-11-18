@@ -9,7 +9,9 @@ fi
 
 # Pulling the last updates from git
 cd $WORKDIR/
+git restore .
 git pull origin master
+LOAD_CRED_VENV=true $WORKDIR/load_credentials.sh
 
 # Generate a key for signing pbos
 SIGN_DIR=signKey
