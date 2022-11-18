@@ -1,4 +1,18 @@
 title: Altis Life Italia
 markdown: GFM
+
+navbar-links:
+  About: "about"
+  Regolamento:
+    - Civili: "regolamentoCivili"
+    - Polizia: "regolamentoPolizia"
+  Reg: "regolamento"
+
+social-network-links:
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  github: octafox
+  discord: discord.gg/Bve7wg4P9U
+
 plugins:
-  - jekyll-readme-index
+  - jekyll-paginate
+  - jekyll-sitemap
