@@ -26,7 +26,7 @@ Life italia mira a garantire un’esperienza genuina e divertente sull’ormai d
  - [Ribelli](regolamentoRibelli.md#Ribelli)
  - [Medici](regolamentoMedici.md#Medici)
   
-## Sanzioni
+### Sanzioni
 Se non si ripetta il regolamento si rischia di ricevere un ban temporaneo, un ban permanete o un wipe del personaggio
 
 ---
