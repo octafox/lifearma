@@ -1,2 +1,4 @@
 title: Altis Life Italia
 markdown: GFM
+plugins:
+  - jekyll-readme-index
