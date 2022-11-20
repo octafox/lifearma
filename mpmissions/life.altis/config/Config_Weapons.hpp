@@ -260,6 +260,8 @@ class WeaponShops {
             { "NVGoggles", "", 1000, 0, "" },
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 0, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 0, "" }, // Teser
+            { "hgun_Pistol_heavy_01_F", "", 3500, 0, "" }, // Pistola I
+            { "hgun_ACPC2_F", "", 3500, 0, "" }, // Pistola II
 
             { "hgun_PDW2000_F", "", 7000, 0, "call life_coplevel >= 1" }, // PDW
             { "SMG_01_F", "", 7000, 0, "call life_coplevel >= 1" }, // Vermin
@@ -293,6 +295,8 @@ class WeaponShops {
             { "20Rnd_556x45_UW_mag", "", 200, 0, "" },
             { "20Rnd_556x45_UW_mag", "", 200, 0, "" },
             { "30Rnd_556x45_Stanag", "", 200, 0, "" },
+            { "11Rnd_45ACP_Mag", "", 200, 0, "" },
+            { "9Rnd_45ACP_Mag", "", 200, 0, "" },
 
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 200, 0, "" },
             { "100Rnd_65x39_caseless_black_mag", "", 200, 0, "" },
@@ -335,29 +339,25 @@ class WeaponShops {
         };
         accs[] = {
             { "optic_Holosight_smg_blk_F", "", 0, 0, "" },
-            { "optic_Holosight_smg_khk_F", "", 0, 0, "" },
-            { "optic_DMS_weathered_Kir_F", "", 0, 0, "" },
-            { "optic_Holosight_lush_F", "", 0, 0, "" },
-            { "optic_Holosight_arid_F", "", 0, 0, "" },
-            { "optic_Holosight_blk_F", "", 0, 0, "" },
-            { "optic_Holosight_khk_F", "", 0, 0, "" },
-            { "optic_DMS_weathered_F", "", 0, 0, "" },
-            { "optic_Holosight_smg", "", 0, 0, "" },
-            { "optic_Arco_lush_F", "", 0, 0, "" },
-            { "optic_Arco_arid_F", "", 0, 0, "" },
-            { "optic_ACO_grn_smg", "", 0, 0, "" },
-            { "optic_Arco_ghex_F", "", 0, 0, "" },
-            { "optic_Arco_blk_F", "", 0, 0, "" },
-            { "optic_DMS_ghex_F", "", 0, 0, "" },
+            //{ "optic_Holosight_smg_khk_F", "", 0, 0, "" },
+            //{ "optic_Holosight_lush_F", "", 0, 0, "" },
+            //{ "optic_Holosight_arid_F", "", 0, 0, "" },
+            //{ "optic_Holosight_blk_F", "", 0, 0, "" },
+            //{ "optic_Holosight_khk_F", "", 0, 0, "" },
+            //{ "optic_Holosight_smg", "", 0, 0, "" }, 
+            //{ "optic_Arco_lush_F", "", 0, 0, "" },
+            //{ "optic_Arco_arid_F", "", 0, 0, "" },
+            //{ "optic_ACO_grn_smg", "", 0, 0, "" },
+            //{ "optic_Arco_ghex_F", "", 0, 0, "" },
+            //{ "optic_Arco_blk_F", "", 0, 0, "" },
             { "optic_Hamr_khk_F", "", 0, 0, "" },
             { "optic_ERCO_blk_F", "", 0, 0, "" },
             { "optic_ERCO_khk_F", "", 0, 0, "" },
             { "optic_ERCO_snd_F", "", 0, 0, "" },
             { "optic_Holosight", "", 0, 0, "" },
             { "optic_ACO_grn", "", 0, 0, "" },
-            { "optic_Aco_smg", "", 0, 0, "" },
-            { "optic_AMS_khk", "", 0, 0, "" },
-            { "optic_AMS_snd", "", 0, 0, "" },
+            //{ "optic_Aco_smg", "", 0, 0, "" },
+
             { "optic_KHS_blk", "", 0, 0, "" },
             { "optic_KHS_old", "", 0, 0, "" },
             { "optic_Arco", "", 0, 0, "" },
@@ -365,9 +365,6 @@ class WeaponShops {
             { "optic_LRPS", "", 0, 0, "" },
             { "optic_MRCO", "", 0, 0, "" },
             { "optic_Aco", "", 0, 0, "" },
-            { "optic_SOS", "", 0, 0, "" },
-            { "optic_DMS", "", 0, 0, "" },
-            { "optic_AMS", "", 0, 0, "" },
 
             { "muzzle_snds_65_TI_blk_F", "", 0, 0, "" },
             { "muzzle_snds_acp", "", 0, 0, "" },
