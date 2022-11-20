@@ -260,8 +260,8 @@ class WeaponShops {
             { "NVGoggles", "", 1000, 0, "" },
             { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 0, "" },
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 0, "" }, // Teser
-            { "hgun_Pistol_heavy_01_F", "", 3500, 0, "" }, // Pistola I
-            { "hgun_ACPC2_F", "", 3500, 0, "" }, // Pistola II
+            { "hgun_Pistol_heavy_01_F", "", 3500, 0, "call life_coplevel >= 1" }, // Pistola I
+            { "hgun_ACPC2_F", "", 3500, 0, "call life_coplevel >= 1" }, // Pistola II
 
             { "hgun_PDW2000_F", "", 7000, 0, "call life_coplevel >= 1" }, // PDW
             { "SMG_01_F", "", 7000, 0, "call life_coplevel >= 1" }, // Vermin

@@ -74,6 +74,8 @@
 
 23) L' istituto penitenziario è considerato Zona Calda dal momento in cui viene trasferito al suo interno un detenuto. Non e' possibile appostarsi all'interno del carcere e bisogna   essere ad una distanza minima di 1,5 Km da esso per aspettare l'incarcerazione.
 
+24) NoFear: S'intende quando in una scena di pericolo, durante la quale il tuo personaggio è in pericolo però tu invece di rispettare quello che dice il minacciatore, fai altro. Questo è no fear perchè nella realtà avresti paura.
+
 --------------------------------------------
 ## Banca Federale
 

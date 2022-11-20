@@ -144,7 +144,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", "call life_coplevel >= 1" },
             { "C_SUV_01_F", "call life_coplevel >= 2" },
-            { "C_Hatchback_01_sport_F", "call life_coplevel >= 2" },
+            { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
             { "B_MRAP_01_F", "call life_coplevel >= 4" }
         };
     };
