@@ -127,7 +127,7 @@ class WeaponShops {
 
             { "arifle_CTAR_blk_F", "", 100000, 0, "" }, // Car
             { "arifle_Katiba_F", "", 150000, 0, "" }, // Katiba
-            { "arifle_ARX_blk_F", "", 250000, 0, "" } // Type
+            //{ "arifle_ARX_blk_F", "", 250000, 0, "" } // Type
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", "", 800, 0, "" },
