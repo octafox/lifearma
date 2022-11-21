@@ -76,6 +76,8 @@
 
 24) NoFear: S'intende quando in una scena di pericolo, durante la quale il tuo personaggio è in pericolo però tu invece di rispettare quello che dice il minacciatore, fai altro. Questo è no fear perchè nella realtà avresti paura.
 
+25) La polizia può intervenire nelle azioni solamente con il vantaggio di 1 Agente rispetto ai criminali. Esempio: Rapina al benzinaio, i rapinatori sono 3, possono intervenire 4 poliziotti. (Regola non valida per quanto riguarda la rapina alla banca federale o al download dati)
+
 --------------------------------------------
 ## Banca Federale
 
