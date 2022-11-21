@@ -9,4 +9,5 @@ waitUntil {
 			deleteVehicle agent _x;
 		};
 	} forEach agents;
+	false;
 }; 
