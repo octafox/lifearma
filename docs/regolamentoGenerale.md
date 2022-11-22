@@ -65,3 +65,5 @@
 23) Obbligo di mantenere la distanza di sicurezza tra veicoli in movimento. In caso di esplosioni dei mezzi per mancato distanziamento, vi sarà solo un rimborso parziale 50 % (esclusi inventario personale / veicolo).
 
 24) Ingaggio palese: Nel caso in cui, vi è un inseguimento (poliza con lampeggianti acccesi / o veicolo civile) che si prolunga per più di 3 minuti, vi si attiverà in automatico l'ingaggio. (la poliza ho l'obbligo di attivare le sirene.)
+
+25) Rimborsi: Eventuali carichi persi, causa "riavvio", non verranno rimborsati. I Cittadini dovranno organizzarsi con le tempistiche di viaggio e di lavoro per rispettare le consegne dei carichi, con i tempi negli orari precisati."|13:00 19:00 01:00 07:00|" 
