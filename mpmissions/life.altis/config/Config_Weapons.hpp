@@ -146,59 +146,48 @@ class WeaponShops {
             { "5Rnd_127x108_Mag", "", 3000, 0, "" }
         };
         accs[] = {
-            { "optic_Holosight_smg_blk_F", "", 0, 0, "" },
-            { "optic_Holosight_smg_khk_F", "", 0, 0, "" },
-            { "optic_DMS_weathered_Kir_F", "", 0, 0, "" },
-            { "optic_Holosight_lush_F", "", 0, 0, "" },
-            { "optic_Holosight_arid_F", "", 0, 0, "" },
-            { "optic_Holosight_blk_F", "", 0, 0, "" },
-            { "optic_Holosight_khk_F", "", 0, 0, "" },
-            { "optic_DMS_weathered_F", "", 0, 0, "" },
-            { "optic_Holosight_smg", "", 0, 0, "" },
-            { "optic_Arco_lush_F", "", 0, 0, "" },
-            { "optic_Arco_arid_F", "", 0, 0, "" },
-            { "optic_ACO_grn_smg", "", 0, 0, "" },
-            { "optic_Arco_ghex_F", "", 0, 0, "" },
-            { "optic_Arco_blk_F", "", 0, 0, "" },
-            { "optic_DMS_ghex_F", "", 0, 0, "" },
-            { "optic_Hamr_khk_F", "", 0, 0, "" },
-            { "optic_ERCO_blk_F", "", 0, 0, "" },
-            { "optic_ERCO_khk_F", "", 0, 0, "" },
-            { "optic_ERCO_snd_F", "", 0, 0, "" },
-            { "optic_Holosight", "", 0, 0, "" },
-            { "optic_ACO_grn", "", 0, 0, "" },
-            { "optic_Aco_smg", "", 0, 0, "" },
-            { "optic_AMS_khk", "", 0, 0, "" },
-            { "optic_AMS_snd", "", 0, 0, "" },
-            { "optic_KHS_blk", "", 0, 0, "" },
-            { "optic_KHS_old", "", 0, 0, "" },
-            { "optic_Arco", "", 0, 0, "" },
-            { "optic_Hamr", "", 0, 0, "" },
-            { "optic_LRPS", "", 0, 0, "" },
-            { "optic_MRCO", "", 0, 0, "" },
-            { "optic_Aco", "", 0, 0, "" },
-            { "optic_SOS", "", 0, 0, "" },
-            { "optic_DMS", "", 0, 0, "" },
-            { "optic_AMS", "", 0, 0, "" },
+            { "optic_Holosight_smg_blk_F", "", 0, 0, "" }, // Mk17 Holosight SMG (Black)
+            { "optic_Holosight_smg_khk_F", "", 0, 0, "" }, // Mk17 Holosight SMG (Khaki)
+            { "optic_Holosight_lush_F", "", 0, 0, "" }, // Mk17 Holosight (Lush)
+            { "optic_Holosight_arid_F", "", 0, 0, "" }, // Mk17 Holosight (Arid)
+            { "optic_Holosight_blk_F", "", 0, 0, "" }, // Mk17 Holosight (Black)
+            { "optic_Holosight_khk_F", "", 0, 0, "" }, // Mk17 Holosight (Khaki)
+            { "optic_Holosight_smg", "", 0, 0, "" }, // Mk17 Holosight SMG
+            { "optic_Arco_lush_F", "", 0, 0, "" }, // ARCO (Lush)
+            { "optic_Arco_arid_F", "", 0, 0, "" }, // ARCO (Arid)
+            { "optic_ACO_grn_smg", "", 0, 0, "" }, // ACO SMG (Green)
+            { "optic_Arco_ghex_F", "", 0, 0, "" }, // ARCO (Green Hex)
+            { "optic_Arco_blk_F", "", 0, 0, "" }, // ARCO (Black)
+            { "optic_Hamr_khk_F", "", 0, 0, "" }, // RCO (Khaki)
+            { "optic_ERCO_blk_F", "", 0, 0, "" }, // ERCO (Black)
+            { "optic_ERCO_khk_F", "", 0, 0, "" }, // ERCO (Khaki)
+            { "optic_ERCO_snd_F", "", 0, 0, "" }, // ERCO (Sand)
+            { "optic_Holosight", "", 0, 0, "" }, // Mk17 Holosight
+            { "optic_ACO_grn", "", 0, 0, "" }, // ACO (Green)
+            { "optic_Aco_smg", "", 0, 0, "" }, // ACO SMG (Red)
+            { "optic_Arco", "", 0, 0, "" }, // ARCO
+            { "optic_Hamr", "", 0, 0, "" }, // RCO
+            { "optic_MRCO", "", 0, 0, "" }, // MRCO
+            { "optic_Aco", "", 0, 0, "" }, // ACO (Red)
 
-            { "muzzle_snds_65_TI_blk_F", "", 0, 0, "" },
-            { "muzzle_snds_acp", "", 0, 0, "" },
-            { "muzzle_snds_L", "", 0, 0, "" },
-            { "muzzle_snds_M", "", 0, 0, "" },
+            //{ "muzzle_snds_65_TI_blk_F", "", 0, 0, "" },
+            //{ "muzzle_snds_acp", "", 0, 0, "" }, // Sound Suppressor (.45 ACP)
+            //{ "muzzle_snds_L", "", 0, 0, "" }, // Sound Suppressor (9 mm)	
+            //{ "muzzle_snds_M", "", 0, 0, "" }, // Sound Suppressor (5.56 mm)
 
-            { "acc_flashlight_smg_01", "", 0, 0, "" },
-            { "acc_flashlight_pistol", "", 0, 0, "" },
-            { "acc_flashlight", "", 0, 0, "" },
-            { "acc_pointer_IR", "", 0, 0, "" },
+            //{ "acc_flashlight_smg_01", "", 0, 0, "" }, // SMG Flashlight
+            //{ "acc_flashlight_pistol", "", 0, 0, "" }, // Pistol Flashlight
+            //{ "acc_flashlight", "", 0, 0, "" }, // Flashlight
+            //{ "acc_pointer_IR", "", 0, 0, "" }, // IR Laser Pointer
 
-            { "bipod_01_F_snd", "", 0, 0, "" },
-            { "bipod_01_F_blk", "", 0, 0, "" },
-            { "bipod_01_F_mtp", "", 0, 0, "" },
-            { "bipod_01_F_khk", "", 0, 0, "" },
+            //{ "bipod_01_F_snd", "", 0, 0, "" },
+            //{ "bipod_01_F_blk", "", 0, 0, "" },
+            //{ "bipod_01_F_mtp", "", 0, 0, "" },
+            //{ "bipod_01_F_khk", "", 0, 0, "" },
 
-            { "ChemicalDetector_01_olive_F", "", 0, 0, "" },
-            { "ChemicalDetector_01_black_F", "", 0, 0, "" },
-            { "ChemicalDetector_01_tan_F", "", 0, 0, "" }
+            //{ "ChemicalDetector_01_olive_F", "", 0, 0, "" },
+            //{ "ChemicalDetector_01_black_F", "", 0, 0, "" },
+            //{ "ChemicalDetector_01_tan_F", "", 0, 0, "" }
         };
     };
 

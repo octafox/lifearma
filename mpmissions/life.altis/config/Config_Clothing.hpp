@@ -831,26 +831,26 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_BandollierB_khk", "", 120, "" },
-            { "V_BandollierB_cbr", "", 120, "" },
-            { "V_BandollierB_rgr", "", 120, "" },
-            { "V_BandollierB_blk", "", 120, "" },
-            { "V_BandollierB_oli", "", 120, "" },
-            { "V_Chestrig_khk", "", 120, "" },
-            { "V_Chestrig_rgr", "", 120, "" },
-            { "V_Chestrig_blk", "", 120, "" },
-            { "V_Chestrig_oli", "", 120, "" },
-            { "V_TacVestIR_blk", "", 120, "" },
-            { "V_HarnessO_brn", "", 120, "" },
-            { "V_HarnessOGL_brn", "", 120, "" },
-            { "V_HarnessO_gry", "", 120, "" },
-            { "V_HarnessOGL_gry", "", 120, "" },
-            { "V_TacChestrig_grn_F", "", 120, "" },
-            { "V_TacChestrig_oli_F", "", 120, "" },
-            { "V_TacChestrig_cbr_F", "", 120, "" },
-            { "V_HarnessO_ghex_F", "", 120, "" },
-            { "V_HarnessOGL_ghex_F", "", 120, "" },
-            { "V_BandollierB_ghex_F", "", 120, "" }
+            { "V_BandollierB_khk", "", 120, "" }, // Slash Bandolier (Khaki) (No Armor)
+            { "V_BandollierB_cbr", "", 120, "" }, // Slash Bandolier (Coyote) (No Armor)
+            { "V_BandollierB_rgr", "", 120, "" }, // Slash Bandolier (Green) (No Armor)
+            { "V_BandollierB_blk", "", 120, "" }, // Slash Bandolier (Black) (No Armor)
+            { "V_BandollierB_oli", "", 120, "" }, // Slash Bandolier (Olive) (No Armor)
+            { "V_Chestrig_khk", "", 120, "" }, // Chest Rig (Khaki) (No Armor)
+            { "V_Chestrig_rgr", "", 120, "" }, // Chest Rig (Green) (No Armor)
+            { "V_Chestrig_blk", "", 120, "" }, // Chest Rig (Black) (No Armor)
+            { "V_Chestrig_oli", "", 120, "" }, // Chest Rig (Olive) (No Armor)
+            { "V_TacVestIR_blk", "", 100000, "" }, // Raven Vest (Armor Level I)
+            { "V_HarnessO_brn", "", 120, "" }, // LBV Harness (No Armor)
+            { "V_HarnessOGL_brn", "", 120, "" }, // LBV Grenadier Harness (No Armor)
+            { "V_HarnessO_gry", "", 120, "" }, // LBV Harness (Grey) (No Armor)
+            { "V_HarnessOGL_gry", "", 120, "" }, // LBV Grenadier Harness (Grey) (No Armor)
+            { "V_TacChestrig_grn_F", "", 120, "" }, // Tactical Chest Rig (Green) (No Armor)
+            { "V_TacChestrig_oli_F", "", 120, "" }, // Tactical Chest Rig (Olive) (No Armor)
+            { "V_TacChestrig_cbr_F", "", 120, "" }, // Tactical Chest Rig (Coyote) (No Armor)
+            { "V_HarnessO_ghex_F", "", 120, "" }, // LBV Harness (Green Hex) (No Armor)
+            { "V_HarnessOGL_ghex_F", "", 120, "" }, // LBV Grenadier Harness (Green Hex) (No Armor)
+            { "V_BandollierB_ghex_F", "", 120, "" } // Slash Bandolier (Green Hex) (No Armor)
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" }
