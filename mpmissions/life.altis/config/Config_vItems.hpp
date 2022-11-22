@@ -501,7 +501,7 @@ class VirtualItems {
         displayName = "STR_Item_HeroinP";
         weight = 4;
         buyPrice = 13500;
-        sellPrice = 5900;
+        sellPrice = 9000;
         illegal = true;
         edible = -1;
         drinkable = -1;
@@ -526,7 +526,7 @@ class VirtualItems {
         displayName = "STR_Item_Marijuana";
         weight = 3;
         buyPrice = 12800;
-        sellPrice = 3950;
+        sellPrice = 4900;
         illegal = true;
         edible = -1;
         drinkable = -1;
