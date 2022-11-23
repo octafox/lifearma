@@ -168,7 +168,7 @@ class WeaponShops {
             { "optic_Arco", "", 0, 0, "" }, // ARCO
             { "optic_Hamr", "", 0, 0, "" }, // RCO
             { "optic_MRCO", "", 0, 0, "" }, // MRCO
-            { "optic_Aco", "", 0, 0, "" }, // ACO (Red)
+            { "optic_Aco", "", 0, 0, "" } // ACO (Red)
 
             //{ "muzzle_snds_65_TI_blk_F", "", 0, 0, "" },
             //{ "muzzle_snds_acp", "", 0, 0, "" }, // Sound Suppressor (.45 ACP)
