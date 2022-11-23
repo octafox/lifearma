@@ -723,7 +723,7 @@ class LifeCfgVehicles {
     };
 
     class B_Heli_Transport_03_unarmed_F {
-        vItemSpace = 400;
+        vItemSpace = 250;
         vFuelSpace = 500000;
         conditions = "license_civ_rebel";
         price = 1000000;
