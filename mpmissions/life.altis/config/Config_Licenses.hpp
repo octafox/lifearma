@@ -191,8 +191,17 @@ class Licenses {
     class mAir {
         variable = "mAir";
         displayName = "STR_License_Pilot";
-        price = 10s000;
+        price = 10000;
         illegal = false;
         side = "med";
+    };
+
+    // Random
+    class vip1 {
+        variable = "vip1";
+        displayName = "Off-White";
+        price = 9999999;
+        illegal = false;
+        side = "civ";
     };
 };
