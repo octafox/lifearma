@@ -1147,6 +1147,7 @@ class Clothing {
             { "B_AssaultPack_tna_F", "", 2000, "" },
             { "B_Carryall_ghex_F", "", 2000, "" },
             { "B_FieldPack_ghex_F", "", 2000, "" },
+            { "B_ViperHarness_blk_F", "", 2400, "" }, // spazio 
             { "B_ViperHarness_ghex_F", "", 2000, "" },
             { "B_ViperHarness_hex_F", "", 2000, "" },
             { "B_ViperHarness_khk_F", "", 2000, "" },
