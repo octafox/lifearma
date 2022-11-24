@@ -19,9 +19,6 @@ switch (playerSide) do {
         if ((backpack player) == "B_ViperHarness_blk_F" && license_civ_vip1) then {
             (unitbackpack player) setObjectTextureGlobal [0,"textures\offwhite_viper.jpg"];
         };
-        if (uniform player isEqualTo "U_BG_Guerrilla_6_1" && license_civ_vip1) then {
-            player setObjectTextureGlobal [0,"textures\offwhite_divisa.jpg"];
-        };
     };
 
     case west: {
