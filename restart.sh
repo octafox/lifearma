@@ -1,6 +1,6 @@
 #!/bin/bash
-source /home/steam/.bashrc
-source /home/steam/.profile
+source /home/dark/.bashrc
+source /home/dark/.profile
 
 MINOR_C="\033[30;1m"
 ERROR_C="\033[31;1m"
@@ -12,7 +12,7 @@ RESETC="\033[m"
 
 if [ $# -eq 0 ]
 then
-    WORKDIR=/home/steam/server
+    WORKDIR=/home/dark/arma/server/lifearma
 else
     WORKDIR=$1
 fi
