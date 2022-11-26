@@ -153,6 +153,7 @@ class CarShops {
         conditions = "call life_coplevel >= 2";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
+            { "C_Heli_Light_01_civil_F", "" },
             { "B_CTRG_Heli_Transport_01_tropic_F", "call life_coplevel == 7" }
         };
     };
