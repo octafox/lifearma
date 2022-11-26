@@ -20,7 +20,7 @@ switch (playerSide) do {
             (unitbackpack player) setObjectTextureGlobal [0,"textures\offwhite_viper.jpg"];
         };
         if (uniform player isEqualTo "U_BG_Guerrilla_6_1" && license_civ_vip1) then {
-            player setObjectTextureGlobal [0, "textures/offwhite_divisa.jpf"];
+            player setObjectTextureGlobal [0, "textures\offwhite_divisa.jpg"];
         };
     };
 
