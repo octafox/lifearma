@@ -247,75 +247,75 @@ class WeaponShops {
             { "ItemGPS", "", 100, 0, "" },
             { "FirstAidKit", "", 100, 0, "" },
             { "NVGoggles", "", 1000, 0, "" },
-            { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 0, "" },
-            { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 0, "" }, // Teser
-            { "hgun_Pistol_heavy_01_F", "", 3500, 0, "call life_coplevel >= 1" }, // Pistola I
-            { "hgun_ACPC2_F", "", 3500, 0, "call life_coplevel >= 1" }, // Pistola II
+            { "HandGrenade_Stone", $STR_W_items_Flashbang, 1000, 0, "" },
+            { "hgun_P07_snds_F", $STR_W_items_StunPistol, 1250, 0, "" }, // Teser
+            { "hgun_Pistol_heavy_01_F", "", 1700, 0, "call life_coplevel >= 1" }, // Pistola I
+            { "hgun_ACPC2_F", "", 1700, 0, "call life_coplevel >= 1" }, // Pistola II
 
-            { "hgun_PDW2000_F", "", 7000, 0, "call life_coplevel >= 1" }, // PDW
-            { "SMG_01_F", "", 7000, 0, "call life_coplevel >= 1" }, // Vermin
-            { "SMG_02_F", "", 7000, 0, "call life_coplevel >= 1" }, // String
-            { "SMG_05_F", "", 7000, 0, "call life_coplevel >= 1" }, // Protector
-            { "arifle_SDAR_F", "", 7000, 0, "call life_coplevel >= 1" }, // SDAR
-            { "SMG_03C_TR_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
-            { "SMG_03_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
-            { "SMG_03C_black", "", 7000, 0, "call life_coplevel >= 1" }, // ADR
+            { "hgun_PDW2000_F", "", 2700, 0, "call life_coplevel >= 1" }, // PDW
+            { "SMG_01_F", "", 2700, 0, "call life_coplevel >= 1" }, // Vermin
+            { "SMG_02_F", "", 2700, 0, "call life_coplevel >= 1" }, // String
+            { "SMG_05_F", "", 2700, 0, "call life_coplevel >= 1" }, // Protector
+            { "arifle_SDAR_F", "", 2700, 0, "call life_coplevel >= 1" }, // SDAR
+            { "SMG_03C_TR_black", "", 2700, 0, "call life_coplevel >= 1" }, // ADR
+            { "SMG_03_black", "", 2700, 0, "call life_coplevel >= 1" }, // ADR
+            { "SMG_03C_black", "", 2700, 0, "call life_coplevel >= 1" }, // ADR
 
-            { "arifle_TRG20_F", "TRG", 7000, 0, "call life_coplevel >= 2" }, // TRG
-            { "arifle_Mk20_plain_F", "MK20", 7000, 0, "call life_coplevel >= 2" }, // MK20
-            { "arifle_SPAR_01_blk_F", "", 10000, 0, "call life_coplevel >= 2" }, // SPAR
-            { "arifle_CTAR_blk_F", "", 10000, 0, "call life_coplevel >= 2" }, // Car
+            { "arifle_TRG20_F", "TRG", 2700, 0, "call life_coplevel >= 2" }, // TRG
+            { "arifle_Mk20_plain_F", "MK20", 2700, 0, "call life_coplevel >= 2" }, // MK20
+            { "arifle_SPAR_01_blk_F", "", 4700, 0, "call life_coplevel >= 2" }, // SPAR
+            { "arifle_CTAR_blk_F", "", 4700, 0, "call life_coplevel >= 2" }, // Car
             
-            { "arifle_MX_Black_F", "", 10000, 0, "call life_coplevel >= 3" }, // MX
-            { "arifle_MXC_Black_F", "", 10000, 0, "call life_coplevel >= 3" }, // MXC
+            { "arifle_MX_Black_F", "", 4700, 0, "call life_coplevel >= 3" }, // MX
+            { "arifle_MXC_Black_F", "", 4700, 0, "call life_coplevel >= 3" }, // MXC
 
-            { "arifle_MXM_Black_F", "", 10000, 0, "call life_coplevel >= 4" } // MXM
+            { "arifle_MXM_Black_F", "", 4700, 0, "call life_coplevel >= 4" } // MXM
         };
         mags[] = {
             { "30Rnd_45ACP_Mag_SMG_01", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "150Rnd_556x45_Drum_Mag_F", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag_Tracer_Yellow", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag_Tracer_Red", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag_green", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag_red", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 200, 0, "" },
-            { "20Rnd_556x45_UW_mag", "", 200, 0, "" },
-            { "20Rnd_556x45_UW_mag", "", 200, 0, "" },
-            { "30Rnd_556x45_Stanag", "", 200, 0, "" },
-            { "11Rnd_45ACP_Mag", "", 200, 0, "" },
-            { "9Rnd_45ACP_Mag", "", 200, 0, "" },
+            { "150Rnd_556x45_Drum_Mag_F", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag_Tracer_Yellow", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag_Tracer_Red", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag_green", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag_red", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 250, 0, "" },
+            { "20Rnd_556x45_UW_mag", "", 250, 0, "" },
+            { "20Rnd_556x45_UW_mag", "", 250, 0, "" },
+            { "30Rnd_556x45_Stanag", "", 250, 0, "" },
+            { "11Rnd_45ACP_Mag", "", 250, 0, "" },
+            { "9Rnd_45ACP_Mag", "", 250, 0, "" },
 
-            { "30Rnd_65x39_caseless_green_mag_Tracer", "", 200, 0, "" },
-            { "100Rnd_65x39_caseless_black_mag", "", 200, 0, "" },
-            { "30Rnd_65x39_caseless_khaki_mag", "", 200, 0, "" },
-            { "30Rnd_65x39_caseless_black_mag", "", 200, 0, "" },
-            { "30Rnd_65x39_caseless_mag", "", 200, 0, "" },
-            { "30Rnd_65x39_caseless_green", "", 200, 0, "" },
-            { "100Rnd_65x39_caseless_mag", "", 200, 0, "" },
-            { "30Rnd_65x39_caseless_mag", "", 200, 0, "" },
+            { "30Rnd_65x39_caseless_green_mag_Tracer", "", 250, 0, "" },
+            { "100Rnd_65x39_caseless_black_mag", "", 250, 0, "" },
+            { "30Rnd_65x39_caseless_khaki_mag", "", 250, 0, "" },
+            { "30Rnd_65x39_caseless_black_mag", "", 250, 0, "" },
+            { "30Rnd_65x39_caseless_mag", "", 250, 0, "" },
+            { "30Rnd_65x39_caseless_green", "", 250, 0, "" },
+            { "100Rnd_65x39_caseless_mag", "", 250, 0, "" },
+            { "30Rnd_65x39_caseless_mag", "", 250, 0, "" },
 
-            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 0, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 0, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 200, 0, "" },
-            { "6Rnd_45ACP_Cylinder", "", 200, 0, "" },
-            { "11Rnd_45ACP_Mag", "", 200, 0, "" },
-            { "9Rnd_45ACP_Mag", "", 200, 0, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 250, 0, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 250, 0, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 250, 0, "" },
+            { "6Rnd_45ACP_Cylinder", "", 250, 0, "" },
+            { "11Rnd_45ACP_Mag", "", 250, 0, "" },
+            { "9Rnd_45ACP_Mag", "", 250, 0, "" },
 
-            { "2Rnd_12Gauge_Pellets", "", 200, 0, "" },
-            { "2Rnd_12Gauge_Slug", "", 200, 0, "" },
-            { "2Rnd_12Gauge_Pellets", "", 200, 0, "" },
-            { "2Rnd_12Gauge_Slug", "", 200, 0, "" },
+            { "2Rnd_12Gauge_Pellets", "", 250, 0, "" },
+            { "2Rnd_12Gauge_Slug", "", 250, 0, "" },
+            { "2Rnd_12Gauge_Pellets", "", 250, 0, "" },
+            { "2Rnd_12Gauge_Slug", "", 250, 0, "" },
 
-            { "50Rnd_570x28_SMG_03", "", 200, 0, "" },
-            { "50Rnd_570x28_SMG_03", "", 200, 0, "" },
+            { "50Rnd_570x28_SMG_03", "", 250, 0, "" },
+            { "50Rnd_570x28_SMG_03", "", 250, 0, "" },
 
-            { "30Rnd_580x42_Mag_F", "", 200, 0, "" },
+            { "30Rnd_580x42_Mag_F", "", 250, 0, "" },
 
-            { "30Rnd_545x39_Mag_F", "", 200, 0, "" },
+            { "30Rnd_545x39_Mag_F", "", 250, 0, "" },
 
-            { "10Rnd_50BW_Mag_F", "", 200, 0, "" },
+            { "10Rnd_50BW_Mag_F", "", 250, 0, "" },
 
             { "30Rnd_9x21_Mag_SMG_02", "", 200, 0, "" },
             { "30Rnd_9x21_Mag_SMG_02", "", 200, 0, "" },
