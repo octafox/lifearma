@@ -883,7 +883,8 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_C_Paramedic_01_F", $STR_C_EMS_uniforms, 50, "" }
+            { "U_C_Paramedic_01_F", $STR_C_EMS_uniforms, 50, "" },
+            { "U_I_CombatUniform", $STR_C_EMS_uniforms, 50, "" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
