@@ -13,4 +13,4 @@ cd $WORKDIR
     "-bepath=${WORKDIR}/battleye" \
     "-profiles=${WORKDIR}/profiles" \
     "-name=lifearma" -filePatching -autoInit \
-    "-serverMod=@life_server;@extdb3"
+    "-serverMod=@life_server;@extdb3;@infistar"
