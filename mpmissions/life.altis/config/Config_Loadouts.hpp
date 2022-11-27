@@ -67,7 +67,8 @@ class Loadouts {
     // MED
     class GUER {
         uniform[] = {
-            {"U_C_Paramedic_01_F", "call life_medicLevel >= 1"}
+            {"U_I_CombatUniform", "call life_medicLevel >= 1"}
+            // {"U_C_Paramedic_01_F", "call life_medicLevel >= 1"}
         };
         headgear[] = {
             {"H_Cap_red", "call life_medicLevel >= 1"}

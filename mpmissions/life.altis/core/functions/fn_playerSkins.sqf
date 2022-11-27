@@ -16,11 +16,13 @@ switch (playerSide) do {
         if (uniform player isEqualTo "U_C_Driver_2") then {
             player setObjectTextureGlobal [0, "#(argb,8,8,3)color(0.361,0.05,0,1)"];
         };
-        if ((backpack player) == "B_ViperHarness_blk_F" && license_civ_vip1) then {
-            (unitbackpack player) setObjectTextureGlobal [0,"textures\offwhite_viper.jpg"];
-        };
-        if (uniform player isEqualTo "U_BG_Guerrilla_6_1" && license_civ_vip1) then {
-            player setObjectTextureGlobal [0, "textures\offwhite_divisa.jpg"];
+        if (license_civ_vip1) {
+            if ((backpack player) == "B_ViperHarness_blk_F") then {
+                (unitbackpack player) setObjectTextureGlobal [0,"textures\offwhite_viper.jpg"];
+            };
+            if (uniform player isEqualTo "U_BG_Guerrilla_6_1") then {
+                player setObjectTextureGlobal [0, "textures\offwhite_divisa.jpg"];
+            };
         };
     };
 
@@ -34,7 +36,8 @@ switch (playerSide) do {
     case independent: {
         // if (uniform player isEqualTo "U_C_Paramedic_01_F") then {
         // if (uniform player isEqualTo "U_Rangemaster") then {
-        //     player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
-        // };
+        if (uniform player isEqualTo "U_I_CombatUniform") then {
+            player setObjectTextureGlobal [0, "textures\med\med_uniform.jpg"];
+        };
     };
 };
