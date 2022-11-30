@@ -4,7 +4,7 @@
 
 1)  E servamente vietato rubare i veicoli dei medici o distruggerli.
 
-2)  Il medico essendo tutore della salute pubblica, non può essere ucciso, aggredito, rapinato, derubato, minacciato. (minacce RP accettate, entro i limiti)
+2)  Il medico essendo tutore della salute pubblica, non può essere ucciso, aggredito, rapito, derubato, minacciato. (minacce RP accettate, entro i limiti)
 
 3)  Un medico non può schierarsi dalla parte di nessuno, un medico rimane comunque imparziale.
 
